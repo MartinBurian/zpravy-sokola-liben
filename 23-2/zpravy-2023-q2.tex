@@ -1,0 +1,614 @@
+\documentclass[11pt]{article}
+\usepackage[a5paper,left=2cm,right=1cm,top=1cm, bottom=1.5cm]{geometry}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{ulem}
+\usepackage[all]{nowidow}
+\usepackage{wrapfig}
+
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{ellipsis}
+
+\usepackage{fontspec}
+\newfontfamily{\tyrs}{Sokol Tyrs}
+\newfontfamily{\fugner}{Sokol Fugner}
+
+% \usepackage{lmodern}
+% \usepackage[T1]{fontenc} 
+\usepackage{anyfontsize}
+\newcommand{\titlesize}{\fontsize{56pt}{67pt}}
+
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{sokolred}{RGB}{228, 5, 33}
+\definecolor{sokoldarkred}{RGB}{200, 0, 30}
+\definecolor{sokolblue}{RGB}{45, 46, 135}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\usepackage{fancyhdr}
+
+\fancypagestyle{standard}{%
+    \fancyhf{}
+    \fancyhead[LO]{%
+        \begin{tikzpicture}[overlay,remember picture]
+            \fill [color=sokolred] (current page.north west) rectangle ($ (current page.south west) + (1cm,0cm) $);
+            \fill [color=sokolred] ($ (current page.north west) + (1.1cm,0cm) $) rectangle ($ (current page.south west) + (1.2cm,0cm) $);
+        \end{tikzpicture}
+        }
+    % \fancyhead[RE]{%
+    %     \begin{tikzpicture}[overlay,remember picture]
+    %         \fill [color=orange](current page.north east) rectangle
+    %             ($ (current page.south east) + (-1cm,0cm) $);
+    %     \end{tikzpicture}
+    %     }
+    \fancyfoot[C]{%
+      \begin{tikzpicture}[overlay,remember picture]
+        \fill [color=sokolred] ($ (current page.south east) + (-1.5cm,1.3cm) $) rectangle ($ (current page.south east) + (0cm,0.5cm) $)
+         node [pos=0.5,color=white] {\large\tyrs{\thepage}\hspace*{0.5cm}};
+      \end{tikzpicture}
+    }
+
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+
+
+\fancypagestyle{uvodnik}{%
+    \fancyhf{}
+    \fancyfoot[C]{%
+      \begin{tikzpicture}[overlay,remember picture]
+        \fill [color=sokolred] ($ (current page.south east) + (-1.5cm,1.3cm) $) rectangle ($ (current page.south east) + (0cm,0.5cm) $)
+         node [pos=0.5,color=white] {\large\tyrs{\thepage}\hspace*{0.5cm}};
+      \end{tikzpicture}
+    }
+
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{blank}{%
+    \fancyhf{}
+    \fancyfoot[C]{}
+
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+
+\newcommand{\post}[1]{%
+\begin{center}
+{\huge \tyrs #1}
+\end{center}
+}
+
+\newcommand{\subpost}[1]{%
+\vspace*{12pt}
+\begin{center}
+{\Large \tyrs #1}
+\end{center}}
+
+\newcommand{\signature}[2]{%
+  \begin{flushright}
+    \textbf{#1}\\#2
+  \end{flushright}
+}
+
+\newcommand{\luv}{\clqq\kern-0.07em}
+\newcommand{\ruv}{\kern0.07em\crqq\kern0.1em}
+
+\begin{document}
+
+%% title
+\newgeometry{margin=1cm}
+\pagecolor{sokolred}
+\color{white}
+\pagenumbering{gobble}
+\begin{center}
+\vspace*{\fill}
+
+{\titlesize \fugner ZPRÁVY}
+
+{\titlesize \tyrs SOKOLA LIBEŇ}
+
+\vspace*{1cm}
+
+{\large ročník XLIX · číslo 2 · červen 2023}
+
+\vspace*{\fill}
+\end{center}
+
+\clearpage
+\normalcolor
+\nopagecolor
+\pagenumbering{arabic}
+
+%% úvodník
+\pagestyle{uvodnik}
+\newgeometry{margin=1.5cm}
+
+
+{\fontsize{48pt}{57pt} \fugner \color{sokolred} \noindent Úvodník}
+
+\vspace*{12pt}
+
+\noindent
+\luv\,\ldots{} se řekne úvodník – ale o čem? Musí to být krátké, aby to lidi četli\,\ldots{} musí to být dostatečně úderné\,\ldots{} jasně\,\ldots{} a proč vlastně já?\,\ldots{} ale jo – dělba práce – na každého jednou dojde\,\ldots{} napíšu to, ale co když to bude k smíchu?\,\ldots{} tak už mě třeba příště neosloví a zůstaneme jen u kulturní rubriky na konci Zpráv, kam to dočte málokdo\,\ldots{} to zní logicky\,\ldots{} to zní jako PLÁN!\,\ldots{} jo a ještě ta mozkomorová výzva k loutkovému divadlu z minula (to půjde, vyřeším v rámci PPS)\,\ldots{}\,\ruv
+
+A tak píšu! Hlavně KRÁTKÉ – ale to já neumím, takže mi nezbývá, než netrpělivé čtenáře odkázat na závěrečnou pasáž tohoto textu nebo doporučit elegantní gymnastický přeskok na další článek těchto Zpráv -- ale to pak nedoceníte, jaké máte štěstí, když píše úvodník někdo jiný: stručně, výstižně, bez osobních nudností a hlavně bez \luv blabla\ruv  příběhu\,\ldots{}
+
+\vspace*{12pt}
+
+{\noindent \huge \tyrs PROČ SOKOL LIBEŇ? PROTOŽE\ldots{}}
+
+\vspace*{12pt}
+\noindent Byl jednou jeden Sokol Libeň: Když jsme před pár lety hledali pro děti sportovní vyžití, zvolili jsme nakonec \luv na doporučení\ruv Sokol Libeň – mimo jiné i pro jeho všestranné zaměření a pestrost aktivit. V té době jsem ještě netušil, že se do pestrého života v jednotě postupně zapojí celá naše rodina\,\ldots{}
+
+Pokud jako věrní nebo občasní čtenáři, rodiče, prarodiče, pasivní diváci nebo současní sokolové i nesokolové budete číst tyto úvodní řádky, možná by Vás následující \sout{krátký} příběh mohl inspirovat k aktivitě nebo překonat obavu z neznámého a umožnit Vašemu zanedbanému \luv JÁ\ruv  posílit nejen tělo, ale i ducha.
+
+\ldots{} po 15 letech fyzické nečinnosti vyplněné zejména kancelářskou prací jsem cítil, že si mé tělo na sklonku čtyřicítky zaslouží lepší aktivnější zacházení a více péče (rozuměj \luv aktivního nepohodlí\ruv). Prvním aktivním počinem mé vlastní sportovní činnosti bylo, že jsem zavedl děti do Sokola a vysvětlil jim, že všestrannost je pro jejich zdraví to nejlepší. Nenápadně jsem však pokukoval, jak bych mohl realizovat i své vlastní ambice a aktivně přesvědčit o blahodárnosti všestranného počínání i své vlastní tělo.
+
+Když se blížila listopadová tělocvičná akademie, překonal jsem své introvertní sklony a ostych z neznáma a vnitřně se odhodlal, že hned po akademii oslovím oddíl mužů s žádostí o členství. Mé upřímné odhodlání vydrželo až do chvíle, kdy fyzicky zdatní muži z oddílu všestrannosti v rámci svého vystoupení na akademii skákali bez bázně z ochozu galerie a mizeli jeden po druhém v 8metrové hlubině sálu do připravených duchen. V tu chvíli měli můj neskonalý obdiv. Zároveň jsem však dospěl k přesvědčení, že bych zřejmě nezapadl; stáhl jsem se zpět do své zanedbané ulity a přesvědčil své bezbřehé odhodlání, že čas ještě nedozrál.
+
+Tímto zjištěním bylo mé odhodlání nahlodáno až do chvíle, kdy jsme doprovázeli děti na župní závody zálesácké zdatnosti. Právě zde jsem se poprvé aktivně setkal se současným náčelníkem br. Kubištou, který po několika málo zdvořilostních frázích hned od boku vypálil otázku: \luv Nechceš chodit do oddílu mužů?\ruv A aniž by čekal na odpověď, doplnil již na odchodu: \luv Cvičíme každé úterý od 18:45. Přijď!\ruv \ldots{} Ani nevím, zda to bylo pozvání nebo rozkaz, ale raději jsem přišel s tím, že za zkoušku nic nedám. A dodnes nelituji!
+
+Začátky mého \luv pohybového comebacku\ruv jsou nezapomenutelné a dodnes na ně rád vzpomínám – jedná se o jednu z epizod dosavadního života, kterou si vybavuji poměrně přesně a zřetelně. Svou kariéru nekariérního cvičence jsem zahájil šplhem na laně bez přírazu. Pominu-li fakt, že jsem na laně nikdy nešplhal (a to ani s přírazem, natožpak bez přírazu), že mám z výšek \sout{strach}, rozuměj respekt, a že jsem se napoprvé neodlepil ani od země, pociťoval jsem po tomto prvním cvičení \sout{bolest} \luv mírný diskomfort\ruv v pravé paži. Další týden byla hrazda – v kombinaci s protahováním a závěrečnou hrou o sobě daly tentokrát vědět i svaly, o nichž jsem od mala ani netušil, že jsou moje. Každý týden simulovalo tělo diskomfort v jiných místech a já se utěšoval jen tím, že do příštího týdne \luv bude zase dobře\ruv. V dalších seancích následovaly kupříkladu kruhy, pak bradla, někdy i kůň, prostná, přeskok, skok do výšky atd. V létě jsem si mohl poprvé osahat kouli (železnou – 7,26\,kg), potěžkat disk, sevřít oštěp, vyzkoušet skok do dálky nebo změřit síly při přetahu lanem a další disciplíny, které mi byly doposud zapovězeny. Závěrečná aktivní část každé takové seance patří tradičně \luv hrám\ruv – určitě už jste někdy hráli florbal, fotbal či košíkovou, ale zkoušeli jste někdy řecko-římský zápas, fotbal s medicinbalem, račí fotbal, sokolský hokej nebo všemi cvičenci oblíbený pytel?
+
+I když své výkony považuji z hlediska zdatnějších bratrů za legrační, snažím se neustrnout a zkoušet zdokonalovat dosavadní \luv úspěchy\ruv. Nikdo se nad mými úsměvnými výkony nepozastavuje a neposmívá se; naopak cítím podporu, které si vážím. Respekt a diskomfort řeším dle nepsaných pravidel oddílu tuctovou dávkou kliků (i když počet těch na myši stále násobně převyšuje ty žádoucí \luv libeňáky\ruv).
+
+Ale nejde jen o cvičení! Do Libně jsem přivandroval s cílem zapojit děti a udělat něco pro své zdraví. Po několika letech, kdy jsem nejrůznější akce využíval z pozice prostého konzumenta, jsem považoval za vhodné s realizací některých akcí pomoci, zejména když se vše děje v kolektivu podobně naladěných osobností. Postupně zjišťuji, kde by bylo možné efektivně přispět svým úsilím, které, jak se zdá, je vítáno. Po zvážení vlastních kapacitních možností jsem převzal agendu \luv kulturního referenta\ruv a kdo ví, k čemu se ještě v jednotě v rámci mého \luv domestikačního procesu\ruv dostanu\ldots{}
+
+Věřím a doufám, že mnozí nahlédli, že není mým hlavním cílem představit se a předložit Vám svůj sokolský životopis. Nejde primárně o můj osobní příběh; jde o sdílenou zkušenost, která by mohla být paralelou k Vašemu vlastnímu příběhu. Pokud v tomto příběhu nacházíte kousek Vašeho \luv JÁ\ruv, neváhejte a pojďte to u nás v Sokole zkusit taky!
+
+\luv Kondiční\ruv cvičení a \luv trýznění\ruv těla představuje jen jednu z mnoha náplní a aktivit Sokola Libeň, jak víte a dozvíte se jistě i z dalších stránek. Jsem ze srdce rád, že vydáváme Zprávy, které pokrývají dění v celé jednotě na tolika stránkách a zdaleka zde není všechno\ldots{}
+
+\textbf{Závěr}: Pokud jste zvolili krkolomné salto a přesunuli se z úvodního odstavce rovnou sem, musím si vypůjčit volnou citaci od \luv Cimrmanů\ruv: \luv \ldots{} milí čtenáři, odtud by to asi nedávalo smysl. Vemte to, prosím, od začátku\,\ldots{}\ruv
+
+Pro ty, kteří se prokousali těmito nudnými vzpomínkami až sem, odpovídám na otázku z nadpisu, kterou jsem se snažil v průběhu předchozích odstavců volnou formou doprovázet. Tedy PROČ SOKOL LIBEŇ? PROTOŽE\,\ldots{}
+
+\ldots{}\,nabízí širokou a všestrannou paletu aktivit pro všechny
+
+\ldots{}\,záběr činností není zdaleka jen sportovní, ale podle sokolské tradice i kulturní a duchovní
+
+\ldots{}\,se snaží vštěpovat svým svěřencům mravní a morální hodnoty, kterými by se měl řídit každý
+
+\ldots{}\,a to hlavně, pilíře jednoty tvoří parta skvělých, přátelských a otevřených sokolů, kteří Vás mezi sebou rádi přivítají
+
+\ldots{}\,v Libni to žije!
+
+\ldots{}\,PROSTĚ SOKOL LIBEŇ – je to snadné, stačí chytit za kliku naší vznešené budovy a sami se přesvědčte o jedinečnosti této jednoty. A pokud nemáte zájem o kolektivní aktivity, přijďte se prostě jen podívat a načerpat energii, která touto budovou proudí už hodně přes 130 let.
+
+Třeba se potkáme!
+
+\signature{Miloslav Doupal}{mila.doupal@sokol-liben.cz}
+
+\noindent \textit{P.S.}: Nevíte, co je to \luv pytel\ruv a jak se hraje sokolský hokej? Tak \luv Přijďte\ruv – pro muže každé úterý 18:45–20:15 včetně sobot a nedělí :-) V rámci gendrové vyváženosti podotýkám, že cvičení mají samozřejmě i ženy – jen v jiných vymezených časech.
+
+\vspace*{12pt}
+
+\noindent \textit{P.P.S.}: Bratře principále, tak já to s Tebou zkusím, ale předem upozorňuji, že nemám herecký talent. Na druhou stranu se děti snad dívají hlavně na loutky, a ne na loutkoherce. S trochou štěstí bude ta loutka dřevěnější nežli já!
+
+\clearpage
+
+%% termínka
+
+\pagecolor{sokolred}
+\color{white}
+\renewcommand{\arraystretch}{1.5}
+
+\newcommand{\boxheight}{10.5cm}
+
+\vspace*{\fill}
+\post{TERMÍNOVÁ LISTINA AKCÍ JEDNOTY}
+\vspace*{0pt}
+
+\begin{center}
+\begin{tikzpicture}
+  \draw [ultra thick,color=white](0.3cm,0cm) rectangle (11.3cm,\boxheight);
+  \fill [color=white] (0cm,0.3cm) rectangle (11cm,\boxheight + 0.3cm)
+  node [pos=.5, color=black] {
+    \begin{tabular}{l  p{7cm}}
+      1. 6. (čt) &  Dětský den \\
+      27. 6. (út) & poslední cvičení žáků \\
+      29. 6. (čt) & Zakončovací táborák \\
+      30. 6.–22. 7. & Letní tábor JILMu  \\
+      8.–15. 7. & letní pobyt pro předškolní děti a mladší školní děti  \\
+      15.–22. 7. & letní pobyt rodičů a dětí \\
+      22.–29. 7. & letní pobyt rodičů a dětí \\
+      22.–29. 7. & Letní tábor bývalých členů Jilmu \\
+      29. 7.–12. 8. & Letní tábor Káňat  \\
+      12.–27. 8. & Letní tábor Veverek     \\
+      5. 9. (út) & zahájení cvičení žáků \\
+      21. 9. (čt) & 23. ročník Běhu strmého \\
+      22. 9. (pá) & Noc sokoloven \\
+    \end{tabular}
+  };
+  %  node [color=black] {FOOBAR};
+\end{tikzpicture}
+
+\vspace*{12pt}
+
+Sledujte naše stránky, kde budeme postupně uveřejňovat podrobnosti k
+jednotlivým akcím.
+
+\end{center}
+\vspace*{\fill}
+
+\clearpage
+\nopagecolor
+\normalcolor
+
+%% normální obsah
+\restoregeometry
+\pagestyle{standard}
+
+\post{Jaro v oddíle žáků a dorostenců}
+Mladší žáci (ročník 2013–2016) cvičí v út a čt v 17–18\,h, starší žáci (2009–2012) a dorostenci (2005–2008) v út a čt v 18–19\,h. Pro cvičitele a dorostence možnost úterního cvičení mužů a čtvrteční košíkové (oboje 19–20\,h). 
+
+Vybraní kluci od začátku března nacvičovali na závody všestrannosti, ostatní cvičili dle běžného rozvrhu, pokračovala Zimní soutěž v rychlosti (sprint), obratnosti (hluboký předklon) a síle (šplh).
+
+V březnu bylo zapsáno 102 cvičenců (53 mladších žáků, 27 starších žáků, 12 dorostenců a 10 cvičitelů) a průměrná docházka na 1 hodinu byla 54,1. V dubnu bylo 101 zapsaných a průměr se zvedl na 60,3. V dubnu bylo 20 cvičenců bez jediné vynechávky. Za zmíněné 2 měsíce nám přibylo 7 nových tváří, takže celkový počet zapsaných od září 2022 již činí 124 cvičenců.
+
+Cvičitelů máme dostatek, takže zvládneme i větší nápor. Proto prosím \textbf{dohlédněte na pravidelnou docházku Vašich synů a zkuste nabídnout naši činnost i ve svém okolí} – děkujeme.
+
+Trvá celoroční soutěž O nejvěrnější docházku s pravidelným každoměsíčním vyhlašováním a rozdáváním diplomků za 100\% docházku.  
+
+\textbf{Cvičení venku} s atletickými disciplínami začalo 2. května a za dobrého počasí bude pokračovat do konce června. V případě velké zimy nebo deště cvičení v sokolovně. I ven se nosí jako úbor bílé tričko se znakem a modré trenky a vhodná sportovní obuv – žádné tepláky a bundy nejsou při cvičení potřeba, dostatečně se zahřejeme pohybem. \textbf{Začátek i konec hodiny v šatně!} 
+
+Výsledky závodů, docházky, fota, dopisy atd. najdete jednak na vývěskách v sokolovně a na ní a též na www.sokol-liben.cz a www.sokol.eu.
+
+\subpost{Závody}
+O víkendu 21.–23. 4. se konaly celopražské \textbf{Závody všestrannosti}. Vyslali jsme 20 mladších žáků, 11 starších žáků, 1 dorostence a 7 mužů. Celkem tedy 39 cvičenců. A protože se v žácích účastnilo celkem 50~závodníků z naší župy, měli kluci jen 19 soupeřů a možnost mnoha dobrých umístění. V jednotlivých disciplínách (plavání, gymnastika, šplh a atletika) jsme získali 27 medailových umístění. V celém čtyřboji byl L.~Bednář 3., J. Doupal 2., H. Höschl 2., Š. Novák 3., V. Blahunek 1. a Š. Majer 2. Na celostátní finále všestrannosti postoupil z mladšího žactva J. Doupal (ten však nemůže, a tak do Pardubic o víkendu 26.–28. 5. vyrazí J. Smutný), ve starším žactvu postoupili na celostátní pražské finále 9.–11. 6. H. Höschl, Š. Novák (za něj jede O. Doupal), V.~Blahunek a Š. Majer. Kromě závodníků jsme museli samozřejmě vyslat i doprovázející cvičitele a rozhodčí – celkem to bylo 15 cvičitelů.
+
+V neděli 8. května se konal \textbf{gymnastický závod Praha Open} (společný pražský závod pro Sokol a Asociaci sportu pro všechny), kam ze závodu všestrannosti postoupilo 18 našich žáků. Jedenáct se jich závodu zúčastnilo a vedlo si obdobně jako na župních závodech. Kromě toho závodili i 3 muži a 1 dorostenec.
+
+\subpost{Se Sokolem do divadla}
+Pod vedením Míly Doupala byl obnoven cyklus návštěv divadelních představení Se Sokolem do divadla. 6. 3. 2023 se konala letošní první návštěva divadla. Do divadélka Na Prádle zavítalo na představení Familie 20 spokojených diváků v širokém věkovém rozpětí od dětí až po ty dříve narozené. Druhá společná akce tohoto cyklu byla honosnější. Poslední březnový den se šlo do Národního divadla na nově nastudovanou operu Prodaná nevěsta. Ohlasy byly opět pozitivní. Účastnilo se 32 osob.
+
+Momentálně se nabízí abonentní cyklus 4 koncertů v Rudolfinu (podzim a zima – dotazy na e-mailu mila.doupal@sokol-liben.cz). Další návštěva divadla se chystá až na podzim. 
+
+\subpost{Brigády}
+V neděli 12. března proběhla tradiční \textbf{Jarní brigáda} v sokolovně a okolí. Ruku k dílu přiložilo 15 cvičitelů, 4 cvičitelky, 1 jilmák, 1 Veverka, 2 muži, 4 žáci, 1 žákyně, 7 rodičů a 1 žena. Celkem tedy 36 lidí. Kopaly se pařezy, zametlo se kolem sokolovny, shrabalo listí na našem pozemku před kostelem, vyčistily se gajgry a přístupné okapy. V sokolovně se pak dočistily luxfery v kanceláři, uklidilo se ve zkušebně, byly umyty podložky na cvičení, vzorně vytřena galerie včetně umytí parapetů a vysátí za radiátory, byl vydrhnut airtrack, probraly a opravily se švihadla a florbalky, opraven byl stůl na stolní tenis, zkusil se obrátit prohnutý trámek na švédské lavičce, ale nepomohlo to. V posilovně byl namontován držák na boxovací pytel, byla vysáta a vytřena podlaha v nářaďovně včetně umytí nářadí, umyty vypínače všech světel a udělána řada dalších drobných prací. Na další brigádě v listopadu nás čeká další zvelebování. Pracovalo se od 9 do 14 hodin. Všem moc děkujeme.
+
+V sobotu 1. 4. měly svoji \textbf{brigádu turistické oddíly}. Sešlo se 11~pracantů z Jilmu a Veverek a kromě úklidu v klubovně zvládli i úklid v dílně, vysát akrobatický koberec v lodi, uklidit v nářaďovně v Srncově sále, vyměnit lékárničku v sále za větší, uklidit v kočárkárně a další drobné práce. Pracovalo se od 9 do 14 hodin.
+
+\subpost{Výlety}
+V sobotu 15. 4. se 68 libeňáků sešlo na \textbf{64. Jarním Výletě Libeňského Sokola}. Spolu s jednotami ze Starého Města, Proseka, Kobylis, Prahy 7 a Zlíchova jsme byli účastníky 55. srazu v přírodě pražských žup. Celotýdenní déšť ustal kolem sedmé ranní a nás čekal chladný, ale bezdeštivý den. Vlakem jsme vyrazili do Srbska u Berouna, přešli po lávce velmi rozvodněnou Berounku a 22 odvážlivců se smočilo v kalné a velmi studené vodě (odhad 8 °C). Následně jsme pokračovali proti proudu Berounky asi 1,5 km do lomu Alkazar, kde se pak konal celý program – Písnička, Pamatovačka, Jazykohrátky, Vaření, několik her a hlavně Zálesácký závod zdatnosti (ZZZ) a pro menší mini ZZZ. Odpoledne se pak vyhlásily výsledky soutěží, výsledky ZZZ – v kategorii žactva mezi 9 trojicemi vyhrály libeňské Veverky před Starým Městem a Jilmem. V dorostu pak byla mezi 3 trojicemi nejrychlejší společná trojice Jilm + Veverky z Libně před Starým Městem a Jilmem. V mini ZZZ startovalo 8 skupin a v mladších i starších byla první Libeň. Nakonec se rozdaly Pamětní lístečky a alou na vlak zpět do teplých domovů. Podzimní výlet je předběžně naplánován na 7. 10. 2023. Na celostátní finále v ZZZ postoupili vítězové kategorie žactva a dorostu a navíc trojice žactva ze Starého Města. 
+
+19.–21. 5. 2033 pořádal Sokol Libeň z pověření vedení odboru všestrannosti ČOS celostátní \textbf{finále Zálesáckého závodu zdatnosti}. Ještě před vlastním finále jsme vybrané místo (Machův Mlýn kousek od hradu Krakovec) 2x navštívili (19. 3. a 16. 4.), abychom mohli vše dobře připravit. Na vlastní závod pak jelo 17 libeňských cvičitelů jako pořadatelé a vše jsme zvládli k všeobecné spokojenosti účastníků. Blíže zvláštní článek. 
+
+\subpost{Na co se těšíme?}
+Ve čtvrtek 1. června nás čeká tradiční \textbf{Dětský den} od 16:30 v parku na louce U studánky. Těšíme se na všechny děti. Bude 27 soutěží, kánoe i šermíři.
+\textbf{Poslední cvičení} před prázdninami bude v úterý 27. června, ve čtvrtek 29. 6. pak bude \textbf{Zakončovaní táborák} od 17 hodin u sokolovny. Na něm proběhne i vyhlášení Zimní soutěže a Celoroční docházky. Kluci, přijďte všichni.
+
+\subpost{SLET 2024}
+Možná se to zdá předčasné, ale není – slet se blíží. Již 26. 11. 2022 proběhlo předvedení sletových skladeb, které si cvičitelé na videu prohlédli během Silvestra cvičitelů. Už víme, které skladby budeme v Libni nacvičovat. V září 2023 bude \textbf{Sletová štafeta} – ponese se sletový kolík z jednot a žup do Tyršova domu v Praze. A to vlastně bude start nácviku jednotlivých skladeb. Na naší akademii v listopadu 2023 již uvidíte ukázky některých skladeb. \textbf{Vlastní slet se bude konat od 1. července 2024 (to bude Sletový průvod) až do 5.–6. 7. (vlastní sletová vystoupení)}.
+
+V Libni je hezká tradice účasti na sletech už od roku 1891, kdy cvičilo 21 mužů. V roce 1920 (dva roky po první světové válce) cvičilo mimo jiné složky na sletě i 320 (vybraných!) libeňských mladších žáků. Po obnovení Sokola v roce 1990 se konal slet v roce 1994 – z Libně cvičilo 111 cvičenců (z toho 39 žáků a 16 mužů). Ani na sletech v letech 2000, 2006, 2012 a 2018 nikdy naše účast na sletě neklesla pod sto lidí. Na posledním sletě cvičilo z Libně 146 členů!
+
+Popřemýšlejte proto prosím o účasti na sletu a podpořte náš Sokol a naše cvičitele ve sletovém snažení, až se to na podzim tohoto roku dá vše do pohybu. Cvičit nemusí pouze děti, ve skladbách pro dospělé rádi uvítáme i rodiče. Tak se moc těšíme.
+
+Mnoho radosti a optimismu do nadcházejícího léta přeje
+
+\signature{Jiří Novák (Jirkan)}{místonáčelník\\tel.: 602 284 198}
+
+\clearpage
+
+\post{Dění kolem sokolovny\\(zpráva starosty)}
+Koncem ledna jsme spustili nový systém matriky EOS. Moc děkujeme všem, kteří se již do systému přihlásili. Je to přesně 700 členů z aktuálních 770. Až na několik výjimek mají všichni zaplacené příspěvky. Přes systém vám nyní chodí i informace o pořádaných akcích (naposledy dětský den). 
+
+V souvislosti se systémem EOS ještě \textbf{prosím ty, kteří v přihlášce zatím nevyplnili kolonku Zdravotní záznamy (a to zejména u dětských členů)}, o doplnění zdravotních omezení – kdo je zdráv, nechť tam napíše “Bez omezení”, kdo zdravotní omezení má, nechť je tam vypíše, aby v případě zdravotní indispozice mohlo být případně adekvátně reagováno (přihlásíte se do systému, přepnete na osobu, které chcete doplnění provést, dáte profil člena, pak upravit, napíšete potřebné a nakonec dáte odeslat). Těm, kteří již vše vyplnili, velmi děkujeme.
+
+Pokud máte k systému dotazy, případně vám něco nejde, můžete se po přihlášení do systému zeptat přes odrážku Nový požadavek na management. Případně můžete telefonovat tajemníkovi panu Pejšovi – 723 803 442.
+
+Ve středu 22. 3. 2023 se konala \textbf{Valná hromada Sokola Libeň}. K 22. 3. měla naše jednota 720 členů (157 předškolních dětí, 118 žáků, 110 žákyň, 151 mužů a 184 žen), které na Valné hromadě zastupovalo 48 delegátů z 56 zvolených. Na Valné hromadě byla schválena výroční zpráva za rok 2022, zpráva kontrolní komise a rozpočet jednoty na rok 2023. Dále se probraly věci cvičební i k provozu sokolovny za rok 2022 a přednesl se výhled činnosti na rok 2023, o kterém podrobně referujeme i zde ve zprávách.
+
+\subpost{O grantech}
+Z letošních grantů jsme již dostali vyrozumění o přidělení 253 800\,Kč z grantu Můj klub 1 a z Prahy 8 máme přiděleno 700\,000\,Kč na sport dětí, 50\,000\,Kč na turistické oddíly a 35\,000\,Kč na novou hru loutkového divadla. Dále čekáme na rozhodnutí u grantů: Magistrát – provoz, rekonstrukce šaten \textit{(pozn. red.: již konečně padlo – máme téměř 6 milionů Kč z grantu a 7 měsíců (jenom!) na rekonstrukci šaten)}, Můj klub 2 – provoz, župa – školení cvičitelů, Praha 8 kultura a čekáme, zda Národní sportovní agentura vypíše grant na provoz.
+
+Rekonstrukci šaten včetně kolaudace musíme stihnout do 31. 12. 2023 – to je tedy opravdu šibeniční termín. Momentálně dokončujeme přípravu podkladů k vyhlášení veřejné zakázky na tuto akci. Před dvěma měsíci jsme poslali žádost o prodloužení našich stavebních povolení na rekonstrukci dvora a na rekonstrukci šaten. Termín je 30 dní. Nebýt naší nedávné intervence, tak bychom se asi vyřízení nedočkali. Toto prodloužení totiž potřebujeme mít v podkladech k veřejné zakázce. Dalším kamínkem do mozaiky fungování státu a samospráv je to, že výsledky magistrátního grantu měly být zveřejněny do 30. 4. 2023. Jenže ještě 27. 4. nebyla po volbách do zastupitelstva magistrátu ani ustanovena grantová komise. 
+
+Kromě financí z grantů, peněz ze zvýšených příspěvků a příjmů od nájemců nebytových prostor i cvičebních sálů hledáme peníze i jinde. Například v srpnu by u nás měli natáčet další filmaři, takže dalších cca 50\,000\,Kč se už pomalu snáší do naší kasy.
+
+\subpost{Z běžících akcí}
+Stavba podzemní místnosti (nové loděnice) je prakticky hotová. Chybí namontovat vrata, dveře, zábradlí, natřít epoxidem podlahu a zatravnit střechu. Po dokončení akce dojde na přestěhování věcí ze stávající plechové loděnice za sokolovnou do nové místnosti a odstranění loděnice a betonové desky pod ní. Na místě loděnice se zasadí stromy, zaseje tráva a vznikne tak odpočinkové místo s ohništěm, místem na gril, ale i kruhem na vrh koulí a dráha na přetah lanem. Snad to tak bude za rok vypadat nejenom na papíře, ale i ve skutečnosti \textit{(pozn. red. – text odráží plány před informací o úspěchu grantu na šatny)}.
+
+Momentálně se také natírají okna a špalety v kancelářích v 1. patře a chystá se oprava odpadlé římsy na západní fasádě a oprava komínového štítu a části střechy u schodiště na půdu, kde zatéká.
+
+Starosta se také průběžně se stará o zeleň – sekání, pletí a zalévání trávníku a tarasu, čištění dlažby kolem sokolovny a udržování pozemku před kostelem.
+
+Přidělali jsme zásuvky do sálu, koupili nové a opravili stávající vysavače a nyní jsme v jednání s našimi uklízečkami, aby vysavače více používaly a více se věnovaly úklidu hlavního sálu, kde vidíme nedostatky. Tak snad bude od září v sále lépe uklízeno.
+
+Drobným zádrhelem je teď opuštění dvou kanceláří (celkem cca $40\,\textrm{m}^2$) v přízemí k 30. červnu. Nabídli jsme je našim ostatním nájemcům, ti se zatím rozmýšlejí. Pokud máte o takovou kancelář zájem nebo víte o někom, kdo ji hledá, dejte vědět mně nebo tajemníkovi – Pavel Pejša 723 803 442. Děkujeme.
+
+Dál samozřejmě budeme sokolovnu průběžně udržovat, přemýšlet, kde peníze získat, a také, kde je ušetřit. Pokud má někdo nějaký nápad či podnět, rád si ho vyslechnu.
+
+\signature{Jiří Novák (Jirkan)}{starosta\\tel.: 602 284 198}
+
+\vspace*{24pt}
+% \clearpage
+
+\post{Zpráva z oddílu žákyň a zamyšlení se nad závody}
+Jaro máme za sebou a s ním i tradiční akce – šibřinky (karneval pro děti i dospělé), brigádu i závody ve všestrannosti. Ještě nás čeká dětský den, těsně před ukončením školního roku pak společný táborák. O prázdninách pak vyrážejí turistické oddíly na letní tábory, nemáte-li ještě vybráno, zkuste se zeptat na volná místa.
+
+S lepšícím se počasím budeme s děvčaty využívat jak venkovního cvičiště na dvoře, tak třeba i vyběhneme do parku za Libeňský zámeček. Do cvičení si prosím berte dvě varianty obuvi – na ven/do tělocvičny. Případně je možné v tělocvičně běhat na boso. 
+
+Přece jen pohyb na čerstvém, byť pražském vzduchu, přináší zas jiné kvality. 
+
+
+V dubnu se konala soutěž v sokolské všestrannosti (plavání, atletika, gymnastika, šplh). Všem, které se zúčastnily a vyhrály nad ostatními nebo alespoň nad sebou samými, gratulujeme.
+
+Marta Motlíková – šplh 2.
+
+Kája Hovorová – plavání 1., šplh 2., sg 3., atletika 2.
+
+Radka Hofmanová – plavání 1., atletika 3.
+
+Eva Šádková – sg 3., atletika 2.
+
+Zuzka Hrušková – plavání 3.
+
+Z Libně pak některé z dívek (Kája, Radka a Eva) postoupily i na republikový přebor! Držíme palce!
+
+Ještě malé zamyšlení – a proč k závodům přistupujeme, tak jak přistupujeme.
+
+Holky jsou od přírody většinou o něco méně soutěživé a ambiciózní než kluci. Zároveň víme, že k nám do Sokola chodí do oddílu většinou ti, kteří preferují nevýkonnostní sport, a cvičíme tu takříkajíc pro radost. Do výkonu nechceme nikoho nutit, tudíž na závody v atletice a plavání vyhlašujeme dobrovolnou účast. Atletické disciplíny se pak snažíme alespoň trochu potrénovat, ať už v tělocvičně nebo dle počasí venku. Na gymnastickou část ovšem nacvičujeme jen s některými děvčaty. Zde je laťka položena relativně výše, trénujeme těžší cviky a každá pak musí mít svoji sestavu prostných na hudební doprovod. Proto zde děláme předvýběr nadaných děvčat do skupiny Pepovek, kde pod vedením Pepy a Jany trénují sestavy na jednotlivá nářadí. Pro někoho je to zábava, pro jiného by to byl zbytečný stres a radši si užije her s míčem. Zároveň konkurence v gymnastických disciplínách je výrazně větší oproti plavání a atletice, takže tak trochu chceme uchránit některé nadšené, ale méně šikovné zklamání. A přece jen, jde i o čas – cílená příprava na závody běžně začíná začátkem ledna.
+
+Děkujeme za Vaši podporu a těšíme se na další spolupráci. Ať už se závodnicemi nebo s těmi nejvíc nadšenými děvčaty, co cvičí pro sebe a cvičí rády.
+
+\signature{Ája}{}
+
+\vspace*{24pt}
+
+\clearpage
+\post{Zpráva vzdělavatelky}
+Na vzdělavatelském poli se toho mnoho neděje, ale mnoho se chystá.
+
+V první řadě bych ráda veřejně \textbf{poděkovala Báře Jeníkové} z oddílu starších žákyň a dorostenek, která se nadšeně ujala kroniky a dokonce již stihla zapsat první z chybějících roků. Báro, děkujeme, že navazuješ na tradici s. Halíkové, br. Havlíka a s. Decastellové! A kdybyste jí chtěl někdo pomoct, možnost stále je :)
+
+Sourozenci \textbf{Květa a Honza Kerhartovi prošli výcvikem u Hradní stráže} a stali se tak plnohodnotnými krojovanými členy Sokolské stráže.
+
+Navíc z iniciativy těchto tří mladých aktivních členů proběhne \textbf{během léta několik třídicích brigád v archivu}. Vždy ve všední den po páté večer se na hodinu, dvě, tři sejdeme a rozebereme a popíšeme nějakou hromádku dokumentů (fotek, textilu, předmětů,\,\ldots{}). Domlouvat přesné dny budeme operativně podle našich možností, pokud máte zájem se zapojit, spojte se s Ankou a přidám vás do skupinky na WhatsAppu, kde budeme termíny domlouvat.
+
+Dělají mi velkou radost. Po dlouhých letech samostatné práce s občasným pocitem, že vzdělavatelské věci nikoho nezajímají a musím obcházet a prosit o pomoc jednoho za druhým, se tu \textbf{rýsuje tým mladých aktivních lidí}, kteří se vyznají v tom, co dělají, a dělají to pečlivě, sami od sebe, (snad) rádi a se spoustou nápadů na vylepšení. A na takových lidech dobrovolnická organizace, jako je Sokol, stojí.
+
+
+\subpost{Co nás čeká?}
+\textbf{Pro krojované (a zájemce o to stát se krojovanými)}:
+Letní \textbf{pietní akty}, kterých se Sokol tradičně účastní, jsou: v neděli 18. června v Resslově ulici k uctění památky parašutistů, v pondělí 21. srpna u rozhlasu na Vinohradské a v pondělí 28. srpna u památníku československým vojákům na Dejvické (výročí SNP). Akty jsou vždy dopoledne nebo brzy odpoledne, přesné detaily dostáváme několik dní předem. Může se objevit i nějaká mimořádná akce mimo tyto každoroční.
+
+Informace posílají a krojované koordinují velitelé Sokolské stráže br. Lukáš Křemen a Marek Manda. Prosím, pokud máte o účast zájem, napište nejdřív mně, abyste měli jistotu, že dostanete kroj, a až potom se přihlašujte.
+
+Pokud nejste členy Sokolské stráže  a nechodí vám informace o akcích, určitě se nějaké menší můžete zúčastnit i bez výcviku :) Napište mi a propojím vás.
+
+
+\textbf{Pro všechny}: Už se pozvolna připravujeme na "podzimní vzdělavatelský trojboj" a je se na co těšit!
+
+\textbf{Festival Tyršův Děčín} proběhne o víkendu 15.–17. září a opět bude v sobotu večer sokolský ples na zámku. Už je možné rezervovat lístky na ples na e-mailu zseveroceska@sokol.eu, cena lístku je 450 Kč. Kromě plesu je na programu i překážkový závod Sokol Raptor, turistický pochod Tyršovým krajem a nedělní pietní akt u Tyršova pomníku s následným průvodem na zámek. Zkrátka je na co se těšit! Kompletní program je na webu Sokola Libeň.
+
+\textbf{Noc sokoloven} proběhne letos o víkendu 23.–24. září v netradiční formě, a to díky spojení se sletovou štafetou. Sejdeme se v sobotu odpoledne ke společnému cvičení, zpívání a povídání, a pokud bude hezky, bude večeře formou grilování na zahradě. Přespíme v sokolovně, v neděli se vydáme na procházku po Libni a zakončíme ji sletovou štafetou, kde již tradičně přenášíme poslední úsek od okraje Prahy do Tyršova domu. Na akci bude potřeba se přihlásit předem, detaily pošleme na přelomu srpna a září prostřednictvím členského systému EOS. Pro veřejnost bude pouze sobotní program, přespávačka jen pro členy a jejich rodiče/děti dospělých členů.
+
+\textbf{Památný den sokolstva} oslavíme ve čtvrtek 5. října od 18 hodin. Pokud se chcete účastnit jako pořadatel, krojovaný nebo člen pěveckého sboru, hlaste se!
+
+Řekla jsem, že se toho moc neděje, ale když to vidím napsané, tak se děje docela dost. Děkuji všem, kteří jste součástí!
+Pěkné léto přeje
+
+\signature{Anka Holanová}{vzdělavatelka\\e-mail: anna.holanova@sokol-liben.cz}
+
+\vspace*{24pt}
+\clearpage
+
+\post{Oddíl předškolních dětí}
+Školní rok pomalu končí a některé děti už příští rok budou muset přejít do oddílu mladších žákyň a mladších žáků. 
+
+\vspace*{6pt}
+Ukázkové hodiny pro budoucí \textbf{mladší žákyně} budou: 5. 6., 12. 6.
+
+Ukázkové hodiny pro budoucí \textbf{mladší žáky} budou: 8. 6., 15. 6. 
+
+\vspace*{6pt}
+Kdo si místo v oddílu předškolních dětí nerezervoval včas, riskuje, že nebude mít místo od září.
+Prostě jsme dobrý oddíl, což je dáno velkým množstvím cvičitelů a pomahatelů, kteří se Vašim dětem ve svém volném čase zdarma věnují.
+
+Bylo by hezké, kdybychom se všichni viděli na zakončovacím táboráku dne 29. 6. (už není cvičení).
+
+\subpost{Rok 2024 = slet}
+Od října 2024 se postupně bude nacvičovat na slet. Nácvik pro předškolní děti bude vždy v pátek od 16:00 do 17:00.
+
+Přeji pohodové prázdniny 
+
+\signature{Dana Cejpková}{tel.: 606 551 223\\e-mail: cejpkova.dana@seznam.cz}
+
+\vspace*{24pt}
+
+\post{Oddíl rodičů a dětí}
+Opět se nám blíží další školní rok. Hlásí se mnoho zájemců o místa v oddíle, proto kdyby měl někdo chuť otevřít další hodinu cvičení rodičů a dětí, bude tato aktivita přijata s nadšením.
+
+\subpost{Slet 2024}
+Nácvik na sletovou skladbu bude probíhat od října, a to vždy v pátek od 16:00 do 17:00. Bude to ve stejný čas, jako budou cvičit předškolní děti, protože budeme střídat velký a malý sál. Tedy v jeden čas se budou nacvičovat obě skladby, abyste do Sokola nemuseli chodit vícekrát.
+
+Dne \textbf{29. 6. už není cvičení}, protože tento den bude zakončovací táborák, na který jste všichni zváni.
+
+Přejeme krásné prázdniny
+
+\signature{Jana, Dana a Jana}{cvičitelky rodičů a dětí}
+
+\vspace*{24pt}
+
+\post{Sokolští věrozvěsti\\aneb Co kdo kam tahá}
+Z našich sokolských předků si ohromně vážím těch, kterým přezdívám sokolští věrozvěsti. Bratři sokolové jako třeba František Erben, Jan Gajdoš a celá řada dalších totiž objevovali sporty v zahraničí a přinášeli je k nám a naopak své cvičení vyváželi do zahraničí. Ostatně už zakladatelé Sokola přivezli první sokolská cvičení a nářadí ze zahraničí, a to z Německa, Švédska a Francie (hádej, odkud je bedna).
+
+Takoví nadšenci jsou mezi námi i dnes. Objevují pro nás dosud neprobádané světy a vozí nám hry a cvičení, které si potom můžeme v Sokole vyzkoušet.
+
+V našem případě je to sport \luv přetahování lanem\ruv. Asi každý z nás se někdy přetahoval o lano ve škole nebo v Sokole. Někdo možná i tuší, že tento sport byl v minulosti i na olympijských hrách. Málokdo ale u nás ví, že má tento sport svá pravidla, speciální vybavení, taktiku, tréninky, že má svoji světovou federaci a mezinárodní turnaje a mistrovství světa. Země, kde se tahá nejvíc a nejlíp, jsou Taiwan, Irsko, Velká Británie, Švýcarsko, Belgie, Holandsko, Německo, Švédsko, Jihoafrická republika, Baskicko. Druhé housle pak hraje Polsko, Francie, Izrael a Lotyšsko.
+
+U nás v republice je turnaj jen jeden, a to v obci Všejany, kde se koná vždy v červnu, a přestože má přísná pravidla a účast na něm je skvělá, do světové úrovně má daleko. Protože máme k lanu blízko, byl nápad Patrika Valuta zúčastnit se turnaje v přetahování lanem ve Všejanech. Tam jsme poprvé i několik ročníků poté pohořeli, loni jsme už ale přivezli do Libně stříbro. Protože bylo potřeba lehkých borců na mistrovství Evropy v Irsku, dostali jsme se s první českou reprezentací mezi borce, kteří opravdu tahat umí. S tím vzrostlo nadšení. Pořídili jsme si zvláštní boty pro přetahování, sehnali lano, začali pilně trénovat, ale zatím jen z videí na internetu. V září v roce 2021 jsme se dostali čtyři sokolové do reprezentace na MS v Baskicku. Opět jsme pohořeli na plné čáře, ale naučili jsme se víc a hlavně se dostali do kontaktu s tahouny ze světa.
+
+Několik týdnů zpátky, na konci dubna, jsme přijali pozvání do bavorské vesničky Zell nedaleko Bad Grunenbachu, kde proběhlo zaučování začínajících tahounů. Místní tým se k našemu podivu potýká se stejnými problémy jako my – málo tahounů na tréninku, trenér krom trénování sám tahá (což není ono) a podobně, nicméně svojí pílí se dokázali dostat za deset let mezi světovou špičku a berou medaile na mistrovstvích Evropy, světa i na Světových hrách (Olympiádě neolympijských sportů).
+
+V Zellu jsme fotili, co jsme mohli, zeptali se na všechno, co jsme nevěděli, opravili jsme si několik zlozvyků, pozměnili dosavadní tréninky. Pokračujeme nejen v tahání lana, ale i v tahání dalších atletů k lanu a obecně se snažíme tenhle sport zatáhnout k nám, kde zatím není tolik rozšířen.
+
+No a pomoct nám v tom může každý z čtenářů. Trénujeme každý čtvrtek od osmi hodin večer. Potřebujeme kluky, holky, potřebujeme vysoké a těžké vazouny, ale ještě víc menší a lehčí střízlíky. Potřebujeme do party i ty, kdo netáhnou, ale sledují hru zvenčí, všímají si detailů a řeknou nám, co vidí. Potřebujeme zvětšit fajn partu, která čas od času vyjede za hranice a tam se přiučí a třeba jednou přiveze i nějakou medaili.
+
+\signature{Josef Kubišta}{náčelník}
+
+\vspace{12pt}
+
+\post{Stolní tenis}
+Nabízíme možnost zahrát si stolní tenis na balustrádě Strnadovy síně. Pálky i míčky jsou k dispozici.
+
+Čas hry si můžete rezervovat na https:/\kern-0.2em/sokol-liben.isportsystem.cz/
+
+\clearpage
+
+\post{Trochu neformálně \linebreak o republikovém přeboru \linebreak v Zálesáckém Závodu Zdatnosti}
+\textit{Br. náčelník}: Tak si náš Řek řek, že uspořádáme republikový přebor Zálesáckého Závodu Zdatnosti. My se totiž v rámci Sokola a všestrannosti věnujem i oddílům podobným Skautu.
+Trojčlenné hlídky sokolíků, které postoupily ve svých župách, si tak na šestikilometrové trase změřily síly v následujících disciplínách: poznávání hvězd a souhvězdí, rostlin, zvířat, historických osobností, uzlování, odhadů vzdáleností, váhy, objemu a času, na lanových překážkách, hodech na cíl, topografii a práci s mapou, spolupráci při přemisťování břemene, šplhu na laně, ve zdravovědě, morseovce, v šošónském běhu, vlastivědě, práci s pilou, v první pomoci a rozdělávání ohně.
+Ve všestrannosti, myslím, nemáme všestrannější závod a krom toho, že jsou závodníci opravdu zdatný, jsou to moc fajn lidi, přátelský a s dobrým srdcem. No, a to je ono.
+
+
+\textit{Br. jednatel (Řek)}: Abych trochu doplnil br. náčelníka: přebor v ZZZ je celovíkendová akce pro asi 200 lidí, ale řekl jsem si, že bychom to mohli zvládnout – zvláště s podporou místonáčelníka ČOS Honzy Nemravy (který byl hlavním rozhodčím). Začal jsem tedy obcházet činovníky a emeritní vedoucí našich turistických oddílů a ptát se, co oni na to. Poskládali jsme organizační tým ve složení Řek, Pepišta, Jana Dubská, Jirkan, Vítek a Ledňáček a začali s přípravami. 
+
+
+První úkol byl najít vhodné místo, kde bude zázemí a kuchyně, co nám uvaří. Mezi tipy od různých lidí to nakonec vyhrál Machův Mlýn u Rakovníka (a s ním jsme to, myslím, vyhráli i my). Kolem Machova Mlýna v CHKO Křivoklátsko jsme navrhli 6\,km dlouhou trasu s výstupem na blízký vrchol Hradiště (140 metrů převýšení) a trojicí brodů na konci. S bratrem náčelníkem jsme ji zkušebně proběhli za 42 minut čistého běhu a skutečně byla pro zdatné. Vedle samotné přípravy trati (Jana a Pepišta), přípravy doprovodních aktivit (Jirkan) a závodu v kategorii dospělých (Ledňáček) představuje přebor taky kopec administrativy s přihláškami hlídek, rozhodčích, povoleními atd. (Vítek a Řek) a taky program pro vyhodnocení výsledků, kterého se ujal Míla Doupal. 
+
+
+V pátek 19. května začali účastníci přijíždět a musím ocenit zejména práci Lucky Vojáčkové, která na místě řídila prezenci a všechno papírování okolo. Nebylo sice jasno pro plnění disciplíny \luv poznávání souhvězdí\ruv na noční obloze (i když jinak bylo celý víkend krásně), ale alespoň bylo dost času na večerní hříčky. Hlavně přetahovaná měla velký úspěch. 
+
+
+V sobotu ráno jsme vztyčili vlajku a zahájili hlavní závod. Osobně jsem pyšný hlavně na disciplínu oheň, kdy závodníci měli v limitu 15~minut na dřívkovém vařiči rozdělat oheň a uvařit 0,5\,l vody (v této formě se objevila poprvé). Řadě hlídek se to podařilo, ostatní byli hodnoceni podle dosaženého rozdílu teplot vody. Na trase účastníky čekala vycpaná zvířata nebo třeba táborová hříčka TIR, kdy hlídka musí proběhnout klikatou trasu v lese a při tom se nepustit dlouhé tyče. U prvního brodu ještě někteří závodníci opatrně přelézali po kládě ležící na kraji brodu suchou nohou – u třetího už většinou před vodou ani nezpomalovali. 
+
+
+Odpoledne po závodě patřilo drobným soutěžím, výletu na blízký hrad Krakovec (přes 60 lidí) a závodu v kategorii dospělých. Jeho pojetí je, na rozdíl od přeboru žactva a dorostu, zcela volné. Ledňáček jej pojal jako přípravu a provedení výletu s dětmi – závodníci tedy museli v limitu (než vám ujede vlak) stihnout posbírat a zabalit z hromady důležité věci, nastudovat si zdravotní omezení dětí (a během závodu na něj reagovat), najít spojení v papírovém jízdním řádu nebo uvařit kaši. Podle výrazů při doběhu do cíle byli účastníci nadšeni. Večer jsme se všichni sešli u táborového ohně zapáleného rituálně smolnou loučí. 
+Trocha statistiky na závěr: v přeboru závodilo 35 hlídek ve dvou kategoriích a celkem přijelo 189 účastníků, rozhodčích a členů doprovodu. 
+
+
+P.S. Hlídka z naší župy složená z členů naší jednoty a Sokola Staré Město (Adéla Hlaváčová, Nina Lakosilová a Marie Doupalová) vybojovala skvělé 2. místo v kategorii žactva mezi 21 hlídkami, naše hlídka v kategorii dorost se umístila na 8. místě ze 14, a hlídka Anka Holanová a Anna \luv Liška\ruv Grebíková vybojovaly 2. místo mezi dospělými. Blahopřejeme! 
+
+\signature{Jan Přech (Řek)}{ředitel závodu}
+
+\clearpage
+
+\post{Turistický oddíl JILM}
+Školní rok se nám chýlí ke konci, a tak bych rád ještě připojil pár informací o naší činnosti v druhém pololetí. Po Aprílovce v Orlických horách, kde nám parádně vyšlo počasí tak pěkné, že jsme zvládli i koupání v Orlici, proběhl Jarní Výlet Libeňského Sokola – JVLS. V sobotu byl tradičně Zálesácký závod zdatnosti, ve kterém 4 naši členové postoupili do celorepublikového finále. V neděli jsme ušli pěkný kus cesty skrz Český kras. Viděli jsme Karlštejn, lomy Malou a Velkou Ameriku, Bubovické vodopády a nakonec i důlní skanzen Solvayovy lomy. 
+
+Tento víkend jsme se zúčastnili výše zmíněného celorepublikového finále, závodní trojka dorostenců se umístila v půlce startovního pole, což je poměrně obstojný výkon. Vedoucí se zase podíleli na organizaci, jelikož naše jednota letos republikový přebor pořádala. Do začátku prázdnin a tábora nás čeká ještě jedna akce, a to jednodenní výprava na Kokořín, která proběhne v sobotu 3. 6. Pokud byste měli o naši činnost zájem, nebojte se obrátit na níže uvedený kontakt.
+
+\vspace*{12pt}
+
+3. 6. (so) Jednodenní výprava na Kokořín
+
+30. 6. - 2. 7. (pá-ne) Pracovka + stavba tábora
+
+25. 8. - 28. 8. (pá-ne) Bourání tábora
+
+30. 6. - 22. 7. 2023  TÁBOR
+ 
+\signature{Dan Unzeitig (Kondor)}{tel.: 720 367 608\\e-mail: dan.unzeitig@sokol-liben.cz}
+
+\vspace{24pt}
+
+\post{Se Sokolem do divadla}
+V minulém příspěvku jsem Vás informoval o dvou plánovaných představeních. Tím chronologicky prvním byla komedie \luv Famílie\ruv v podání našeho oblíbeného amatérského \luv Divadla bez dozoru\ruv hostujícího nejčastěji v prostorách \luv Divadla Na Prádle\ruv. Tuto povedenou komedii plnou vtipných i vážnějších momentů shlédlo 6. března 2023 celkem 20 diváků z řad Sokola Libeň a jejich známých. Vzhledem k ohlasům po představení i uvolněné atmosféře plné smíchu si troufám tvrdit, že se všem zúčastněným představení líbilo.
+
+Nedlouho po prvním představení jsme 31. března 2023 vyrazili do Národního divadla na operu Prodaná nevěsta. Svěží a veselé melodie Bedřicha Smetany doprovázely tentokrát moderní a netradiční scénické podání v režii uznávané Alice Nellis. Jak už to u novot bývá: nové zpracování může být vnímáno provokativně a za zvuků osvědčené hudby svádějí pomyslný boj konzervativnější zastánci kulis klasického jihočeského venkova 19. století s liberálnějšími diváky, kteří bývají k novým nápadům tolerantnější, vstřícnější a otevřenější.
+
+Děj opery se odehrává v moderních kulisách jako konkurz na Mařenku (hlavní postava) – málokdy se stává, že se na jeviště hlavní postava v průběhu představení střídá, a to hned ve 3 podobách. Na \luv prknech\ruv jsou k vidění i akrobatické kousky a do konceptu nakonec zapadá i lední medvěd, který se na pódiu představí v \luv bělostném\ruv závěru. Víc však nebudu prozrazovat, pokud byste chtěli na operu dodatečně zavítat...
+
+Hodnocení zpracování nechám na každém z 32 účastníků naší malé expedice. Subjektivně však mohu s čistým štítem vyjádřit poklonu režisérce za vtipné přepracování, které má z mého pohledu významný potenciál přilákat některé osvícené \luv operní analfabety\ruv a stravitelnou formou upoutat pozornost malých diváků, jimž mohou být venkov 19. století, historické regionální kroje a další \luv archaické\ruv rekvizity a zvyky příliš vzdálené v čase a v dětském vnímání blíže pohádkám než realitě předminulého století (a to se považuji spíše za konzervativního jedince). Tedy stručně: tuto operu doporučuji!
+
+Do třetice jsme Vám nabídli kulturu z jiného soudku: výběr koncertů v Rudolfinu v rámci vzdělávacích programů určených pro děti. O detailech jste byli informováni samostatným e-mailem ze strany vedoucích jednotlivých oddílů. Proto zde jen stručný výčet našeho výběru (první 3 jako abonmá nebo samostatné koncerty):
+
+\renewcommand{\arraystretch}{1}
+\begin{itemize}
+  \setlength\itemsep{-3pt}
+  \item Od Carmen k Tannhäuserovi – út 24. 10. 2023 od 19:30
+  \item Italia Bella! – pá 19. 1. 2024 od 19:30
+  \item S Čajkovským nejen u Labutího jezera – čt 21. 3. 2024 od 19:30
+  \item Hej Romale – ne 12. 11. 2023 od 16:30
+\end{itemize}
+
+Uzavírka objednávek již proběhla k 30. dubnu 2023. V případě, že byste se chtěli hlásit dodatečně, obraťte se na mě e-mailem a pokusím se sjednat v Rudolfinu dodatečné vstupenky.
+
+S ohledem na rychle se blížící konec školního roku navážeme s největší pravděpodobností na obnovenou tradici \luv Se Sokolem do divadla\ruv až v dalším pololetí. Budeme se na Vás těšit, a pokud byste věděli o nějakém zajímavém kulturním počinu, na němž by Sokol Libeň neměl chybět, dejte mi vědět! Protože, jak řekl francouzský spisovatel André Malraux (1901–1976): \luv Kultura je to, co způsobilo, že člověk je něčím víc než náhodnou hříčkou přírody.\ruv
+\signature{Miloslav Doupal}{e-mail: mila.doupal@sokol-liben.cz}
+
+\vspace*{24pt}
+
+\post{Sokolská kapka krve}
+\textit{Jana byla těhotná a ve 30. týdnu těhotenství začala silně krvácet. Po příjezdu do nemocnice bylo zjištěno, že se jí předčasně odlučuje placenta a že bude muset podstoupit neodkladný císařský řez, aby se miminko zachránilo. Sama ztratila již hodně krve, a proto musela podstoupit transfuzi během zákroku i opakovaně v následujících dnech po něm.} 
+
+\textit{Miminko – holčička Petra se tedy narodilo předčasně, vážilo asi 1700~gramů, ale žilo a dýchalo jen s malou podporou přístrojů. Do 2 dnů po porodu se jeho stav zhoršil infekcí, při které mj. došlo i k poklesu hladiny červených krvinek a muselo dostat transfuzi. V rámci boje s infekcí dostalo také opakovaně mraženou plazmu, protože obsahuje protilátky a látky na podporu srážení krve.}
+
+\textit{Během několika dnů se stav zlepšil a po několika týdnech mohly Jana s Petrou odejít domů. Bylo to možné ale jen díky tomu, že někdo dříve daroval krev, která jim zachránila život.}
+
+\vspace{6pt}
+
+Sokolové se již několik let snaží podporovat dárcovství krve a jít sami příkladem např. také projektem Sokolská kapka krve.
+
+\pagebreak
+
+Veškeré informace o projektu najdete na sokolskakapkakrve.cz.
+
+Bližší informace také rád sdělím osobně či na e-mailu:\newline vit.jakoubek@sokol-liben.cz; na tento e-mail také prosím posílejte počty odběrů (za 1. pololetí 2023 do 31. 7. 2023).
+
+\signature{Vít Jakoubek}{koordinátor projektu}
+
+\clearpage
+
+\post{Vzpomínka na Martu Halíkovou}
+
+\noindent
+\begin{wrapfigure}{l}{0.3\textwidth}
+  \includegraphics[width=0.98\linewidth]{marta-haliková.jpg} 
+\end{wrapfigure}
+
+\noindent Dne 20.5.2023 nás ve věku 94 let navždy opustila  sestra Marta Halíková. Byla dlouholetou členkou výboru jednoty, hospodářkou, jednatelkou a také místostarostkou. 
+
+Byla  také cvičitelkou  Věrné gardy. Cvičitelství ji neopustilo ani ve vysokém věku, kdy žila v domě seniorů a organizovala pro obyvatele domova několikrát týdně  cvičení na židlích a jiné aktivity. 
+
+Budeme na Martu vždy s úctou vzpomínat. 
+
+\vspace*{6pt}
+Čest její památce!
+\vspace*{6pt}
+
+Za Výbor Sokola Libeň
+
+\signature{Vít Jakoubek}
+
+\clearpage
+
+\pagestyle{blank}
+\newgeometry{margin=1cm}
+
+\vspace*{96pt}
+
+\pagecolor{sokolred}
+\color{white}
+
+\noindent {\fontsize{48pt}{56pt}\tyrs
+se sokolským
+
+\vspace*{24pt}
+
+\noindent nazdar!}
+
+\vspace*{\fill}
+
+% \color{black}
+\begin{center}
+Vydává Tělocvičná jednota Sokol Libeň, Zenklova 37, Praha 8
+
+\vspace*{12pt}
+
+Na přípravě tohoto čísla se spolu s autory jednotlivých textů podíleli:
+
+grafická úprava – Martin Burian | jazyková úprava – Martina Waclawičová \\ editoři textů – Vít Jakoubek, Jan Přech
+\end{center}
+
+\end{document}
