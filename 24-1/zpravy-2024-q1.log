@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2024.2.15)  25 FEB 2024 00:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2024.2.15)  26 FEB 2024 10:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,6 +1064,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a5paper
@@ -1098,10 +1108,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: Akademie_24.pdf Graphic file (type pdf)
 <use Akademie_24.pdf>
- [19
+ [20
 
 
 ]
+File: foto_kapka_krve.jpg Graphic file (type bmp)
+<foto_kapka_krve.jpg>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1109,22 +1122,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20
+[21
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[21]
-Overfull \hbox (11.7776pt too wide) in paragraph at lines 481--482
-\TU/lmr/m/n/10.95 kem 13 přihlášených) nechalo v majestátních prostorách Rudolfina v rámci
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1135,6 +1136,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [22
 
 ]
+Overfull \hbox (11.7776pt too wide) in paragraph at lines 507--508
+\TU/lmr/m/n/10.95 kem 13 přihlášených) nechalo v majestátních prostorách Rudolfina v rámci
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1150,9 +1155,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24
+[24]
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a5paper
@@ -1185,7 +1196,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [25
+ [26
 
 
 ] (./zpravy-2024-q1.aux)
@@ -1193,12 +1204,12 @@ Package rerunfilecheck Info: File `zpravy-2024-q1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23999 strings out of 478654
- 493333 string characters out of 5848844
+ 24012 strings out of 478654
+ 493610 string characters out of 5848844
  1856018 words of memory out of 5000000
- 43694 multiletter control sequences out of 15000+600000
+ 43705 multiletter control sequences out of 15000+600000
  522845 words of font info for 69 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
  107i,15n,109p,1329b,988s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on zpravy-2024-q1.xdv (26 pages, 403204 bytes).
+Output written on zpravy-2024-q1.xdv (27 pages, 405408 bytes).

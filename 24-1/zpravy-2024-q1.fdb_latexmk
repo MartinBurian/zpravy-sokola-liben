@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1708817298 "zpravy-2024-q1.xdv" "zpravy-2024-q1.pdf" "zpravy-2024-q1" 1708817301 0
-  "zpravy-2024-q1.xdv" 1708817298 403204 40932f566428b5f94188bfb25631a3e1 "xelatex"
+["xdvipdfmx"] 1708939418 "zpravy-2024-q1.xdv" "zpravy-2024-q1.pdf" "zpravy-2024-q1" 1708939423 0
+  "zpravy-2024-q1.xdv" 1708939418 405408 3089e2e26604ace5b948467b7540b0b3 "xelatex"
   (generated)
   "zpravy-2024-q1.pdf"
   (rewritten before read)
-["xelatex"] 1708817297 "/home/martinjr/Documents/sokol-zpravy/24-1/zpravy-2024-q1.tex" "zpravy-2024-q1.xdv" "zpravy-2024-q1" 1708817301 0
+["xelatex"] 1708939417 "/home/martinjr/Documents/sokol-zpravy/24-1/zpravy-2024-q1.tex" "zpravy-2024-q1.xdv" "zpravy-2024-q1" 1708939423 0
   "../zpravy-commands.tex" 1700924489 2808 a78780f8d6bea258b799d87952153ab4 ""
-  "/home/martinjr/Documents/sokol-zpravy/24-1/zpravy-2024-q1.tex" 1708817296 43999 6fe64ddb342a52aca3d4e0e4a0610bf2 ""
+  "/home/martinjr/Documents/sokol-zpravy/24-1/zpravy-2024-q1.tex" 1708939416 44061 cd060b1dd018cfdafae1324a2dd97e88 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1704400182 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1704400182 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1704400182 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -161,10 +161,11 @@
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1707989660 9246214 3c3a8ca76ad2e5d79c15ed6363d0d274 ""
   "Akademie_24.pdf" 1708816075 6128524 7ba1c6d4bfc04fac15577b5f731ca5d3 ""
   "Sokolske_peklo_oprava.png" 1708815873 2435982 3528ce273a7056b83a255a9e5dd35fbc ""
+  "foto_kapka_krve.jpg" 1708938226 11340452 3a7ace85114f437386a4c52e8ccfe4d6 ""
   "tabor_pd_2024.png" 1708815238 2225089 febd579396469f98b1e07ce416a56cec ""
-  "zpravy-2024-q1.aux" 1708817298 2393 145b696b3cc24b5b3d349ff31830419e "xelatex"
-  "zpravy-2024-q1.out" 1708817297 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "zpravy-2024-q1.tex" 1708817296 43999 6fe64ddb342a52aca3d4e0e4a0610bf2 ""
+  "zpravy-2024-q1.aux" 1708939418 2480 efcbd66c90460cb40009a38170d78d65 "xelatex"
+  "zpravy-2024-q1.out" 1708939418 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "zpravy-2024-q1.tex" 1708939416 44061 cd060b1dd018cfdafae1324a2dd97e88 ""
   (generated)
   "zpravy-2024-q1.aux"
   "zpravy-2024-q1.log"
