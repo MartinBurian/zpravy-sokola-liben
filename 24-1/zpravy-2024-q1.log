@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2024.2.15)  26 FEB 2024 10:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2024.2.15)  27 FEB 2024 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -886,8 +886,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
-Overfull \hbox (2.68376pt too wide) in paragraph at lines 226--227
+[8
+
+]
+Overfull \hbox (2.68376pt too wide) in paragraph at lines 227--228
 []\TU/lmr/m/n/10.95 Cvičení venku s atletickými disciplínami začne podle počasí, nejdříve
  []
 
@@ -899,7 +901,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-Overfull \hbox (2.33873pt too wide) in paragraph at lines 245--246
+Overfull \hbox (2.33873pt too wide) in paragraph at lines 246--247
 \TU/lmr/m/n/10.95 Tedy, ono to bude o trochu méně, protože někteří cvičí ve více skladbách. 
  []
 
@@ -921,12 +923,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-Overfull \hbox (4.60004pt too wide) in paragraph at lines 256--257
+Overfull \hbox (4.60004pt too wide) in paragraph at lines 259--260
 []\TU/lmr/m/n/10.95 Program máme opravdu bohatý, mimo vlastní cvičení dáváme mnoho
  []
 
 
-Overfull \hbox (2.75482pt too wide) in paragraph at lines 269--270
+Overfull \hbox (2.75482pt too wide) in paragraph at lines 272--273
 \TU/lmr/m/n/10.95 V pondělí 19. února (konečně) otevíráme zrekonstruované šatny. V lednu
  []
 
@@ -937,7 +939,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]
+[11
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1049,7 +1053,7 @@ File: tabor_pd_2024.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (0.37332pt too wide) in paragraph at lines 409--410
+Overfull \hbox (0.37332pt too wide) in paragraph at lines 412--413
 []\TU/lmr/m/n/10.95 Pod vedením Martiny Škochové oddíl pilně nacvičuje na slet skladbu
  []
 
@@ -1106,14 +1110,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: Akademie_24.pdf Graphic file (type pdf)
-<use Akademie_24.pdf>
+File: Akademie_24.png Graphic file (type bmp)
+<Akademie_24.png>
  [20
 
 
 ]
-File: foto_kapka_krve.jpg Graphic file (type bmp)
-<foto_kapka_krve.jpg>
+File: foto_kapka_krve-scaled.jpg Graphic file (type bmp)
+<foto_kapka_krve-scaled.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1136,7 +1140,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [22
 
 ]
-Overfull \hbox (11.7776pt too wide) in paragraph at lines 507--508
+Overfull \hbox (11.7776pt too wide) in paragraph at lines 510--511
 \TU/lmr/m/n/10.95 kem 13 přihlášených) nechalo v majestátních prostorách Rudolfina v rámci
  []
 
@@ -1205,11 +1209,11 @@ Package rerunfilecheck Info: File `zpravy-2024-q1.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24012 strings out of 478654
- 493610 string characters out of 5848844
+ 493650 string characters out of 5848844
  1856018 words of memory out of 5000000
  43705 multiletter control sequences out of 15000+600000
  522845 words of font info for 69 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
- 107i,15n,109p,1329b,988s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,15n,109p,1329b,888s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on zpravy-2024-q1.xdv (27 pages, 405408 bytes).
+Output written on zpravy-2024-q1.xdv (27 pages, 405348 bytes).
