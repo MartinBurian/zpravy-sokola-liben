@@ -1,23 +1,26 @@
 # Fdb version 4
-["xdvipdfmx"] 1726990459.27691 "zpravy-2024-q3.xdv" "zpravy-2024-q3.pdf" "zpravy-2024-q3" 1726990460.30538 0
-  "zpravy-2024-q3.xdv" 1726990459.14444 673432 c0a20d96627d0e4469f65e5bf46bf9de "xelatex"
+["xdvipdfmx"] 1726990489.76803 "zpravy-2024-q3.xdv" "zpravy-2024-q3.pdf" "zpravy-2024-q3" 1726990490.78154 0
+  "zpravy-2024-q3.xdv" 1726990489.64812 656460 dba86caf55abf7dae8ce5fa4aae1be05 "xelatex"
   (generated)
   "zpravy-2024-q3.pdf"
   (rewritten before read)
-["xelatex"] 1726990457.42904 "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" "zpravy-2024-q3.xdv" "zpravy-2024-q3" 1726990460.30191 0
+["xelatex"] 1726990488.10601 "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" "zpravy-2024-q3.xdv" "zpravy-2024-q3" 1726990490.77725 0
   "../zpravy-commands.tex" 1718275882.35623 2808 a78780f8d6bea258b799d87952153ab4 ""
-  "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" 1726990455.23439 71438 33facdef46bc10737a7d75cf40546087 ""
+  "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" 1726990485.87141 69677 7b81be6e38535c549ba08b89b73cc671 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1716849630 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1716849630 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1716849630 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1716849630 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1716849630 1524 d89e2d087a9828407a196f428428ef4a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1716849630 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1716849630 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1716849630 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1716849630 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1716849630 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1716849630 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1716849630 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1716849630 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1716849630 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm" 1716849630 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1716849630 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -167,9 +170,9 @@
   "pamatny-den-sokolstva.jpg" 1726687955.58619 528051 f062e5a43f352d699553a825b89b8756 ""
   "prapor-2.jpg" 1726688587.68537 298739 cb4d82a08dfa7772e9c71eed4648f8be ""
   "pripni-kokardu.png" 1726688181.58482 871658 16d636132ea635af5c4df3595220821f ""
-  "zpravy-2024-q3.aux" 1726990459.1411 3175 b75a0e357fb8b70f697e555841e07773 "xelatex"
-  "zpravy-2024-q3.out" 1726990458.36443 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "zpravy-2024-q3.tex" 1726990455.23439 71438 33facdef46bc10737a7d75cf40546087 ""
+  "zpravy-2024-q3.aux" 1726990489.64478 3088 7ea0e1caf7a656fc971b6dd2721e3025 "xelatex"
+  "zpravy-2024-q3.out" 1726990489.06478 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "zpravy-2024-q3.tex" 1726990485.87141 69677 7b81be6e38535c549ba08b89b73cc671 ""
   (generated)
   "zpravy-2024-q3.aux"
   "zpravy-2024-q3.log"
