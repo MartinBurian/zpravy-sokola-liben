@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1718279596.74274 "zpravy-2024-q2.xdv" "zpravy-2024-q2.pdf" "zpravy-2024-q2" 1718279597.10115 0
-  "zpravy-2024-q2.xdv" 1718279596.62996 512900 09be84eedc6131c0fd428c957e5e8acf "xelatex"
+["xdvipdfmx"] 1718348175.34561 "zpravy-2024-q2.xdv" "zpravy-2024-q2.pdf" "zpravy-2024-q2" 1718348175.72653 0
+  "zpravy-2024-q2.xdv" 1718348175.2003 512900 6ef7e197c5950c8235c6edc6eedc3fad "xelatex"
   (generated)
   "zpravy-2024-q2.pdf"
   (rewritten before read)
-["xelatex"] 1718279595.21552 "/home/martinjr/Documents/sokol-zpravy/24-2/zpravy-2024-q2.tex" "zpravy-2024-q2.xdv" "zpravy-2024-q2" 1718279597.09741 0
+["xelatex"] 1718348173.74341 "/home/martinjr/Documents/sokol-zpravy/24-2/zpravy-2024-q2.tex" "zpravy-2024-q2.xdv" "zpravy-2024-q2" 1718348175.72273 0
   "../zpravy-commands.tex" 1718275882.35623 2808 a78780f8d6bea258b799d87952153ab4 ""
-  "/home/martinjr/Documents/sokol-zpravy/24-2/zpravy-2024-q2.tex" 1718279594.90327 54881 b7e3c07de2dc4dbebb646d42e09b4ef0 ""
+  "/home/martinjr/Documents/sokol-zpravy/24-2/zpravy-2024-q2.tex" 1718348173.45025 54881 b7e3c07de2dc4dbebb646d42e09b4ef0 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1716849630 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1716849630 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -163,9 +163,9 @@
   "muzi_akademie.jpg" 1718181123.92708 128185 4f678fa0d49771375523546be7e3ec56 ""
   "muzi_znamka.jpg" 1718181104.24016 50461 f8b9a3f7a830bb90075d242aa4abd495 ""
   "thomayerovy-sady.jpg" 1718188153.52907 552317 4b3215683a8ab34595e70aec11bd4cdb ""
-  "zpravy-2024-q2.aux" 1718279596.62996 2479 2b1e820ae9936470ac8b52b537dbe1f7 "xelatex"
-  "zpravy-2024-q2.out" 1718279596.23662 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "zpravy-2024-q2.tex" 1718279594.90327 54881 b7e3c07de2dc4dbebb646d42e09b4ef0 ""
+  "zpravy-2024-q2.aux" 1718348175.19697 2479 2b1e820ae9936470ac8b52b537dbe1f7 "xelatex"
+  "zpravy-2024-q2.out" 1718348174.72029 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "zpravy-2024-q2.tex" 1718348173.45025 54881 b7e3c07de2dc4dbebb646d42e09b4ef0 ""
   (generated)
   "zpravy-2024-q2.aux"
   "zpravy-2024-q2.log"
