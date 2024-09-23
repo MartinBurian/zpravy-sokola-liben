@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1726990489.76803 "zpravy-2024-q3.xdv" "zpravy-2024-q3.pdf" "zpravy-2024-q3" 1726990490.78154 0
-  "zpravy-2024-q3.xdv" 1726990489.64812 656460 dba86caf55abf7dae8ce5fa4aae1be05 "xelatex"
+["xdvipdfmx"] 1727075256.12255 "zpravy-2024-q3.xdv" "zpravy-2024-q3.pdf" "zpravy-2024-q3" 1727075257.33832 0
+  "zpravy-2024-q3.xdv" 1727075255.95774 656468 1810f0db553a8519187ab14449679273 "xelatex"
   (generated)
   "zpravy-2024-q3.pdf"
   (rewritten before read)
-["xelatex"] 1726990488.10601 "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" "zpravy-2024-q3.xdv" "zpravy-2024-q3" 1726990490.77725 0
+["xelatex"] 1727075253.93359 "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" "zpravy-2024-q3.xdv" "zpravy-2024-q3" 1727075257.33439 0
   "../zpravy-commands.tex" 1718275882.35623 2808 a78780f8d6bea258b799d87952153ab4 ""
-  "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" 1726990485.87141 69677 7b81be6e38535c549ba08b89b73cc671 ""
+  "/home/martinjr/Documents/sokol-zpravy/24-3/zpravy-2024-q3.tex" 1727075253.62098 69675 157cb81650381461e05d2f0ae15e6d4e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1716849630 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1716849630 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -170,9 +170,9 @@
   "pamatny-den-sokolstva.jpg" 1726687955.58619 528051 f062e5a43f352d699553a825b89b8756 ""
   "prapor-2.jpg" 1726688587.68537 298739 cb4d82a08dfa7772e9c71eed4648f8be ""
   "pripni-kokardu.png" 1726688181.58482 871658 16d636132ea635af5c4df3595220821f ""
-  "zpravy-2024-q3.aux" 1726990489.64478 3088 7ea0e1caf7a656fc971b6dd2721e3025 "xelatex"
-  "zpravy-2024-q3.out" 1726990489.06478 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "zpravy-2024-q3.tex" 1726990485.87141 69677 7b81be6e38535c549ba08b89b73cc671 ""
+  "zpravy-2024-q3.aux" 1727075255.95441 3088 7ea0e1caf7a656fc971b6dd2721e3025 "xelatex"
+  "zpravy-2024-q3.out" 1727075255.24105 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "zpravy-2024-q3.tex" 1727075253.62098 69675 157cb81650381461e05d2f0ae15e6d4e ""
   (generated)
   "zpravy-2024-q3.aux"
   "zpravy-2024-q3.log"
