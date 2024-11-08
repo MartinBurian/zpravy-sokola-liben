@@ -105,6 +105,9 @@
 \usepackage[textfont=it]{caption}
 \usepackage[textfont=it]{subcaption}
 
+\usepackage{longtable}
+\setlength\LTleft{0cm}
+
 \begin{document}
 %% obálka
 \setlength{\oddsidemargin}{-24pt}
@@ -343,7 +346,6 @@ V~krátkém mezidobí sletovém (4 roky) se konal znamenitý slet v~Českých Bu
 \clearpage
 \section{Příklad: tabulka}
 \begin{tabular}[pos]{l|ccc}
-  
 
 & \parbox{3cm}{\center{}zapsáno na 1 hodině\\(průměr)} & hodin za rok & \parbox{3cm}{\center{}cvičilo na 1 hodině (průměr)} \\
 \hline
@@ -354,6 +356,269 @@ dorostenky & 18 & 87 & 14 \\
 žáci & 86 & 73 & 57 \\
 žákyně & 81 & 82 & 68 \\
 \end{tabular}
+
+\section{Nejvěrnější docházka}
+\renewcommand*{\arraystretch}{1.1}
+\begin{longtable}[]{%
+  >{\raggedright\arraybackslash}p{4em}%
+  >{\raggedright\arraybackslash}p{1.4em}%
+  >{\raggedright\arraybackslash}p{6em}%
+  >{\raggedright\arraybackslash}p{6em}%
+  >{\raggedright\arraybackslash}p{6em}}
+
+\textbf{Cvičební rok} & \textbf{Max. hod.} & \textbf{Nejpilnější mladší žák} & \textbf{Nejpilnější starší žák} & \textbf{Nejpilnější dorostenec, cvičitel} \\
+\hline \endhead
+1995/1996 & 75 & Jakub~Marianovský \(69\times\) & Jan~Vorel \(69\times\) & Jiří~Novák \(75\times\) \\
+1996/1997 & 72 & Jan~Bastin \(68\times\) & Jan~Vorel \(72\times\) & ? \\
+1997/1998 & 73 & Jáchym~Kaplan, Martin Chlumský \(68\times\) & Jan~Vorel \(71\times\) & Tomáš~Novák \(73\times\) \\
+1998/1999 & 77 & Tomáš~Pajma \(68\times\) & Ondřej~Antoš \(76\times\) & Jiří~Novák \(77\times\) \\
+1999/2000 & 78 & Jakub~Mastík, Tomáš~Pajma \(68\times\) & Jan~Vorel \(78\times\) & Tomáš~Seifert \(77\times\) \\
+2000/2001 & 73 & Jan~Přibyl \(63\times\) & Jakub~Kudroň \(72\times\) & Martin~Chlumský \(72\times\) \\
+2001/2002 & 77 & Josef~Drda \(69\times\) & Jakub~Kudroň \(75\times\) & Martin~Seifert \(77\times\) \\
+2002/2003 & 74 & Štěpán~Dvořák \(63\times\) & Jan~Přibyl \(62\times\) & Jan~Vorel \(74\times\) \\
+2003/2004 & 77 & Jakub~Novák \(69\times\) & Jan~Přibyl \(76\times\) & Martin~Seifert \(72\times\) \\
+2004/2005 & 77 & Jan~Trnka \(74\times\) & Jan~Přibyl \(77\times\) & Jiří~Novák \(76\times\) \\
+2005/2006 & 80 & Jan Trnka~70 \(\times\) & Marek~Šťovíček, Jan Salavec \(72\times\) & Jan~Přibyl \(80\times\) \\
+2006/2007 & 75 & Petr~Jeřábek \(73\times\) & Josef~Brůžek \(71\times\) & Jan~Dostál \(74\times\) \\
+2007/2008 & 76 & Petr~Jeřábek \(72\times\) & Martin~Jeřábek \(72\times\) & Jan~Dostál \(75\times\) \\
+2008/2009 & 78 & Richard~Kloubský \(76\times\) & Martin~Jeřábek \(68\times\) & Jan~Dostál \(76\times\) \\
+2009/2010 & 76 & Richard~Kloubský \(74\times\) & Viktor~Kubík \(63\times\) & Jan~Přibyl \(76\times\) \\
+2010/2011 & 75 & Richard~Kloubský \(75\times\) & Petr~Jeřábek \(68\times\) & Jan~Přibyl \(75\times\) \\
+2011/2012 & 78 & Jakub~Málek \(75\times\) & Richard~Kloubský \(78\times\) & Jan~Přibyl \(78\times\) \\
+2012/2013 & 77 & Kryštof~Šubr \(69\times\) & Jakub~Málek \(77\times\) & Jan~Přibyl \(76\times\) \\
+2013/2014 & 75 & Marek~Novotný \(75\times\) & Adam~Novotný, Richard Kloubský \(75\times\) & Jan~Přibyl \(74\times\) \\
+2014/2015 & 77 & Marek~Novotný \(75\times\) & Richard~Kloubský \(75\times\) & Vojtěch~Mrkvička \(75\times\) \\
+2015/2016 & 76 & Marek~Novotný \(72\times\) & Viktor~Šmejkal \(74\times\) & Richard~Kloubský \(76\times\) \\
+2016/2017 & 78 & Tomáš~Novotný \(76\times\) & Marek~Novotný \(76\times\) & Richard~Kloubský \(78\times\) \\
+2017/2018 & 74 & Tomáš~Novotný \(71\times\) & Marek~Novotný \(73\times\) & Richard~Kloubský \(73\times\) \\
+2018/2019 & 78 & Petr~Ettel \(78\times\) & Tomáš~Kléger \(77\times\) & Richard~Kloubský, Jiří Novák \(78\times\) \\
+2019/2020 & 61 & Tomáš~Novotný \(61\times\) & Marek~Matys \(58\times\) & Tomáš~Kléger, Richard Kloubský \(61\times\) \\
+2020/2021 & 28 & Michal~Horák, Vojtěch Bőhm \(25\times\) & Tomáš~Novotný \(26\times\) & Jiří~Novák \(26\times\) \\
+2021/2022 & 78 & Matyáš~Sokol \(71\times\) & Petr~Ettel \(74\times\) & Tomáš~Kléger \(77\times\) \\
+2022/2023 & 79 & Matyáš~Sokol \(70\times\) & Jiří~Smutný, Tomáš~Novotný \(72\times\) & Tomáš~Kléger \(78\times\) \\
+2023/2024 & 77 & Ladislav~Bednář \(73\times\) & Matyáš~Sokol \(73\times\) & Jiří~Novák \(77\times\) \\
+\end{longtable}
+
+\section{Tabulka cvičitelů žactva}
+
+\renewcommand*{\arraystretch}{1.1}
+\begin{longtable}[]{%
+  >{\raggedright\arraybackslash}p{2cm}%
+  >{\raggedright\arraybackslash}p{1.5cm}%
+  >{\raggedright\arraybackslash}p{1.5cm}%
+  >{\raggedright\arraybackslash}p{5cm}}
+ \textbf{Rok} &  \textbf{Zapsáno} &  \textbf{Průměr} &  \textbf{Poznámka} \\
+ \hline \endhead
+ 1990/1991 &  ? &  46 &  včetně mužů \\
+ 1991/1992 &  ? &  52 &  včetně mužů \\
+ 1992/1993 &  ? &  66 &  včetně mužů \\
+ 1993/1994 &  126 &  58,9 &  dále vždy ml.+st. žáci+dorostenci+cvičitelé (bez mužů) \\
+ 1994/1995 &  142 &  56,7 &    \\
+ 1995/1996 &  129 &  48,7 &    \\
+ 1996/1997 &  141 &  48,7 &  průměr v říjnu 1996 je 71,55! (105 zapsaných) \\
+ 1997/1998 &  136 &  58,2 &  několikrát průměr 65–69, rekord v hodině 86! \\
+ 1998/1999 &  124 &  56,2 &    \\
+ 1999/2000 &  102 &  45,8 &    \\
+ 2000/2001 &  85 &  43 &    \\
+ 2001/2002 &  92 &  41,1 &    \\
+ 2002/2003 &  97 &  38,4 &    \\
+ 2003/2004 &  98 &  47,3 &    \\
+ 2004/2005 &  98 &  44,8 &    \\
+ 2005/2006 &  110 &  50,6 &    \\
+ 2006/2007 &  105 &  50,6 &    \\
+ 2007/2008 &  89 &  46,7 &    \\
+ 2008/2009 &  100 &  44 &    \\
+ 2009/2010 &  89 &  43,8 &    \\
+ 2010/2011 &  119 &  52,9 &    \\
+ 2011/2012 &  102 &  49,8 &    \\
+ 2012/2013 &  101 &  47,9 &    \\
+ 2013/2014 &  111 &  50,8 &    \\
+ 2014/2015 &  114 &  45,6 &    \\
+ 2015/2016 &  106 &  42,9 &    \\
+ 2016/2017 &  111 &  43,8 &    \\
+ 2017/2018 &  102 &  46,1 &    \\
+ 2018/2019 &  121 &  48,8 &    \\
+ 2019/2020 &  137 &  57,1 &    \\
+ 2020/2021 &  131 &  47,1 &    \\
+ 2021/2022 &  146 &  46,5 &    \\
+ 2022/2023 &  127 &  52,5 &    \\
+ 2023/2024 &  136 &  59,8 &    \\
+\end{longtable}
+
+A kdo že se o ty houfy kluků celé ty roky staral? Vezmu to podle
+skutečného stáří (či spíše mládí); tabulka cvičitelů žactva
+1990–2024:
+
+\renewcommand*{\arraystretch}{1.1}
+\begin{longtable}%
+  {p{7em} %
+  p{2em} %
+  >{\raggedright\arraybackslash}p{3em} %
+  >{\raggedright\arraybackslash}p{5em} %
+  >{\raggedright\arraybackslash}p{5.5em}}
+
+\textbf{Jméno} & \textbf{Rok nar.} & \textbf{Jak mu říkáme} & \textbf{Doba působení} & \textbf{Chodí ještě cvičit?} \\
+
+\hline \endhead
+
+Zdeněk Lauschmann & 1959 & Zdeněk & před~1989–1994 & ne \\
+Roman Kolář & 1965 & Roman & před~1989–1993 & ne \\
+Jiří Novák & 1970 & Jirkan & před~1989– dosud & cvičitel, starosta \\
+Filip Kadlec & 1971 & Filip & před~1989–1997 & ne \\
+Tomáš Novák & 1972 & Mišina & před~1989– dosud & jako cvičitel \\
+Jiří Materna & 1973 & Matýsek & 1993–1994 & ne \\
+Tomáš Novotný & 1975 & Tomáš & 1993–1995 & ne \\
+Petr Špírek & 1976 & Pierre & 1993–1997 & ne \\
+Aleš Kafka & 1976 & Aleš & 1993–1994 & ne \\
+Jan Hora & 1976 & Radík & 1993–1994 & ne \\
+Vladislav Voráč & 1977 & Vláďa & 1993–2021 & cvičitel Aerobiku \\
+Jiří Brůžek & 1978 & Jirka & 1997–1999 & ne \\
+Jan Staněk & 1979 & Gösta & 1995–1997 & ne \\
+Pavel Voráč & 1979 & Pavel & 1993–2013 & ne \\
+Vít Jakoubek & 1979 & Vítek & 1995–2021 & výbor \\
+Jan Turek & 1979 & Doník & 1996–2002 & ne \\
+Jiří Hrňák & 1979 & Žabák & 1996–2000 & ne \\
+Matěj Ištvánek & 1979 & Matěj & 1995–1997 & ne \\
+Tomáš Jirsa & 1980 & Tomáš & 1995–1997 & ne \\
+Jan Rejman & 1980 & Jarej & 1997–1998 & ne \\
+Petr Bureš & 1981 & Petr & 1997–2002 & ne \\
+Martin Chlumský & 1982 & Čedok & 1997–2018 & cvičitel Aerobiku \\
+Pavel Jirsa & 1982 & Portos & 1998–2001 & ne \\
+Matěj Beneš & 1983 & Benda & 1998–1999 & ne \\
+Tomáš Seifert & 1985 & Tomáš & 2002 & ne \\
+David Třešňák & 1985 & David & 2002 & ne \\
+Martin Seifert & 1986 & Martin & 2002–2019 & ne \\
+Jan Vorel & 1986 & Hnízdo & 2002–2007 & ne \\
+Jan Veselý & 1980 & Honza & 2004–2025 & ne \\
+Marti Kubů & 1983 & Sop & 2017–2021 & cvičitel PD \\
+Michal Filipin & 1984 & Michal & 2004 & ne \\
+Ondřej Fojtík & 1985 & Ondra & 2017–2019 & ne \\
+Jan Dobis & 1985 & Honza & 2019–2020 & ne \\
+Jan Přech & 1988 & Řek & 2004–2015 & jednatel \\
+Jakub Kudroň & 1988 & Kubík & 2004–dosud & cvičitel \\
+Jan Novák & 1989 & Pórek & 2005–2007 & ne \\
+Jáchym Kaplan & 1990 & Jack & 2007–2017 & občas fotbálek \\
+František Juhász & 1990 & Franta & 2007–2015 & košíková \\
+Jan Dostál & 1990 & Sumec & 2007–2016 & vedoucí Skipping Boys \\
+Jiří Duchač & 1991 & Ruch & 2007–2016 & nedělní volejbal, výbor \\
+Jan Přibyl & 1991 & Příbor & 2007–dosud & cvičitel, výbor \\
+Ondřej Michalec & 1992 & Ondra & 2011–2016 & ne \\
+Ondřej Loudil & 1992 & Hopi & 2008–2011 & cvičení mužů \\
+Filip Benedikt & 1992 & Flip & 2008–2018 & ne \\
+Marek Šťovíček & 1992 & Šťovík & 2008–2013 & ne \\
+Josef Kubišta & 1992 & Pepišta & 2008– dosud & cvičitel, náčelník \\
+Marek Vácha & 1992 & Marek & 2010–2011 & ne \\
+Jan Slifka & 1992 & Slíva & 2010–2017 & košíková \\
+Michal Přibyl & 1993 & Číba & 2010–2019 & občas košíková \\
+Tomáš Mach & 1993 & Tomáš & 2010–2016 & ne \\
+Lukáš Křemen & 1993 & Lukáš & 2019 & cvičení mužů \\
+Ronald Eller & 1994 & Ronald & 2011 & ne \\
+František Zima & 1997 & Franta & 2013 & ne \\
+Ondřej Dvořák & 1997 & Ondra & 2013–2015 & ne \\
+Martin Jeřábek & 1997 & Jestřáb & 2013–2014 & ne \\
+Adam Cepník & 1998 & Adam & 2016–2017 & ne \\
+Vojtěch Blahunek & 1999 & Blesk & 2014 & ne \\
+Daniel Kadlec & 2000 & Daněk & 2015–2016 & vedoucí Jilmu \\
+Dan Unzeitig & 2000 & Kondor & 2016–2019, 2022 & vedoucí Jilmu \\
+Vojtěch Mrkvička & 2000 & Zelí & 2016–2017 & ne \\
+David Hrnčiřík & 2001 & Hrnda & 2016 & ne \\
+Richard Kloubský & 2001 & Rýša & 2017–2020 & cvičitel žákyň \\
+Daniel Novotný & 2001 & Myslivec & 2017–2021 & ne \\
+Jan Kerhart & 2002 & Kerhy & 2019–dosud & cvičitel \\
+Petr Boháč & 2003 & Petr & 2019–dosud & cvičitel \\
+Adam Novotný & 2003 & Adam & 2019–2021 & šplh \\
+Jindřich Skokan & 2004 & Jindra & 2022–dosud & cvičitel \\
+Tomáš Kléger & 2005 & Losos & 2022–dosud & cvičitel \\
+Tomáš Ettel & 2006 & Timer & 2021 & šplh \\
+Marek Novotný & 2006 & Marek & 2022 & šplh \\
+Alexandre Basseville & 2007 & Padák & 2022–dosud & pomahatel \\
+Jan Pikálek & 2007 & Ivánek & 2022–dosud & pomahatel \\
+Václav Novák & 2008 & Vašek & 2023–dosud & pomahatel \\
+Václav Blahunek & 2008 & Hrom & 2023–dosud & pomahatel \\\end{longtable}
+
+\section{[JP]VLS}
+
+\renewcommand*{\arraystretch}{1.1}
+\begin{longtable}[]{%
+  >{\raggedright\arraybackslash}p{3.5cm}%
+  >{\raggedright\arraybackslash}p{0.5cm}%
+  >{\raggedright\arraybackslash}p{1cm}%
+  >{\raggedright\arraybackslash}p{3.5cm}%
+  >{\raggedright\arraybackslash}p{0.5cm}}
+ \textbf{JVLS - místo (pořadatel)}  &  \textbf{Počet z Libně}  &  \textbf{Rok}  &  \textbf{PVLS - místo (pořadatel)}  &  \textbf{Počet z Libně}  \\
+ \hline \endhead
+ &  &  1990  &  1. PVLS Hudlice, hájovna Na králi  &  79  \\
+ 2. JVLS Nymburk a Chotuc  &  52  &  1991  &  3. PVLS Benešov a Kožlí  &  72  \\
+ 4. JVLS Kutná Hora  &  92  &  1992  &  5. PVLS Čerčany a Lštění  &  88  \\
+ 6. JVLS Pardubice a Kunětická Hora  &  92  &  1993  &  7. PVLS Skochovice a Vrané  &  80  \\
+ 8. JVLS Nižbor  &  108  &  1994  &  9. PVLS Mšeno  &  90  \\
+ 10. JVLS Skalka  &  73  &  1995  &  11. PVLS Klepec (1.sraz pětižupí, Zdeněk)  &  71  \\
+ 12. JVLS Nižbor (poprvé ZZZ, Nižbor)  &  67  &  1996  &  13. PVLS Vinařická Hora (Zdeněk)  &  66  \\
+ 14. JVLS Hudlice-Svatá  &  64  &  1997  &  15. PVLS Medník (Zdeněk)  &  43  \\
+ 16. JVLS Malá Lečice (Zdeněk)  &  36  &  1998  &  17. PVLS Přerovská Hůra (Zdeněk)  &  94  \\
+ 18. JVLS Nižbor (Nižbor)  &  52  &  1999  &  19. PVLS Blaník (Zdeněk)  &  83  \\
+ 20. JVLS Hruboskalsko (není pětižupí)  &  48  &  2000  &  21. PVLS Nový Knín (Nový Knín)  &  49  \\
+ 22. JVLS Lešetice (Libeň)  &  75  &  2001  &  23. PVLS Králův stolec (Dobříš)  &  67  \\
+ 24. JVLS Radotínské údolí (Zlíchov)  &  44  &  2002  &  25. PVLS Mělník (Mělník)  &  65  \\
+ 26. JVLS Zvířetice (Staré Město)  &  53  &  2003  &  27. PVLS Říčany (Říčany a Radošovice)  &  45  \\
+ 28. JVLS Vrchlice, Cimburk (Libeň)  &  45  &  2004  &  29. PVLS Srbsko, lom Alkazar (Kobylisy)  &  30  \\
+ 30. JVLS Újezd u Zbečna (Zdeněk)  &  53  &  2005  &  31. PVLS Drahanské údolí (Troja)  &  51  \\
+ 32. JVLS Velký Osek (Zdeněk)  &  49  &  2006  &  33. PVLS Zvolská Homole (Zdeněk)  &  36  \\
+ 34. JVLS Poděbrady (Staré Město)  &  59  &  2007  &  35. PVLS Probošťská jezera (Kobyl.,St.Město)  &  57  \\
+ 36. JVLS Cholupice (Zdeněk)  &  46  &  2008  &  37. PVLS Lány (Zdeněk)  &  55  \\
+ 38. JVLS Čelákovice (Zdeněk)  &  48  &  2009  &  39. PVLS Levý Hradec (Zdeněk)  &  57  \\
+ 40. JVLS Radotínské údolí (Zdeněk)  &  40  &  2010  &  41. PVLS Strž u Staré Huti (Dobříš)  &  37  \\
+ 42. JVLS Stará Dubá (Libeň)  &  67  &  2011  &  43. PVLS Sadská,přesyp u Píst (Kob.,St.Město)  &  40  \\
+ 44. JVLS Říčany,údolí Rokytky (Říčany)  &  63  &  2012  &  45. PVLS Mokropsy (Zdeněk)  &  90  \\
+ 46. JVLS Malá Lečice (Zdeněk)  &  51  &  2013  &  47. PVLS Příbram Březové Hory (Břez.Hory)  &  64  \\
+ 48. JVLS Vlčí rokle, Kam.Přívoz (Libeň)  &  71  &  2014  &  49. PVLS Kojetice, Lobkovice (Kobylisy)  &  48  \\
+ 50. JVLS Károvský potok (Zdeněk)  &  65  &  2015  &  51. PVLS Klínec (Zdeněk)  &  42  \\
+ 52. JVLS Králova stolice (Zdeněk)  &  66  &  2016  &  53. PVLS Tiché údolí (Kobylisy, Staré Město)  &  69  \\
+ 54. JVLS Lučice (Libeň)  &  58  &  2017  &  55. PVLS Libčice (Libeň)  &  55  \\
+ 56. JVLS Radotínské údolí (Zdeněk)  &  67  &  2018  &  57. PVLS Dubeč (Zdeněk)  &  84  \\
+ 58. JVLS Závist (Libeň)  &  61  &  2019  &  59. PVLS Strž u Staré Huti (Zdeněk)  &  76  \\
+ Covid - zrušeno  &  &  2020  &  60. PVLS Dalejský potok (Zdeněk)  &  53  \\
+ Covid - zrušeno  &  &  2021  &  61. PVLS Šárka (Zdeněk)  &  113  \\
+ 62. JVLS Škvorec, Na plachtě (Libeň)  &  64  &  2022  &  63. PVLS Hloubětín, Kejřův mlýn (Zdeněk)  &  88  \\
+ 64. JVLS lom Alkazar (Libeň, St.Město)  &  68  &  2023  &  65. PVLS Stará Dubá (Zlíchov)  &  83  \\
+ 66. JVLS Kojetice, Lobkovice (Libeň)  &  89  &  2024  &  67. PVLS Červená Hlína (Zlíchov)  &  \\
+\end{longtable}
+
+\section{Běh strmý}
+\begin{longtable}[]{%
+  >{\raggedright\arraybackslash}p{1cm}%
+  >{\raggedright\arraybackslash}p{1.5cm}%
+  >{\raggedright\arraybackslash}p{1cm}%
+  >{\raggedright\arraybackslash}p{1cm}%
+  >{\raggedright\arraybackslash}p{4.5cm}}
+\textbf{Ročník} & \textbf{Rok} & \textbf{Celkem závodníků} & \textbf{Vítězný čas} & \textbf{Absolutní vítěz (napříč kategoriemi)} \\
+\hline \endhead
+0. & 2000 & 43 & 42,5 & Lukáš Pazdera – dorostenec \\
+1. & 2001 & 59 & 40,2 & Jan Kaše – muž \\
+2. & 2002 & 67 & 40,9 & Jan Kaše – muž \\
+3. & 2003 & 109 & 41,1 & Jan Kaše – muž \\
+4. & 2004 & 59 & 43,2 & Jan Hudský – muž \\
+5. & 2005 & 122 & 40,4 & Jan Hudský – muž \\
+6. & 2006 & 154 & 37,5 & Robert Čepek – muž \\
+7. & 2007 & 156 & 38,7 & Jan Hudský – muž \\
+8. & 2008 & 180 & 39 & František Juhász – muž \\
+9. & 2009 & 166 & 38,8 & Jakub Kudroň – muž \\
+10. & 2010 & 171 & 39 & Jakub Kudroň – muž \\
+11. & 2011 & 144 & 38,9 & Jan Hudský – muž \\
+12. & 2012 & 160 & 38,6 & Vladimír Parásek – muž \\
+13. & 2013 & 120 & 39,8 & Jan Hudský – muž \\
+14. & 2014 & 181 & 40 & Jan Hudský – muž \\
+15. & 2015 & 159 & 42 & Martin Kubů – muž \\
+16. & 2016 & 162 & 37,3 & Tomáš Nushart – muž \\
+17. & 2017 & 116 & 38,2 & Ondřej Fojtík – muž \\
+18. & 2018 & 155 & 38,8 & Dan Unzeitig – muž \\
+19. & 2019 & 175 & 36,4 & Tomáš Nushart – muž \\
+20. & 2020 & 194 & 36,6 & Vojtěch Paleta – dorostenec \\
+21. & 2021 & 200 & 36,3 & Ondřej Paleta – muž \\
+22. & 2022 & 180 & 38,8 & Vojtěch Paleta – muž \\
+23. & 2023 & 204 & 38,6 & Vojtěch Paleta – muž \\
+24. & 2024 & 179 & 38,7 & Vojtěch Paleta – muž \\
+\end{longtable}
 
 % zadní obálka
 \clearpage
