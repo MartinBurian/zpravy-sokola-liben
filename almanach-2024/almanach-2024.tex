@@ -1,4 +1,4 @@
-\documentclass[a5paper, 12pt, twoside]{article}
+\documentclass[a5paper, 11pt, twoside]{article}
 
 % \usepackage[a5paper,left=2cm,right=1cm,top=1cm, bottom=1.5cm]{geometry}
 \usepackage{array}
@@ -31,9 +31,12 @@
 
 
 \usepackage[dvipsnames]{xcolor}
-\definecolor{sokolred}{RGB}{228, 5, 33}
-\definecolor{sokoldarkred}{RGB}{200, 0, 30}
-\definecolor{sokolblue}{RGB}{45, 46, 135}
+% \definecolor{sokolred}{RGB}{228, 5, 33}
+% \definecolor{sokoldarkred}{RGB}{200, 0, 30}
+% \definecolor{sokolblue}{RGB}{45, 46, 135}
+\definecolor{sokolred}{cmyk}{0, 95, 85, 0}
+\definecolor{sokoldarkred}{cmyk}{0, 100, 85, 12}
+\definecolor{sokolblue}{cmyk}{100, 98, 0, 0}
 
 \usepackage{tikz}
 \usetikzlibrary{calc}
@@ -125,7 +128,7 @@
 
   \vspace*{\fill}
 
-  %  \includegraphics*[width=0.9\textwidth]{./Sokolovna-kresba-white.png}
+    \includegraphics*[width=0.9\textwidth]{./Sokolovna-kresba-white.png}
 
   \vspace*{\fill}
 
@@ -153,7 +156,7 @@
 
   \vspace*{\fill}
 
-  %  \includegraphics*[width=0.9\textwidth]{./Sokolovna-kresba-black.png}
+    \includegraphics*[width=0.9\textwidth]{./Sokolovna-kresba-black.png}
 
   \vspace*{\fill}
 
@@ -189,7 +192,7 @@ ISBN 978-80-11-05742-8
 
 \tableofcontents
 
-\clearpage
+\cleardoublepage
 
 % \mainmatter
 
@@ -200,11 +203,33 @@ ISBN 978-80-11-05742-8
 
 Sestry a bratři, dámy a pánové, ctění čtenáři,
 
-\noindent již 140 let je tělocvičná jednota Sokol v~Libni místním hybatelem sportovního i společenského života. V~duchu myšlenek dr. Miroslava Tyrše a Jindřicha Fügnera, zakladatelů Sokola, se snažíme přibližovat naše členy antickému ideálu kalokagathie, tedy dokonalosti ducha i těla. Sokol je vnímán především jako sportovní organizace, přinášel a přináší sport pro každého, bez rozdílu věku a příjmu. Rozvíjí tělesnou zdatnost svých členů i ostatních. Ale Sokol je a byl také vlastenecký v~nejlepším slova smyslu. Své členy vede k~lásce k~rodné zemi a k~úctě k~duchovnímu dědictví našeho národa. Sehrál klíčovou roli při vzniku československých legií a ustavení naší novodobé státnosti. Stejně tak vždy byl a dnes je i hybatelem kulturních aktivit. V~neposlední řadě spojoval a spojuje členky a členy rozdílných společenských postavení, profesí, politických přesvědčení a životních zkušeností při společné aktivitě. Jsem přesvědčen, že to je klíčová úloha Sokola v~dnešních dnech, kdy mnozí společnost aktivně rozdělují a straší pro své partikulární zájmy, než aby ji spojovali a postavili se skutečným výzvám naší doby. 
+\noindent již 140 let je tělocvičná jednota Sokol v Libni místním hybatelem
+sportovního i společenského života. V duchu myšlenek Dr. Miroslava Tyrše
+a Jindřicha Fügnera, zakladatelů Sokola, se snažíme přibližovat naše
+členy antickému ideálu kalokagathie, tedy dokonalosti ducha i těla.
+Sokol je vnímán především jako sportovní organizace, přinášel a přináší
+sport pro každého, bez rozdílu věku a příjmu. Rozvíjí tělesnou zdatnost
+svých členů i ostatních. Ale Sokol je a byl také vlastenecký v nejlepším
+slova smyslu. Své členy vede k lásce k rodné zemi a k úctě k duchovnímu
+dědictví našeho národa. Sehrál klíčovou roli při vzniku československých
+legií a ustavení naší novodobé státnosti. Stejně tak vždy byl a dnes je
+i hybatelem kulturních aktivit. V neposlední řadě spojoval a spojuje
+členky a členy rozdílných společenských postavení, profesí, politických
+přesvědčení a životních zkušeností při společné aktivitě. Jsem
+přesvědčen, že to je klíčová úloha Sokola v dnešních dnech, kdy mnozí
+společnost aktivně rozdělují a straší pro své partikulární zájmy, než
+aby ji spojovali a postavili se skutečným výzvám naší doby.
 
-U~příležitosti 140. výročí naší jednoty jsme se rozhodli vydat doplněný almanach mapující historii jednoty od jejího založení do současnosti. Almanach téměř beze změn přejímá texty z~vydání u~příležitosti 120. výročí založení jednoty (2004) a doplňuje je o~shrnutí posledních 20 let s~ambicí být i historickým pramenem pro budoucnost. 
+U příležitosti 140. výročí naší jednoty jsme se rozhodli vydat doplněný
+almanach mapující historii jednoty od jejího založení do současnosti.
+Almanach téměř beze změn přejímá texty z vydání u příležitosti 120.
+výročí založení jednoty (2004) a doplňuje je o shrnutí posledních 20 let
+s ambicí být i historickým pramenem pro budoucnost.
 
-Jelikož almanach je souborem příspěvků různých pamětníků, některé události jsou zmíněny na více místech, vždy v~kontextu daného příspěvku a nikoliv přísně chronologicky. Jsem nicméně přesvědčen, že tato vyprávěcí forma bude pro čtenáře příjemnější než encyklopedická. 
+Jelikož almanach je souborem příspěvků různých pamětníků, některé
+události jsou zmíněny na více místech, vždy v kontextu daného příspěvku
+a nikoliv přísně chronologicky. Jsem nicméně přesvědčen, že tato
+vyprávěcí forma bude pro čtenáře příjemnější než encyklopedická.
 
 \vspace{\baselineskip}
 \hfill\textit{Jan Přech}
@@ -215,17 +240,44 @@ Jelikož almanach je souborem příspěvků různých pamětníků, některé ud
 
 \section{Úvodní slovo starosty br. Jiřího Sixty ke 120.~výročí založení jednoty}
 
-V~roce 2004 si připomínáme 120. výročí založení Tělocvičné jednoty "Sokol" v~Praze-Libni, která byla obnovena po době, kdy nebylo možné se veřejně hlásit k~sokolským ideálům.
+V roce 2004 si připomínáme 120. výročí založení Tělocvičné jednoty
+„Sokol`` v Praze-Libni, která byla obnovena po době, kdy nebylo možné se
+veřejně hlásit k sokolským ideálům.
 
-Ku příležitosti tohoto významného výročí jsme se rozhodli nejen uspořádat slavnostní Akademii a výstavu, ale vydat také Almanach, který bude mapovat vývoj činnosti v~naší jednotě od založení až po současnost. Výsledek našeho snažení držíte právě v~rukou.
+Ku příležitosti tohoto významného výročí jsme se rozhodli nejen
+uspořádat slavnostní Akademii a výstavu, ale vydat také Almanach, který
+bude mapovat vývoj činnosti v naší jednotě od založení až po současnost.
+Výsledek našeho snažení držíte právě v rukou.
 
-Velkou zásluhu na znovuobnovení sokolské činnosti v~roce 1990 mají kromě jiných, pamětníci slavné sokolské éry, kteří svými zkušenostmi v~sokolském hnutí a s~obětavým osobním nasazením, započali novou etapu sokolských aktivit v~Libni až do současnosti. Také díky nim byla naše jednota opět zaregistrována 16. července 1990 pod názvem Tělocvičná jednota Sokol Libeň. V~roce 1991 se rozbíhají v~navrácené sokolovně aktivity v~sokolské všestrannosti, sportovních a turistických oddílech a společenských akcích vzdělavatelského sboru. Rychle se rozrůstá členská základna. Velké množství cvičenců a dobrovolných pořadatelů z~libeňské jednoty se podílelo na zdárném průběhu XII. všesokolského sletu 1994 a XIII. všesokolského sletu 2000. Již brzy se rozběhnou přípravy na XIV. všesokolský slet v~roce 2006, do kterého se i naše jednota hodlá aktivně zapojit.
+Velkou zásluhu na znovuobnovení sokolské činnosti v roce 1990 mají kromě
+jiných, pamětníci slavné sokolské éry, kteří svými zkušenostmi v
+sokolském hnutí a s obětavým osobním nasazením, započali novou etapu
+sokolských aktivit v Libni až do současnosti. Také díky nim byla naše
+jednota opět zaregistrována 16. července 1990 pod názvem Tělocvičná
+jednota Sokol Libeň. V roce 1991 se rozbíhají v navrácené sokolovně
+aktivity v sokolské všestrannosti, sportovních a turistických oddílech a
+společenských akcích vzdělavatelského sboru. Rychle se rozrůstá členská
+základna. Velké množství cvičenců a dobrovolných pořadatelů z libeňské
+jednoty se podílelo na zdárném průběhu XII. všesokolského sletu 1994 a
+XIII. všesokolského sletu 2000. Již brzy se rozběhnou přípravy na XIV.
+všesokolský slet v roce 2006, do kterého se i naše jednota hodlá aktivně
+zapojit.
 
-Budovu sokolovny, která se nacházela v~době převzetí ve špatném technickém stavu, bylo nutné začít postupně v~závislosti na finančních prostředcích uvádět do provozuschopného stavu. Po rekonstrukci fasády a střechy v~roce 2002 se libeňská sokolovna opět stala jednou z~dominant centrální části Libně. Dokončení rekonstrukce sokolovny, která byla v~roce 2001 prohlášena za kulturní památku, bude stát ještě nemálo úsilí a finančních prostředků.
+Budovu sokolovny, která se nacházela v době převzetí ve špatném
+technickém stavu, bylo nutné začít postupně v závislosti na finančních
+prostředcích uvádět do provozuschopného stavu. Po rekonstrukci fasády a
+střechy v roce 2002 se libeňská sokolovna opět stala jednou z dominant
+centrální části Libně. Dokončení rekonstrukce sokolovny, která byla v
+roce 2001 prohlášena za kulturní památku, bude stát ještě nemálo úsilí a
+finančních prostředků.
 
-V~současné době je naším prvořadým úkolem práce s~nastupující mladou generací. I~v~dnešní uspěchané době je třeba dbát o~její všestranný tělesný i duševní rozvoj. Díky obětavosti mnoha cvičitelů a činovníků bude proto náš libeňský Sokol i nadále vzkvétat.
+V současné době je naším prvořadým úkolem práce s nastupující mladou
+generací. I v dnešní uspěchané době je třeba dbát o její všestranný
+tělesný i duševní rozvoj. Díky obětavosti mnoha cvičitelů a činovníků
+bude proto náš libeňský Sokol i nadále vzkvétat.
 
-Přeji naší jednotě k~jejímu 120. výročí mnoho zdaru a úspěchu do dalších let, obětavé cvičitele a činovníky a mnoho spokojených členů.
+Přeji naší jednotě k jejímu 120. výročí mnoho zdaru a úspěchu do dalších
+let, obětavé cvičitele a činovníky a mnoho spokojených členů.
 
 \clearpage
 
@@ -239,7 +291,11 @@ Přeji naší jednotě k~jejímu 120. výročí mnoho zdaru a úspěchu do dalš
 \begin{center}
   \textit{"V pravdě stůj, vlast miluj, nechtěj porobu, služ vlasti, národu!"}
 \end{center}
-\noindent Slova chorálu v~závěru vystoupení mužského dorostu na VIII. sletu všesokolském v~roce 1926 byla již o~42 let dříve vůdčím heslem několika pokrokových a vlasteneckých občanů, jež osud zavál do tehdejší vesnice Libně, v~okresu karlínském, aby tu byli šiřiteli národní osvěty. Buďte zde pro trvalou a oživovanou paměť zachována jejich jména:
+\noindent Slova chorálu v závěru vystoupení mužského dorostu na VIII. sletu
+všesokolském v roce 1926 byla již o 42 let dříve vůdčím heslem několika
+pokrokových a vlasteneckých občanů, jež osud zavál do tehdejší vesnice
+Libně, v okresu karlínském, aby tu byli šiřiteli národní osvěty. Buďte
+zde pro trvalou a oživovanou paměť zachována jejich jména:
 
 \textbf{Ladislav Verner}, nar. 7. 1. 1856 v~Byháni, učitel obecné školy chlapecké od 21. 4. 1882.
 
@@ -249,13 +305,16 @@ Přeji naší jednotě k~jejímu 120. výročí mnoho zdaru a úspěchu do dalš
 
 \textbf{Václav Kalaš}, provizorní podučitel od 2. 11. 1882, odešel do Prahy 9. 12. 1885.
 
-Tito čtyři mladí učitelští mládenci (z~nichž Jaroslav Pechan již od roku 1880 je členem-stipendistou Sokola Pražského a tedy pod přímým vlivem Dr. Miroslava Tyrše i jako cvičitel jeho Tělocvičného ústavu pro hochy), našli ubytování ve třech místnostech v~tzv. staré faře Dr. Košáka.
+Tito čtyři mladí učitelští mládenci (z nichž Jaroslav Pechan již od roku
+1880 je členem-stipendistou Sokola Pražského, a tedy pod přímým vlivem
+Dr. Miroslava Tyrše i jako cvičitel jeho Tělocvičného ústavu pro hochy)
+našli ubytování ve třech místnostech v tzv. staré faře Dr. Košáka.
 
 \begin{figure*}[h]
   \centering
   \begin{subfigure}{0.45\textwidth}
   %  \includegraphics[width=\textwidth]{img/pechan.jpg}
-  \caption*{br. Jaroslav Pechan, zakládající člen jednoty, foto: archiv T.~J. Sokol Libeň}
+  \caption*{Br. Jaroslav Pechan, zakládající člen jednoty, foto: archiv T.~J. Sokol Libeň}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.45\textwidth}
@@ -264,9 +323,11 @@ Tito čtyři mladí učitelští mládenci (z~nichž Jaroslav Pechan již od rok
   \end{subfigure}
 \end{figure*}
 
-I~u~nás, v~chudém dělnickém prostředí, byla již tehdy německá škola (vliv německých továrních firem) a na dveřích obecního úřadu cedule: "Mluvte česky! Kdo se za svůj jazyk stydí, hoden potupy všech lidí!", kterou tam vyvěsil tajemník obecního úřadu JUC. Václav Klazar, rovněž činný člen Sokola Pražského (od roku 1879). Není tedy divu, že tito mladí idealisté – a mohl mladý učitel na venkovské škole nebýt idealistou? – si uvědomili nejen velký význam a vliv Tyršových myšlenek, ale i svou učitelskou odpovědnost.
+I~u~nás, v~chudém dělnickém prostředí, byla již tehdy německá škola (vliv německých továrních firem) a na dveřích obecního úřadu cedule: "Mluvte česky! Kdo se za svůj jazyk stydí, hoden potupy všech lidí!", kterou tam vyvěsil tajemník obecního úřadu JUC. Václav Klazar, rovněž činný člen Sokola Pražského (od roku 1879). Není tedy divu, že tito mladí idealisté --⁠⁠⁠⁠⁠⁠ a mohl mladý učitel na venkovské škole nebýt
+idealistou? --⁠⁠⁠⁠⁠⁠ si uvědomili nejen velký význam a vliv Tyršových
+myšlenek, ale i svou učitelskou odpovědnost.
 
-Bylo tehdy v~Čechách a na Moravě po l. všesokolském sletu (1882) již 104 sokolských jednot a v~blízkosti Libně sedm: V~Praze (zal. 1862), V~Karlíně (1867), na Smíchově (1868), ve Vršovicích (1870), v~Záběhlicích (1870), v~Braníku (1871) a na Žižkově (1872), nehledě k~sedmi jednotám v~ostatní Evropě a dvaceti v~USA. Snadné se dohodnout -- nesnadné provést, zvláště v~takovém malém i společensky nevýhodném prostředí. Ale i tady se cesta našla. Dne 8. září 1884 byla uspořádána v~tehdejším hostinci "U Deutschů" přednáška náměstka náčelníka Sokola Pražského Dr. Františka Čížka o~úkolech a cílech sokolského hnutí. Zúčastnilo se jí kupodivu 118 osob. Řídil ji Tomáš Ronek.
+Bylo tehdy v~Čechách a na Moravě po l. všesokolském sletu (1882) již 104 sokolských jednot a v~blízkosti Libně sedm: v~Praze (zal. 1862), v~Karlíně (1867), na Smíchově (1868), ve Vršovicích (1870), v~Záběhlicích (1870), v~Braníku (1871) a na Žižkově (1872), nehledě k~sedmi jednotám v~ostatní Evropě a dvaceti v~USA. Snadné se dohodnout -- nesnadné provést, zvláště v~takovém malém i společensky nevýhodném prostředí. Ale i tady se cesta našla. Dne 8. září 1884 byla uspořádána v~tehdejším hostinci "U Deutschů" přednáška náměstka náčelníka Sokola Pražského Dr. Františka Čížka o~úkolech a cílech sokolského hnutí. Zúčastnilo se jí kupodivu 118 osob. Řídil ji Tomáš Ronek.
 
 
 \begin{figure*}[h]
@@ -286,15 +347,15 @@ K~vlastnímu založení T.~J. Sokol v~Libni došlo pak v~ustavující valné hro
 
 Cvičit se počalo velmi brzy; již 20. ledna 1885. Cvičilo se první tři léta v~hostinci u~Deutschů, později se souhlasem místní školní rady ve škole a pro letní cvičení byl získán roku 1887 od obce pozemek ve výměře 200 čtverečních sáhů po 10 haléřích, jenž byl později vyměněn za jiný, o~40 sáhů větší (1 čtvereční sáh = 3,6\,$\textrm{m}^2$).
 
-Duší tělocvičné činnosti byl od počátku bratr Jaroslav Pechan, později středoškolský profesor tělocviku, horlivý propagátor tělesné výchovy školní i sokolské. Podlehl posléze dlouholeté chorobě, jež přerušovala jeho nadějnou činnost. Byl autorem "Osnov k~vyučování tělocviku na školách středních, díl I." (r. 1905) a "Tělocviku pro obecné školy chlapecké na základě soustavy Miroslava Tyrše, díl I." (r. 1888). O~Pechanových vlastnostech a zásluhách můžeme číst v~"Památníku 25 letého trvání T.~J.  Sokol v~Praze-Libni 1884–⁠⁠⁠⁠⁠⁠1909" z~pera Františka Glimana a Památníku z~roku 1934 z~pera Ladislava Vernera, dvou jeho současníků a spolupracovníků. Pozdější místonáčelník jednoty, všestranný umělec, český básník, autor "Sokolských sonetů" a odborný sokolský tělocvičný spisovatel Karel Hlaváček (1874–1898) o~něm napsal: "Na prvním místě bije do očí jeho neúnavná činnost, která vrcholí ve dnech župního sletu roku 1886, kdy bydlil dávno již na místě vzdáleném a přece svou pevnou rukou ovládal a řídil přípravné kroky. Byl vychovatelem sokolských  charakterů.  Chválím si bratra Pechana jako bystrovtipného organizátora, jenž řady všech odborů upevnil tuhou kázní řádů zocelil a utužil. Bude vždy mezi předními, jež slaviti a vzpomínati budeme jako muže o~jednotu zasloužilé." Roku 1889 tento v~tělocviku odborně kovaný J. Pechan je již náčelníkem Sokola Vinohradského. Jeho duch v~cvičitelském sboru opravdu na dlouho přetrval jeho odchod. Zemřel 14. 6. 1915 v~Praze a pohřben byl na Vinohradském hřbitově.
+Duší tělocvičné činnosti byl od počátku bratr Jaroslav Pechan, později středoškolský profesor tělocviku, horlivý propagátor tělesné výchovy školní i sokolské. Podlehl posléze dlouholeté chorobě, jež přerušovala jeho nadějnou činnost. Byl autorem "Osnov k~vyučování tělocviku na školách středních, díl I." (r. 1905) a "Tělocviku pro obecné školy chlapecké na základě soustavy Miroslava Tyrše, díl I." (r. 1888). O~Pechanových vlastnostech a zásluhách můžeme číst v~"Památníku 25letého trvání T.~J.  Sokol v~Praze-Libni 1884–⁠⁠⁠⁠⁠⁠1909" z~pera Františka Glimana a Památníku z~roku 1934 z~pera Ladislava Vernera, dvou jeho současníků a spolupracovníků. Pozdější místonáčelník jednoty, všestranný umělec, český básník, autor "Sokolských sonetů" a odborný sokolský tělocvičný spisovatel Karel Hlaváček (1874–1898) o~něm napsal: "Na prvním místě bije do očí jeho neúnavná činnost, která vrcholí ve dnech župního sletu roku 1886, kdy bydlil dávno již na místě vzdáleném a přece svou pevnou rukou ovládal a řídil přípravné kroky. Byl vychovatelem sokolských  charakterů.  Chválím si bratra Pechana jako bystrovtipného organizátora, jenž řady všech odborů upevnil tuhou kázní řádů zocelil a utužil. Bude vždy mezi předními, jež slaviti a vzpomínati budeme jako muže o~jednotu zasloužilé." Roku 1889 tento v~tělocviku odborně kovaný J. Pechan je již náčelníkem Sokola Vinohradského. Jeho duch v~cvičitelském sboru opravdu na dlouho přetrval jeho odchod. Zemřel 14. 6. 1915 v~Praze a pohřben byl na Vinohradském hřbitově.
 
 \begin{figure*}[h!]
   \centering
   %  \includegraphics[width=0.9\textwidth]{img/zakladajici_clenove_1886.jpg}
-  \caption*{Členové jednoty v~roce 1886, uprostřed s~plnovousem JUC. Václav Klazar, t.č. náčelník a ve druhé řadě druhý z~prava starosta Josef Voctář; foto: archiv T.~J. Sokol Libeň}
+  \caption*{Členové jednoty v~roce 1886, uprostřed s~plnovousem JUC. Václav Klazar, t. č. náčelník, a ve druhé řadě druhý zprava starosta Josef Voctář; foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
-Vedle pravidelného cvičení od počátku byl pěstován i život společenský. Téměř pravidelně byly pořádány tradiční sokolské "Šibřinky" u~Deutschů, nebo v~pivovarnickém sále (v~některých letech nahrazeny subskripcí rozmnožující finanční prostředky jednoty), čajové večírky, z~nichž jeden navštívil sám Mikoláš Aleš. Pěstovány byly též přátelské styky s~jinými jednotami (společný výlet do Kunratic se Sokolem Pražským roku 1886). Členové se navštěvovali v~jednotách, účastnili se pohřbů známých a zasloužilých osob (např. Dr. Ed. Grégra, přenesení ostatků P. J. Šafaříka, Jana Kollára apod.). Do pravidelné činnosti jednoty patřily každý rok četné výlety, krátké, delší, denní i noční. Bývaly spojeny příznačně pro tu dobu s~různými slavnostmi, veřejným cvičením a pod., jako akce národně vlastenecké a společenské zároveň utužující vzájemnou, tehdy tak potřebnou, pospolitost vskutku bratrského ducha a posilující i tělesně. Účastnil se jich také někdy trubačský sbor jednoty založený již roku 1886. Tento trubačský sbor sdílel za sbormistrů Arona, Šerkse a Šillera téměř deset let osudy jednoty na nestálé a kolísavé vlně práce, úspěchů a přízně i horlivosti členů. Již roku 1887 si stěžuje kronikář, že vojenské odvody jeho řady prosívají na čtvrtinu. Nakonec se sbor v~roce 1895 rozešel. Roku 1904 byl sice na čas vzkříšen, ale skutečné obnovy se dočkal až v~roce 1910.
+Vedle pravidelného cvičení od počátku byl pěstován i život společenský. Téměř pravidelně byly pořádány tradiční sokolské šibřinky u~Deutschů, nebo v~pivovarnickém sále (v~některých letech nahrazeny subskripcí rozmnožující finanční prostředky jednoty), čajové večírky, z~nichž jeden navštívil sám Mikoláš Aleš. Pěstovány byly též přátelské styky s~jinými jednotami (společný výlet do Kunratic se Sokolem Pražským roku 1886). Členové se navštěvovali v~jednotách, účastnili se pohřbů známých a zasloužilých osob (např. Dr. Ed. Grégra, přenesení ostatků P. J. Šafaříka, Jana Kollára apod.). Do pravidelné činnosti jednoty patřily každý rok četné výlety, krátké, delší, denní i noční. Bývaly spojeny příznačně pro tu dobu s~různými slavnostmi, veřejným cvičením apod. jako akce národně vlastenecké a společenské zároveň utužující vzájemnou, tehdy tak potřebnou, pospolitost vskutku bratrského ducha a posilující i tělesně. Účastnil se jich také někdy trubačský sbor jednoty založený již roku 1886. Tento trubačský sbor sdílel za sbormistrů Arona, Šerkse a Šillera téměř deset let osudy jednoty na nestálé a kolísavé vlně práce, úspěchů a přízně i horlivosti členů. Již roku 1887 si stěžuje kronikář, že vojenské odvody jeho řady prosívají na čtvrtinu. Nakonec se sbor v~roce 1895 rozešel. Roku 1904 byl sice na čas vzkříšen, ale skutečné obnovy se dočkal až v~roce 1910.
 
 \begin{figure*}[h!]
   \centering
@@ -306,16 +367,16 @@ Vedle pravidelného cvičení od počátku byl pěstován i život společenský
 
 Již od vzniku jednoty byly pěstovány přátelské styky také s~rozličnými libeňskými spolky a organizacemi: spolkem "Osvěta-Omladina", s~"Věnceslavem", který vystupoval často i na podnicích jednoty i při zájezdech, "Ústřední maticí školskou" aj. Byla to vůbec doba všestranné nadšené veřejné práce, jež dovedla roku 1889 tři sokolská závodní družstva s~JUDr. Janem Podlipným, přes výslovný osobní zákaz samého c. k. místodržitele, do Paříže pro první tři ceny v~mezinárodních závodech družstev v~tělocviku. V~prvním družstvu byl také spoluzakladatel libeňského Sokola Jaroslav Pechan.
 
-Cvičilo se, někdy s~obtížemi, u~Deutschů, pak v~libeňských školách, když došlo k~neshodám s~hostinským. Cvičilo se i na prostorách kolem sokolovny (po jejím postavení, dnes zahrádka a garáže; \pozned{dnešní dvůr a zahrada sokolovny, pozn. ed.}), nebo na letním cvičišti za "starou hospodou" (1900). Nebyly vždy radostné chvíle také při úvahách, kde cvičit – ale vždy uspěl lidský rozum a pocit odpovědnosti. 
+Cvičilo se, někdy s~obtížemi, u~Deutschů, pak v~libeňských školách, když došlo k~neshodám s~hostinským. Cvičilo se i na prostorách kolem sokolovny (po jejím postavení, dnes zahrádka a garáže; \pozned{dnešní dvůr a zahrada sokolovny, pozn. ed.}) nebo na letním cvičišti za "starou hospodou" (1900). Nebyly vždy radostné chvíle také při úvahách, kde cvičit – ale vždy uspěl lidský rozum a pocit odpovědnosti. 
 
 Po organizační stránce měla jednota v~župní organizaci (župní zřízení zavedeno v~Sokole právě roce 1884) své místo v~župě Středočeské a teprve po ustavení České obce sokolské (1889), jejímž prvním starostou byl právě u~nás v~Libni dobře známý JUDr. Jan Podlipný (starosta města Prahy, první starosta Všeslovanského sokolstva), byla přeřazena do župy Barákovy \pozned{(dnes je naše jednota opět součástí župy středočeské J. Podlipného, pozn. ed.)}. V~jejím vedení se vždy dobře uplatňovala. Cvičitelské kurzy pro cvičitele všech složek jednoty, konané v~rámci župy a jednoty, přispívaly k~potřebné odborné úrovni vší práce v~jednotě.
 
-Roku 1896 upravena v~sokolstvu péče o~jednoty v~menšinách, založen základ (fond) pro stavbu menšinových sokoloven a určeny vznikajícím a malým jednotám ve zněmčeném pohraničí tzv. ochranitelky. Byla to nutná pomoc těžce ale odvážně zakládaným jednotám. Sokolské jednotě v~Libni také přidělena "chráněnka" – jednota v~hornických Kopistech u~Mostu, kde snad nebylo ani 200 domů a necelých 2000 obyvatel, jen z~poloviny Čechů. Osada ta patřila mezi nejstarší a nejdůležitější v~celém kraji. Zanikla roku 1979, kdy musela ustoupit uhelným dolům. Jednotu v~Kopistech libeňští pravidelně podporovali, každého jejího podniku se zúčastnili a v~letech 1899 a 1904 k~ní uspořádali hromadné výlety. Roku 1906, kdy se v~Kopistech konal slet župy Krušnohorské, se z~Libně zúčastnilo 35 mužů a 6 žen, v~čele se starostou F. Filipem.
+Roku 1896 upravena v~sokolstvu péče o~jednoty v~menšinách, založen základ (fond) pro stavbu menšinových sokoloven a určeny vznikajícím a malým jednotám ve zněmčeném pohraničí tzv. ochranitelky. Byla to nutná pomoc těžce, ale odvážně zakládaným jednotám. Sokolské jednotě v~Libni také přidělena "chráněnka" – jednota v~hornických Kopistech u~Mostu, kde snad nebylo ani 200 domů a necelých 2000 obyvatel, jen z~poloviny Čechů. Osada ta patřila mezi nejstarší a nejdůležitější v~celém kraji. Zanikla roku 1979, kdy musela ustoupit uhelným dolům. Jednotu v~Kopistech libeňští pravidelně podporovali, každého jejího podniku se zúčastnili a v~letech 1899 a 1904 k~ní uspořádali hromadné výlety. Roku 1906, kdy se v~Kopistech konal slet župy Krušnohorské, se z~Libně zúčastnilo 35 mužů a 6 žen, v~čele se starostou F. Filipem.
 
 \begin{figure*}[h!]
   \centering
   %  \includegraphics[width=0.4\textwidth]{img/filip_starosta.jpg}
-  \caption*{br. František Filip, třetí starosta jednoty (1900–⁠⁠⁠⁠⁠⁠1920); jeho zásluhou byla postavena sokolovna, foto: archiv T.~J. Sokol Libeň}
+  \caption*{Br. František Filip, třetí starosta jednoty (1900–⁠⁠⁠⁠⁠⁠1920); jeho zásluhou byla postavena sokolovna, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \subsection{První cvičení u~Deutschů}
@@ -333,15 +394,41 @@ V~krátkém mezidobí sletovém (4 roky) se konal znamenitý slet v~Českých Bu
 
 %TODO pozvánka
 
-\textbf{III. všesokolský slet (1895)} se konal na Letenské pláni, u~příležitosti Národopisné výstavy lidu československého. O~slet byl veliký zájem a tak již nemohlo stačit místo minulého sletu v~Královské oboře a našlo se lepší. Na Letné se upravil prostor pro 4 000 cvičenců a tribuny pro 11 000 diváků. Sokol Libeň poslal do sletového průvodu 57 mužů v~kroji a 10 krojovaných na koních. Cvičilo 28 mužů a také 28 dorostenců. Naše závodní družstvo získalo přes 71\,\% bodů, v~družstvu byl nejlepším br. Decastello (32,10 bodů ze 40). Oba slety (II. a III.) připravil a vedl náčelník Josef Svoboda a jeho náměstek Václav Steiner. V~mezisletovém období zorganizovala ČOS veliký zájezd na Moravu do Hodslavic a později i do dalších míst. V~Libni byl v~roce 1898 založen ženský odbor. Prvního cvičení se zúčastnilo 26 žen. První náčelnicí byla zvolena sestra Růžena Vocetková, jednatelkou Hana Němečková, provdaná Decastellová. V~roce 1901 již naše ženy cvičily na IV. sletu. Smutnou událostí toho roku bylo, že zemřel místonáčelník, básník a spisovatel Karel Hlaváček.
+\textbf{III. všesokolský slet (1895)} se konal na Letenské pláni, u~příležitosti Národopisné výstavy lidu československého. O~slet byl veliký zájem, a tak již nemohlo stačit místo minulého sletu v~Královské oboře a našlo se lepší. Na Letné se upravil prostor pro 4 000 cvičenců a tribuny pro 11 000 diváků. Sokol Libeň poslal do sletového průvodu 57 mužů v~kroji a 10 krojovaných na koních. Cvičilo 28 mužů a také 28 dorostenců. Naše závodní družstvo získalo přes 71\,\% bodů, v~družstvu byl nejlepším br. Decastello (32,10 bodů ze 40). Oba slety (II. a III.) připravil a vedl náčelník Josef Svoboda a jeho náměstek Václav Steiner. V~mezisletovém období zorganizovala ČOS veliký zájezd na Moravu do Hodslavic a později i do dalších míst. V~Libni byl v~roce 1898 založen ženský odbor. Prvního cvičení se zúčastnilo 26 žen. První náčelnicí byla zvolena sestra Růžena Vocetková, jednatelkou Hana Němečková, provdaná Decastellová. V~roce 1901 již naše ženy cvičily na IV. sletu. Smutnou událostí toho roku bylo, že zemřel místonáčelník, básník a spisovatel Karel Hlaváček.
 
 %TODO Hana Decastellová
 
-\textbf{IV. všesokolský slet (1901)} se opět konal na Letenské pláni. Před ním se v~Libni konal 2. 6. 1901 župní slet na Pánkově poli, tj.prostor mezi dnešní ulicí Novákových a Na žertvách. Cvičilo zde 37 družstev na různých nářadích, svážených dlouho do noci z~okolních jednot. Dorostenců bylo přes sto a cvičili v~jedenácti družstvech, z~Libně 25 dorostenců ve 3 družstvech a 15 žen ve 2 družstvech.
+\textbf{IV. všesokolský slet (1901)} se opět konal na Letenské pláni. Před ním se v~Libni konal 2. 6. 1901 župní slet na Pánkově poli, tj.prostor mezi dnešní ulicí Novákových a Na Žertvách. Cvičilo zde 37 družstev na různých nářadích, svážených dlouho do noci z~okolních jednot. Dorostenců bylo přes sto a cvičili v~jedenácti družstvech, z~Libně 25 dorostenců ve 3 družstvech a 15 žen ve 2 družstvech.
 
-%TODO spousta fotek
+%\includegraphics[width=6.26772in,height=4.52778in]{media/image76.jpg}
 
-\textbf{V. všesokolský slet (1907)} se konal potřetí na Letenské pláni, která byla znovu upravena a značně zvětšena, tribuny byly pro 55 000 diváků. Ve společných prostných vystoupilo 7 600 mužů. Byl to opravdu první "velký slet". V~Pamětní knize cvičitelského sboru Sokola Libeň je podepsáno pod hlavičkou V. sletu 44 mužských účastníků s~náčelníkem Fr. Kynčlem a mnoho žen s~náčelnicí Hanou Němečkovou. Vzrůstem počtu cvičících, mužů, žen, dorostu i žactva, se od tohoto sletu začala usilovně řešit otázka výstavby sokolovny. Největší zásluhu na tom má tehdejší starosta bratr František Filip. Byl starostou od roku 1900 a byl jím až do roku 1920. Dokázal i nemožné a tak už na oslavu dvacetipětiletého trvání jednoty byl položen 10. října 1909 základní kámen ke stavbě sokolovny. Je zazděn ve vestibulu vedle vrátnice \pozned{(a nese v~sobě dvojici časových schránek – z~roku 1909 a z~roku 2009, pozn. ed.)}. Za 10 měsíců byla stavba dokončena a 14. srpna 1910 otevřena.
+\emph{Veřejné cvičení v ulici Na Žertvách (1901; v pozadí železniční
+násep, na jehož místě nyní stojí mosty na Balabence), foto: archiv T. J.
+Sokol Libeň}
+
+% \includegraphics[width=6.26772in,height=4.41667in]{media/image62.jpg}
+
+\emph{Veřejné cvičení v dnešní Voctářově ulici (1901; v pozadí nádražní
+budova libeňského dolního nádraží a dodnes stojící dům na rohu
+Sokolovské a Zenklovy ulice), foto: archiv T. J. Sokol Libeň}
+
+% \includegraphics[width=6.26772in,height=3.98611in]{media/image68.jpg}
+
+\emph{Muži slet 1901, foto: archiv T. J. Sokol Libeň}
+
+% \includegraphics[width=6.26772in,height=4.33333in]{media/image40.jpg}
+
+\emph{Žákyně 1901, před vraty Libeňského zámku, foto: archiv T. J. Sokol
+Libeň}
+
+% \includegraphics[width=6.26772in,height=8.5in]{media/image20.jpg}
+
+\emph{Sokolský průvod na dnešní Zenklově ulici při ústí Světovy ulice
+(vlevo). Jednopatrový bílý dům vlevo je hostinec U Deutschů (okolo roku
+1900), foto: archiv T. J. Sokol Libeň}
+
+
+\textbf{V. všesokolský slet (1907)} se konal potřetí na Letenské pláni, která byla znovu upravena a značně zvětšena, tribuny byly pro 55 000 diváků. Ve společných prostných vystoupilo 7 600 mužů. Byl to opravdu první "velký slet". V~Pamětní knize cvičitelského sboru Sokola Libeň je podepsáno pod hlavičkou V. sletu 44 mužských účastníků s~náčelníkem Fr. Kynčlem a mnoho žen s~náčelnicí Hanou Němečkovou. Vzrůstem počtu cvičících, mužů, žen, dorostu i žactva, se od tohoto sletu začala usilovně řešit otázka výstavby sokolovny. Největší zásluhu na tom má tehdejší starosta bratr František Filip. Byl starostou od roku 1900 a byl jím až do roku 1920. Dokázal i nemožné, a tak už na oslavu dvacetipětiletého trvání jednoty byl položen 10. října 1909 základní kámen ke stavbě sokolovny. Je zazděn ve vestibulu vedle vrátnice \pozned{(a nese v~sobě dvojici časových schránek – z~roku 1909 a z~roku 2009, pozn. ed.)}. Za 10 měsíců byla stavba dokončena a 14. srpna 1910 otevřena.
 
 \subsection{Výstavba sokolovny}
 
@@ -3767,7 +3854,7 @@ sokolovny.
 
 \subsection{2004--2006}
 
-\textbf{br. Jan Přech}
+\textit{(br. Jan Přech)}
 
 Předchozí vydání almanachu se vztahovalo ke 120. výročí jednoty. U~příležitosti tohoto výročí byla zhotovena replika hlavního praporu naší
 jednoty, abychom jej mohli ukazovat na všech našich významných akcích.
@@ -5254,11 +5341,12 @@ Modrá: Kouzelník, Michal, Petr, Láďa, Honzík
 
 Žlutá: Martin, Marty, Jirkan, Dan, John
 
+\renewcommand{\arraystretch}{1.1}
 \begin{longtable}[]{%
+  >{\raggedright\arraybackslash}p{4cm}%
+  >{\raggedright\arraybackslash}p{1cm}%
   >{\raggedright\arraybackslash}p{2cm}%
-  >{\raggedright\arraybackslash}p{2cm}%
-  >{\raggedright\arraybackslash}p{2cm}%
-  >{\raggedright\arraybackslash}p{2cm}}
+  >{\raggedright\arraybackslash}p{3cm}}
 
  \textbf{Rok a název tábora}  &  \textbf{Počet PK + členů}  &  \textbf{Tábořiště}  &  \textbf{Táborová/celoroční hra}  \\
 \multicolumn{2}{>{\raggedright\arraybackslash}p{4cm}}{1981 Tábor kapitána Foxe (před založením JILMu) } &  Chřenovice  &  Kapitán Fox  \\
@@ -5721,7 +5809,7 @@ Oddíl Studánka ukončil svou činnost v~roce 2007, ale jeho vedoucí ani
 někteří členové z~jednoty a jejího okolí nezmizeli. Například současný
 náčelník br. Kubišta je odchovancem Studánky.
 
-Sportovní oddíly
+\section{Sportovní oddíly}
 
 T. J. Sokol Libeň je v~současnosti zaměřený především na sokolskou
 všestrannost. Ovšem najdou se zde i oddíly sportovní. Registrovanými
