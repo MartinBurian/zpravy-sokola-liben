@@ -221,6 +221,8 @@ INPUT /usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT ./almanach-2024.aux
 INPUT ./almanach-2024.aux
 INPUT almanach-2024.aux

@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1731420182.70136 "almanach-2024.xdv" "almanach-2024.pdf" "almanach-2024" 1731420189.99243 0
-  "almanach-2024.xdv" 1731420182.27583 3319624 19571ca6678ed58526b40ea25080803b "xelatex"
+["xdvipdfmx"] 1731449341.77993 "almanach-2024.xdv" "almanach-2024.pdf" "almanach-2024" 1731449342.51142 0
+  "almanach-2024.xdv" 1731449341.51684 3340748 9c14c6a024d81f5e7e5ac5999a5e30c3 "xelatex"
   (generated)
   "almanach-2024.pdf"
   (rewritten before read)
-["xelatex"] 1731420177.19494 "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" "almanach-2024.xdv" "almanach-2024" 1731420189.98297 0
-  "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" 1731420175.94575 381867 a1991113ffc6f4fddaee4ee504e87a15 ""
+["xelatex"] 1731449338.07597 "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" "almanach-2024.xdv" "almanach-2024" 1731449342.50541 0
+  "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" 1731449339.63686 382932 f701204e00c8c0de12f492c8e8fe43fe ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1727349926 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1727349926 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -130,6 +130,7 @@
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty" 1727349926 348 ee405e64380c11319f0e249fed57e6c5 ""
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1727349926 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1727349926 325 f9f16d12354225b7dd52a3321f085955 ""
+  "/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty" 1727349926 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "/usr/share/texmf-dist/tex/latex/tools/afterpage.sty" 1727349926 4085 b09ffbe3858cbb65749bb88cc092d0fc ""
   "/usr/share/texmf-dist/tex/latex/tools/array.sty" 1727349926 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "/usr/share/texmf-dist/tex/latex/tools/longtable.sty" 1727349926 12935 94a3291359b5f73ff1b19345a6983105 ""
@@ -142,9 +143,9 @@
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1727879902 9605417 cd32a0aed77b86b8cc4eecb3d24f00d0 ""
   "Sokolovna-kresba-black.png" 1730645334.62828 103524 0464b2d1b3c11920feb6f2fc3bf77850 ""
   "Sokolovna-kresba-white.png" 1730645316.58804 97852 e5369bbc7e6daf6ab2ee7bd04f1fbb5c ""
-  "almanach-2024.aux" 1731420182.2725 11288 c2844e29040434bb3aeabdf205d974db "xelatex"
-  "almanach-2024.tex" 1731420175.94575 381867 a1991113ffc6f4fddaee4ee504e87a15 ""
-  "almanach-2024.toc" 1731420182.27583 5839 1f1acf3d652f2ae093af7b3e84c4eedd "xelatex"
+  "almanach-2024.aux" 1731449341.51351 10774 95953466e58993704726556e0ce95d3f "xelatex"
+  "almanach-2024.tex" 1731449339.63686 382932 f701204e00c8c0de12f492c8e8fe43fe ""
+  "almanach-2024.toc" 1731449341.51684 5538 8c981c5b1ffcd7817ed9fd8a358ae769 "xelatex"
   "img/01_pechan.jpg" 1730924894.24366 317512 f6715a4f5dc9b5db9a360a19416ddc8e ""
   "img/02_klazar.jpg" 1730925195.27985 616994 1e54446e0b5e3cc9cd5a9d5d3410f855 ""
   "img/03_cizek.jpg" 1730926466.76467 1696071 83292d3360b6045f762acf5c1509826b ""
@@ -191,7 +192,7 @@
   "img/45_sibrinky.JPG" 1519522000 2220338 376430f4d040fdc8e249182fdeac31a5 ""
   "img/46_sokolovna.jpg" 1730382559 444478 9929bb4690489f7768e9db8d83e19a6d ""
   "img/47_povodne.jpg" 1730382531 612281 59e284ff9f3795c03367e916bf7343a5 ""
-  "img/48_cvicitele.JPG" 1245946024 1924542 269801ba1f48d22a93040f7bf23798bd ""
+  "img/48_cvicitele.JPG" 1731445125.06783 1609674 6e2a3bc03c64f0ec519a8511c0ea615f ""
   "img/49_debrifink.JPG" 1731412223.44174 1754811 a3780bb6b5862653c7c043ba5bd4bbec ""
   "img/50_manka.jpg" 1214497930 465994 2b0a21a0ff2393de98eb754fecb66b20 ""
   "img/51_stafeta.jpg" 1731024089 173526 1f102cacff2ca17916085b3b43972d33 ""
@@ -210,7 +211,7 @@
   "img/64_siluety.JPG" 1730844088 2155352 fbf7ba722ef13e9861321dbe37084242 ""
   "img/65_zenobrani.JPG" 1730844061 2313779 f9ff0f587ee0ac3732c66fb5c7718c4b ""
   "img/66_odhodlani.jpg" 1652788996 905458 dc77ebc951f751752c9b004382f31b59 ""
-  "img/67_zzz.JPG" 1686753944 6145024 88393db8c2404b49a22d6b00ba68b913 ""
+  "img/67_zzz.JPG" 1731446658.11309 3054073 83096b44b7d969029ddfb25c0253f6cc ""
   "img/68_vh_22.jpg" 1648466474 9051950 be0c427f42797c43c51923ea973c4d5c ""
   "img/69_satny_stare.JPG" 1731149079 5662208 986ac25c13df53556747cbf5d19ba032 ""
   "img/70_satny_nove.JPG" 1731148786 4737024 6b1784ea312f109dcb551bb95b0ea881 ""

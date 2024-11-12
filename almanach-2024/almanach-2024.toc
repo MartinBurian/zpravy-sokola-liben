@@ -5,92 +5,86 @@
 \contentsline {subsection}{První kroky}{3}{}%
 \contentsline {subsection}{První cvičení u~Deutschů}{9}{}%
 \contentsline {subsection}{Výstavba sokolovny}{15}{}%
-\contentsline {section}{Činnost libeňských sokolů před II. světovou válkou}{22}{}%
-\contentsline {subsection}{Budování letního cvičiště}{24}{}%
-\contentsline {section}{Období let 1938--1948}{32}{}%
-\contentsline {section}{II. světová válka 1939--1945}{32}{}%
-\contentsline {subsection}{Sokolské oběti nacistické okupace v~Libni}{33}{}%
-\contentsline {section}{Období let 1948--1968}{36}{}%
-\contentsline {subsection}{XI. všesokolský slet 1948 -- Strahov}{36}{}%
-\contentsline {subsection}{Pokus o~sjednocení tělovýchovy}{40}{}%
-\contentsline {section}{Libeňská sokolovna v~letech 1968--1984}{42}{}%
-\contentsline {subsection}{Pražské jaro roku 1968}{42}{}%
-\contentsline {subsection}{Období 1972 až 1984}{46}{}%
-\contentsline {section}{Období 1984--1989}{49}{}%
-\contentsline {subsection}{Turistické oddíly žactva}{50}{}%
-\contentsline {subsection}{Turistický kroužek starších žáků a dorostenců (TK2) = JILM}{50}{}%
-\contentsline {subsection}{Věrná garda}{51}{}%
-\contentsline {subsection}{Jóga}{52}{}%
-\contentsline {subsection}{Zdravotní oddíl Kardio}{52}{}%
-\contentsline {section}{Sokol za komunismu (?!)}{52}{}%
-\contentsline {section}{Ženy v~libeňském Sokole}{53}{}%
-\contentsline {section}{Několik ohlédnutí bývalého náčelníka}{62}{}%
-\contentsline {subsection}{Co ubylo, co přibylo po roce 1990}{62}{}%
-\contentsline {subsection}{Střípky ze XII. sletu 1994}{63}{}%
-\contentsline {subsection}{Radost minulá i současná}{64}{}%
-\contentsline {section}{Sokol v~Libni od znovuobnovení v~roce 1990}{65}{}%
-\contentsline {subsection}{Soutěž O~nejvěrnější docházku}{66}{}%
-\contentsline {subsection}{JVLS a PVLS}{69}{}%
-\contentsline {subsection}{Brigády}{74}{}%
-\contentsline {subsection}{Mikuláš}{75}{}%
-\contentsline {subsection}{Závody sokolské všestrannosti}{75}{}%
-\contentsline {subsection}{Cvičení dorostenců a mužů v~90. letech}{77}{}%
-\contentsline {subsection}{Dětský den}{78}{}%
-\contentsline {subsection}{Sokolí boudy v~Malé Úpě}{78}{}%
-\contentsline {subsection}{Tělocvičné akademie}{79}{}%
-\contentsline {subsection}{XII. všesokolský slet 1994 -- Strahov}{80}{}%
-\contentsline {subsection}{Šibřinky}{82}{}%
-\contentsline {subsection}{Střípky z~90. let}{83}{}%
-\contentsline {subsection}{XIII. všesokolský slet 2000 -- Strahov}{84}{}%
-\contentsline {subsection}{Běh strmý}{85}{}%
-\contentsline {subsection}{Rekonstrukce fasády sokolovny}{87}{}%
-\contentsline {subsection}{Boj o~Sokolí boudy a práce Josefa Žáčka}{88}{}%
-\contentsline {subsection}{Střípky z~let 2000--2010}{89}{}%
-\contentsline {subsection}{Závěrem}{91}{}%
-\contentsline {section}{Slovo vzdělavatelky Věry Štastné (2004)}{96}{}%
-\contentsline {section}{Dění v~jednotě po roce 2004}{99}{}%
-\contentsline {subsection}{Úvodem}{99}{}%
-\contentsline {subsection}{Činovníci jednoty}{99}{}%
-\contentsline {subsection}{Provoz jednoty}{102}{}%
-\contentsline {subsection}{2004--2006}{102}{}%
-\contentsline {subsection}{XIV. všesokolský slet}{104}{}%
-\contentsline {subsection}{2006--2012}{108}{}%
-\contentsline {subsection}{XV. všesokolský slet (2012)}{113}{}%
-\contentsline {subsection}{2012--2018}{115}{}%
-\contentsline {subsection}{XVI. všesokolský slet (2018)}{118}{}%
-\contentsline {subsection}{2019--2024}{120}{}%
-\contentsline {section}{Věra Decastellová -- jeden sokolský život na pozadí dějin 20. století}{125}{}%
-\contentsline {section}{Současná činnost oddílů ženských složek v~Libni}{129}{}%
-\contentsline {subsection}{Rodiče a děti}{130}{}%
-\contentsline {subsection}{Předškolní děti}{130}{}%
-\contentsline {subsection}{Mladší a starší žákyně a dorostenky}{131}{}%
-\contentsline {subsection}{Ženy}{132}{}%
-\contentsline {subsection}{Věrná garda}{134}{}%
-\contentsline {section}{Oddíl mužů v~současnosti}{136}{}%
-\contentsline {subsection}{Přetahování lanem}{137}{}%
-\contentsline {subsection}{Šplh na laně}{138}{}%
-\contentsline {section}{Turistika a pobyt v~přírodě}{139}{}%
-\contentsline {subsection}{JILM a Sokol, Sokol a JILM}{140}{}%
-\contentsline {subsection}{Zálesácký závod zdatnosti}{146}{}%
-\contentsline {subsection}{JILM po roce 2004}{152}{}%
-\contentsline {section}{Turistický oddíl Káňata}{155}{}%
-\contentsline {section}{Turistický oddíl Veverky}{157}{}%
-\contentsline {section}{Turistický oddíl Studánka}{159}{}%
-\contentsline {section}{Sportovní oddíly}{160}{}%
-\contentsline {subsection}{Basketbal}{161}{}%
-\contentsline {subsection}{Badminton}{161}{}%
-\contentsline {subsection}{Skipping Boys a Skipping Buddies}{162}{}%
-\contentsline {section}{Loutkářský soubor vHLAVĚDRÁt}{163}{}%
-\contentsline {section}{Loutkové divadlo Nástup}{164}{}%
-\contentsline {section}{Foerstrovo komorní pěvecké sdružení}{166}{}%
-\contentsline {section}{Sokolská kapka krve}{167}{}%
-\contentsline {section}{Povídka na konec: šlamastyka bratra Přibyla}{168}{}%
-\contentsline {section}{Poděkování}{170}{}%
-\contentsline {subsection}{2004}{170}{}%
-\contentsline {subsection}{2024}{170}{}%
-\contentsline {section}{Příloha}{171}{}%
-\contentsline {subsection}{Starostové Sokola Libeň }{171}{}%
-\contentsline {subsection}{Náčelníci Sokola Libeň}{172}{}%
-\contentsline {subsection}{Náčelnice Sokola Libeň}{172}{}%
-\contentsline {subsection}{Zakládající členové Sokola Libeň}{}{}%
-\contentsline {subsection}{Výbor jednoty v~roce 2024}{}{}%
+\contentsline {section}{Činnost libeňských sokolů před II. světovou válkou}{24}{}%
+\contentsline {subsection}{Budování letního cvičiště}{25}{}%
+\contentsline {subsection}{Meziválečné slety na Strahově}{27}{}%
+\contentsline {section}{Období let 1938--1948}{33}{}%
+\contentsline {subsection}{II. světová válka 1939--1945}{33}{}%
+\contentsline {subsection}{Sokolské oběti nacistické okupace v~Libni}{34}{}%
+\contentsline {section}{Období let 1948--1968}{39}{}%
+\contentsline {subsection}{XI. všesokolský slet 1948 -- Strahov}{39}{}%
+\contentsline {subsection}{Pokus o~sjednocení tělovýchovy}{41}{}%
+\contentsline {section}{Libeňská sokolovna v~letech 1968--1984}{44}{}%
+\contentsline {subsection}{Pražské jaro roku 1968}{44}{}%
+\contentsline {subsection}{Období 1972 až 1984}{48}{}%
+\contentsline {section}{Období 1984--1989}{51}{}%
+\contentsline {subsection}{Turistické oddíly žactva}{52}{}%
+\contentsline {subsection}{Turistický kroužek starších žáků a dorostenců (TK2) = JILM}{52}{}%
+\contentsline {subsection}{Věrná garda}{53}{}%
+\contentsline {subsection}{Jóga}{54}{}%
+\contentsline {subsection}{Zdravotní oddíl Kardio}{54}{}%
+\contentsline {section}{Sokol za komunismu (?!)}{55}{}%
+\contentsline {section}{Ženy v~libeňském Sokole}{56}{}%
+\contentsline {section}{Několik ohlédnutí bývalého náčelníka}{65}{}%
+\contentsline {subsection}{Co ubylo, co přibylo po roce 1990}{65}{}%
+\contentsline {subsection}{Střípky ze XII. sletu 1994}{66}{}%
+\contentsline {subsection}{Radost minulá i současná}{67}{}%
+\contentsline {section}{Sokol v~Libni od znovuobnovení v~roce 1990}{68}{}%
+\contentsline {subsection}{Soutěž O~nejvěrnější docházku}{69}{}%
+\contentsline {subsection}{JVLS a PVLS}{72}{}%
+\contentsline {subsection}{Brigády}{77}{}%
+\contentsline {subsection}{Mikuláš}{78}{}%
+\contentsline {subsection}{Závody sokolské všestrannosti}{79}{}%
+\contentsline {subsection}{Cvičení dorostenců a mužů v~90. letech}{80}{}%
+\contentsline {subsection}{Dětský den}{81}{}%
+\contentsline {subsection}{Sokolí boudy v~Malé Úpě}{82}{}%
+\contentsline {subsection}{Tělocvičné akademie}{82}{}%
+\contentsline {subsection}{XII. všesokolský slet 1994 -- Strahov}{83}{}%
+\contentsline {subsection}{Šibřinky}{85}{}%
+\contentsline {subsection}{Střípky z~90. let}{85}{}%
+\contentsline {subsection}{XIII. všesokolský slet 2000 -- Strahov}{88}{}%
+\contentsline {subsection}{Běh strmý}{88}{}%
+\contentsline {subsection}{Rekonstrukce fasády sokolovny}{90}{}%
+\contentsline {subsection}{Boj o~Sokolí boudy a práce Josefa Žáčka}{91}{}%
+\contentsline {subsection}{Střípky z~let 2000--2010}{92}{}%
+\contentsline {subsection}{Závěrem}{95}{}%
+\contentsline {section}{Slovo vzdělavatelky Věry Štastné (2004)}{101}{}%
+\contentsline {section}{Dění v~jednotě po roce 2004}{102}{}%
+\contentsline {subsection}{Úvodem}{102}{}%
+\contentsline {subsection}{Činovníci jednoty}{102}{}%
+\contentsline {subsection}{Provoz jednoty}{105}{}%
+\contentsline {subsection}{2004--2006}{105}{}%
+\contentsline {subsection}{XIV. všesokolský slet}{107}{}%
+\contentsline {subsection}{2006--2012}{111}{}%
+\contentsline {subsection}{XV. všesokolský slet (2012)}{116}{}%
+\contentsline {subsection}{2012--2018}{118}{}%
+\contentsline {subsection}{XVI. všesokolský slet (2018)}{121}{}%
+\contentsline {subsection}{2019--2024}{123}{}%
+\contentsline {section}{Věra Decastellová -- jeden sokolský život na pozadí dějin 20. století}{130}{}%
+\contentsline {section}{Současná činnost oddílů ženských složek v~Libni}{133}{}%
+\contentsline {subsection}{Rodiče a děti}{134}{}%
+\contentsline {subsection}{Předškolní děti}{135}{}%
+\contentsline {subsection}{Mladší a starší žákyně a dorostenky}{136}{}%
+\contentsline {subsection}{Ženy}{137}{}%
+\contentsline {subsection}{Věrná garda, ženy-seniorky}{137}{}%
+\contentsline {section}{Oddíl mužů v~současnosti}{141}{}%
+\contentsline {subsection}{Přetahování lanem}{143}{}%
+\contentsline {subsection}{Šplh na laně}{143}{}%
+\contentsline {section}{Turistika a pobyt v~přírodě}{145}{}%
+\contentsline {subsection}{JILM a Sokol, Sokol a JILM}{146}{}%
+\contentsline {subsection}{Zálesácký závod zdatnosti}{152}{}%
+\contentsline {subsection}{JILM po roce 2004}{157}{}%
+\contentsline {subsection}{Turistický oddíl Káňata}{161}{}%
+\contentsline {subsection}{Turistický oddíl Veverky}{163}{}%
+\contentsline {subsection}{Turistický oddíl Studánka}{165}{}%
+\contentsline {section}{Sportovní oddíly}{167}{}%
+\contentsline {subsection}{Basketbal}{167}{}%
+\contentsline {subsection}{Badminton}{167}{}%
+\contentsline {subsection}{Skipping Boys a Skipping Buddies}{168}{}%
+\contentsline {section}{Loutkářský soubor vHLAVĚDRÁt}{170}{}%
+\contentsline {section}{Loutkové divadlo Nástup}{172}{}%
+\contentsline {section}{Foerstrovo komorní pěvecké sdružení}{174}{}%
+\contentsline {section}{Sokolská kapka krve}{176}{}%
+\contentsline {section}{Povídka na konec: šlamastyka bratra Přibyla}{177}{}%
+\contentsline {section}{Poděkování}{179}{}%
+\contentsline {section}{Příloha}{181}{}%
