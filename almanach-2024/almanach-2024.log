@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.10.2)  11 NOV 2024 22:44
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.10.2)  12 NOV 2024 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,12 +174,17 @@ Package: ellipsis 2020/05/22 v1.8 fixes spacing around ellipses (three dots)
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 LaTeX Info: Redefining \textellipsis on input line 77.
+) (/usr/share/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks25
+\AP@partial=\box104
+\AP@footins=\box105
 ) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 \g__graphics_track_int=\count276
-\l__pdf_internal_box=\box104
+\l__pdf_internal_box=\box106
 \g__pdf_backend_object_int=\count277
 \g__pdf_backend_annotation_int=\count278
 \g__pdf_backend_link_int=\count279
@@ -274,11 +279,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
+\pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen163
 \pgfutil@tempdimb=\dimen164
 ) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box105
+\pgfutil@abb=\box107
 ) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -299,10 +304,10 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 ) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks29
 ))
 \pgf@x=\dimen167
 \pgf@y=\dimen168
@@ -320,9 +325,9 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \c@pgf@countb=\count292
 \c@pgf@countc=\count293
 \c@pgf@countd=\count294
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
 \pgf@sys@id@count=\count295
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -347,10 +352,10 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen177
 \pgfmath@count=\count299
-\pgfmath@box=\box106
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@box=\box108
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 ) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count300
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -379,9 +384,9 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@start@additional=\dimen195
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box107
-\pgf@hbox=\box108
-\pgf@layerbox@main=\box109
+\pgfpic=\box109
+\pgf@hbox=\box110
+\pgf@layerbox@main=\box111
 \pgf@picture@serial@count=\count301
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -409,7 +414,7 @@ File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box110
+\pgfexternal@startupbox=\box112
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -420,7 +425,7 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box111
+\pgfnodeparttextbox=\box113
 ) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
@@ -433,8 +438,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen260
 \pgffor@skip=\dimen261
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 )) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -450,10 +455,10 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen268
 \tikzleveldistance=\dimen269
 \tikzsiblingdistance=\dimen270
-\tikz@figbox=\box112
-\tikz@figbox@bg=\box113
-\tikz@tempbox=\box114
-\tikz@tempbox@bg=\box115
+\tikz@figbox=\box114
+\tikz@figbox@bg=\box115
+\tikz@tempbox=\box116
+\tikz@tempbox@bg=\box117
 \tikztreelevel=\count305
 \tikznumberofchildren=\count306
 \tikznumberofcurrentchild=\count307
@@ -481,7 +486,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \csq@qlevel=\count317
 \csq@maxlvl=\count318
 \csq@tshold=\count319
-\csq@ltx@everypar=\toks37
+\csq@ltx@everypar=\toks38
  (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
@@ -503,8 +508,8 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks38
-\XKV@tempa@toks=\toks39
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
 )
 \XKV@depth=\count320
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -702,16 +707,16 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTpost=\skip59
 \LTchunksize=\count325
 \LTcapwidth=\dimen279
-\LT@head=\box116
-\LT@firsthead=\box117
-\LT@foot=\box118
-\LT@lastfoot=\box119
-\LT@gbox=\box120
+\LT@head=\box118
+\LT@firsthead=\box119
+\LT@foot=\box120
+\LT@lastfoot=\box121
+\LT@gbox=\box122
 \LT@cols=\count326
 \LT@rows=\count327
 \c@LT@tables=\count328
 \c@LT@chunks=\count329
-\LT@p@ftn=\toks40
+\LT@p@ftn=\toks41
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -720,85 +725,85 @@ Package csquotes Info: Redefining alias 'default' -> 'czech'.
  (./almanach-2024.aux)
 \openout1 = `almanach-2024.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 117.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Info: Redefining \dots on input line 114.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Info: Redefining \dots on input line 117.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 114.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 114.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 114.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 114.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 114.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 114.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 114.
-LaTeX Font Info:    Redeclaring math accent \check on input line 114.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 114.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 114.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 114.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 114.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 117.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 117.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 117.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 117.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 117.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 117.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 117.
+LaTeX Font Info:    Redeclaring math accent \check on input line 117.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 117.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 117.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 117.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 117.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 114.
+(Font)              `operators' in the math version `normal' on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/EBGaramond(0)/m/n on input line 114.
+(Font)                  OT1/cmr/m/n --> TU/EBGaramond(0)/m/n on input line 117.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 114.
+(Font)              `operators' in the math version `bold' on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/m/n on input line 114.
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/m/n on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/m/n on input line 114.
+(Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/m/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 114.
+(Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/b/n on input line 114.
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/b/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 114.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 114.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/b/n on input line 114.
+(Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/b/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/EBGaramond(0)/b/it on input line 114.
+(Font)                  OT1/cmr/bx/it --> TU/EBGaramond(0)/b/it on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 114.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 114.
-Package csquotes Info: Redefining character " on input line 114.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 117.
+Package csquotes Info: Redefining character " on input line 117.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -820,9 +825,9 @@ File: ./Sokolovna-kresba-black.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 193.
+(Font)              scaled to size 14.4pt on input line 196.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 193.
+(Font)              scaled to size 14.4pt on input line 196.
  (./almanach-2024.toc
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
@@ -844,1491 +849,1119 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [8]
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 235.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              scaled to size 10.95pt on input line 238.
  [1
 
 ]
-Overfull \hbox (1.15999pt too wide) in paragraph at lines 252--265
+Overfull \hbox (1.15999pt too wide) in paragraph at lines 256--269
 \TU/EBGaramond(0)/m/n/10.95 a s obětavým osobním nasazením, započali novou etapu sokolských aktivit v Libni
  []
 
-[2]
+[2
+
+]
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 289.
+(Font)              scaled to size 12.0pt on input line 295.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 289.
+(Font)              scaled to size 12.0pt on input line 295.
 File: img/01_pechan.jpg Graphic file (type bmp)
 <img/01_pechan.jpg>
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 317.
+(Font)              scaled to size 10.0pt on input line 325.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 317.
+(Font)              scaled to size 10.0pt on input line 325.
 File: img/02_klazar.jpg Graphic file (type bmp)
 <img/02_klazar.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3
-
-]
 File: img/03_cizek.jpg Graphic file (type bmp)
 <img/03_cizek.jpg>
 
-Underfull \hbox (badness 6995) in paragraph at lines 337--337
+Underfull \hbox (badness 6995) in paragraph at lines 345--345
 []|\TU/EBGaramond(0)/m/it/10 Dr. František Čížek, zakládající
  []
 
 File: img/04_voctar.jpg Graphic file (type bmp)
 <img/04_voctar.jpg>
+[3
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 3989) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \vbox (badness 4353) has occurred while \output is active []
-
- [5]
 File: img/05_zakladajici_clenove_1886.jpg Graphic file (type bmp)
 <img/05_zakladajici_clenove_1886.jpg>
 
-Overfull \hbox (2.9687pt too wide) in paragraph at lines 358--359
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.9687pt too wide) in paragraph at lines 366--367
 []\TU/EBGaramond(0)/m/n/10.95 Vedle pravidelného cvičení od počátku byl pěstován i život společenský. Téměř
  []
 
-[6]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 File: img/06_trubaci.jpg Graphic file (type bmp)
 <img/06_trubaci.jpg>
 
-Underfull \vbox (badness 3039) has occurred while \output is active []
-
- [7]
-Overfull \hbox (2.78056pt too wide) in paragraph at lines 368--369
-\TU/EBGaramond(0)/m/n/10.95 skými spolky a organizacemi: spolkem „   Osvěta-Omladina“, s „   Věnceslavem“, který
- []
-
-
-Overfull \hbox (2.74773pt too wide) in paragraph at lines 368--369
-\TU/EBGaramond(0)/m/n/10.95 1889 tři sokolská závodní družstva s JUDr. Janem Podlipným, přes výslovný osobní
- []
-
-File: img/07_filip_starosta.jpg Graphic file (type bmp)
-<img/07_filip_starosta.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [6]
+Overfull \hbox (2.78056pt too wide) in paragraph at lines 376--377
+\TU/EBGaramond(0)/m/n/10.95 skými spolky a organizacemi: spolkem „   Osvěta-Omladina“, s „   Věnceslavem“, který
+ []
+
+
+Overfull \hbox (2.74773pt too wide) in paragraph at lines 376--377
+\TU/EBGaramond(0)/m/n/10.95 1889 tři sokolská závodní družstva s JUDr. Janem Podlipným, přes výslovný osobní
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+File: img/07_filip_starosta.jpg Graphic file (type bmp)
+<img/07_filip_starosta.jpg>
+
+Underfull \vbox (badness 5924) has occurred while \output is active []
+
  [8]
 File: img/09_hospoda_u_deutschu.jpg Graphic file (type bmp)
 <img/09_hospoda_u_deutschu.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 387--388
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
 File: img/10_pozvanka_prapor.jpg Graphic file (type bmp)
 <img/10_pozvanka_prapor.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 398--399
-[][] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [10]
 File: img/11_hana_decastellova.jpg Graphic file (type bmp)
 <img/11_hana_decastellova.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 404--405
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-Overfull \vbox (0.33096pt too high) has occurred while \output is active []
-
- [13]
 File: img/12_na_zertvach.jpg Graphic file (type bmp)
 <img/12_na_zertvach.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 412--414
-[][]
- []
-
 File: img/13_verejne_cviceni.jpg Graphic file (type bmp)
 <img/13_verejne_cviceni.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 415--417
-[][]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
 File: img/14_muzi_slet_1901.jpg Graphic file (type bmp)
 <img/14_muzi_slet_1901.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 418--420
-[][]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
 File: img/15_zakyne_1901.jpg Graphic file (type bmp)
 <img/15_zakyne_1901.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 421--423
-[][]
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/16_pruvod_1900.jpg Graphic file (type bmp)
 <img/16_pruvod_1900.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 424--426
-[][]
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[11] [12] [13] [14] [15
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17] [18]
+]
 File: img/17_zaklady_sokolovny.jpg Graphic file (type bmp)
 <img/17_zaklady_sokolovny.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 476--477
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
+ [16]
 File: img/18_krovy_sokolovny.jpg Graphic file (type bmp)
 <img/18_krovy_sokolovny.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 497--498
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
 File: img/19_sokolovna_dokoncena.jpg Graphic file (type bmp)
 <img/19_sokolovna_dokoncena.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 520--521
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3492) has occurred while \output is active []
 
- [21]
+ [17]
 File: img/20_velky_sal.jpg Graphic file (type bmp)
 <img/20_velky_sal.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 545--546
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.48305pt too wide) in paragraph at lines 552--560
+Overfull \hbox (0.48305pt too wide) in paragraph at lines 584--592
 []\TU/EBGaramond(0)/m/n/10.95 V tomto východním průčelí jsou tři hlavní vchody, kryté oplechovanými mar-
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3323) has occurred while \output is active []
 
- [22] [23]
+ [18]
+Underfull \vbox (badness 8113) has occurred while \output is active []
+
+ [19] [20]
+File: img/22_lazaret.jpg Graphic file (type bmp)
+<img/22_lazaret.jpg>
 File: img/21_zaci_1916.jpg Graphic file (type bmp)
 <img/21_zaci_1916.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 643--644
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1406) has occurred while \output is active []
 
- [24]
-File: img/22_lazaret.jpg Graphic file (type bmp)
-<img/22_lazaret.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 653--654
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
+ [21]
 File: img/23_muzi_cvicitele.jpg Graphic file (type bmp)
 <img/23_muzi_cvicitele.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 676--677
-[][] 
- []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
 File: img/24_muzi_slet.jpg Graphic file (type bmp)
 <img/24_muzi_slet.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 680--681
-[][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
+ [23]
 File: img/25_budovani_cviciste.jpg Graphic file (type bmp)
 <img/25_budovani_cviciste.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 764--765
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4120) has occurred while \output is active []
 
- [29]
+ [24]
 File: img/26_otevreni_cviciste.jpg Graphic file (type bmp)
 <img/26_otevreni_cviciste.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 768--769
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7740) has occurred while \output is active []
 
- [30]
-Overfull \hbox (0.64732pt too wide) in paragraph at lines 809--811
-[]\TU/EBGaramond(0)/m/n/10.95 4. 7. cvičilo 126 mužů prostná a 46 starších mužů s tyčemi a dále 111 žen prostná 
- []
-
+ [25]
 File: img/27_dorostenky.jpg Graphic file (type bmp)
 <img/27_dorostenky.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 817--818
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4927) has occurred while \output is active []
 
- [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
+ [26] [27]
 File: img/28_dorostenky.jpg Graphic file (type bmp)
 <img/28_dorostenky.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 870--871
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
+ [28]
 File: img/29_muzi_slet.jpg Graphic file (type bmp)
 <img/29_muzi_slet.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 893--894
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
 File: img/30_sibrinky.jpg Graphic file (type bmp)
 <img/30_sibrinky.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 905--906
-[][] 
- []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-Overfull \hbox (0.53583pt too wide) in paragraph at lines 948--963
+[29] [30]
+Overfull \hbox (0.53583pt too wide) in paragraph at lines 1002--1017
 \TU/EBGaramond(0)/m/n/10.95 se semknul k obraně vlasti. Zejména po násilném obsazení Rakouska dělali Němci
  []
 
 
-Overfull \hbox (4.50533pt too wide) in paragraph at lines 971--978
+Overfull \hbox (4.50533pt too wide) in paragraph at lines 1023--1030
 []\TU/EBGaramond(0)/m/n/10.95 Nácvik sletových skladeb začínal na podzim a pokračoval celou zimu. V dubnu
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-Underfull \vbox (badness 6641) has occurred while \output is active []
-
- [38]
+ [31] [32] [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Overfull \hbox (0.64871pt too wide) in alignment at lines 1185--1192
-[] [] [] [] [] 
- []
-
-[42]
+ [34] [35]
 File: img/31_muzi_cvicitele.jpg Graphic file (type bmp)
 <img/31_muzi_cvicitele.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 1230--1231
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/32_muzi_cvicitele.jpg Graphic file (type bmp)
 <img/32_muzi_cvicitele.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 1239--1240
-[][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43] [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-Overfull \hbox (1.44666pt too wide) in paragraph at lines 1310--1321
+ [37]
+Overfull \hbox (1.44666pt too wide) in paragraph at lines 1373--1384
 []\TU/EBGaramond(0)/m/n/10.95 230 dorostenek. Ženy jako vždy byly zlatým hřebem sletu, ať to bylo ve skladbě
  []
 
 
-Overfull \hbox (1.77878pt too wide) in paragraph at lines 1336--1342
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Overfull \hbox (1.77878pt too wide) in paragraph at lines 1402--1408
 []\TU/EBGaramond(0)/m/n/10.95 Zvláštním vystoupením mužů byla „  Sokolská všestrannost“. Bylo to současné
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46] [47]
-Overfull \hbox (11.39653pt too wide) in paragraph at lines 1432--1437
+[39] [40]
+Overfull \hbox (11.39653pt too wide) in paragraph at lines 1497--1502
 []\TU/EBGaramond(0)/m/n/10.95 V roce 1949 se hledala posila členské základny v dělnických organizacích. V Libni
  []
 
 
-Overfull \hbox (1.70673pt too wide) in paragraph at lines 1438--1447
+Overfull \hbox (1.70673pt too wide) in paragraph at lines 1503--1512
 \TU/EBGaramond(0)/m/n/10.95 Dobrovolná sportovní organizace DSO Spartak Libeň Loděnice. Vlastnická práva
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-Overfull \hbox (4.74063pt too wide) in paragraph at lines 1485--1491
+ [41]
+Overfull \hbox (4.74063pt too wide) in paragraph at lines 1550--1556
 \TU/EBGaramond(0)/m/n/10.95 v jiných sokolských jednotách, se sešel přípravný výbor Sokola a svolal Manifestační
  []
 
-[49]
-Overfull \hbox (0.21295pt too wide) in paragraph at lines 1492--1501
+
+Overfull \hbox (0.21295pt too wide) in paragraph at lines 1557--1566
 []\TU/EBGaramond(0)/m/n/10.95 Konala se v zapůjčeném malém sále libeňské sokolovny a předcházela jí schůze
  []
 
 
-Overfull \hbox (1.75494pt too wide) in paragraph at lines 1492--1501
+Overfull \hbox (1.75494pt too wide) in paragraph at lines 1557--1566
 \TU/EBGaramond(0)/m/n/10.95 sokolských žen v Karlíně. Schůzi v Libni zahájil br. Jirák přivítáním členů, zejména
  []
 
-
-Overfull \hbox (1.1722pt too wide) in paragraph at lines 1512--1518
+[42]
+Overfull \hbox (1.1722pt too wide) in paragraph at lines 1577--1583
 []\TU/EBGaramond(0)/m/n/10.95 V libeňském přípravném výboru Sokola (PV) byli zpočátku bratři Jirák, Kodl,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [44]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [45]
+Underfull \vbox (badness 4120) has occurred while \output is active []
 
- [53] [54]
-Overfull \hbox (1.6109pt too wide) in paragraph at lines 1749--1753
+ [46]
+Overfull \hbox (1.6109pt too wide) in paragraph at lines 1815--1819
 []\TU/EBGaramond(0)/m/n/10.95 V divadle S. K. Neumanna v Libni (dnešní divadlo Pod Palmovkou, kde v hos-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55] [56]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57]
-Overfull \hbox (10.01854pt too wide) in paragraph at lines 1886--1901
+ [47] [48] [49]
+Overfull \hbox (10.01854pt too wide) in paragraph at lines 1967--1982
 \TU/EBGaramond(0)/m/n/10.95 šího žactva (TK1) založili a dlouho vedli manželé Kodlovi. Vrcholné období kroužku
  []
 
 
-Overfull \hbox (10.32878pt too wide) in paragraph at lines 1886--1901
-\TU/EBGaramond(0)/m/n/10.95 sázaví (3x) a potom Hřebeny Brd (4x), kde již pomáhali mladší cvičitelé Lauschmann
+Overfull \hbox (19.43439pt too wide) in paragraph at lines 1967--1982
+\TU/EBGaramond(0)/m/n/10.95 sázaví ($\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 ^^B$\TU/EBGaramond(0)/m/n/10.95 ) a potom Hřebeny Brd ($\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 ^^B$\TU/EBGaramond(0)/m/n/10.95 ), kde již pomáhali mladší cvičitelé Lauschmann
  []
 
 
-Overfull \hbox (11.68588pt too wide) in paragraph at lines 1912--1913
+Overfull \hbox (2.33289pt too wide) in paragraph at lines 1967--1982
+\TU/EBGaramond(0)/m/n/10.95 a Halík. V lednu 1981 žactvo poznávalo Románskou Prahu ($\OT1/cmr/m/n/10.95 8\OMS/cmsy/m/n/10.95 ^^B$\TU/EBGaramond(0)/m/n/10.95 ) a Gotickou Prahu
+ []
+
+
+Overfull \hbox (11.68588pt too wide) in paragraph at lines 1993--1994
 \TU/EBGaramond(0)/m/it/10.95 O oddílu JILM je podrobněji pojednáno ještě v textech jeho vedoucích Z. Lauschmanna,
  []
 
 
-Overfull \hbox (16.78564pt too wide) in paragraph at lines 1914--1933
+Overfull \hbox (16.78564pt too wide) in paragraph at lines 1995--2014
 \TU/EBGaramond(0)/m/n/10.95 ustavit kroužek starších žáků a dorostenců. U samého zrodu stál Zdeněk Lauschmann
  []
 
-[58] [59]
-Overfull \hbox (2.35843pt too wide) in paragraph at lines 1986--1989
+[50]
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [51]
+Overfull \hbox (2.35843pt too wide) in paragraph at lines 2067--2070
 []\TU/EBGaramond(0)/m/n/10.95 Sametová revoluce v roce 1989 ukončila činnost odboru ZRTV a všichni dobří
  []
 
-
-Overfull \hbox (0.51028pt too wide) in paragraph at lines 1993--1994
-\TU/EBGaramond(0)/m/it/10.95 Vzpomínka na dobu Františka Kodla, sepsal RNDr. Zdeněk Lauschmann (v Libni
- []
-
-[60]
+[52]
 File: img/33_zakladajici_zeny.jpg Graphic file (type bmp)
 <img/33_zakladajici_zeny.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2038--2039
-[][] 
- []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
 File: img/34_vocetkova_nacelnice.jpg Graphic file (type bmp)
 <img/34_vocetkova_nacelnice.jpg>
+[53]
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2054--2055
-[][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
-Overfull \vbox (30.16595pt too high) has occurred while \output is active []
-
- [63]
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/it' will be
-(Font)              scaled to size 10.95pt on input line 2066.
 File: img/35_zeny.jpg Graphic file (type bmp)
 <img/35_zeny.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2079--2080
-[][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+Underfull \vbox (badness 5189) has occurred while \output is active []
+
+ [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [55]
 File: img/36_brana_cviciste.jpg Graphic file (type bmp)
 <img/36_brana_cviciste.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2117--2118
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-Overfull \hbox (0.6928pt too wide) in paragraph at lines 2126--2136
+Overfull \hbox (0.6928pt too wide) in paragraph at lines 2214--2224
 \TU/EBGaramond(0)/m/n/10.95 disciplíny atletiky. Startovní bloky, doskočiště, atletický ovál, konstrukce na kruhy
  []
 
+[56]
+Underfull \vbox (badness 7981) has occurred while \output is active []
 
+ [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [61] [62]
+Underfull \vbox (badness 4120) has occurred while \output is active []
 
- [71] [72] [73] [74]
-Overfull \hbox (0.61812pt too wide) in paragraph at lines 2490--2530
-[]\TU/EBGaramond(0)/m/n/10.95 Byl listopad 1989, už pár let se konají různé demonstrace „  protistátních živlů“,
- []
+ [63] [64]
+Underfull \vbox (badness 4454) has occurred while \output is active []
 
-[75]
-Underfull \vbox (badness 2970) has occurred while \output is active []
+ [65
 
- [76]
+]
 File: img/37_vitezove_dochazka.JPG Graphic file (type bmp)
 <img/37_vitezove_dochazka.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2560--2561
-[][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (7.52272pt too wide) in paragraph at lines 2575--2575
+Overfull \hbox (7.52272pt too wide) in paragraph at lines 2670--2670
 []|\TU/EBGaramond(0)/b/n/10.95 Max. 
  []
 
 
-Overfull \hbox (5.05898pt too wide) in paragraph at lines 2575--2575
+Overfull \hbox (5.05898pt too wide) in paragraph at lines 2670--2670
 \TU/EBGaramond(0)/b/n/10.95 hod.|  
  []
 
 
-Overfull \hbox (0.79935pt too wide) in paragraph at lines 2582--2582
+Overfull \hbox (0.79935pt too wide) in paragraph at lines 2677--2677
 []|\TU/EBGaramond(0)/m/n/10.95 2000/2001|  
  []
 
 
-Overfull \hbox (0.97455pt too wide) in paragraph at lines 2584--2584
+Overfull \hbox (0.97455pt too wide) in paragraph at lines 2679--2679
 []|\TU/EBGaramond(0)/m/n/10.95 2002/2003|  
  []
 
 
-Overfull \hbox (1.54395pt too wide) in paragraph at lines 2585--2585
+Overfull \hbox (1.54395pt too wide) in paragraph at lines 2680--2680
 []|\TU/EBGaramond(0)/m/n/10.95 2003/2004|  
  []
 
 
-Overfull \hbox (1.4016pt too wide) in paragraph at lines 2586--2586
+Overfull \hbox (1.4016pt too wide) in paragraph at lines 2681--2681
 []|\TU/EBGaramond(0)/m/n/10.95 2004/2005|  
  []
 
 
-Overfull \hbox (1.36876pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (1.36876pt too wide) in paragraph at lines 2682--2682
 []|\TU/EBGaramond(0)/m/n/10.95 2005/2006|  
  []
 
 
-Overfull \hbox (2.4747pt too wide) in paragraph at lines 2588--2588
+Overfull \hbox (2.4747pt too wide) in paragraph at lines 2683--2683
 []|\TU/EBGaramond(0)/m/n/10.95 2006/2007|  
  []
 
 
-Overfull \hbox (2.06955pt too wide) in paragraph at lines 2589--2589
+Overfull \hbox (2.06955pt too wide) in paragraph at lines 2684--2684
 []|\TU/EBGaramond(0)/m/n/10.95 2007/2008|  
  []
 
 
-Overfull \hbox (2.13525pt too wide) in paragraph at lines 2590--2590
+Overfull \hbox (2.13525pt too wide) in paragraph at lines 2685--2685
 []|\TU/EBGaramond(0)/m/n/10.95 2008/2009|  
  []
 
 
-Overfull \hbox (7.71246pt too wide) in paragraph at lines 2596--2597
+Overfull \hbox (7.71246pt too wide) in paragraph at lines 2691--2692
 []|\TU/EBGaramond(0)/m/n/10.95 Vojtěch Mrkvička 
  []
 
-[77] [78]
-Overfull \hbox (15.0137pt too wide) in paragraph at lines 2608--2621
-[]\TU/EBGaramond(0)/m/n/10.95 Také ihned započala éra letních a zimních soutěží pro žáky. Hned v roce 1990/1991
- []
-
-
-Overfull \hbox (1.41548pt too wide) in paragraph at lines 2608--2621
+[66] [67]
+Overfull \hbox (1.41548pt too wide) in paragraph at lines 2703--2717
 \TU/EBGaramond(0)/m/n/10.95 trojboj, Švihklikvis, Posilování, Šplh, Člunkový běh, různé Házení míče, Přeskoky
  []
 
-[79]
+
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [68]
 File: img/38_jvls_taborak.JPG Graphic file (type bmp)
 <img/38_jvls_taborak.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2634--2635
-[][] 
- []
 
-[80]
-Overfull \hbox (10.73962pt too wide) in paragraph at lines 2650--2650
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (10.73962pt too wide) in paragraph at lines 2748--2748
 []|\TU/EBGaramond(0)/b/n/10.95 Počet 
  []
 
 
-Overfull \hbox (18.63458pt too wide) in paragraph at lines 2650--2650
+Overfull \hbox (18.63458pt too wide) in paragraph at lines 2748--2748
 \TU/EBGaramond(0)/b/n/10.95 z Libně|  
  []
 
 
-Overfull \hbox (10.73962pt too wide) in paragraph at lines 2650--2651
+Overfull \hbox (10.73962pt too wide) in paragraph at lines 2748--2749
 []|\TU/EBGaramond(0)/b/n/10.95 Počet 
  []
 
 
-Overfull \hbox (18.63458pt too wide) in paragraph at lines 2650--2651
+Overfull \hbox (18.63458pt too wide) in paragraph at lines 2748--2749
 \TU/EBGaramond(0)/b/n/10.95 z Libně|  
  []
 
-[81] [82]
+[69] [70] [71]
 File: img/39_pvls.JPG Graphic file (type bmp)
 <img/39_pvls.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2693--2694
-[][] 
+Underfull \hbox (badness 1540) in paragraph at lines 2795--2795
+[]|\TU/EBGaramond(0)/m/it/10.95 Podzimní Výlet Libeňského Sokola (a sraz v přírodě pražského třížupí) 2012,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [83]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84] [85]
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [72] [73]
 File: img/40_doskociste.jpg Graphic file (type bmp)
 <img/40_doskociste.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2799--2800
-[][] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [74]
+File: img/41_mikulas.JPG Graphic file (type bmp)
+<img/41_mikulas.JPG>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[75]
+File: img/42_vitezove_gumnastika.JPG Graphic file (type bmp)
+<img/42_vitezove_gumnastika.JPG>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+File: img/43_detsky_den.JPG Graphic file (type bmp)
+<img/43_detsky_den.JPG>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[78]
+Overfull \hbox (3.64198pt too wide) in paragraph at lines 3058--3087
+\TU/EBGaramond(0)/m/n/10.95 v době působení oddílu sportovní gymnastiky jsme obdivovali jejich umění, pouze
+ []
+
+[79] [80]
+File: img/44_slet_strahov.jpg Graphic file (type bmp)
+<img/44_slet_strahov.jpg>
+
+Underfull \vbox (badness 5607) has occurred while \output is active []
+
+ [81]
+File: img/45_sibrinky.JPG Graphic file (type bmp)
+<img/45_sibrinky.JPG>
+ [82]
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [83] [84]
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [85]
+Overfull \hbox (5.36084pt too wide) in paragraph at lines 3339--3339
+[]|\TU/EBGaramond(0)/b/n/10.95 Ročník|  
+ []
+
+
+Overfull \hbox (6.1602pt too wide) in paragraph at lines 3339--3339
+[]|\TU/EBGaramond(0)/b/n/10.95 Celkem 
+ []
+
+
+Overfull \hbox (6.8172pt too wide) in paragraph at lines 3339--3339
+[]|\TU/EBGaramond(0)/b/n/10.95 Vítězný 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [86]
-File: img/41_mikulas.JPG Graphic file (type bmp)
-<img/41_mikulas.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2822--2823
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87]
-File: img/42_vitezove_gumnastika.JPG Graphic file (type bmp)
-<img/42_vitezove_gumnastika.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2860--2861
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [88]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89] [90]
-File: img/43_detsky_den.JPG Graphic file (type bmp)
-<img/43_detsky_den.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 2939--2940
-[][] 
- []
-
-
-Overfull \hbox (3.64198pt too wide) in paragraph at lines 2954--2983
-\TU/EBGaramond(0)/m/n/10.95 v době působení oddílu sportovní gymnastiky jsme obdivovali jejich umění, pouze
- []
-
-[91]
-Underfull \vbox (badness 7685) has occurred while \output is active []
-
- [92]
-File: img/44_slet_strahov.jpg Graphic file (type bmp)
-<img/44_slet_strahov.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3022--3023
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [93]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [94]
-File: img/45_sibrinky.JPG Graphic file (type bmp)
-<img/45_sibrinky.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3071--3072
-[][] 
- []
-
-[95]
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97] [98]
-Overfull \hbox (5.36084pt too wide) in paragraph at lines 3231--3231
-[]|\TU/EBGaramond(0)/b/n/10.95 Ročník|  
- []
-
-
-Overfull \hbox (6.1602pt too wide) in paragraph at lines 3231--3231
-[]|\TU/EBGaramond(0)/b/n/10.95 Celkem 
- []
-
-
-Overfull \hbox (6.8172pt too wide) in paragraph at lines 3231--3231
-[]|\TU/EBGaramond(0)/b/n/10.95 Vítězný 
- []
-
-[99]
-Overfull \hbox (4.92873pt too wide) in paragraph at lines 3277--3282
+Overfull \hbox (4.92873pt too wide) in paragraph at lines 3387--3392
 []\TU/EBGaramond(0)/m/n/10.95 Během zimy 2000/2001 se podařilo získat grant na rekonstrukci vnějšího pláště
  []
 
-[100]
+
+Underfull \vbox (badness 7759) has occurred while \output is active []
+
+ [87]
 File: img/46_sokolovna.jpg Graphic file (type bmp)
 <img/46_sokolovna.jpg>
+ [88]
+Underfull \vbox (badness 4120) has occurred while \output is active []
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3323--3324
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101] [102] [103]
+ [89]
 File: img/47_povodne.jpg Graphic file (type bmp)
 <img/47_povodne.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3403--3404
-[][] 
- []
-
-
-Overfull \hbox (3.49065pt too wide) in paragraph at lines 3408--3411
+Overfull \hbox (3.49065pt too wide) in paragraph at lines 3523--3526
 []\TU/EBGaramond(0)/m/n/10.95 V srpnu 2003 nečekaně umírá v necelých 45 letech starosta Josef Žáček, agendu
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104] [105]
-Overfull \hbox (2.47557pt too wide) in alignment at lines 3494--3496
+[90] [91]
+Overfull \hbox (2.47557pt too wide) in alignment at lines 3610--3612
 [] [] [] [] 
  []
 
 
-Overfull \hbox (2.47557pt too wide) in alignment at lines 3496--3531
+Overfull \hbox (2.47557pt too wide) in alignment at lines 3612--3647
 [] [] [] [] 
  []
 
-[106]
-Underfull \hbox (badness 10000) in paragraph at lines 3545--3545
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 3661--3661
 []|\TU/EBGaramond(0)/b/n/10.95 Rok
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3549--3549
+Underfull \hbox (badness 10000) in paragraph at lines 3665--3665
 []|\TU/EBGaramond(0)/m/n/10.95 Zdeněk
  []
 
 
-Overfull \hbox (2.3433pt too wide) in paragraph at lines 3554--3554
+Overfull \hbox (2.3433pt too wide) in paragraph at lines 3670--3670
 []|\TU/EBGaramond(0)/m/n/10.95 Matýsek|  
  []
 
 
-Overfull \hbox (3.36165pt too wide) in paragraph at lines 3611--3611
+Overfull \hbox (3.36165pt too wide) in paragraph at lines 3727--3727
 []|\TU/EBGaramond(0)/m/n/10.95 Myslivec|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3619--3619
+Underfull \hbox (badness 10000) in paragraph at lines 3735--3735
 []|\TU/EBGaramond(0)/m/n/10.95 Alexandre Basse-
  []
 
-[107] [108] [109]
+[93] [94] [95]
 File: img/48_cvicitele.JPG Graphic file (type bmp)
 <img/48_cvicitele.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3633--3634
-[][] 
- []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[96] [97] [98] [99
 
- [110] [111] [112] [113]
-Overfull \hbox (6.6187pt too wide) in paragraph at lines 3756--3784
+]
+Overfull \hbox (6.6187pt too wide) in paragraph at lines 3879--3907
 []\TU/EBGaramond(0)/m/n/10.95 Dalšími viditelnými osobami jsou náčelník a náčelnice. U děvčat to byla dlouho
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114]
+ [100]
 File: img/49_debrifink.JPG Graphic file (type bmp)
 <img/49_debrifink.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3785--3786
-[][] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115]
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [116]
-Overfull \hbox (4.73698pt too wide) in paragraph at lines 3854--3875
-\TU/EBGaramond(0)/m/n/10.95 tosti tohoto výročí byla zhotovena replika hlavního praporu naší jednoty, abychom
+ [101]
+Overfull \hbox (3.51791pt too wide) in paragraph at lines 3942--3959
+\TU/EBGaramond(0)/m/n/10.95 Pro provoz jednoty jsou kromě lidí nutné i peníze. Nejprve nakousnu téma grantů.
  []
 
 File: img/50_manka.jpg Graphic file (type bmp)
 <img/50_manka.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3876--3878
-[][]
+[102]
+Underfull \hbox (badness 2644) in paragraph at lines 3988--4002
+\TU/EBGaramond(0)/m/n/10.95 videozáznamy díky nadšení a práci
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [118]
+ [103]
 File: img/51_stafeta.jpg Graphic file (type bmp)
 <img/51_stafeta.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3908--3909
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [119]
+ [104]
 File: img/52_vylet_s_aerobikem.jpg Graphic file (type bmp)
 <img/52_vylet_s_aerobikem.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3934--3935
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [120]
 File: img/53_slet_pruvod.JPG Graphic file (type bmp)
 <img/53_slet_pruvod.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3940--3941
-[][] 
- []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [121]
 File: img/54_garda.JPG Graphic file (type bmp)
 <img/54_garda.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3945--3946
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [122]
 File: img/55_chalpaci.JPG Graphic file (type bmp)
 <img/55_chalpaci.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3950--3951
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [123]
 File: img/56_karimatky.JPG Graphic file (type bmp)
 <img/56_karimatky.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3955--3956
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [124] [125]
+[105] [106] [107]
 File: img/57_hnizdo.jpg Graphic file (type bmp)
 <img/57_hnizdo.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 3982--3983
-[][] 
+Underfull \hbox (badness 3333) in paragraph at lines 4113--4123
+\TU/EBGaramond(0)/m/n/10.95 domě na závodu o Pohár starostů
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 4113--4123
+\TU/EBGaramond(0)/m/n/10.95 nastice mužů s názvem „   Memoriál
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [108
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
+ [109]
 File: img/58_schranka.JPG Graphic file (type bmp)
 <img/58_schranka.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4079--4080
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [128]
+ [110]
 File: img/59_schranka_2.jpg Graphic file (type bmp)
 <img/59_schranka_2.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4085--4086
-[][] 
- []
+File: img/60_zakladni_kamen_jirkan.jpg Graphic file (type bmp)
+<img/60_zakladni_kamen_jirkan.jpg>
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [129]
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 4090.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [130]
+[111] [112]
 File: img/61_muzi_slet_12.JPG Graphic file (type bmp)
 <img/61_muzi_slet_12.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4131--4132
-[][] 
- []
-
 File: img/62_rd_duchove.JPG Graphic file (type bmp)
 <img/62_rd_duchove.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4136--4137
-[][] 
- []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[113
 
- [131]
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
- [132]
+] [114]
 File: img/63_ales.jpg Graphic file (type bmp)
 <img/63_ales.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4166--4167
-[][] 
- []
 
-
-Overfull \hbox (1.07802pt too wide) in paragraph at lines 4170--4171
-[]\TU/EBGaramond(0)/m/it/10.95 Starosta jednoty br. Aleš Müller předává spolu s náčelnicí Ájou Krásovou (upro-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
+ [115
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
-Overfull \hbox (2.85358pt too wide) in paragraph at lines 4241--4247
+ [116]
+Overfull \hbox (2.85358pt too wide) in paragraph at lines 4391--4397
 \TU/EBGaramond(0)/m/n/10.95 k celkové obnově klíčnictví. Dveře do šaten byly vybaveny samozamykacími zámky
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135]
-Overfull \hbox (9.0934pt too wide) in paragraph at lines 4318--4320
+ [117]
+File: img/64_siluety.JPG Graphic file (type bmp)
+<img/64_siluety.JPG>
+File: img/65_zenobrani.JPG Graphic file (type bmp)
+<img/65_zenobrani.JPG>
+ [118] [119]
+Overfull \hbox (9.0934pt too wide) in paragraph at lines 4483--4485
 []\TU/EBGaramond(0)/m/n/10.95 Umírá jedna z našich průkopnic cvičení rodičů s dětmi, bývalá cvičitelka Anička
  []
 
-File: img/64_siluety.JPG Graphic file (type bmp)
-<img/64_siluety.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4321--4322
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [136]
-File: img/65_zenobrani.JPG Graphic file (type bmp)
-<img/65_zenobrani.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4326--4327
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [137]
-Overfull \hbox (8.38898pt too wide) in paragraph at lines 4352--4355
+Overfull \hbox (8.38898pt too wide) in paragraph at lines 4509--4512
 []\TU/EBGaramond(0)/m/n/10.95 Kromě toho, že v únoru nečekaně zemřel náš starosta Aleš Müller, také v březnu
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4120) has occurred while \output is active []
 
- [138]
+ [120]
 File: img/66_odhodlani.jpg Graphic file (type bmp)
 <img/66_odhodlani.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4379--4380
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [139]
 File: img/67_zzz.JPG Graphic file (type bmp)
 <img/67_zzz.JPG>
+File: img/68_vh_22.jpg Graphic file (type bmp)
+<img/68_vh_22.jpg>
+ [121
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4391--4392
-[][] 
- []
-
+] [122]
+File: img/69_satny_stare.JPG Graphic file (type bmp)
+<img/69_satny_stare.JPG>
+File: img/70_satny_nove.JPG Graphic file (type bmp)
+<img/70_satny_nove.JPG>
+File: img/71_sokolhrani.jpg Graphic file (type bmp)
+<img/71_sokolhrani.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
-File: img/68_vh_22.jpg Graphic file (type bmp)
-<img/68_vh_22.jpg>
+ [123] [124]
+File: img/72_rytmus_srdce.jpg Graphic file (type bmp)
+<img/72_rytmus_srdce.jpg>
+ [125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4411--4412
-[][] 
+ [126]
+File: img/73_vera_cedok.JPG Graphic file (type bmp)
+<img/73_vera_cedok.JPG>
+
+Underfull \hbox (badness 3724) in paragraph at lines 4739--4743
+[][]\TU/EBGaramond(0)/m/n/10.95 Věra cvičila naposledy na sletě
  []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 4744--4751
+\TU/EBGaramond(0)/m/n/10.95 ve kterých nám převyprávěla skoro
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 4744--4751
+\TU/EBGaramond(0)/m/n/10.95 před valnou hromadou Věra asi po
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 4755--4760
+[]\TU/EBGaramond(0)/m/n/10.95 Milá Věro, rád bych Ti za nás
+ []
+
+[127] [128]
+Underfull \hbox (badness 10000) in paragraph at lines 4778--4779
+[]\TU/EBGaramond(0)/m/n/10.95 Zuzana Burianová (sletová skladba
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 4781--4782
+[]\TU/EBGaramond(0)/m/n/10.95 Tomáš Dragoun (náčelnice, žákyně;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4781--4782
+\TU/EBGaramond(0)/m/it/10.95 stanovy ČOS nepředepisují, že
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 4781--4782
+\TU/EBGaramond(0)/m/it/10.95 funkci náčelnice musí zastávat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4781--4782
+\TU/EBGaramond(0)/m/it/10.95 zvolil cvičitele žákyň br. Dra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4783--4784
+[]\TU/EBGaramond(0)/m/n/10.95 Anna Feřtová (předškolní děti, žá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4784--4785
+\TU/EBGaramond(0)/m/n/10.95 seniorky, sletová skladba Babí
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 4798--4799
+[]\TU/EBGaramond(0)/m/n/10.95 Jana Motlová (rodiče a děti, ženy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4802--4803
+[]\TU/EBGaramond(0)/m/n/10.95 Barbora Přechová (sletová skladba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4804--4805
+[]\TU/EBGaramond(0)/m/n/10.95 Martina Škochová (sletová skladba
+ []
+
+[129
+
+] [130]
+Overfull \hbox (3.29526pt too wide) in paragraph at lines 4879--4893
+\TU/EBGaramond(0)/m/n/10.95 pravě těžkého nářadí nebo ohlídat děti u jednoduchého cvičení, např. házení míčů.
+ []
+
+
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [131]
+Overfull \hbox (1.09067pt too wide) in paragraph at lines 4914--4924
+\TU/EBGaramond(0)/m/n/10.95 čují ve cvičení stejně jako v minulém školním roce. Hned po prázdninách se ovšem
+ []
+
+
+Overfull \hbox (4.20772pt too wide) in paragraph at lines 4914--4924
+\TU/EBGaramond(0)/m/n/10.95 k „  tradičnějšímu“ uspořádání cvičebních hodin. Na programu bude zejména gym-
+ []
+
+[132]
+File: img/74_zavody_atletika.JPG Graphic file (type bmp)
+<img/74_zavody_atletika.JPG>
+ [133]
+Overfull \hbox (2.22412pt too wide) in paragraph at lines 5017--5025
+[]\TU/EBGaramond(0)/m/n/10.95 Kromě této činnosti žijeme i kulturou, pravidelně chodíme na koncerty České
+ []
+
+[134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+Overfull \hbox (1.79507pt too wide) in paragraph at lines 5120--5128
+\TU/EBGaramond(0)/m/n/10.95 v oddíle odměňovány projevy strachu, bolesti, zženštilosti, nerozhodnosti, sprostá
+ []
+
+[136]
+Overfull \hbox (0.86435pt too wide) in paragraph at lines 5133--5141
+\TU/EBGaramond(0)/m/n/10.95 stupně se přidávali další, kteří buď u nás v jednotě vyrostli nebo přišli úplně zvenčí.
+ []
+
+File: img/75_akademie_muzi.JPG Graphic file (type bmp)
+<img/75_akademie_muzi.JPG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[137]
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+ [138]
+File: img/76_splh.jpg Graphic file (type bmp)
+<img/76_splh.jpg>
+ [139] [140]
+File: img/77_klubovna_jilm.jpg Graphic file (type bmp)
+<img/77_klubovna_jilm.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [141]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [142]
-File: img/69_satny_stare.JPG Graphic file (type bmp)
-<img/69_satny_stare.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4442--4443
-[][] 
- []
-
-File: img/70_satny_nove.JPG Graphic file (type bmp)
-<img/70_satny_nove.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4446--4447
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [143]
-File: img/71_sokolhrani.jpg Graphic file (type bmp)
-<img/71_sokolhrani.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4474--4475
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [144]
-File: img/72_rytmus_srdce.jpg Graphic file (type bmp)
-<img/72_rytmus_srdce.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4480--4481
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [145]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [146]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [147]
-File: img/73_vera_cedok.JPG Graphic file (type bmp)
-<img/73_vera_cedok.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4583--4584
-[][] 
- []
-
-
-Overfull \hbox (3.48871pt too wide) in paragraph at lines 4599--4627
-\TU/EBGaramond(0)/m/n/10.95 ničková (emeritní cvičitelka žen-seniorek, t. č. již necvičí), Zuzana Hrušková (před-
- []
-
-
-Overfull \hbox (6.2663pt too wide) in paragraph at lines 4599--4627
-\TU/EBGaramond(0)/m/n/10.95 Škochová (sletová skladba Čmeláčci), Anežka Valutová (žákyně), Klára Veselá (ženy
- []
-
-
-Underfull \vbox (badness 2065) has occurred while \output is active []
-
- [148] [149] [150]
-Overfull \hbox (3.29526pt too wide) in paragraph at lines 4689--4703
-\TU/EBGaramond(0)/m/n/10.95 pravě těžkého nářadí nebo ohlídat děti u jednoduchého cvičení, např. házení míčů.
- []
-
-
-Overfull \hbox (1.09067pt too wide) in paragraph at lines 4724--4734
-\TU/EBGaramond(0)/m/n/10.95 čují ve cvičení stejně jako v minulém školním roce. Hned po prázdninách se ovšem
- []
-
-
-Overfull \hbox (4.20772pt too wide) in paragraph at lines 4724--4734
-\TU/EBGaramond(0)/m/n/10.95 k „  tradičnějšímu“ uspořádání cvičebních hodin. Na programu bude zejména gym-
- []
-
-[151]
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [152]
-File: img/74_zavody_atletika.JPG Graphic file (type bmp)
-<img/74_zavody_atletika.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4783--4784
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [153]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [154]
-Overfull \hbox (2.22412pt too wide) in paragraph at lines 4823--4831
-[]\TU/EBGaramond(0)/m/n/10.95 Kromě této činnosti žijeme i kulturou, pravidelně chodíme na koncerty České
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [155]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [156] [157]
-Overfull \hbox (1.79507pt too wide) in paragraph at lines 4925--4933
-\TU/EBGaramond(0)/m/n/10.95 v oddíle odměňovány projevy strachu, bolesti, zženštilosti, nerozhodnosti, sprostá
- []
-
-
-Overfull \hbox (0.86435pt too wide) in paragraph at lines 4938--4946
-\TU/EBGaramond(0)/m/n/10.95 stupně se přidávali další, kteří buď u nás v jednotě vyrostli nebo přišli úplně zvenčí.
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [158]
-File: img/75_akademie_muzi.JPG Graphic file (type bmp)
-<img/75_akademie_muzi.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4966--4967
-[][] 
- []
-
-[159]
-File: img/76_splh.jpg Graphic file (type bmp)
-<img/76_splh.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5021--5022
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [160]
-Underfull \vbox (badness 2980) has occurred while \output is active []
-
- [161] [162]
-File: img/77_klubovna_jilm.jpg Graphic file (type bmp)
-<img/77_klubovna_jilm.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5117--5118
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [163]
-Overfull \hbox (7.92177pt too wide) in paragraph at lines 5120--5121
-[]\TU/EBGaramond(0)/m/it/10.95 První klubovna JILMu Na Korábě (1985), foto: kronika JILMu za období 1985/86 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [164]
-File: img/78_jilm_zviretice.JPG Graphic file (type bmp)
-<img/78_jilm_zviretice.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5145--5146
-[][] 
- []
-
-
-Overfull \hbox (5.4889pt too wide) in paragraph at lines 5152--5172
-\TU/EBGaramond(0)/m/n/10.95 ešusem). Začali jsme si skládat vlastní písničky. Dvorním textařem byl Kája a hudbu
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [165]
 File: img/79_lodovka.JPG Graphic file (type bmp)
 <img/79_lodovka.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5173--5174
-[][] 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.4889pt too wide) in paragraph at lines 5356--5376
+\TU/EBGaramond(0)/m/n/10.95 ešusem). Začali jsme si skládat vlastní písničky. Dvorním textařem byl Kája a hudbu
  []
 
+File: img/78_jilm_zviretice.JPG Graphic file (type bmp)
+<img/78_jilm_zviretice.JPG>
 
-Overfull \hbox (3.7644pt too wide) in paragraph at lines 5177--5178
-[]\TU/EBGaramond(0)/m/it/10.95 Loďovka 2007, řeka Jizera, v popředí vlevo bývalá náčelnice Ája Krásová a vpravo
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4217) has occurred while \output is active []
 
- [166]
+ [142] [143] [144]
 File: img/80_bohdalin.JPG Graphic file (type bmp)
 <img/80_bohdalin.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5229--5230
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [167]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [168] [169]
+ [145] [146]
 File: img/81_zzz.JPG Graphic file (type bmp)
 <img/81_zzz.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5307--5308
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [170]
-Overfull \hbox (1.74896pt too wide) in paragraph at lines 5347--5348
+ [147]
+Overfull \hbox (1.74896pt too wide) in paragraph at lines 5559--5560
 []|\TU/EBGaramond(0)/b/n/10.95 Táborová/celoroční 
  []
 
 
-Overfull \hbox (2.47557pt too wide) in alignment at lines 5345--5392
+Overfull \hbox (2.47557pt too wide) in alignment at lines 5557--5604
 [] [] [] [] 
  []
 
-[171] [172] [173]
-Overfull \hbox (2.21115pt too wide) in paragraph at lines 5431--5444
+[148] [149] [150]
+Overfull \hbox (2.21115pt too wide) in paragraph at lines 5643--5656
 \TU/EBGaramond(0)/m/n/10.95 (2017–dosud), Matěj Krása (2018–2020), Sekáček (2018–2019), Hrnda (2018), Gri-
  []
 
 
-Overfull \hbox (2.72217pt too wide) in paragraph at lines 5431--5444
+Overfull \hbox (2.72217pt too wide) in paragraph at lines 5643--5656
 \TU/EBGaramond(0)/m/n/10.95 pen (2022–dosud), Apač (2022), Jesse (2022), Padák (2024), Jakub Zdeněk (2024). 
- []
-
-[174] [175]
-File: img/82_jilm_30.JPG Graphic file (type bmp)
-<img/82_jilm_30.JPG>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5491--5492
-[][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [176]
+ [151]
+File: img/82_jilm_30.JPG Graphic file (type bmp)
+<img/82_jilm_30.JPG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: img/83_tabor_11.jpg Graphic file (type bmp)
 <img/83_tabor_11.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5521--5522
-[][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/84_tabor_12.jpeg Graphic file (type bmp)
 <img/84_tabor_12.jpeg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 5526--5527
-[][] 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [152]
+
+LaTeX Warning: Text page 153 contains only floats.
+
+[153]
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [154] [155]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156] [157]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+Overfull \hbox (4.2844pt too wide) in paragraph at lines 5972--5996
+\TU/EBGaramond(0)/m/n/10.95 školy Na Balabence. Studánku původně tvořily 4 oddíly, které měly schůzky v pon-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [177]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [178] [179]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [180] [181]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [182]
-Overfull \hbox (4.28075pt too wide) in paragraph at lines 5747--5770
-\TU/EBGaramond(0)/m/n/10.95 kladní školy Na Balabence. Studánku původně tvořily 4 oddíly, které měly schůzky
- []
-
-[183] [184] [185]
-Overfull \hbox (1.84448pt too wide) in paragraph at lines 5890--5894
+[159] [160] [161]
+Overfull \hbox (1.84448pt too wide) in paragraph at lines 6119--6123
 []\TU/EBGaramond(0)/m/n/10.95 Skipping Boys na počátku vyrostli z našich dorostenců. Jsou nejstarší a nejdéle
  []
 
-
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [186]
-Overfull \hbox (16.27469pt too wide) in paragraph at lines 5927--5938
+[162]
+Overfull \hbox (16.27469pt too wide) in paragraph at lines 6157--6168
 \TU/EBGaramond(0)/m/n/10.95 šest (přesně si už asi nevzpomeneme) nadšenců. Ze začátku jsme zkoušeli na Zbraslavi.
  []
 
-
-Underfull \vbox (badness 6641) has occurred while \output is active []
-
- [187]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [188]
-Overfull \hbox (0.38083pt too wide) in paragraph at lines 6026--6038
+[163] [164]
+Overfull \hbox (0.38083pt too wide) in paragraph at lines 6261--6273
 []\TU/EBGaramond(0)/m/n/10.95 Po různém obhlížení jiných loutkových divadel, které zpravidla přinášelo smí-
  []
 
-[189]
 File: img/85_loutky_peklo.JPG Graphic file (type bmp)
 <img/85_loutky_peklo.JPG>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 6057--6058
-[][] 
- []
-
-
-Underfull \vbox (badness 2205) has occurred while \output is active []
-
- [190]
-File: img/86_fksp.jpg Graphic file (type bmp)
-<img/86_fksp.jpg>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 6103--6104
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [191] [192]
-Overfull \hbox (8.5605pt too wide) in paragraph at lines 6156--6167
+ [165] [166]
+File: img/86_fksp.jpg Graphic file (type bmp)
+<img/86_fksp.jpg>
+ [167]
+Overfull \hbox (8.5605pt too wide) in paragraph at lines 6403--6414
 []\TU/EBGaramond(0)/m/n/10.95 Bratr Přibyl jednou při cvičeních na bradlech těžce podcenil rozcvičení a v rámci
  []
 
-[193] [194] [195] [196] [197]
-Overfull \hbox (6.11136pt too wide) in paragraph at lines 6475--6477
-[]\TU/EBGaramond(0)/m/n/10.95 Lucie Vojáčková, DiS., Ing. Martin Kubů, Ph.D., Vladislav Voráč, Jakub Jabor,
+[168] [169]
+Overfull \hbox (0.68549pt too wide) in paragraph at lines 6472--6478
+\TU/EBGaramond(0)/m/n/10.95 Děkujeme všem autorům, kteří poskytli své příspěvky do tohoto almanachu. Jme-
  []
 
+[170
+
+] [171
+
+]
+Overfull \hbox (1.739pt too wide) in paragraph at lines 6577--6597
+[] 
+ []
+
+[172
+
+]
 File: img/87_vybor_22.jpg Graphic file (type bmp)
 <img/87_vybor_22.jpg>
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 6483--6484
-[][] 
- []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [198] [199]
-File: img/88_isbn.png Graphic file (type bmp)
-<img/88_isbn.png>
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 6499--6500
-[][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
+
+] [2] [3
+
+]
+File: img/88_isbn.png Graphic file (type bmp)
+<img/88_isbn.png>
+ [4
 
 ] (./almanach-2024.aux)
  ***********
@@ -2337,12 +1970,12 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20492 strings out of 476744
- 453734 string characters out of 5802573
- 1992839 words of memory out of 5000000
- 42059 multiletter control sequences out of 15000+600000
- 561194 words of font info for 81 fonts, out of 8000000 for 9000
+ 20543 strings out of 476744
+ 454915 string characters out of 5802573
+ 1991839 words of memory out of 5000000
+ 42108 multiletter control sequences out of 15000+600000
+ 561178 words of font info for 79 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
- 102i,7n,117p,1633b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,8n,117p,1602b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on almanach-2024.xdv (208 pages, 3319300 bytes).
+Output written on almanach-2024.xdv (184 pages, 3319624 bytes).
