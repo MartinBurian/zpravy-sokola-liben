@@ -1,4 +1,4 @@
-\documentclass[a5paper, 11pt, twoside]{article}
+\documentclass[a5paper, 11pt, twoside, draft]{article}
 % \usepackage{showframe} % just for demo
 
 % \usepackage[a5paper,left=2cm,right=1cm,top=1cm, bottom=1.5cm]{geometry}
@@ -114,6 +114,20 @@
 \usepackage{longtable}
 \setlength\LTleft{0cm}
 
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+\babelhyphenation{Lausch-mann}
+\babelhyphenation{Lausch-man-na}
+\babelhyphenation{krou-žku}
+\babelhyphenation{ma-ni-fe-sta-ční}
+\babelhyphenation{plá-ště}
+\babelhyphenation{a-gen-du}
+\babelhyphenation{dlou-ho}
+\babelhyphenation{Zbra-sla-vi}
+\babelhyphenation{lec-kte-ří}
+
+
 \begin{document}
 %% obálka
 \setlength{\oddsidemargin}{-24pt}
@@ -127,7 +141,7 @@
 
   {\titlesize\tyrs tělocvičné jednoty}
   
-  {\titlesize\tyrs Sokol Praha-Libeň}
+  {\titlesize\tyrs Sokol Libeň}
 
   \vspace*{\fill}
 
@@ -155,7 +169,7 @@
 
   {\titlesize\tyrs tělocvičné jednoty}
   
-  {\titlesize\tyrs Sokol Praha-Libeň}
+  {\titlesize\tyrs Sokol Libeň}
 
   \vspace*{\fill}
 
@@ -171,14 +185,14 @@
 \clearpage
 
 
-%% - chybí strany v obsahu
-%% sekce na novou stránku
+%% zkontrolovat nedělitelný mezery
+%% zhezčit tabulky
 
 
 % ISBN
 \vspace*{\fill}
 { \parindent0pt \parskip3pt
-140 let tělocvičné jednoty Sokol Praha-Libeň
+140 let tělocvičné jednoty Sokol Libeň
 
 Editor: Jan Přech 
 
@@ -190,7 +204,7 @@ Jazyková úprava: Martina Waclawičová
 
 Vyšlo v~Praze nákladem T.~J. Sokol Libeň při příležitosti 140. výročí založení jednoty v~roce 2024.
 
-© 2024 T.~J. Sokol Praha-Libeň
+© 2024 T.~J. Sokol Libeň
 
 ISBN 978-80-11-05742-8
 }
@@ -211,31 +225,31 @@ ISBN 978-80-11-05742-8
 
 Sestry a bratři, dámy a pánové, ctění čtenáři,
 
-\noindent již 140 let je tělocvičná jednota Sokol v Libni místním hybatelem
-sportovního i společenského života. V duchu myšlenek Dr. Miroslava Tyrše
+\noindent již 140 let je tělocvičná jednota Sokol v~Libni místním hybatelem
+sportovního i společenského života. V~duchu myšlenek Dr. Miroslava Tyrše
 a Jindřicha Fügnera, zakladatelů Sokola, se snažíme přibližovat naše
 členy antickému ideálu kalokagathie, tedy dokonalosti ducha i těla.
 Sokol je vnímán především jako sportovní organizace, přinášel a přináší
 sport pro každého, bez rozdílu věku a příjmu. Rozvíjí tělesnou zdatnost
-svých členů i ostatních. Ale Sokol je a byl také vlastenecký v nejlepším
-slova smyslu. Své členy vede k lásce k rodné zemi a k úctě k duchovnímu
+svých členů i ostatních. Ale Sokol je a byl také vlastenecký v~nejlepším
+slova smyslu. Své členy vede k~lásce k~rodné zemi a k~úctě k~duchovnímu
 dědictví našeho národa. Sehrál klíčovou roli při vzniku československých
 legií a ustavení naší novodobé státnosti. Stejně tak vždy byl a dnes je
-i hybatelem kulturních aktivit. V neposlední řadě spojoval a spojuje
+i hybatelem kulturních aktivit. V~neposlední řadě spojoval a spojuje
 členky a členy rozdílných společenských postavení, profesí, politických
 přesvědčení a životních zkušeností při společné aktivitě. Jsem
-přesvědčen, že to je klíčová úloha Sokola v dnešních dnech, kdy mnozí
+přesvědčen, že to je klíčová úloha Sokola v~dnešních dnech, kdy mnozí
 společnost aktivně rozdělují a straší pro své partikulární zájmy, než
 aby ji spojovali a postavili se skutečným výzvám naší doby.
 
-U příležitosti 140. výročí naší jednoty jsme se rozhodli vydat doplněný
+U~příležitosti 140. výročí naší jednoty jsme se rozhodli vydat doplněný
 almanach mapující historii jednoty od jejího založení do současnosti.
-Almanach téměř beze změn přejímá texty z vydání u příležitosti 120.
-výročí založení jednoty (2004) a doplňuje je o shrnutí posledních 20 let
-s ambicí být i historickým pramenem pro budoucnost.
+Almanach téměř beze změn přejímá texty z~vydání u~příležitosti 120.
+výročí založení jednoty (2004) a doplňuje je o~shrnutí posledních 20 let
+s~ambicí být i historickým pramenem pro budoucnost.
 
 Jelikož almanach je souborem příspěvků různých pamětníků, některé
-události jsou zmíněny na více místech, vždy v kontextu daného příspěvku
+události jsou zmíněny na více místech, vždy v~kontextu daného příspěvku
 a nikoliv přísně chronologicky. Jsem nicméně přesvědčen, že tato
 vyprávěcí forma bude pro čtenáře příjemnější než encyklopedická.
 
@@ -249,43 +263,43 @@ vyprávěcí forma bude pro čtenáře příjemnější než encyklopedická.
 
 \section{Úvodní slovo starosty br. Jiřího Sixty ke 120.~výročí založení jednoty}
 
-V roce 2004 si připomínáme 120. výročí založení Tělocvičné jednoty
-"Sokol" v Praze-Libni, která byla obnovena po době, kdy nebylo možné se
-veřejně hlásit k sokolským ideálům.
+V~roce 2004 si připomínáme 120. výročí založení Tělocvičné jednoty
+"Sokol" v~Praze-Libni, která byla obnovena po době, kdy nebylo možné se
+veřejně hlásit k~sokolským ideálům.
 
 Ku příležitosti tohoto významného výročí jsme se rozhodli nejen
 uspořádat slavnostní Akademii a výstavu, ale vydat také Almanach, který
-bude mapovat vývoj činnosti v naší jednotě od založení až po současnost.
-Výsledek našeho snažení držíte právě v rukou.
+bude mapovat vývoj činnosti v~naší jednotě od založení až po současnost.
+Výsledek našeho snažení držíte právě v~rukou.
 
-Velkou zásluhu na znovuobnovení sokolské činnosti v roce 1990 mají kromě
-jiných, pamětníci slavné sokolské éry, kteří svými zkušenostmi v
-sokolském hnutí a s obětavým osobním nasazením, započali novou etapu
-sokolských aktivit v Libni až do současnosti. Také díky nim byla naše
+Velkou zásluhu na znovuobnovení sokolské činnosti v~roce 1990 mají kromě
+jiných, pamětníci slavné sokolské éry, kteří svými zkušenostmi
+v~sokolském hnutí a s~obětavým osobním nasazením, započali novou etapu
+sokolských aktivit v~Libni až do současnosti. Také díky nim byla naše
 jednota opět zaregistrována 16. července 1990 pod názvem Tělocvičná
-jednota Sokol Libeň. V roce 1991 se rozbíhají v navrácené sokolovně
-aktivity v sokolské všestrannosti, sportovních a turistických oddílech a
+jednota Sokol Libeň. V~roce 1991 se rozbíhají v~navrácené sokolovně
+aktivity v~sokolské všestrannosti, sportovních a turistických oddílech a
 společenských akcích vzdělavatelského sboru. Rychle se rozrůstá členská
-základna. Velké množství cvičenců a dobrovolných pořadatelů z libeňské
+základna. Velké množství cvičenců a dobrovolných pořadatelů z~libeňské
 jednoty se podílelo na zdárném průběhu XII. všesokolského sletu 1994 a
 XIII. všesokolského sletu 2000. Již brzy se rozběhnou přípravy na XIV.
-všesokolský slet v roce 2006, do kterého se i naše jednota hodlá aktivně
+všesokolský slet v~roce 2006, do kterého se i naše jednota hodlá aktivně
 zapojit.
 
-Budovu sokolovny, která se nacházela v době převzetí ve špatném
-technickém stavu, bylo nutné začít postupně v závislosti na finančních
+Budovu sokolovny, která se nacházela v~době převzetí ve špatném
+technickém stavu, bylo nutné začít postupně v~závislosti na finančních
 prostředcích uvádět do provozuschopného stavu. Po rekonstrukci fasády a
-střechy v roce 2002 se libeňská sokolovna opět stala jednou z dominant
-centrální části Libně. Dokončení rekonstrukce sokolovny, která byla v
-roce 2001 prohlášena za kulturní památku, bude stát ještě nemálo úsilí a
+střechy v~roce 2002 se libeňská sokolovna opět stala jednou z~dominant
+centrální části Libně. Dokončení rekonstrukce sokolovny, která byla
+v~roce 2001 prohlášena za kulturní památku, bude stát ještě nemálo úsilí a
 finančních prostředků.
 
-V současné době je naším prvořadým úkolem práce s nastupující mladou
-generací. I v dnešní uspěchané době je třeba dbát o její všestranný
+V~současné době je naším prvořadým úkolem práce s~nastupující mladou
+generací. I~v~dnešní uspěchané době je třeba dbát o~její všestranný
 tělesný i duševní rozvoj. Díky obětavosti mnoha cvičitelů a činovníků
 bude proto náš libeňský Sokol i nadále vzkvétat.
 
-Přeji naší jednotě k jejímu 120. výročí mnoho zdaru a úspěchu do dalších
+Přeji naší jednotě k~jejímu 120. výročí mnoho zdaru a úspěchu do dalších
 let, obětavé cvičitele a činovníky a mnoho spokojených členů.
 
 \clearpage
@@ -304,24 +318,24 @@ let, obětavé cvičitele a činovníky a mnoho spokojených členů.
   \textit{"V pravdě stůj, vlast miluj, nechtěj porobu, služ vlasti, národu!"}%
 \end{center}
 
-\noindent Slova chorálu v závěru vystoupení mužského dorostu na VIII. sletu
-všesokolském v roce 1926 byla již o 42 let dříve vůdčím heslem několika
+\noindent Slova chorálu v~závěru vystoupení mužského dorostu na VIII. sletu
+všesokolském v~roce 1926 byla již o~42 let dříve vůdčím heslem několika
 pokrokových a vlasteneckých občanů, jež osud zavál do tehdejší vesnice
-Libně, v okresu karlínském, aby tu byli šiřiteli národní osvěty. Buďte
+Libně, v~okresu karlínském, aby tu byli šiřiteli národní osvěty. Buďte
 zde pro trvalou a oživovanou paměť zachována jejich jména:
 
-\textbf{Ladislav Verner}, nar. 7. 1. 1856 v~Byháni, učitel obecné školy chlapecké od 21. 4. 1882.
+\textbf{Ladislav Verner}, nar. 7.~1. 1856 v~Byháni, učitel obecné školy chlapecké od 21.~4. 1882.
 
-\textbf{Jaroslav Pechan}, nar. 15. 10. 1862 v~Praze, od 2. 11. 1882 zatímní podučitel do 5. 8. 1886, kdy odešel do Kozel.
+\textbf{Jaroslav Pechan}, nar. 15.~10. 1862 v~Praze, od 2.~11. 1882 zatímní podučitel do 5.~8. 1886, kdy odešel do Kozel.
 
-\textbf{František Gliman}, nar. 6. 5. 1862 v~Chocni, dočasný smluvní učitel od 1. 9. 1882, odešel do Nehvizd 1. 3. 1886.
+\textbf{František Gliman}, nar. 6.~5. 1862 v~Chocni, dočasný smluvní učitel od 1.~9. 1882, odešel do Nehvizd 1.~3. 1886.
 
-\textbf{Václav Kalaš}, provizorní podučitel od 2. 11. 1882, odešel do Prahy 9. 12. 1885.
+\textbf{Václav Kalaš}, provizorní podučitel od 2.~11. 1882, odešel do Prahy 9.~12. 1885.
 
-Tito čtyři mladí učitelští mládenci (z nichž Jaroslav Pechan již od roku
+Tito čtyři mladí učitelští mládenci (z~nichž Jaroslav Pechan již od roku
 1880 je členem-stipendistou Sokola Pražského, a tedy pod přímým vlivem
 Dr. Miroslava Tyrše i jako cvičitel jeho Tělocvičného ústavu pro hochy)
-našli ubytování ve třech místnostech v tzv. staré faře Dr. Košáka.
+našli ubytování ve třech místnostech v~tzv. staré faře Dr. Košáka.
 
 \begin{figure*}[h]
   \centering
@@ -356,11 +370,11 @@ Bylo tehdy v~Čechách a na Moravě po l. všesokolském sletu (1882) již 104 s
   \end{subfigure}
 \end{figure*}
 
-K~vlastnímu založení T.~J. Sokol v~Libni došlo pak v~ustavující valné hromadě 26. 10. 1884, při níž byl za starostu obezřetně zvolen obecní starosta Josef Voctář, jeho náměstkem "stavitel ve službách obecních" Josef Bukovský, náčelníkem JUC. Václav Klazar, jeho náměstkem učitel Jaroslav Pechan a jednatelem Vítězslav Vondřich. Bylo tedy vedení jednoty svěřeno osobám odborně povolaným, ale i důvěryhodným, neboť ne všemu obyvatelstvu mohlo být vítáno pokrokové zaměření Sokola, bratrské tykání, pozdrav "Nazdar" a dokonce červená košile sokolského kroje.
+K~vlastnímu založení T.~J. Sokol v~Libni došlo pak v~ustavující valné hromadě 26.~10. 1884, při níž byl za starostu obezřetně zvolen obecní starosta Josef Voctář, jeho náměstkem "stavitel ve službách obecních" Josef Bukovský, náčelníkem JUC. Václav Klazar, jeho náměstkem učitel Jaroslav Pechan a jednatelem Vítězslav Vondřich. Bylo tedy vedení jednoty svěřeno osobám odborně povolaným, ale i důvěryhodným, neboť ne všemu obyvatelstvu mohlo být vítáno pokrokové zaměření Sokola, bratrské tykání, pozdrav "Nazdar" a dokonce červená košile sokolského kroje.
 
 Cvičit se počalo velmi brzy; již 20. ledna 1885. Cvičilo se první tři léta v~hostinci u~Deutschů, později se souhlasem místní školní rady ve škole a pro letní cvičení byl získán roku 1887 od obce pozemek ve výměře 200 čtverečních sáhů po 10 haléřích, jenž byl později vyměněn za jiný, o~40 sáhů větší (1 čtvereční sáh odpovídá 3,6\,$\textrm{m}^2$).
 
-Duší tělocvičné činnosti byl od počátku bratr Jaroslav Pechan, později středoškolský profesor tělocviku, horlivý propagátor tělesné výchovy školní i sokolské. Podlehl posléze dlouholeté chorobě, jež přerušovala jeho nadějnou činnost. Byl autorem "Osnov k~vyučování tělocviku na školách středních, díl I." (r. 1905) a "Tělocviku pro obecné školy chlapecké na základě soustavy Miroslava Tyrše, díl I." (r. 1888). O~Pechanových vlastnostech a zásluhách můžeme číst v~"Památníku 25letého trvání T.~J.  Sokol v~Praze-Libni 1884–⁠⁠⁠⁠⁠⁠1909" z~pera Františka Glimana a Památníku z~roku 1934 z~pera Ladislava Vernera, dvou jeho současníků a spolupracovníků. Pozdější místonáčelník jednoty, všestranný umělec, český básník, autor "Sokolských sonetů" a odborný sokolský tělocvičný spisovatel Karel Hlaváček (1874–1898) o~něm napsal: "Na prvním místě bije do očí jeho neúnavná činnost, která vrcholí ve dnech župního sletu roku 1886, kdy bydlil dávno již na místě vzdáleném a přece svou pevnou rukou ovládal a řídil přípravné kroky. Byl vychovatelem sokolských  charakterů.  Chválím si bratra Pechana jako bystrovtipného organizátora, jenž řady všech odborů upevnil tuhou kázní řádů zocelil a utužil. Bude vždy mezi předními, jež slaviti a vzpomínati budeme jako muže o~jednotu zasloužilé." Roku 1889 tento v~tělocviku odborně kovaný J. Pechan je již náčelníkem Sokola Vinohradského. Jeho duch v~cvičitelském sboru opravdu na dlouho přetrval jeho odchod. Zemřel 14. 6. 1915 v~Praze a pohřben byl na Vinohradském hřbitově.
+Duší tělocvičné činnosti byl od počátku bratr Jaroslav Pechan, později středoškolský profesor tělocviku, horlivý propagátor tělesné výchovy školní i sokolské. Podlehl posléze dlouholeté chorobě, jež přerušovala jeho nadějnou činnost. Byl autorem "Osnov k~vyučování tělocviku na školách středních, díl I." (r. 1905) a "Tělocviku pro obecné školy chlapecké na základě soustavy Miroslava Tyrše, díl I." (r. 1888). O~Pechanových vlastnostech a zásluhách můžeme číst v~"Památníku 25letého trvání T.~J.  Sokol v~Praze-Libni 1884–⁠⁠⁠⁠⁠⁠1909" z~pera Františka Glimana a Památníku z~roku 1934 z~pera Ladislava Vernera, dvou jeho současníků a spolupracovníků. Pozdější místonáčelník jednoty, všestranný umělec, český básník, autor "Sokolských sonetů" a odborný sokolský tělocvičný spisovatel Karel Hlaváček (1874–1898) o~něm napsal: "Na prvním místě bije do očí jeho neúnavná činnost, která vrcholí ve dnech župního sletu roku 1886, kdy bydlil dávno již na místě vzdáleném a přece svou pevnou rukou ovládal a řídil přípravné kroky. Byl vychovatelem sokolských  charakterů.  Chválím si bratra Pechana jako bystrovtipného organizátora, jenž řady všech odborů upevnil tuhou kázní řádů zocelil a utužil. Bude vždy mezi předními, jež slaviti a vzpomínati budeme jako muže o~jednotu zasloužilé." Roku 1889 tento v~tělocviku odborně kovaný J. Pechan je již náčelníkem Sokola Vinohradského. Jeho duch v~cvičitelském sboru opravdu na dlouho přetrval jeho odchod. Zemřel 14.~6. 1915 v~Praze a pohřben byl na Vinohradském hřbitově.
 
 \begin{figure*}[h!]
   \centering
@@ -399,7 +413,7 @@ V~roce 1886, tj. dva roky po založení jednoty, se konal v~Libni na Knoblochov�
 \begin{figure*}[h!]
   \centering
   \includegraphics[width=\textwidth]{img/09_hospoda_u_deutschu.jpg}
-  \caption*{Hostinec u Deutschů (1884), pohlednice z archivu T. J.
+  \caption*{Hostinec u~Deutschů (1884), pohlednice z~archivu T.~J.
   Sokol Libeň}
 \end{figure*}
 
@@ -412,64 +426,64 @@ V~krátkém mezidobí sletovém (4 roky) se konal znamenitý slet v~Českých Bu
 \begin{figure*}[h!]
   \centering
   \includegraphics[width=0.55\textwidth]{img/10_pozvanka_prapor.jpg}
-  \caption*{Pozvánka na slavnostní odhalení nového praporu (1893), archiv T. J. Sokol Libeň}
+  \caption*{Pozvánka na slavnostní odhalení nového praporu (1893), archiv T.~J. Sokol Libeň}
 \end{figure*}
 
-\textbf{III. všesokolský slet (1895)} se konal na Letenské pláni, u~příležitosti Národopisné výstavy lidu československého. O~slet byl veliký zájem, a tak již nemohlo stačit místo minulého sletu v~Královské oboře a našlo se lepší. Na Letné se upravil prostor pro 4 000 cvičenců a tribuny pro 11 000 diváků. Sokol Libeň poslal do sletového průvodu 57 mužů v~kroji a 10 krojovaných na koních. Cvičilo 28 mužů a také 28 dorostenců. Naše závodní družstvo získalo přes 71\,\% bodů, v~družstvu byl nejlepším br. Decastello (32,10 bodů ze 40). Oba slety (II. a III.) připravil a vedl náčelník Josef Svoboda a jeho náměstek Václav Steiner. V~mezisletovém období zorganizovala ČOS veliký zájezd na Moravu do Hodslavic a později i do dalších míst. V~Libni byl v~roce 1898 založen ženský odbor. Prvního cvičení se zúčastnilo 26 žen. První náčelnicí byla zvolena sestra Růžena Vocetková, jednatelkou Hana Němečková, provdaná Decastellová. V~roce 1901 již naše ženy cvičily na IV. sletu. Smutnou událostí toho roku bylo, že zemřel místonáčelník, básník a spisovatel Karel Hlaváček.
+\textbf{III. všesokolský slet (1895)} se konal na Letenské pláni, u~příležitosti Národopisné výstavy lidu československého. O~slet byl veliký zájem, a tak již nemohlo stačit místo minulého sletu v~Královské oboře a našlo se lepší. Na Letné se upravil prostor pro 4\,000 cvičenců a tribuny pro 11\,000 diváků. Sokol Libeň poslal do sletového průvodu 57 mužů v~kroji a 10 krojovaných na koních. Cvičilo 28 mužů a také 28 dorostenců. Naše závodní družstvo získalo přes 71\,\% bodů, v~družstvu byl nejlepším br. Decastello (32,10 bodů ze 40). Oba slety (II. a III.) připravil a vedl náčelník Josef Svoboda a jeho náměstek Václav Steiner. V~mezisletovém období zorganizovala ČOS veliký zájezd na Moravu do Hodslavic a později i do dalších míst. V~Libni byl v~roce 1898 založen ženský odbor. Prvního cvičení se zúčastnilo 26 žen. První náčelnicí byla zvolena sestra Růžena Vocetková, jednatelkou Hana Němečková, provdaná Decastellová. V~roce 1901 již naše ženy cvičily na IV. sletu. Smutnou událostí toho roku bylo, že zemřel místonáčelník, básník a spisovatel Karel Hlaváček.
 
 \begin{figure*}[h!]
   \centering
   \includegraphics[width=0.45\textwidth]{img/11_hana_decastellova.jpg}
-  \caption*{Hana Němečková, vdaná Decastellová, první jednatelka odboru žen a pozdější náčelnice, foto: archiv T. J. Sokol Libeň}
+  \caption*{Hana Němečková, vdaná Decastellová, první jednatelka odboru žen a pozdější náčelnice, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
-\textbf{IV. všesokolský slet (1901)} se opět konal na Letenské pláni. Před ním se v~Libni konal 2. 6. 1901 župní slet na Pánkově poli, tj.prostor mezi dnešní ulicí Novákových a Na Žertvách. Cvičilo zde 37 družstev na různých nářadích, svážených dlouho do noci z~okolních jednot. Dorostenců bylo přes sto a cvičili v~jedenácti družstvech, z~Libně 25 dorostenců ve 3 družstvech a 15 žen ve 2 družstvech.
+\textbf{IV. všesokolský slet (1901)} se opět konal na Letenské pláni. Před ním se v~Libni konal 2.~6. 1901 župní slet na Pánkově poli, tj.prostor mezi dnešní ulicí Novákových a Na Žertvách. Cvičilo zde 37 družstev na různých nářadích, svážených dlouho do noci z~okolních jednot. Dorostenců bylo přes sto a cvičili v~jedenácti družstvech, z~Libně 25 dorostenců ve 3 družstvech a 15 žen ve 2 družstvech.
 
 \begin{figure*}[hp]
   \centering
   \includegraphics[width=0.9\textwidth]{img/12_na_zertvach.jpg}
-  \caption*{Veřejné cvičení v ulici Na Žertvách (1901; v pozadí železniční násep, na jehož místě nyní stojí mosty na Balabence), foto: archiv T. J. Sokol Libeň}
+  \caption*{Veřejné cvičení v~ulici Na Žertvách (1901; v~pozadí železniční násep, na jehož místě nyní stojí mosty na Balabence), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[hp]
   \centering
   \includegraphics[width=0.9\textwidth]{img/13_verejne_cviceni.jpg}
-  \caption*{Veřejné cvičení v dnešní Voctářově ulici (1901; v pozadí nádražní budova libeňského dolního nádraží a dodnes stojící dům na rohu Sokolovské a Zenklovy ulice), foto: archiv T. J. Sokol Libeň}
+  \caption*{Veřejné cvičení v~dnešní Voctářově ulici (1901; v~pozadí nádražní budova libeňského dolního nádraží a dodnes stojící dům na rohu Sokolovské a Zenklovy ulice), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[hp]
   \centering
   \includegraphics[width=\textwidth]{img/14_muzi_slet_1901.jpg}
-  \caption*{Muži slet 1901, foto: archiv T. J. Sokol Libeň}
+  \caption*{Muži slet 1901, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
   \includegraphics[width=\textwidth]{img/15_zakyne_1901.jpg}
-  \caption*{Žákyně 1901, před vraty Libeňského zámku, foto: archiv T. J. Sokol Libeň}
+  \caption*{Žákyně 1901, před vraty Libeňského zámku, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
   \includegraphics[width=0.8\textwidth]{img/16_pruvod_1900.jpg}
-  \caption*{Sokolský průvod na dnešní Zenklově ulici při ústí Světovy ulice (vlevo). Jednopatrový bílý dům vlevo je hostinec U Deutschů (okolo roku 1900), foto: archiv T. J. Sokol Libeň}
+  \caption*{Sokolský průvod na dnešní Zenklově ulici při ústí Světovy ulice (vlevo). Jednopatrový bílý dům vlevo je hostinec U~Deutschů (okolo roku 1900), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \clearpage
 
-\textbf{V. všesokolský slet (1907)} se konal potřetí na Letenské pláni, která byla znovu upravena a značně zvětšena, tribuny byly pro 55 000 diváků. Ve společných prostných vystoupilo 7 600 mužů. Byl to opravdu první "velký slet". V~Pamětní knize cvičitelského sboru Sokola Libeň je podepsáno pod hlavičkou V. sletu 44 mužských účastníků s~náčelníkem Fr. Kynčlem a mnoho žen s~náčelnicí Hanou Němečkovou. Vzrůstem počtu cvičících, mužů, žen, dorostu i žactva, se od tohoto sletu začala usilovně řešit otázka výstavby sokolovny. Největší zásluhu na tom má tehdejší starosta bratr František Filip. Byl starostou od roku 1900 a byl jím až do roku 1920. Dokázal i nemožné, a tak už na oslavu dvacetipětiletého trvání jednoty byl položen 10. října 1909 základní kámen ke stavbě sokolovny. Je zazděn ve vestibulu vedle vrátnice \pozned{(a nese v~sobě dvojici časových schránek – z~roku 1909 a z~roku 2009, pozn. ed.)}. Za 10 měsíců byla stavba dokončena a 14. srpna 1910 otevřena.
+\textbf{V. všesokolský slet (1907)} se konal potřetí na Letenské pláni, která byla znovu upravena a značně zvětšena, tribuny byly pro 55\,000 diváků. Ve společných prostných vystoupilo 7\,600 mužů. Byl to opravdu první "velký slet". V~Pamětní knize cvičitelského sboru Sokola Libeň je podepsáno pod hlavičkou V. sletu 44 mužských účastníků s~náčelníkem Fr. Kynčlem a mnoho žen s~náčelnicí Hanou Němečkovou. Vzrůstem počtu cvičících, mužů, žen, dorostu i žactva, se od tohoto sletu začala usilovně řešit otázka výstavby sokolovny. Největší zásluhu na tom má tehdejší starosta bratr František Filip. Byl starostou od roku 1900 a byl jím až do roku 1920. Dokázal i nemožné, a tak už na oslavu dvacetipětiletého trvání jednoty byl položen 10. října 1909 základní kámen ke stavbě sokolovny. Je zazděn ve vestibulu vedle vrátnice \pozned{(a nese v~sobě dvojici časových schránek – z~roku 1909 a z~roku 2009, pozn. ed.)}. Za 10 měsíců byla stavba dokončena a 14. srpna 1910 otevřena.
 
 \subsection{Výstavba sokolovny}
 
 Čtvrtstoleté trvání Tělocvičné jednoty Sokol v~Libni nemohlo být lépe a
 důstojněji oslaveno než stavbou sokolovny. Již třetí rok po založení
 jednoty vznikl "Fond pro zbudování tělocvičny". Ten v~jubilejním 10.
-roce (1894) vykazoval jen 2 815 zlatých a 83 krejcarů.
+roce (1894) vykazoval jen 2\,815 zlatých a 83 krejcarů.
 
 Na valné hromadě 31. ledna 1909, tedy v~roce zahájení stavby sokolovny,
-činilo hotové jmění na zbudování tělocvičny 40 872,49 K. Rozpočet na
+činilo hotové jmění na zbudování tělocvičny 40\,872,49 K. Rozpočet na
 stavbu sokolovny s~městskými lidovými lázněmi po obou stranách a
-s~vnitřním zařízením zněl přibližně na 400 000 K. Kde na to vzít? Kromě
+s~vnitřním zařízením zněl přibližně na 400\,000 K. Kde na to vzít? Kromě
 výtěžků ze šibřinek, z~jarních a letních zábav, divadelních představení,
 akademií a veřejných cvičení, tu byly jen dary organizaci a jednotlivců
 a také sbírky ze šestnácti pokladniček různě umístěných, ale to byly
@@ -478,7 +492,7 @@ a také sbírky ze šestnácti pokladniček různě umístěných, ale to byly
 8,10\,K. a pod.
 
 Jaké byly tenkrát členské příspěvky? Velmi malé. Za rok 1908 (za 11
-měsíců) se vybralo 1 240,49\,K., přepočteno na jeden měsíc to je 112,70
+měsíců) se vybralo 1\,240,49\,K., přepočteno na jeden měsíc to je 112,70
 K. To bylo od 375 dospělých a 232 mladých (dorost a žactvo). Vychází nám
 tedy asi 25 haléřů na osobu měsíčně.
 
@@ -502,13 +516,13 @@ stavitel, nakreslil několik půdorysných řešení budoucí sokolovny.
 V~návrzích se již počítalo s~městskými vanovými a sprchovými lázněmi
 umístěnými v~budově sokolovny, ale se samostatnými vchody. Toto řešení,
 navržené a prosazené br. starostou Filipem získalo jednotě příspěvek na
-tyto lázně od Pražské obce ve výši 65 000\,K. A~mohlo se začít stavět.
+tyto lázně od Pražské obce ve výši 65\,000\,K. A~mohlo se začít stavět.
 Stavba byla zadána osvědčené stavební firmě Matěj Blecha z~Karlína.
 
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/17_zaklady_sokolovny.jpg}
-  \caption*{Stavba základů libeňské sokolovny (1909), foto: archiv T. J. Sokol
+  \caption*{Stavba základů libeňské sokolovny (1909), foto: archiv T.~J. Sokol
   Libeň}
 \end{figure*}
 
@@ -529,7 +543,7 @@ pozn. ed.})
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/18_krovy_sokolovny.jpg}
-  \caption*{Slavnostní vztyčení krovů libeňské sokolovny (1910), foto: archiv T. J. Sokol Libeň}
+  \caption*{Slavnostní vztyčení krovů libeňské sokolovny (1910), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Architektonické řešení sokolovny, především hlavní průčelí, vestibul a
@@ -553,7 +567,7 @@ bude i uvnitř zářit jako nová, pozn. ed.}).
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/19_sokolovna_dokoncena.jpg}
-  \caption*{Sokolovna těsně po dokončení (1910), foto: archiv T. J. Sokol
+  \caption*{Sokolovna těsně po dokončení (1910), foto: archiv T.~J. Sokol
   Libeň}
 \end{figure*}
 
@@ -583,7 +597,7 @@ krytými vížkami, jež přispívají k~malebnosti střech."
   \caption*{Velký sál sokolovny neznámo při jaké příležitosti, ale krátce po
   dokončení. Povšimněte si původní bohaté secesní výmalby a také oken na
   pravé galerii. Srncův sál, který je na místě dnes, byl dostavěn ve 20.
-  letech, foto: archiv T. J. Sokol Libeň}
+  letech, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~tomto východním průčelí jsou tři hlavní vchody, kryté oplechovanými
@@ -680,7 +694,7 @@ sokolstva.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/22_lazaret.jpg}
-  \caption*{Velký sál sokolovny jako lazaret (1917), foto: archiv T. J. Sokol
+  \caption*{Velký sál sokolovny jako lazaret (1917), foto: archiv T.~J. Sokol
   Libeň}
 \end{figure*}
 
@@ -692,7 +706,7 @@ ošetřováním raněných. Ke cvičení byla sokolovna uvolněna až začátkem
   \centering 
   \includegraphics[width=0.9\textwidth]{img/21_zaci_1916.jpg}
   \caption*{Fotografie družstva žáků; datována 1916, ale s~ohledem na průběh
-  války může být o~nějaký rok mladší či starší; foto: archiv T. J.
+  války může být o~nějaký rok mladší či starší; foto: archiv T.~J.
   Sokol Libeň}
 \end{figure*}
 
@@ -717,13 +731,13 @@ grafický diagram celého desetiletí.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/23_muzi_cvicitele.jpg}
-  \caption*{Cvičitelský sbor mužů 1920, foto: archiv T. J. Sokol Libeň}
+  \caption*{Cvičitelský sbor mužů 1920, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/24_muzi_slet.jpg}
-  \caption*{Muži 1920 s~praporem jednoty, fotografování u~příležitosti VII. všesokolského sletu, foto: archiv T. J. Sokol Libeň}
+  \caption*{Muži 1920 s~praporem jednoty, fotografování u~příležitosti VII. všesokolského sletu, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 
@@ -736,12 +750,12 @@ tělocvičné sály v~sokolovně nestačily. Od roku 1921 se cvičilo také ve
 školních tělocvičnách v~gymnáziu, v~chlapecké škole proti zámku a
 v~dívčí škole "Libušině". Správní výbor se rozhodl přistavět další sál
 nad pravou lodí sokolovny (dnešní Srncův sál). Byla vypsána půjčka na 5
-let. Od 465 členů, dorostu i žactva se vybralo 98 000\,Kč (zaokrouhleno).
-Dary od 558 členů vynesly 45 000\,Kč. S~přístavbou se v~létě začalo a za
-půl roku se sál za 163 000\,Kč již používal. Tak rychle a dobře pracoval
+let. Od 465 členů, dorostu i žactva se vybralo 98\,000\,Kč (zaokrouhleno).
+Dary od 558 členů vynesly 45\,000\,Kč. S~přístavbou se v~létě začalo a za
+půl roku se sál za 163\,000\,Kč již používal. Tak rychle a dobře pracoval
 tehdejší výbor. Starostou byl JUDr. Norbert Zavadil, jednatelem Ludvík
 Schötter, dobrovolný, neplacený činovník, který např. v~roce 1922
-vykazoval 2 960 dopisů přijatých a odeslaných (mimo pozvánky na schůze,
+vykazoval 2\,960 dopisů přijatých a odeslaných (mimo pozvánky na schůze,
 na sokolské sliby apod.). Dělme to 365 a vyjde nám na den 8 dopisů --
 při 17 řádných schůzích výboru za rok to znamená vybrat to
 nejdůležitější ze 174 dopisů pro jednu schůzi. A~přece se všechno stihlo
@@ -783,10 +797,10 @@ jednotě pronajala. Na tak důležitý podnik bylo třeba svolat mimořádnou
 valnou hromadu. Ta však nepochopila důležitost letního cvičiště, zalekla
 se nákladu, povinné členské daně i pracovních povinností a návrh
 neschválila. Souhlasila však s~tím, že cvičitelské sbory provedou
-potřebné odkopávky i přemístění zeminy (přes 4 000 m\textsuperscript{3})
+potřebné odkopávky i přemístění zeminy (přes 4\,000 m\textsuperscript{3})
 zdarma a že se za pomoci věrných starších členů postarají také o~úhradu
 nutných nákladů. Byl to velký a těžký úkol, před kterým couvla valná
-hromada jménem 1 875 dospělých mužů a žen. Byla to osobnost Vojty
+hromada jménem 1\,875 dospělých mužů a žen. Byla to osobnost Vojty
 Vacína, která strhla do práce všechny cvičící i s~dorostem, a byl to
 bratr Karel Besser, náměstek starosty, který se stal prvním předsedou
 "Staré gardy", založené 25. července 1923, která dokázala pokrýt
@@ -795,12 +809,12 @@ všechny výdaje s~letním cvičištěm. Byli to ti Sokolu nejvěrnější.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/25_budovani_cviciste.jpg}
-  \caption*{Budování letního cvičiště (1924), foto: archiv T. J. Sokol Libeň}
+  \caption*{Budování letního cvičiště (1924), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~neděli 6. května 1923 se začalo rodit naše letní cvičiště. Krumpáče,
 lopaty a kolečka, všechno vypůjčené a všeho málo; alespoň ty první týdny
-a měsíce. Nadšení bylo veliké. Muži odpracovali 12 452 hodiny,
+a měsíce. Nadšení bylo veliké. Muži odpracovali 12\,452 hodiny,
 nejpilnější byl bratr František Pek, odpracoval 462 hodiny. Pomáhalo i
 175 žen; 193 dorostenců a dorostenek a všichni dohromady odpracovali 16
 764 hodiny. Konečnou planýrku prováděli odborní dělníci. Naši, převážně
@@ -815,15 +829,15 @@ Odpoledne se tu konalo veřejné cvičení všech složek jednoty.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/26_otevreni_cviciste.jpg}
-  \caption*{Slavnostní otevření letního cvičiště (1924), foto: archiv T. J.
+  \caption*{Slavnostní otevření letního cvičiště (1924), foto: archiv T.~J.
   Sokol Libeň}
 \end{figure*}
 
 Firmě Grab a synové jednota platila deset roků vysoké nájemné. Chtěli
-jsme pozemek odkoupit, firma však požadovala 1 000 000\,Kč. Jakou cenu by
+jsme pozemek odkoupit, firma však požadovala 1\,000\,000\,Kč. Jakou cenu by
 měl dnes? Teprve v~roce 1933, když Pražská obec převzala pozemek do
 svého vlastnictví, byly oba pozemky odkoupeny a cvičiště bylo opravdu
-naše. Pak došlo k~další definitivní úpravě cvičiště a vydání 250 000\,Kč
+naše. Pak došlo k~další definitivní úpravě cvičiště a vydání 250\,000\,Kč
 bylo kryto povinnou daní 12\,Kč pro člena ročně a 6\,Kč pro dorost a
 žactvo po dobu 5 roků.
 
@@ -836,7 +850,9 @@ podzimních libeňských atletických závodů se zúčastňovali i význační
 atleti jako Evžen Rošický, Kněnický, Dostál, Hron, Chmelík aj., z~našich
 to byl MUDr. Svatoš, který reprezentoval naši republiku i za hranicemi.
 
-\textbf{VIll. všesokolský slet (1926)} se konal poprvé v~Praze na
+\subsection{Meziválečné slety na Strahově}
+
+\textbf{VIII. všesokolský slet (1926)} se konal poprvé v~Praze na
 Strahově. Ten už mnozí z~nás dobře pamatují (\textit{již tomu tak dávno
 není, pozn. ed.}). Cvičili jsme na něm jako dorost nebo žactvo a ti
 nejstarší jako členové nebo členky. Na sletové dny žactva 13. června
@@ -855,30 +871,30 @@ Ve hlavních sletových dnech:
 \vspace*{6pt}
 
 \noindent
-3. 7. cvičilo naše žactvo a dorost ve velkém počtu
+3.~7. cvičilo naše žactvo a dorost ve velkém počtu
 
 \noindent
-4. 7. cvičilo 126 mužů prostná a 46 starších mužů s~tyčemi a dále 111
+4.~7. cvičilo 126 mužů prostná a 46 starších mužů s~tyčemi a dále 111
 žen prostná
 
 \noindent
-5. 7. nastupuje 40 našich mužů v~čele proudů a 73 žen na prostná
+5.~7. nastupuje 40 našich mužů v~čele proudů a 73 žen na prostná
 
 \noindent
-6. 7. cvičí prostná 92 mužů a 81 žen. V~župním vystoupení s~kroužky
+6.~7. cvičí prostná 92 mužů a 81 žen. V~župním vystoupení s~kroužky
 cvičí 80 žen
 \vspace*{6pt}
 
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/27_dorostenky.jpg}
-  \caption*{Cvičitelský sbor dorostenek (1926), foto: archiv T. J. Sokol
+  \caption*{Cvičitelský sbor dorostenek (1926), foto: archiv T.~J. Sokol
   Libeň}
 \end{figure*}
 
 Ve vystoupení Pražského pětižupí dne 20. června cvičí naši muži i ženy
 ve velkém počtu. Ve sletové scéně účinkovalo 93 mužů a 20 dorostenců, 20
-žen a 10 dorostenek. O~ubytování 2 614 mužů a 1 227 žen v~libeňských
+žen a 10 dorostenek. O~ubytování 2\,614 mužů a 1\,227 žen v~libeňských
 školách se staralo 26 našich členů. Na celonoční hlídání sokolského
 stadionu na Strahově jsme 12. června vypravili 54 mužů. Nebudeme všechny
 slety takhle podrobně popisovat -- nelekejte se. Ale alespoň na jednom
@@ -904,7 +920,7 @@ vynikajících spolupracovníků se dostala mezi nejpřednější scény nejen
 v~Praze, ale i v~celé republice. Primát jí potvrdil sám prof. Josef Skupa
 zápisem v~Pamětní knize loutkářů. V~roce 1931 a také v~dalších letech se
 zde konaly loutkářské školy ČOS za účasti více než 200 sokolských
-loutkářů. Tehdy bylo v~ČOS na 2 000 loutkových divadel. Moderně vybavená
+loutkářů. Tehdy bylo v~ČOS na 2\,000 loutkových divadel. Moderně vybavená
 scéna i stupňovité hlediště bývalo v~nynějším Srncově sále, pojmenovaném
 po Ing. Antonínu Srncovi, který byl duší elektrického osvětlení a
 vynálezcem všech světelných efektů ve scéně. Hrávalo se v~neděli
@@ -916,7 +932,7 @@ provedená podle návrhu Dr. Malíka se stala vzorem mnoha dalším loutkovým
 scénám.
 
 Zprávy tělocvičné jednoty Sokol v~Praze Libni začaly vycházet v~roce
-1927 nákladem 1 200 kusů, 10 čísel za rok. Členové je dostávali zdarma.
+1927 nákladem 1\,200 kusů, 10 čísel za rok. Členové je dostávali zdarma.
 Prvním redaktorem byl Dr. František Bulánek. Všechny sletové roky byly
 pro nás těmi roky radostnými. Strahovské sletiště, postupně mezi slety
 dodělávané, je tím největším stadiónem na světě. Poprvé se na něm konal
@@ -927,14 +943,14 @@ naše Barákova župa i Tyršovo muzeum.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/28_dorostenky.jpg}
-  \caption*{Dorostenky (1928), foto: archiv T. J. Sokol Libeň}
+  \caption*{Dorostenky (1928), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \textbf{IX. všesokolský slet 1932 -- Strahov}. Krásou, počtem diváků i počtem cvičících předčil všechny slety minulé.
 Konal se v~roce 100. výročí narození Dr. Miroslava Tyrše a v~roce 70.
 výročí založení Sokola. Sletu předcházel Sletový rozestavný běh v~září
 1931. Na 9 trasách z~měst v~pohraničí i ze Slovenska běželo na tratích
-o~délce 3 500 km skoro 40 000 běžců. Libní probíhaly dvě trasy a na ně
+o~délce 3\,500 km skoro 40\,000 běžců. Libní probíhaly dvě trasy a na ně
 jsme stavěli 54 běžců dospělých i z~dorostu. V~květnu jsme již cvičili
 sletová prostná na Okrskovém cvičení v~Měšicích. Naše účast tu byla
 veliká -- 718 (žactvo, dorost a členstvo). O~týden později byl v~Libni
@@ -943,14 +959,14 @@ uspořádali na našem letním cvičišti Veřejné cvičení -- 878 cvičícíc
 
 Na Strahově nás z~Libně cvičilo 792 a dalších 200 vystupovalo v~nádherné
 sletové scéně "Tyršův sen". Byla uvedena celkem osmkrát a pokaždé v~ní
-účinkovalo asi 5 000 cvičících. Oproti roku 1926 se počet cvičících
+účinkovalo asi 5\,000 cvičících. Oproti roku 1926 se počet cvičících
 z~Libně zvedl o~25 \% na 992 cvičenců. Kolik radosti a hezkých trvalých
 vzpomínek si všichni odnesli, to se vyčíslit nedá.
 
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/29_muzi_slet.jpg}
-  \caption*{Muži slet 1932, foto: archiv T. J. Sokol Libeň}
+  \caption*{Muži slet 1932, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Sletové závody jsme také dobře obeslali. Naše družstvo mužů získalo 2.
@@ -964,7 +980,7 @@ výlety, zábavy aj.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/30_sibrinky.jpg}
-  \caption*{Šibřinky 1932, foto: archiv T. J. Sokol Libeň}
+  \caption*{Šibřinky 1932, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \textbf{Rok 1934 -- 50. výročí založení Sokola v~Libni}. Oslavy tak významného jubilea byly zahájeny již 21. října na libeňském
@@ -991,7 +1007,7 @@ na letním cvičišti a potom vyslechlo v~sokolovně pohádku vzdělavatele
 Dr. Malíka o~rytířích a zvláštním hradu -- první sokolovně v~Praze.
 Přátelským večerem byly zakončeny oslavy půlstoleté činnosti sokolské
 jednoty v~Libni. Jen výstava ještě pokračovala a během týdne ji shlédlo
-na 2 000 osob.
+na 2\,000 osob.
 
 22. září 1935 byl odhalen před libeňským zámkem, kdysi letním sídlem
 pražských primátorů, pomník doktoru Janu Podlipnému, prvnímu starostovi
@@ -1016,31 +1032,31 @@ výtržnosti. Dostávali jsme o~tom nedobré zprávy od naší svěřenky --
 Sokol Trmice u~Ústí nad Labem. V~květnu roku 1938 byla vyhlášena
 částečná mobilizace a v~takovém ovzduší začínal náš dosud nejkrásnější a
 největší všesokolský slet. Tak velký, že muži cvičili ve skladbě
-"Přísaha republice" i mezi značkami v~počtu 28 600. Ženy nezůstávaly
-pozadu, v~úchvatném reji vystoupilo 28 640 žen. Všech cvičících na sletě
-bylo 1 034 800 (v~roce 1932 -- 18 800) a diváků bylo 2 300 000.
+"Přísaha republice" i mezi značkami v~počtu 28\,600. Ženy nezůstávaly
+pozadu, v~úchvatném reji vystoupilo 28\,640 žen. Všech cvičících na sletě
+bylo 1\,034\,800 (v~roce 1932 -- 18\,800) a diváků bylo 2\,300\,000.
 
 \textbf{X. všesokolský slet 1938 -- Strahov}. Také tento slet byl zahájen již v~říjnu 1937 rozestavným během na deseti
-trasách o~délce 4 185 km. Z~Tyršova domu neslo poselství 42 000 běžců do
+trasách o~délce 4\,185 km. Z~Tyršova domu neslo poselství 42\,000 běžců do
 pohraničních měst i na Podkarpatskou Rus. Libeňský Sokol stavěl 72 běžců
 a 72 světlonošů, neboť se běželo i v~noci.
 
 Nácvik sletových skladeb začínal na podzim a pokračoval celou zimu.
 V~dubnu se již dělaly prověrky znalostí prostných a v~květnu bývaly
-okrskové a župní slety. V~Libni na hřišti Meteoru byl 8. 5. župní slet
-žactva za účasti 5 000 cvičenců. 15. 5. předsletový večer na letním
-cvičišti v~Libni s~ukázkami cvičení sletových. Župní slet byl 5. 6.
+okrskové a župní slety. V~Libni na hřišti Meteoru byl 8.~5. župní slet
+žactva za účasti 5\,000 cvičenců. 15.~5. předsletový večer na letním
+cvičišti v~Libni s~ukázkami cvičení sletových. Župní slet byl 5.~6.
 v~Lysé nad Labem. Náš dorost se zúčastnil sletových plaveckých závodů a
 župních závodů v~atletice.
 
 Hlavní činnost se soustředila na vlastní slet:
 \vspace*{6pt}
 
-16. 6. den brannosti (naše účast 160)
+16.~6. den brannosti (naše účast 160)
 
-19. 6. průvod žactva
+19.~6. průvod žactva
 
-20. 6. slet žactva (279 žáků a podobný počet žákyň).
+20.~6. slet žactva (279 žáků a podobný počet žákyň).
 
 \vspace*{6pt}
 Také náš dorost měl velký podíl na úspěchu sletu. Prostná mužů cvičilo
@@ -1049,7 +1065,7 @@ v~průvodech žactva, dorostu i členstva byla vždy veliká, nechceme však
 unavovat čísly. Za zmínku stojí ještě podíl libeňských loutkářů na
 sletu. Získali první místa v~soutěži ČOS hrou "Sletu zdar" (95 bodů ze
 100 možných). Dr. Jan Malík byl autorem sletové scény X. sletu nazvanou
-"Budovat a bránit", ve které účinkovalo 5 000 osob.
+"Budovat a bránit", ve které účinkovalo 5\,000 osob.
 
 \section{Období let 1938--1948}
 
@@ -1076,8 +1092,7 @@ první pokus o~sjednocení tělovýchovy. Byl ustaven Svaz občanské
 pohotovosti (SOP) a bylo třeba tyto samozvance odmítnout. Pracovní tábor
 uvolnil naši sokolovnu až v~dubnu 1939.
 
-\section{II. světová válka
-1939--1945}
+\subsection{II. světová válka 1939--1945}
 
 Mnichov válce nezabránil, ani námi odstoupené pohraničí. 15. března 1939
 stanul Hitler v~Praze a prohlásil Čechy a Moravu za protektorát německé
@@ -1102,45 +1117,45 @@ jeden den před naším osvobozením. Na ně nesmíme zapomínat.
 
 \subsection{Sokolské oběti nacistické okupace v~Libni}
 
-\textbf{Vojta Vacín} (nar. 16. 7. 1887), náčelník župy Barákovy,
+\textbf{Vojta Vacín} (nar. 16.~7. 1887), náčelník župy Barákovy,
 dlouholetý náčelník libeňské jednoty, od svého mládí nadšený cvičenec.
-Umučen v~koncentračním táboře v~Osvětimi 17. 5. 1942 (55 roků).
+Umučen v~koncentračním táboře v~Osvětimi 17.~5. 1942 (55 roků).
 
-\textbf{Bohuslav "Sláva" Strnad} (nar. 1. 3. 1905), náčelník Sokola
-v~Libni. Zatčen 2. 7. 1942 pro účast na atentátu na Heydricha, po
-nejtěžším nacistickém mučení popraven 24. 10. 1942 se svou manželkou
+\textbf{Bohuslav "Sláva" Strnad} (nar. 1.~3. 1905), náčelník Sokola
+v~Libni. Zatčen 2.~7. 1942 pro účast na atentátu na Heydricha, po
+nejtěžším nacistickém mučení popraven 24.~10. 1942 se svou manželkou
 Marií. Bratru Strnadovi bylo 37 roků.
 
-\textbf{Josef Decastello} (nar. 24. 6. 1910), plukovník čs. armády,
+\textbf{Josef Decastello} (nar. 24.~6. 1910), plukovník čs. armády,
 letec. Vzorný cvičenec. Byl vyznamenán Čsl. válečným křížem a franc.
 Croix de Guerre. Sestřelen nad Francií nešťastnou náhodou
-francouzskou protivzdušnou obranou 3. 6. 1940 (30 let).
+francouzskou protivzdušnou obranou 3.~6. 1940 (30 let).
 
-\textbf{Otomar Kefurt} (nar. 10. 11. 1886), řídící učitel, tvrdý a
-nezlomný vlastenec. Za ukrývání ilegálního pracovníka byl 3. 12. 1943 na
+\textbf{Otomar Kefurt} (nar. 10.~11. 1886), řídící učitel, tvrdý a
+nezlomný vlastenec. Za ukrývání ilegálního pracovníka byl 3.~12. 1943 na
 Pankráci sťat se svou ženou Annou Kefurtovou. Bratru Kefurtovi bylo 57
 roků.
 
-\textbf{Čeněk Kníže} (nar. 11. 2. 1895), padl 7. 5. 1945 na mostě
+\textbf{Čeněk Kníže} (nar. 11.~2. 1895), padl 7.~5. 1945 na mostě
 Barikádníků. Bylo mu 50 let.
 
-\textbf{Tomáš Míchal} (nar. 23. 12. 1906), obětavý člen naší loutkové
-scény. Zatčen 15. 8. 1941, uvězněn v~Terezíně, zemřel v~koncentračním
+\textbf{Tomáš Míchal} (nar. 23.~12. 1906), obětavý člen naší loutkové
+scény. Zatčen 15.~8. 1941, uvězněn v~Terezíně, zemřel v~koncentračním
 táboře v~Mauthausenu v~roce 1942 ve věku 36 let.
 
-\textbf{Ing. Antonín Srnec} (nar. 22. 5. 1902), jeden z~nejlepších
+\textbf{Ing. Antonín Srnec} (nar. 22.~5. 1902), jeden z~nejlepších
 cvičenců a cvičitelů jednoty, technický spolupracovník naší loutkové
 scény, důstojník čs. armády. Účastnil se jako jeden z~prvních bojů na
-barikádách, byl velitelem v~oblasti Slovanka, kde padl 7. 5. 1945 ve
+barikádách, byl velitelem v~oblasti Slovanka, kde padl 7.~5. 1945 ve
 věku 43 roků.
 
-\textbf{Miloslav Vitouš} (nar. 10. 1. 1902), dlouholetý člen naší
-jednoty. Zatčen 4. 6. 1942, odvezen na Pankrác a 6. 6. 1942 popraven na
+\textbf{Miloslav Vitouš} (nar. 10.~1. 1902), dlouholetý člen naší
+jednoty. Zatčen 4.~6. 1942, odvezen na Pankrác a 6.~6. 1942 popraven na
 střelnici v~Kobylisích ve věku 40 let.
 
-\textbf{Václav Vopička} (nar. 31. 10. 1875), člen naší a prachovické
-jednoty. Se svou ženou zatčen 25. 1. 1945 v~Prachovicích, obviněn
-z~přechovávání parašutistů. Zemřel v~předvečer našeho osvobození, 8. 5.
+\textbf{Václav Vopička} (nar. 31.~10. 1875), člen naší a prachovické
+jednoty. Se svou ženou zatčen 25.~1. 1945 v~Prachovicích, obviněn
+z~přechovávání parašutistů. Zemřel v~předvečer našeho osvobození, 8.~5.
 1945 v~Terezíně. Bylo mu 70 let.
 
 \textbf{Irena Brillová} byla odvlečena do Terezína, kde v~roce 1942
@@ -1156,9 +1171,9 @@ přijatelného stavu stálo mnoho práce a peněz. Cvičit se začalo nejdříve
 na letním cvičišti, později v~gymnáziu a teprve v~prosinci v~sokolovně.
 S~velkým nadšením se začínalo. Byl ustaven lyžařský oddíl, vedený Jiřím
 Štěpničkou a Mirkem Vaňkem a 20 lyžařů trávilo první Vánoce v~chatě jimi
-získané v~Dolní Malé Úpě v~Krkonoších. K~31. 12. 1945 uvádí matrikář
-Ludvík Holý stav členstva včetně dorostu a žactva celkem 2 889 duší,
-z~toho 1 303 dospělých, 430 dorostu a 1 156 žactva. Starostou byl Dr.
+získané v~Dolní Malé Úpě v~Krkonoších. K~31.~12. 1945 uvádí matrikář
+Ludvík Holý stav členstva včetně dorostu a žactva celkem 2\,889 duší,
+z~toho 1\,303 dospělých, 430 dorostu a 1\,156 žactva. Starostou byl Dr.
 Štross, náčelníkem Jar. Jirák, náčelnicí B. Votýpková.
 
 V~roce 1945 byl zvolen výbor naší jednoty s~těmito funkcemi:
@@ -1235,7 +1250,7 @@ Rok 1947 byl už rokem předsletovým. Cvičenců ve všech složkách přibýv�
 cvičí se ve dvou až třech oddílech a ještě prostory nestačí. V~přehledné
 tabulce uvádíme přesná čísla z~Výroční zprávy za rok 1947, str. 9.
 
-K~31. 12. 1947 měl Sokol Libeň tento stav:
+K~31.~12. 1947 měl Sokol Libeň tento stav:
 
 
 \setlength\LTleft{0.4cm}
@@ -1248,10 +1263,10 @@ K~31. 12. 1947 měl Sokol Libeň tento stav:
   | >{\raggedleft\arraybackslash}p{1.5cm}}
 {} &  členstvo &  dorost &  žactvo &  celkem \\
 \hline
-mužské složky &  1 117 &  205 &  549 &  1 871 \\
-ženské složky &  1 144 &  390 &  796 &  2 330 \\
+mužské složky &  1\,117 &  205 &  549 &  1\,871 \\
+ženské složky &  1\,144 &  390 &  796 &  2\,330 \\
 \hline
-celkem &  2 261 &  595 &  1 345 &  4 201 \\
+celkem &  2\,261 &  595 &  1\,345 &  4\,201 \\
 \end{longtable}
 \setlength\LTleft{0cm}
 
@@ -1299,20 +1314,20 @@ vzdělavatelského sboru ČOS br. Jiří Janoš. Slib složilo 62 dorostenců a
   střední řada zleva: Strachota, Ženíšek, Švejda, Pospíšil, Ing. Kvaček,
   Horák, Beneš, Horáček, Vaněk, Kočí, Válek ml., Šerák, Ferkl, Čejka,
   Tůma;\\sedící zleva: Mužík, Štěpánek, Doubek, Spurný, Jirák, Kodl,
-  Mrklas, ?, Koubek;\\foto: archiv T. J. Sokol Libeň}
+  Mrklas, ?, Koubek;\\foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/32_muzi_cvicitele.jpg}
-  \caption*{Muži 1948, foto: archiv T. J. Sokol Libeň}
+  \caption*{Muži 1948, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \section{Období let 1948--1968}
 
 Před každým sletem byl značný příliv členstva i mládeže. Rok 1947 byl
 v~tomto směru mimořádný. Členská základna ČOS vzrostla na jeden milion a
-v~Sokole Libeň na 4 201 duší. Žactvo, dorost i členstvo nacvičovali
+v~Sokole Libeň na 4\,201 duší. Žactvo, dorost i členstvo nacvičovali
 sletové skladby ve dvou až třech oddílech -- tolik jich bylo.
 
 \subsection{XI. všesokolský slet 1948 -- Strahov}
@@ -1322,7 +1337,7 @@ po šesti letech. Slet začínal už v~roce 1946 ohňovým poselstvím, které
 se šířilo pochodněmi z~Tyršova domu přes velikou hranici na Strahově do
 sokolských jednot v~celé republice. Návrat byl štafetovým během
 z~pohraničních měst do Tyršova domu, kam dorazili 27. října 1947 poslední
-z~80 000 běžců na jedenácti tratích. Bylo to v~předvečer zahájení VIII.
+z~80\,000 běžců na jedenácti tratích. Bylo to v~předvečer zahájení VIII.
 valného sjezdu ČOS.
 
 Zimní sletové hry členstva se konaly ve Vysokých Tatrách a zimní hry
@@ -1343,7 +1358,7 @@ zmařeny všechny oběti a úsilí již vynaložené a abychom se ještě sešli
 byl jen pro rozloučení. A~aby nám a zejména mládeži zůstala na Sokol
 vzpomínka co nejkrásnější."
 
-Slet se tedy konal. Byl největším (585 000 cvičících) a nejkrásnějším ze
+Slet se tedy konal. Byl největším (585\,000 cvičících) a nejkrásnějším ze
 všech sletů. Kromě hlavních programů na ploše stadionu se konaly
 nejrůznější závody a soutěže na hřištích a v~tělocvičnách atd. Např.
 závody nářaďové, lehkoatletické, plavecké a vodácké, v~šermu,
@@ -1362,7 +1377,7 @@ Dorostenecká prostná nacvičil br. Ladislav Mrklas. Naši cvičili ve všech
 hlavních sletových dnech. Působivá prostná byla přijata obecenstvem
 s~velkým nadšením, zejména když si jednu část melodie hvízdali. Dále
 překvapili diváky sletovou novinkou "Cvičební hodina v~přírodě".
-Postavili v~několika minutách 1 044 stanů-jehlanů do kruhových oblouků a
+Postavili v~několika minutách 1\,044 stanů-jehlanů do kruhových oblouků a
 v~těchto stanových táborech předváděli obvyklý tábornický výcvik. V~obou
 těchto sletových číslech a ještě ve cvičení s~plnými míči vystoupilo asi
 180 libeňských dorostenců.
@@ -1372,7 +1387,7 @@ pod vedením sestry Blanky Holé a třikrát zaplnily celé cvičiště, pokažd
 jiné další cvičenky. Druhou skladbou dorostenek byla "taneční prostná
 sestry Stázy Levé na národní písně". Tyto tance tady s~nimi nacvičila
 sestra Věra Decastellová. V~úborech navržených Karlem Svolinským tančilo
-4 620 dívek a od prvních taktů jim patřilo celičké hlediště. V~obou
+4\,620 dívek a od prvních taktů jim patřilo celičké hlediště. V~obou
 skladbách cvičilo z~Libně
 
 230 dorostenek. Ženy jako vždy byly zlatým hřebem sletu, ať to bylo ve
@@ -1412,7 +1427,7 @@ vedených náčelníkem Jaroslavem Jirákem. Libeňská Věrná garda cvičila v
 skladbě pro starší muže "Trojice s~dlouhou tyčí".
 
 Sletový průvod členstva prošel Prahou ve IV. hlavním dnu dopoledne tj.
-6. července 1948. Zúčastnilo se ho 75 000 mužů a žen v~krojích, 9 000
+6. července 1948. Zúčastnilo se ho 75\,000 mužů a žen v~krojích, 9\,000
 hostů a přes 900 krojovaných jezdců na koních. Byl to tedy dosud
 největší průvod. Procházel Václavským náměstím a končil na Staroměstském
 náměstí, kde na tribuně seděl už nový prezident Gottwald a jeho nová
@@ -1422,7 +1437,7 @@ slyšet volání "Ať žije prezident Beneš!", kolem tribuny šli krojovaní
 mlčky, se skloněnou hlavou nebo odvráceným pohledem. Tak projevil Sokol
 nesouhlas s~novým násilně zavedeným režimem. Řada sokolů byla ještě ten
 den zatčena a důsledky se projevily řáděním akčních výborů v~sokolských
-jednotách. Vyloučeno bylo na 11 000 členů. V~Libni to bylo 63 členů,
+jednotách. Vyloučeno bylo na 11\,000 členů. V~Libni to bylo 63 členů,
 především činovníků a cvičitelů. Byl to starosta jednoty br. Štross,
 náčelník Jaroslav Jirák, vzdělavatelka Helena Andrlová a řada jiných.
 
@@ -1500,9 +1515,9 @@ Většinou jen formálně byly připojeny, neboť většina funkcionářů nepř
 a do nové práce se nezapojila, a tedy ani jejich členstvo ne.
 
 V~roce 1949 se hledala posila členské základny v~dělnických
-organizacích. V~Libni byly největším podnikem České loděnice, a tak
+organizacích. \\ V~Libni byly největším podnikem České loděnice, a tak
 spojením s~jejich ROH byla jednota přejmenována na Sokol České loděnice.
-Prvním předsedou byl Dr. Václav Fiala, náčelníkem A. Novotný, náčelnicí
+Prvním předsedou byl Dr.~Václav Fiala, náčelníkem A. Novotný, náčelnicí
 M. Pospíšilová.
 
 V~roce 1952 vznikají další závodní tělovýchovné jednoty a dávají si
@@ -1516,13 +1531,13 @@ Sb). V~roce 1955 se tato nová jednota zúčastnila společně s~libeňskými
 vznikaly odbory Základní tělesné výchovy (ZTV).
 
 V~roce 1957 vznikl Československý svaz tělesné výchovy (ČSTV). Jednota
-se opět přejmenovala na T. J. Libeň Loděnice. Z~majetkové podstaty ROH
+se opět přejmenovala na T.~J. Libeň Loděnice. Z~majetkové podstaty ROH
 byly podle zákona č. 68/56 Sb. vyňaty sokolovna a letní cvičiště.
 
-Rok 1958 vykazuje veliký pokles členstva až na 1 101, z~toho 232 žactva.
-(Srovnáváme s~rokem 1945, kdy měl Sokol 2 883 členů a koncem roku 1947
-dokonce 4 201 členů.) V~roce 1960 se konala 2. spartakiáda na Strahově
-za účasti 135 žáků a žákyň, 96 žen a 18 mužů z~T. J. Libeň Loděnice.
+Rok 1958 vykazuje veliký pokles členstva až na 1\,101, z~toho 232 žactva.
+(Srovnáváme s~rokem 1945, kdy měl Sokol 2\,883 členů a koncem roku 1947
+dokonce 4\,201 členů.) V~roce 1960 se konala 2. spartakiáda na Strahově
+za účasti 135 žáků a žákyň, 96 žen a 18 mužů z~T.~J. Libeň Loděnice.
 Slavné libeňské loutkové divadlo bylo předáno Osvětové besedě v~Praze 8.
 Srncův sál, v~němž bylo umístěno perfektně vybudované loutkové divadlo i
 se stupňovitým hledištěm, byl přeměněn pro potřeby nového oddílu
@@ -1534,7 +1549,7 @@ Na letním cvičišti se začala v~akci "Z" přestavba bývalého kuželníku na
 šatny se sprchami a klubovnou. Akce "Z" vždy znamenala hodně
 dobrovolných brigádnických hodin, ale také dobrou spolupráci s~národním
 výborem, s~odborem výstavby a hlavně s~finanční podporou. V~roce 1966
-změnila Konference 17. února název T. J. Libeň Loděnice na T. J. Meteor
+změnila Konference 17. února název T.~J. Libeň Loděnice na T.~J. Meteor
 Praha.
 
 O~činnosti odboru ZTV vzniklém v~roce 1955 nejsou v~archivu Sokola téměř
@@ -1572,7 +1587,7 @@ radostný a je zachycen na magnetofonovém pásku.
 V~Praze se pak konal ve výroční den Pražského povstání 5. května 1968 na
 Žofíně slavný a mohutný sjezd zástupců padesáti sokolských žup z~celé
 republiky a dalších nadšených sokolů. Mnoho jich přišlo v~sokolských
-krojích, ostatní se Suchardovým odznakem "Na stráž". Bylo tu na 3 000
+krojích, ostatní se Suchardovým odznakem "Na stráž". Bylo tu na 3\,000
 účastníků, do sálu se nevešli, a tak sledovali průběh sjezdu v~parku
 z~amplionů, umístěných v~oknech budovy. Všechno se zdálo být dobré a
 jasné, ale nebylo tomu tak dlouho. Politické uvolnění trvalo jen do 21.
@@ -1677,7 +1692,7 @@ třicetihodinový kurs pro cvičitele. Také již v~březnu byly pořízeny
 jmenné seznamy členstva původního ZTV i přistoupivšího ČOS. Vykazují 124
 mužů a 321 žen, tedy celkem 445 dospělých. Příchodem 270 sokolů vzrostl
 počet členstva odboru Sokol o~61\,\% a dále rostl. TJ Meteor Praha udává
-k~20. června 1970 celkem 1 995 členů ve 12 oddílech a v~tom byl
+k~20. června 1970 celkem 1\,995 členů ve 12 oddílech a v~tom byl
 nejpočetnější Sokol 955 členů, tj. 47,9\,\%.
 
 Přestože byl příliv členů veliký, ve cvičení se to neprojevilo.
@@ -1691,20 +1706,20 @@ určil jim cvičení jen v~lodích, později v~Srncově sále. Tam pro
 nedostatek nářadí se cvičení zvrhlo jen na fotbálek.
 
 Velmi dobře si vedli cvičitelé žáků. Na městský přebor ve sportovní
-gymnastice 9. 4. 1970 na Zlíchově připravoval žáky cvičitel Václav
+gymnastice 9.~4. 1970 na Zlíchově připravoval žáky cvičitel Václav
 Kilián. Družstvo mladších žáků obsadilo 1. místo (z~9 družstev) a
 v~jednotlivcích získal 1. místo Aleš Krotil, 2. místo Václav Pernecký.
 
 Mnoho dalších dobrých akcí vykazoval výbor odboru Sokol v~"Analýze
 činnosti 1968--1970", která má 8 stran a kterou si vyžádal hlavní výbor
-Meteoru. Na mimořádné společné schůzi obou výborů 7. 12. 1970 se snažil
+Meteoru. Na mimořádné společné schůzi obou výborů 7.~12. 1970 se snažil
 výbor Sokola obhájit svoji činnost, ale marně. Vše bylo předem
 rozhodnuto, analýza nebyla k~ničemu. Předseda hl. výboru Dr. M. Hájek
 prosadil "zastavení činnosti výboru Sokola s~okamžitou platností" a
 vyzval k~opuštění místnosti.
 
 Bezpráví, hrubost a ponižování byly ještě znásobeny článkem "Rozlet
-libeňských sokolů" v~Rudém právu z~29. a 30. 12. 1970. Redaktorka M.
+libeňských sokolů" v~Rudém právu z~29. a 30.~12. 1970. Redaktorka M.
 Hojerová v~něm, na základě informací předsedy Dr. M. Hájka, očernila
 výbor Sokola, jak nejlépe dovedla. Nejhůř byl napaden předseda Josef
 Kříž a náčelnice Věra Decastellová. Výbor Sokola protestoval. Poslal
@@ -1718,7 +1733,7 @@ přiznával. Zkrátka: doba již Sokolu nepřála.
 V~roce 1971 odbor Sokol jen živořil pod vedením předsedy Josefa
 Blumensteina a náčelníka Jindřicha Majera (oba KSČ). Náčelnici odbor
 celý rok neměl, až teprve 11. října potvrdil hl. výbor do funkce Věru
-Haufovou. Na výroční schůzi 16. 12. 1971, svolanou předsedou
+Haufovou. Na výroční schůzi 16.~12. 1971, svolanou předsedou
 Blumensteinem, se sešlo 44 členů, ale hl. výbor nedovolil její konání,
 že nebyla dostatečně připravena. Konala se tedy až 20. ledna 1972 za
 účasti 59 členů. Byl zvolen nový výbor odboru Sokol, který s~malými
@@ -1760,7 +1775,7 @@ poznávací vycházky, výlety do přírody i autobusové zájezdy.
 \subsection{Období 1972 až 1984}
 
 V~novém devítičlenném výboru odboru Sokol v~TJ Meteor Praha, zvoleném
-20. 1. 1972, bylo 7 dobrých, zkušených a hlavně velmi pracovitých
+20.~1. 1972, bylo 7 dobrých, zkušených a hlavně velmi pracovitých
 sokolů. Manželé Haufovi a Kodlovi, Miluška Rusá a Ludvík Holý, později i
 Jindra Vajkrt -- to byli hlavní činitelé, kteří dokázali vyvést odbor
 Sokol z~kritických situací. Na jedné schůzi se výbor usnesl, že všichni
@@ -1785,10 +1800,10 @@ dospělých.
 V~našem archivu máme hodně zajímavého materiálu o~tělocvičné činnosti,
 o~výletech a autobusových zájezdech. Vybíráme některé zajímavosti. Tak
 např. v~oddílu nejmladšího žactva, který vedla Františka Pášová, se
-konala 24. 2. 1975 zimní soutěž, kde získal 3. místo a 18,5 bodů náš
+konala 24.~2. 1975 zimní soutěž, kde získal 3. místo a 18,5 bodů náš
 nynější starosta -- Jiří Novák. Tehdy mu bylo 5 let. Jinde čteme, že
 v~docházce za září až prosinec 1977 byl 10. nejlepší sedmiletý žák Jiří
-Novák (28 hod. = 87,5\,\%). Na obvodní soutěži SG 28. 3. 1978 v~Karlíně
+Novák (28 hod. = 87,5\,\%). Na obvodní soutěži SG 28.~3. 1978 v~Karlíně
 se umístil Jiří Novák na pátém místě počtem 27 bodů, tj. 90\,\%.
 
 V~kategorii starších žáků se umístil Roman Kolář na 2. místě 36,7 bodů,
@@ -1879,7 +1894,7 @@ podíl na tom, že libeňská jednota patřila a stále patří mezi ty nejlepš
 v~Praze.
 
 \begin{center}
-\textit{Potud končí vyprávění br. Peťuleho o~vzniku a činnosti T. J. Sokol
+\textit{Potud končí vyprávění br. Peťuleho o~vzniku a činnosti T.~J. Sokol
 Libeň; o~období let 1984--1989 vypráví dále br. František Kodl.}
 \end{center}
 
@@ -2035,7 +2050,7 @@ V~rozmnožovaných měsíčních programech Věrné gardy bývají oznamovány
 čtyři druhy akcí, kromě besed, návštěva výstav nebo kulturních památek
 v~Praze, celodenní výlety do okolí Prahy a autobusové zájezdy do
 vzdálených míst. Vynikající vedoucí mnoha zájezdů byla Františka Pášová,
-která však 13. 4. 1984 zemřela. Posledním jejím zájezdem byl zámek
+která však 13.~4. 1984 zemřela. Posledním jejím zájezdem byl zámek
 Frýdlant a Lázně Libverda v~roce 1982. Z~celodenních výletů uvedeme
 cyklus největší: "Putování kolem Prahy za 24 dní". Vedeni Ludvíkem
 Holým a Františkem Kodlem jsme našlapali celkem 112 kilometrů a 20
@@ -2127,7 +2142,7 @@ rodinné vzpomínky mých rodičů a sourozenců i své vlastní.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/33_zakladajici_zeny.jpg}
   \caption*{Zakládající výbor odboru žen libeňského sokola (1899), foto:
-  archiv T. J. Sokol Libeň}
+  archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Zakládající výbor odboru žen byl ustaven již v~roce 1898 a na fotografii
@@ -2145,7 +2160,7 @@ v~archivu (\pozned{jeho repliku můžete vidět na našich akcích, pozn. ed.}).
   \centering 
   \includegraphics[width=0.6\textwidth]{img/34_vocetkova_nacelnice.jpg}
   \caption*{Růžena Vocetková, první náčelnice Sokola Libeň (1899), foto:
-  archiv T. J. Sokol Libeň}
+  archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Přelom století přinesl v~roce 1901 již IV. všesokolský slet, kdy se
@@ -2168,7 +2183,7 @@ dorostenek, ale už přes 80 žákyň (fotografie to jasně dokládá).
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/35_zeny.jpg}
-  \caption*{Ženy 1912, foto: archiv T. J. Sokol Libeň}
+  \caption*{Ženy 1912, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Bohužel první světová válka tvrdě zasáhla do všeho dění českého života a
@@ -2208,7 +2223,7 @@ sokolníka a mnoho záběrů z~bohatého života na cvičišti v~dalších letec
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.6\textwidth]{img/36_brana_cviciste.jpg}
-  \caption*{Brána letního cvičiště, foto: archiv T. J. Sokol Libeň}
+  \caption*{Brána letního cvičiště, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Protože firma Grab, které patřil z~větší části pozemek, žádala 1 mil.\,Kč
@@ -2289,7 +2304,7 @@ spjato s~činností celé jednoty, že není třeba oddělovat jejich úlohu.
 v~náčelnictvu a ve správním výboru a zastupují jednotu v~mnoha vyšších
 složkách župy a ČOS. Do tohoto období spadá hlavně příprava na poslední
 předválečný slet v~roce 1938. Naše jednota obsadila mnoha cvičenkami
-celostátní prostná a mimořádně zajímavý rej pro téměř 30 000 žen.
+celostátní prostná a mimořádně zajímavý rej pro téměř 30\,000 žen.
 Zvláštní vystoupení pro vyspělé cvičenky bylo vystoupení s~červenými a
 bílými míči. Ten červený s~mnoha podpisy našich i zahraničních sokolů
 jsem celá léta schovávala, než přece jen podlehl letité zkáze.
@@ -2297,7 +2312,7 @@ jsem celá léta schovávala, než přece jen podlehl letité zkáze.
 Následné válečné roky nás bohužel všechny rozloučily. Tak jako dřívější
 slety, měl i tento svou sletovou scénu. Nutno tedy připomenout, že
 v~roce 1938 měla přiléhavý název "Budovat a bránit" a jejím autorem byl
-náš přední člen a světoznámý loutkář Dr. Jan Malík. V~počtu 5 000
+náš přední člen a světoznámý loutkář Dr. Jan Malík. V~počtu 5\,000
 účinkujících jsme i my libeňští měli své zastoupení, mezi nimi jsem byla
 i já. Tento hold republice se stal, bohužel, i rozloučením s~naší
 národní svobodou.
@@ -2323,7 +2338,7 @@ poničené. Hlavně se v~této záslužné práci osvědčil náš dorost, jak t
 pěkně popsala v~kronice dorostu její autorka Květa Fuchsová.
 
 Léta 1945--1948 byla velice plodná. Počet příslušníků čítal
-více jak 4 000 osob, z~něhož téměř polovina byla mládež do 18 let
+více jak 4\,000 osob, z~něhož téměř polovina byla mládež do 18 let
 (žákyně 796, dorostenky 390). Opět byly ženy v~převaze, neboť jeden ze
 tří oddílů dospělých cvičil i dopoledne.
 
@@ -2352,7 +2367,7 @@ Decastellová. Obou skladeb se z~Libně zúčastnilo 230 dorostenek.
 O~účasti žactva se dočtete v~jiném příspěvku.
 
 Pochopitelně, že naše ženy nezůstaly stranou. Byla to hlavní prostná
-manželů Matějovcových "Harmonie pohybu" a opět úchvatný rej pro 30 000
+manželů Matějovcových "Harmonie pohybu" a opět úchvatný rej pro 30\,000
 cvičenek. Vyspělé cvičenky měly tentokrát na výběr ze dvou skladeb. Naše
 župa měla za úkol nacvičit skladbu pro kužele a švihadla, rovněž práci
 manželů Matějcových. A~druhá výběrová skladba s~kužely sestry Ankici
@@ -2379,11 +2394,11 @@ ani cvičišti.
 
 Po dlouhých 20 letech absence členství se na základě provolání
 Přípravného výboru Sokola k~obnovení činnosti nejdříve sešly ženy
-s~tehdejším předsedou Dr. Hájkem s~požadavkem ke svolání manifestační
+s~tehdejším předsedou Dr.~Hájkem s~požadavkem ke svolání manifestační
 schůze na den 20. dubna 1968. Tehdy nasliboval kdeco. Jako doklad velké
 účasti jsou dodnes k~dispozici přihlášky za členy obnoveného libeňského
 Sokola. Obrovský zájem o~obrodu pak potvrdil celostátní sjezd na Žofíně
-dne 5. května téhož roku, kterého se zúčastnilo 3 000 sokolů.
+dne 5. května téhož roku, kterého se zúčastnilo 3\,000 sokolů.
 
 Bohužel, velice slibný začátek pohřbil srpnový vojenský vstup tzv.
 spřátelených armád (\pozned{vpád ruské okupační armády, abychom nazývali
@@ -2429,7 +2444,7 @@ Meteor, který vznikl až v~roce 1896 a který vlastně obhospodařoval nyní
 náš majetek. V~dubnu 1984 jsme jako odbor Sokol uspořádali přímo
 v~sokolovně velice pěknou tělocvičnou akademii. Druhá akademie, která se
 odbývala v~divadle S. K. Neumanna (dnes Divadlo pod Palmovkou) měla
-ukázat příslušnost k~T. J. Meteor. Zároveň jsme výstavou fotografií a
+ukázat příslušnost k~T.~J. Meteor. Zároveň jsme výstavou fotografií a
 různých dobových dokumentů, odznaků, diplomů a cvičebních i slavnostních
 úborů přiblížili veřejnosti i našim členům bohatou historii libeňského
 Sokola.
@@ -2505,7 +2520,7 @@ tramvaj), krásný proto, že nakonec dobře dopadlo snad úplně všechno, na
 
 Za zmínku určitě stojí Sletový tábor. Byl to vlastně přesný tábor oddílu
 JILM, postavený ovšem z~pověření ČOS v~Libni, na louce u~studánky, jako
-ukázkový tábor pro sletovou veřejnost ve dnech 1.--6. 7. 1994 (výbornou
+ukázkový tábor pro sletovou veřejnost ve dnech 1.--6.~7. 1994 (výbornou
 průvodkyní byla Sabina Hašová). Na tom táboře bylo přes 20 funkčních
 objektů, včetně sklípku a latríny. Samozřejmě tam musel být také stožár.
 Dobrá -- jenže kde ho vzít? Vhodné soušky v~Libni nejsou jaksi k~mání.
@@ -2523,7 +2538,7 @@ v~Praze po řece plavilo naposledy tak před 50 lety!
 Druhá vzpomínka patří libeňským žákům na sletě. Základní jednotkou
 jejich skladby byla šestka a nácvik začal v~necelých třech šestkách.
 Postupně však se přidávali další a nakonec skladbu zvládlo 41 cvičenců!
-Libeň kralovala nejen na pětižupním sletě 4. 6. 1994 v~Kobylisích, ale i
+Libeň kralovala nejen na pětižupním sletě 4.~6. 1994 v~Kobylisích, ale i
 na Strahově -- jen jediná další jednota dodala také 6 šestek a to byla
 Chrudim. V~konečném účtování jsme však přece jen zvítězili my -- i těmi
 náhradníky, ale hlavně dlouhodobou Tuhou soutěží sletových šestek: náš
@@ -2604,7 +2619,7 @@ a brzy mělo být vše jinak. Však se také brzy "staří sokolové"
 domluvili, že by bylo možno Sokol obnovit. Nebylo to jednoduché, starý
 výbor ZRTV Meteoru dělal i úskočné manévry, ale nakonec vše dopadlo
 relativně dobře. Mělo to své ale, avšak již 28. března 1990 došlo
-k~obnovení jednoty zaregistrováním na ministerstvu vnitra a 19. 9. 1990
+k~obnovení jednoty zaregistrováním na ministerstvu vnitra a 19.~9. 1990
 byla členskou schůzí oficiálně obnovena činnost. Starostou byl zvolen
 Ladislav Mrklas st., náčelníkem Zdeněk Lauschmann a náčelnicí Věra
 Decastellová. Jednatelkou byla Marie Kodlová a vzdělavatelem její muž
@@ -2659,7 +2674,7 @@ bylo zapsáno 125 jmen. Postupem doby se začalo vyhlašovat každoměsíčně
   \centering 
   \includegraphics[width=0.9\textwidth]{img/37_vitezove_dochazka.JPG}
   \caption*{Vítězové soutěže O~Nejvěrnější docházku 2003/2004 z~řad mladších
-  žáků, starších žáků a dorostenců, foto: archiv T. J. Sokol Libeň}
+  žáků, starších žáků a dorostenců, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~následující tabulce uvádíme nejpilnější cvičence od roku 1995:
@@ -2674,35 +2689,35 @@ V~následující tabulce uvádíme nejpilnější cvičence od roku 1995:
 
 \textbf{Cvičební rok} & \textbf{Max. hod.} & \textbf{Nejpilnější mladší žák} & \textbf{Nejpilnější starší žák} & \textbf{Nejpilnější dorostenec, cvičitel} \\
 \hline \endhead
-1995/1996 & 75 & Jakub~Marianovský \(69\times\) & Jan~Vorel \(69\times\) & Jiří~Novák \(75\times\) \\
-1996/1997 & 72 & Jan~Bastin \(68\times\) & Jan~Vorel \(72\times\) & ? \\
-1997/1998 & 73 & Jáchym~Kaplan, Martin Chlumský \(68\times\) & Jan~Vorel \(71\times\) & Tomáš~Novák \(73\times\) \\
-1998/1999 & 77 & Tomáš~Pajma \(68\times\) & Ondřej~Antoš \(76\times\) & Jiří~Novák \(77\times\) \\
-1999/2000 & 78 & Jakub~Mastík, Tomáš~Pajma \(68\times\) & Jan~Vorel \(78\times\) & Tomáš~Seifert \(77\times\) \\
-2000/2001 & 73 & Jan~Přibyl \(63\times\) & Jakub~Kudroň \(72\times\) & Martin~Chlumský \(72\times\) \\
-2001/2002 & 77 & Josef~Drda \(69\times\) & Jakub~Kudroň \(75\times\) & Martin~Seifert \(77\times\) \\
-2002/2003 & 74 & Štěpán~Dvořák \(63\times\) & Jan~Přibyl \(62\times\) & Jan~Vorel \(74\times\) \\
-2003/2004 & 77 & Jakub~Novák \(69\times\) & Jan~Přibyl \(76\times\) & Martin~Seifert \(72\times\) \\
-2004/2005 & 77 & Jan~Trnka \(74\times\) & Jan~Přibyl \(77\times\) & Jiří~Novák \(76\times\) \\
-2005/2006 & 80 & Jan Trnka~70 \(\times\) & Marek~Šťovíček, Jan Salavec \(72\times\) & Jan~Přibyl \(80\times\) \\
-2006/2007 & 75 & Petr~Jeřábek \(73\times\) & Josef~Brůžek \(71\times\) & Jan~Dostál \(74\times\) \\
-2007/2008 & 76 & Petr~Jeřábek \(72\times\) & Martin~Jeřábek \(72\times\) & Jan~Dostál \(75\times\) \\
-2008/2009 & 78 & Richard~Kloubský \(76\times\) & Martin~Jeřábek \(68\times\) & Jan~Dostál \(76\times\) \\
-2009/2010 & 76 & Richard~Kloubský \(74\times\) & Viktor~Kubík \(63\times\) & Jan~Přibyl \(76\times\) \\
-2010/2011 & 75 & Richard~Kloubský \(75\times\) & Petr~Jeřábek \(68\times\) & Jan~Přibyl \(75\times\) \\
-2011/2012 & 78 & Jakub~Málek \(75\times\) & Richard~Kloubský \(78\times\) & Jan~Přibyl \(78\times\) \\
-2012/2013 & 77 & Kryštof~Šubr \(69\times\) & Jakub~Málek \(77\times\) & Jan~Přibyl \(76\times\) \\
-2013/2014 & 75 & Marek~Novotný \(75\times\) & Adam~Novotný, Richard Kloubský \(75\times\) & Jan~Přibyl \(74\times\) \\
-2014/2015 & 77 & Marek~Novotný \(75\times\) & Richard~Kloubský \(75\times\) & Vojtěch~Mrkvička \(75\times\) \\
-2015/2016 & 76 & Marek~Novotný \(72\times\) & Viktor~Šmejkal \(74\times\) & Richard~Kloubský \(76\times\) \\
-2016/2017 & 78 & Tomáš~Novotný \(76\times\) & Marek~Novotný \(76\times\) & Richard~Kloubský \(78\times\) \\
-2017/2018 & 74 & Tomáš~Novotný \(71\times\) & Marek~Novotný \(73\times\) & Richard~Kloubský \(73\times\) \\
-2018/2019 & 78 & Petr~Ettel \(78\times\) & Tomáš~Kléger \(77\times\) & Richard~Kloubský, Jiří Novák \(78\times\) \\
-2019/2020 & 61 & Tomáš~Novotný \(61\times\) & Marek~Matys \(58\times\) & Tomáš~Kléger, Richard Kloubský \(61\times\) \\
-2020/2021 & 28 & Michal~Horák, Vojtěch Bőhm \(25\times\) & Tomáš~Novotný \(26\times\) & Jiří~Novák \(26\times\) \\
-2021/2022 & 78 & Matyáš~Sokol \(71\times\) & Petr~Ettel \(74\times\) & Tomáš~Kléger \(77\times\) \\
-2022/2023 & 79 & Matyáš~Sokol \(70\times\) & Jiří~Smutný, Tomáš~Novotný \(72\times\) & Tomáš~Kléger \(78\times\) \\
-2023/2024 & 77 & Ladislav~Bednář \(73\times\) & Matyáš~Sokol \(73\times\) & Jiří~Novák \(77\times\) \\
+1995/1996 & 75 & Jakub Marianovský \(69\times\) & Jan Vorel \(69\times\) & Jiří Novák \(75\times\) \\
+1996/1997 & 72 & Jan Bastin \(68\times\) & Jan Vorel \(72\times\) & ? \\
+1997/1998 & 73 & Jáchym Kaplan, Martin Chlumský \(68\times\) & Jan Vorel \(71\times\) & Tomáš Novák \(73\times\) \\
+1998/1999 & 77 & Tomáš Pajma \(68\times\) & Ondřej Antoš \(76\times\) & Jiří Novák \(77\times\) \\
+1999/2000 & 78 & Jakub Mastík, Tomáš Pajma \(68\times\) & Jan Vorel \(78\times\) & Tomáš Seifert \(77\times\) \\
+2000/2001 & 73 & Jan Přibyl \(63\times\) & Jakub Kudroň \(72\times\) & Martin Chlumský \(72\times\) \\
+2001/2002 & 77 & Josef Drda \(69\times\) & Jakub Kudroň \(75\times\) & Martin Seifert \(77\times\) \\
+2002/2003 & 74 & Štěpán Dvořák \(63\times\) & Jan Přibyl \(62\times\) & Jan Vorel \(74\times\) \\
+2003/2004 & 77 & Jakub Novák \(69\times\) & Jan Přibyl \(76\times\) & Martin Seifert \(72\times\) \\
+2004/2005 & 77 & Jan Trnka \(74\times\) & Jan Přibyl \(77\times\) & Jiří Novák \(76\times\) \\
+2005/2006 & 80 & Jan Trnka 70 \(\times\) & Marek Šťovíček, Jan Salavec \(72\times\) & Jan Přibyl \(80\times\) \\
+2006/2007 & 75 & Petr Jeřábek \(73\times\) & Josef Brůžek \(71\times\) & Jan Dostál \(74\times\) \\
+2007/2008 & 76 & Petr Jeřábek \(72\times\) & Martin Jeřábek \(72\times\) & Jan Dostál \(75\times\) \\
+2008/2009 & 78 & Richard Kloubský \(76\times\) & Martin Jeřábek \(68\times\) & Jan Dostál \(76\times\) \\
+2009/2010 & 76 & Richard Kloubský \(74\times\) & Viktor Kubík \(63\times\) & Jan Přibyl \(76\times\) \\
+2010/2011 & 75 & Richard Kloubský \(75\times\) & Petr Jeřábek \(68\times\) & Jan Přibyl \(75\times\) \\
+2011/2012 & 78 & Jakub Málek \(75\times\) & Richard Kloubský \(78\times\) & Jan Přibyl \(78\times\) \\
+2012/2013 & 77 & Kryštof Šubr \(69\times\) & Jakub Málek \(77\times\) & Jan Přibyl \(76\times\) \\
+2013/2014 & 75 & Marek Novotný \(75\times\) & Adam Novotný, Richard Kloubský \(75\times\) & Jan Přibyl \(74\times\) \\
+2014/2015 & 77 & Marek Novotný \(75\times\) & Richard Kloubský \(75\times\) & Vojtěch Mrkvička \(75\times\) \\
+2015/2016 & 76 & Marek Novotný \(72\times\) & Viktor Šmejkal \(74\times\) & Richard Kloubský \(76\times\) \\
+2016/2017 & 78 & Tomáš Novotný \(76\times\) & Marek Novotný \(76\times\) & Richard Kloubský \(78\times\) \\
+2017/2018 & 74 & Tomáš Novotný \(71\times\) & Marek Novotný \(73\times\) & Richard Kloubský \(73\times\) \\
+2018/2019 & 78 & Petr Ettel \(78\times\) & Tomáš Kléger \(77\times\) & Richard Kloubský, Jiří Novák \(78\times\) \\
+2019/2020 & 61 & Tomáš Novotný \(61\times\) & Marek Matys \(58\times\) & Tomáš Kléger, Richard Kloubský \(61\times\) \\
+2020/2021 & 28 & Michal Horák, Vojtěch Bőhm \(25\times\) & Tomáš Novotný \(26\times\) & Jiří Novák \(26\times\) \\
+2021/2022 & 78 & Matyáš Sokol \(71\times\) & Petr Ettel \(74\times\) & Tomáš Kléger \(77\times\) \\
+2022/2023 & 79 & Matyáš Sokol \(70\times\) & Jiří Smutný, Tomáš Novotný \(72\times\) & Tomáš Kléger \(78\times\) \\
+2023/2024 & 77 & Ladislav Bednář \(73\times\) & Matyáš Sokol \(73\times\) & Jiří Novák \(77\times\) \\
 \end{longtable}
 
 \noindent
@@ -2743,50 +2758,83 @@ A~zde jsou všechny naše uskutečněné výlety (rok, cíl + počet libeňskýc
 nejpočetněji zastoupenou jednotou a případně pořadatel pětižupního
 srazu):
 
+% TODO opakovat rok?
 \renewcommand*{\arraystretch}{1.1}
 \begin{longtable}[]{%
-  >{\raggedright\arraybackslash}p{3.5cm}%
-  >{\raggedright\arraybackslash}p{0.5cm}%
   >{\raggedright\arraybackslash}p{1cm}%
-  >{\raggedright\arraybackslash}p{3.5cm}%
-  >{\raggedright\arraybackslash}p{0.5cm}}
- \textbf{JVLS -- místo (pořadatel)}  &  \textbf{Počet z~Libně}  &  \textbf{Rok}  &  \textbf{PVLS -- místo (pořadatel)}  &  \textbf{Počet z~Libně}  \\
+  >{\raggedright\arraybackslash}p{7.5cm}%
+  >{\raggedright\arraybackslash}p{1.5cm}}
+  \textbf{Rok} & \textbf{JVLS/PVLS -- místo (pořadatel)}  &  \textbf{Počet z~Libně} \\
  \hline \endhead
- &  &  1990  &  1. PVLS Hudlice, hájovna Na králi  &  79  \\
- 2. JVLS Nymburk a Chotuc  &  52  &  1991  &  3. PVLS Benešov a Kožlí  &  72  \\
- 4. JVLS Kutná Hora  &  92  &  1992  &  5. PVLS Čerčany a Lštění  &  88  \\
- 6. JVLS Pardubice a Kunětická Hora  &  92  &  1993  &  7. PVLS Skochovice a Vrané  &  80  \\
- 8. JVLS Nižbor  &  108  &  1994  &  9. PVLS Mšeno  &  90  \\
- 10. JVLS Skalka  &  73  &  1995  &  11. PVLS Klepec (1. sraz pětižupí, Zdeněk)  &  71  \\
- 12. JVLS Nižbor (poprvé ZZZ, Nižbor)  &  67  &  1996  &  13. PVLS Vinařická Hora (Zdeněk)  &  66  \\
- 14. JVLS Hudlice-Svatá  &  64  &  1997  &  15. PVLS Medník (Zdeněk)  &  43  \\
- 16. JVLS Malá Lečice (Zdeněk)  &  36  &  1998  &  17. PVLS Přerovská Hůra (Zdeněk)  &  94  \\
- 18. JVLS Nižbor (Nižbor)  &  52  &  1999  &  19. PVLS Blaník (Zdeněk)  &  83  \\
- 20. JVLS Hruboskalsko (není pětižupí)  &  48  &  2000  &  21. PVLS Nový Knín (Nový Knín)  &  49  \\
- 22. JVLS Lešetice (Libeň)  &  75  &  2001  &  23. PVLS Králův stolec (Dobříš)  &  67  \\
- 24. JVLS Radotínské údolí (Zlíchov)  &  44  &  2002  &  25. PVLS Mělník (Mělník)  &  65  \\
- 26. JVLS Zvířetice (Staré Město)  &  53  &  2003  &  27. PVLS Říčany (Říčany a Radošovice)  &  45  \\
- 28. JVLS Vrchlice, Cimburk (Libeň)  &  45  &  2004  &  29. PVLS Srbsko, lom Alkazar (Kobylisy)  &  30  \\
- 30. JVLS Újezd u~Zbečna (Zdeněk)  &  53  &  2005  &  31. PVLS Drahanské údolí (Troja)  &  51  \\
- 32. JVLS Velký Osek (Zdeněk)  &  49  &  2006  &  33. PVLS Zvolská Homole (Zdeněk)  &  36  \\
- 34. JVLS Poděbrady (Staré Město)  &  59  &  2007  &  35. PVLS Probošťská jezera (Kobyl., St. Město)  &  57  \\
- 36. JVLS Cholupice (Zdeněk)  &  46  &  2008  &  37. PVLS Lány (Zdeněk)  &  55  \\
- 38. JVLS Čelákovice (Zdeněk)  &  48  &  2009  &  39. PVLS Levý Hradec (Zdeněk)  &  57  \\
- 40. JVLS Radotínské údolí (Zdeněk)  &  40  &  2010  &  41. PVLS Strž u~Staré Huti (Dobříš)  &  37  \\
- 42. JVLS Stará Dubá (Libeň)  &  67  &  2011  & 43. PVLS Sadská, přesyp u~Píst (Kob., St. Město)  &  40  \\
- 44. JVLS Říčany, údolí Rokytky (Říčany)  &  63  &  2012  &  45. PVLS Mokropsy (Zdeněk)  &  90  \\
- 46. JVLS Malá Lečice (Zdeněk)  &  51  &  2013  &  47. PVLS Příbram -- Březové Hory (Břez. Hory)  &  64  \\
- 48. JVLS Vlčí rokle, Kam. Přívoz (Libeň)  &  71  &  2014  &  49. PVLS Kojetice, Lobkovice (Kobylisy)  &  48  \\
- 50. JVLS Károvský potok (Zdeněk)  &  65  &  2015  &  51. PVLS Klínec (Zdeněk)  &  42  \\
- 52. JVLS Králova stolice (Zdeněk)  &  66  &  2016  &  53. PVLS Tiché údolí (Kobylisy, Staré Město)  &  69  \\
- 54. JVLS Lučice (Libeň)  &  58  &  2017  &  55. PVLS Libčice (Libeň)  &  55  \\
- 56. JVLS Radotínské údolí (Zdeněk)  &  67  &  2018  &  57. PVLS Dubeč (Zdeněk)  &  84  \\
- 58. JVLS Závist (Libeň)  &  61  &  2019  &  59. PVLS Strž u~Staré Huti (Zdeněk)  &  76  \\
- covid -- zrušeno  &  &  2020  &  60. PVLS Dalejský potok (Zdeněk)  &  53  \\
- covid -- zrušeno  &  &  2021  &  61. PVLS Šárka (Zdeněk)  &  113  \\
- 62. JVLS Škvorec, Na plachtě (Libeň)  &  64  &  2022  &  63. PVLS Hloubětín, Kejřův mlýn (Zdeněk)  &  88  \\
- 64. JVLS lom Alkazar (Libeň, St.Město)  &  68  &  2023  &  65. PVLS Stará Dubá (Zlíchov)  &  83  \\
- 66. JVLS Kojetice, Lobkovice (Libeň)  &  89  &  2024  &  67. PVLS Červená Hlína (Zlíchov)  &  \\
+ 1990  & 1. PVLS Hudlice, hájovna Na králi  &  79  \\
+ 1991  & 2. JVLS Nymburk a Chotuc  &  52  \\
+ 1991 &   3. PVLS Benešov a Kožlí  &  72  \\
+ 1992  & 4. JVLS Kutná Hora  &  92  \\
+ 1992 &   5. PVLS Čerčany a Lštění  &  88  \\
+ 1993  & 6. JVLS Pardubice a Kunětická Hora  &  92  \\
+ 1993 &   7. PVLS Skochovice a Vrané  &  80  \\
+ 1994  & 8. JVLS Nižbor  &  108  \\
+ 1994 &    9. PVLS Mšeno  &  90  \\
+ 1995  & 10. JVLS Skalka  &  73  \\
+ 1995 &   11. PVLS Klepec (1. sraz pětižupí, Zdeněk)  &  71  \\
+ 1996  & 12. JVLS Nižbor (poprvé ZZZ, Nižbor)  &  67  \\
+ 1996 &   13. PVLS Vinařická Hora (Zdeněk)  &  66  \\
+ 1997  &  14. JVLS Hudlice-Svatá  &  64  \\
+ 1997 &  15. PVLS Medník (Zdeněk)  &  43  \\
+ 1998 & 16. JVLS Malá Lečice (Zdeněk)  &  36  \\
+ 1998 &  17. PVLS Přerovská Hůra (Zdeněk)  &  94  \\
+ 1999  & 18. JVLS Nižbor (Nižbor)  &  52  \\
+ 1999 &   19. PVLS Blaník (Zdeněk)  &  83  \\
+ 2000  & 20. JVLS Hruboskalsko (není pětižupí)  &  48  \\
+ 2000 &  21. PVLS Nový Knín (Nový Knín)  &  49  \\
+ 2001  & 22. JVLS Lešetice (Libeň)  &  75  \\
+ 2001 &   23. PVLS Králův stolec (Dobříš)  &  67  \\
+ 2002 & 24. JVLS Radotínské údolí (Zlíchov)  &  44  \\
+ 2002 &  25. PVLS Mělník (Mělník)  &  65  \\
+ 2003  & 26. JVLS Zvířetice (Staré Město)  &  53  \\
+ 2003 &   27. PVLS Říčany (Říčany a Radošovice)  &  45  \\
+ 2004  & 28. JVLS Vrchlice, Cimburk (Libeň)  &  45  \\
+ 2004 &   29. PVLS Srbsko, lom Alkazar (Kobylisy)  &  30  \\
+ 2005  & 30. JVLS Újezd u~Zbečna (Zdeněk)  &  53  \\
+ 2005 &  31. PVLS Drahanské údolí (Troja)  &  51  \\
+ 2006  &  32. JVLS Velký Osek (Zdeněk)  &  49  \\
+ 2006 &  33. PVLS Zvolská Homole (Zdeněk)  &  36  \\
+ 2007  & 34. JVLS Poděbrady (Staré Město)  &  59  \\
+ 2007 &   35. PVLS Probošťská jezera (Kobyl., St. Město)  &  57  \\
+ 2008  &   36. JVLS Cholupice (Zdeněk)  &  46  \\
+ 2008 &  37. PVLS Lány (Zdeněk)  &  55  \\
+ 2009  & 38. JVLS Čelákovice (Zdeněk)  &  48  \\
+ 2009 &   39. PVLS Levý Hradec (Zdeněk)  &  57  \\
+ 2010  & 40. JVLS Radotínské údolí (Zdeněk)  &  40  \\
+ 2010 &   41. PVLS Strž u~Staré Huti (Dobříš)  &  37  \\
+ 2011  & 42. JVLS Stará Dubá (Libeň)  &  67  \\
+ 2011 &  43. PVLS Sadská, přesyp u~Píst (Kob., St. Město)  &  40  \\
+ 2012  & 44. JVLS Říčany, údolí Rokytky (Říčany)  &  63  \\
+ 2012 &  45. PVLS Mokropsy (Zdeněk)  &  90  \\
+ 2013  & 46. JVLS Malá Lečice (Zdeněk)  &  51  \\
+ 2013 &   47. PVLS Příbram -- Březové Hory (Břez. Hory)  &  64  \\
+ 2014  & 48. JVLS Vlčí rokle, Kam. Přívoz (Libeň)  &  71  \\
+ 2014 &  49. PVLS Kojetice, Lobkovice (Kobylisy)  &  48  \\
+ 2015  & 50. JVLS Károvský potok (Zdeněk)  &  65  \\
+ 2015 &   51. PVLS Klínec (Zdeněk)  &  42  \\
+ 2016  & 52. JVLS Králova stolice (Zdeněk)  &  66  \\
+ 2016 &   53. PVLS Tiché údolí (Kobylisy, Staré Město)  &  69  \\
+ 2017  & 54. JVLS Lučice (Libeň)  &  58  \\
+ 2017 &   55. PVLS Libčice (Libeň)  &  55  \\
+ 2018  & 56. JVLS Radotínské údolí (Zdeněk)  &  67  \\
+ 2018 &  57. PVLS Dubeč (Zdeněk)  &  84  \\
+ 2019  & 58. JVLS Závist (Libeň)  &  61  \\
+ 2019 &   59. PVLS Strž u~Staré Huti (Zdeněk)  &  76  \\
+ 2020  & covid -- zrušeno  &  \\
+ 2020 &   60. PVLS Dalejský potok (Zdeněk)  &  53  \\
+ 2021  & covid -- zrušeno  &  \\
+ 2021 &   61. PVLS Šárka (Zdeněk)  &  113  \\
+ 2022  &  62. JVLS Škvorec, Na plachtě (Libeň)  &  64  \\
+ 2022 &  63. PVLS Hloubětín, Kejřův mlýn (Zdeněk)  &  88  \\
+ 2023  & 64. JVLS lom Alkazar (Libeň, St.Město)  &  68  \\
+ 2023 &   65. PVLS Stará Dubá (Zlíchov)  &  83  \\
+ 2024  & 66. JVLS Kojetice, Lobkovice (Libeň)  &  89  \\
+ 2024 &   67. PVLS Červená Hlína (Zlíchov)  &  \\
 \end{longtable}
 
 Součástí JVLS je od roku 1996 i župní Zálesácký závod zdatnosti (ZZZ),
@@ -2901,17 +2949,18 @@ pokácených pajasanech a akátech, natření všech železných konstrukcí
 v~sále kovářskou černí, zbourání plechových garáží na dvoře a stovky
 dalších drobných prací a splněných úkolů.
 
-\begin{figure*}[h!]
-  \centering 
-  \includegraphics[width=0.9\textwidth]{img/40_doskociste.jpg}
-  \caption*{Vylepšování doskočiště na jižní zahradě sokolovny (1995), foto: archiv T. J. Sokol Libeň}
-\end{figure*}
-
 Během roku 1992 se díky br. Kubištovi podařilo dokončit plynofikaci
 kotelny (předtím se topilo koksem) a tím i ušetřit peníze za mzdy
 kotelníků. Další výměna kotlů proběhla asi po deseti letech a v~roce
 2011 byla nová kotelna vystavěna v~dřívější dílně údržbáře. A~ta nám
 slouží dodnes.
+
+\begin{figure*}[h!]
+  \centering 
+  \includegraphics[width=0.9\textwidth]{img/40_doskociste.jpg}
+  \caption*{Vylepšování doskočiště na jižní zahradě sokolovny (1995), foto: archiv T.~J. Sokol Libeň}
+\end{figure*}
+
 
 \subsection{Mikuláš}
 
@@ -2928,7 +2977,7 @@ nadílka konala na zahradě sokolovny pro postupně přicházející děti.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/41_mikulas.JPG}
-  \caption*{Mikuláš, mladší žactvo (2003), foto: archiv T. J. Sokol Libeň}
+  \caption*{Mikuláš, mladší žactvo (2003), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \subsection{Závody sokolské všestrannosti}
@@ -2968,7 +3017,7 @@ zastoupení i mezi dorostenci -- J. Kudroň a J. Vorel.
   \caption*{Vítězné družstvo mladších žáků na závodech všestrannosti ve
   sportovní gymnastice 2004, Jan Michalec (uprostřed vpředu), Michal
   Přibyl (uprostřed vzadu) a Jan Metelka (vpravo) mají ještě individuální
-  úspěchy ze závodu ve šplhu, foto: archiv T. J. Sokol Libeň}
+  úspěchy ze závodu ve šplhu, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Povšimněte si, že mezi závodníky lze nalézt jména budoucích cvičitelů:
@@ -3132,13 +3181,13 @@ Přišel úspěch, potlesk, kluci pochopili.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/44_slet_strahov.jpg}
   \caption*{Momentka z~XII. všesokolského sletu 1994, posledního na velké
-  strahovském stadionu, foto: archiv T. J. Sokol Libeň}
+  strahovském stadionu, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~týdnu před sletem staví JILM na louce u~studánky ukázkový sletový
 tábor (stany, týpka, brána, stožár, kuchyně, zábradlí, latrína, ...).
 Nejprve bylo od dubna do června 6 brigád s~opravou vybavení, sháněním
-stavebního materiálu atd. a pak jsme od 25. 6. do 1. 7. tábor stavěli --
+stavebního materiálu atd. a pak jsme od 25.~6. do 1.~7. tábor stavěli --
 trávili jsme tam vždy celá odpoledne a večery po škole a zaměstnání --
 bylo to opravdu náročné. Nejvíce hodin zde odpracovali: Žabák 85, Aleš
 72, Jirkan, Vítek a Gösta 70, Jestík 69, Portos 66, Mišina 63, Tomáš a
@@ -3162,7 +3211,7 @@ věděl, co to podání ruky bude znamenat!
 
 Ve sletovém roce bylo zapsáno 113 žáků a dorostenců. Jednota má 896
 členů. O~prázdninách 1993 se brousí a lakují parkety ve Velkém sále.
-A~na konci roku 1994 má jednota již 976 členů. 10. 2. 1995 se koná valná
+A~na konci roku 1994 má jednota již 976 členů. 10.~2. 1995 se koná valná
 hromada, na které se Jiří "Jirkan" Novák stává náčelníkem.
 
 \subsection{Šibřinky}
@@ -3203,7 +3252,7 @@ V~květnu 1995 se konají oslavy 50. výročí osvobození Plzně. Součástí
 oslav jsou i sokolské slavnosti, kam s~loňskou sletovou skladbou jede i
 12 libeňských žáků.
 
-Na počátku roku 1996 má jednota už 1 188 členů a je jednou z~největších
+Na počátku roku 1996 má jednota už 1\,188 členů a je jednou z~největších
 v~Praze. V~tomtéž roce slaví František Kodl 85 let.
 
 Na podzim roku 1996 začal pracovat oddíl Sportovní gymnastiky, který si
@@ -3289,9 +3338,9 @@ několikrát recyklována, až skončí zcela nudná a vyprázdněná na sletu
 2018, kdy ji naši muži odmítnou cvičit, pozn. ed}.). Myslím, že všechny
 byly kvalitnější než v~roce 1994, avšak problémy s~nácvikem byly
 podobné. Dokonce i počet cvičících se skoro nelišil. Po perném
-osmiměsíčním nácviku se jilmácká osmička předvedla 17. 5. na akademii
-v~Dolních Chabrech, nejilmácká pak o~pár dní později (20. 5.) na župním
-sletě v~Roudnici. Obě společně pak 24. 5. na Pětižupní akademii v~hale
+osmiměsíčním nácviku se jilmácká osmička předvedla 17.~5. na akademii
+v~Dolních Chabrech, nejilmácká pak o~pár dní později (20.~5.) na župním
+sletě v~Roudnici. Obě společně pak 24.~5. na Pětižupní akademii v~hale
 Sparty na Letné. Tam cvičili i muži. A~pak už Strahov. Nejprve má každá
 skladba 2 až 3 secviky, pak generálku a nakonec sobotní a nedělní
 vystoupení na Rošického stadionu. Byl to pro cvičitele opravdu zápřah.
@@ -3337,11 +3386,11 @@ Zde je přehled o~účasti a hlavním vítězi napříč kategoriemi:
 
 \begin{longtable}[]{%
   >{\raggedright\arraybackslash}p{1cm}%
-  >{\raggedright\arraybackslash}p{1.5cm}%
-  >{\raggedright\arraybackslash}p{1cm}%
+  >{\raggedright\arraybackslash}p{1.2cm}%
+  >{\raggedright\arraybackslash}p{1.2cm}%
   >{\raggedright\arraybackslash}p{1cm}%
   >{\raggedright\arraybackslash}p{4.5cm}}
-\textbf{Ročník} & \textbf{Rok} & \textbf{Celkem závodníků} & \textbf{Vítězný čas} & \textbf{Absolutní vítěz (napříč kategoriemi)} \\
+\textbf{Ročník} & \textbf{Rok} & \textbf{Celkem běžců} & \textbf{Vítězný čas [s]} & \textbf{Absolutní vítěz (napříč~kategoriemi)} \\
 \hline \endhead
 0. & 2000 & 43 & 42,5 & Lukáš Pazdera – dorostenec \\
 1. & 2001 & 59 & 40,2 & Jan Kaše – muž \\
@@ -3370,6 +3419,8 @@ Zde je přehled o~účasti a hlavním vítězi napříč kategoriemi:
 24. & 2024 & 179 & 38,7 & Vojtěch Paleta – muž \\
 \end{longtable}
 
+%% TODO poslední řádek na stránce
+
 \subsection{Rekonstrukce fasády
 sokolovny}
 
@@ -3377,11 +3428,10 @@ sokolovny}
   \textit{doplněno ze zprávy hospodářky 2004 Ivy Duchačové}
 \end{center}
 
-Libeňskou sokolovnu jsme od T. J. Meteor Praha 8 převzali ve velmi
+Libeňskou sokolovnu jsme od T.~J. Meteor Praha 8 převzali ve velmi
 špatném stavu. Hygienička nám nedala povolení k~provozu a vytkla
 nedostatky. Díky předem zaplacenému nájmu prvního nájemce DIREKTA, a.
-s., ve výši 250 000\,Kč a získání dalších nájemců (tiskárny ADALBERT a
-SAZKA) jsme sokolovnu nechali vymalovat, vyčistit parkety a natřít,
+s., ve výši 250\,000\,Kč a získání dalších nájemců (tiskárny ADALBERT a~SAZKA) jsme sokolovnu nechali vymalovat, vyčistit parkety a natřít,
 rovněž vymalovat schodiště. Po prohlídce hygienika jsme dostali povolení
 k~provozu a mohli získat pronájem tělocvičen školám.
 
@@ -3390,36 +3440,33 @@ provizorní oprava střech a zahájeno jednání o~finančních dotacích na
 opravu fasády, která byla v~havarijním stavu.
 
 Během zimy 2000/2001 se podařilo získat grant na rekonstrukci vnějšího
-pláště sokolovny. Byla nám prostřednictvím ČOS přislíbena dotace ve výši
-2 800 000\,Kč na opravu a rekonstrukci pláště sokolovny. Abychom dotaci
-mohli získat, museli jsme ale stále doplnit z~vlastních prostředků 1 200
-000\,Kč. Kde však vzít tak velké peníze?
+pláště sokolovny. Byla nám prostřednictvím ČOS přislíbena dotace ve výši\newline
+2\,800\,000\,Kč na opravu a rekonstrukci pláště sokolovny. Abychom dotaci
+mohli získat, museli jsme ale stále doplnit z~vlastních prostředků 1\,200\,000\,Kč. Kde však vzít tak velké peníze?
 
 Současně jsme hledali pomocí výběrového řízení firmu na opravu omítky,
 kde vyhrála firma PSP-GDS. Dále jsme také hledali kupce na odprodej
 Sokolích bud. Marně. Nakonec se firma PSP-GDS nabídla, že naše Sokolí
-boudy i s~přilehlými pozemky odkoupí za 2 500 000\,Kč. Souhlasili jsme.
+boudy i s~přilehlými pozemky odkoupí za 2\,500\,000\,Kč. Souhlasili jsme.
 Jako malá, ale přece jen nějaká pomoc se ukázala být dotace od MČ Praha
-8 -- 50 000\,Kč.
+8 -- 50\,000\,Kč.
 
 Původní nabídka na opravu a rekonstrukci omítky naší sokolovny od firmy
-PSP-GDS byla 3 951 000\,Kč bez DPH. Konečně mohla celá oprava začít a 4.
-12. 2001 byla oprava a rekonstrukce pláště předána. ČOS zaplatilo za
-předložené faktury 2 800 000\,Kč a po úspěšném prodeji Sokolích bud jsme
-uhradili i zbývající část 1 998 297\,Kč. Celkem tedy oprava fasády přišla
-na 4 798 297\,Kč. Protože se v~tu dobu už jednalo o~nemovitou kulturní
+PSP-GDS byla 3\,951\,000\,Kč bez DPH. Konečně mohla celá oprava začít a 4.~12. 2001 byla oprava a rekonstrukce pláště předána. ČOS zaplatilo za
+předložené faktury 2\,800\,000\,Kč a po úspěšném prodeji Sokolích bud jsme
+uhradili i zbývající část 1\,998\,297\,Kč. Celkem tedy oprava fasády přišla
+na 4\,798\,297\,Kč. Protože se v~tu dobu už jednalo o~nemovitou kulturní
 památku, je fasáda stejná (materiál, barevnost, členitost) jako v~roce
 1910, kdy byla sokolovna dostavěna.
 
 Byť již zvenčí krásná, nebyla naše sokolovna ještě v~pořádku. Chyběla
 ještě nutná a okamžitá oprava střech. Opět jsme žádali o~granty,
 tentokrát památkový úřad Magistrátu hl. m. Prahy a díky výborné přípravě
-projektu jsme uspěli. Dne 17. 6. 2002 byla podepsána s~odd. památkové
-péče smlouva na finanční příspěvek na obnovu nemovité památky ve výši 2
-860 000\,Kč (\pozned{mám dojem, že jsou to jediné "památkářské peníze",
+projektu jsme uspěli. Dne 17.~6. 2002 byla podepsána s~odd. památkové
+péče smlouva na finanční příspěvek na obnovu nemovité památky ve výši 2\,860\,000\,Kč (\pozned{mám dojem, že jsou to jediné "památkářské peníze",
 které jsme kdy dostali, pozn. ed.}). Po našich dřívějších výborných
-zkušenostech převzala zakázku opět firma PSP-GDS. 1 966 227\,Kč byla
-částka použitá na opravu střech, 1 109 856,70\,Kč jsme použili na opravu
+zkušenostech převzala zakázku opět firma PSP-GDS. 1\,966\,227\,Kč byla
+částka použitá na opravu střech, 1\,109\,856,70\,Kč jsme použili na opravu
 vnitřních prostor sokolovny.
 
 Zmíním zde 4 hlavní osoby, které se svojí činností zasloužily o~zdar
@@ -3438,7 +3485,7 @@ cvičitele.
 \begin{figure*}[h!]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/46_sokolovna.jpg}
-  \caption*{Sokolovna čerstvě po rekonstrukci (2002), foto: archiv T. J. Sokol
+  \caption*{Sokolovna čerstvě po rekonstrukci (2002), foto: archiv T.~J. Sokol
   Libeň}
 \end{figure*}
 
@@ -3448,7 +3495,7 @@ cvičitele.
   \textit{ze zprávy hospodářky 2004 Ivy Duchačové}
 \end{center}
 
-8. 4. 1991 k~nám přistoupil turistický oddíl Studánka s~vedoucím br.
+8.~4. 1991 k~nám přistoupil turistický oddíl Studánka s~vedoucím br.
 Josefem Žáčkem, který se ihned zapojil do činnosti jednoty. V~roce 1992
 se ujal řízení jednání i spolupráce na převzetí a opravách Sokolích bud
 v~Dolní Malé Úpě, které jsme v~restituci převzali od Českých loděnic
@@ -3458,14 +3505,14 @@ místostarosta a v~roce 2001 jako starosta.
 
 Abychom mohli doložit vlastní prostředky k~doplnění žádosti o~dotaci,
 kterou jsme nutně potřebovali na opravu sokolovny, bylo rozhodnuto
-o~prodeji Sokolích bud (13. 6. 1996 byl odsouhlasen ČOS). Kupec po
+o~prodeji Sokolích bud (13.~6. 1996 byl odsouhlasen ČOS). Kupec po
 složitých jednáních nebyl nalezen, ale nabídl se p. Karlík, tehdejší
 správce Sokolích bud, že tuto nemovitost i s~příslušnými pozemky
 odkoupí. Měl však podmínku sepsání smlouvy, na kterou mu banka jedině
 půjčí finanční prostředky.
 
-Po poradě s~právním oddělením ČOS byla 10. 9. 1997 sepsána kupní smlouva
-s~tím, že zaplatí 3 450 000\,Kč do 31. 3. 1998. Nezaplatí-li do tohoto
+Po poradě s~právním oddělením ČOS byla 10.~9. 1997 sepsána kupní smlouva
+s~tím, že zaplatí 3\,450\,000\,Kč do 31.~3. 1998. Nezaplatí-li do tohoto
 data, náleží právo prodávající straně od této smlouvy jednostranně
 odstoupit. Účinnost odstoupení od smlouvy nastane dnem písemného
 doručení druhé straně a tímto okamžikem se smlouva od počátku ruší. Pan
@@ -3474,9 +3521,9 @@ Karlík skutečně nezaplatil.
 Zjistili jsme ale nedostatky v~našem právním řádu. Katastrální úřad
 Trutnov požadoval na písemném doručení odstoupení od smlouvy podpis pana
 Zdeňka Karlíka. Ten se však odmítl podepsat. Následoval soudní spor, ve
-kterém nás zastupoval Mgr. Václav Čermák z~Trutnova. Mezitím byla 13. 8.
+kterém nás zastupoval Mgr. Václav Čermák z~Trutnova. Mezitím byla 13.~8.
 2001 Ministerstvem kultury prohlášena naše sokolovna za kulturní
-památku. 13. 8. 2001 nám byly po vleklém soudním sporu a složitých
+památku. 13.~8. 2001 nám byly po vleklém soudním sporu a složitých
 jednáních Sokolí boudy opět vráceny. Všechna tato jednání řídil a tlačil
 kupředu br. Josef Žáček, již jako starosta jednoty.
 
@@ -3512,9 +3559,9 @@ kotelna. Bylo potěšitelné, že se několik cvičitelů a dorostenců
 zajímalo, jak na tom sokolovna je a zda nemají přijít pomoci. Vítek a
 Čedok pak byli pracovníky krizového centra v~Bohnicích. V~září se
 zjistilo, že jsou mezi námi vyplavené rodiny. A~tak se začalo vybírat do
-modrých povodňových kasiček (vybráno asi 15 000\,Kč). Spolu s~výtěžkem
+modrých povodňových kasiček (vybráno asi 15\,000\,Kč). Spolu s~výtěžkem
 z~mikulášské taneční zábavy a částí výtěžku ze šibřinek jsme dali
-dohromady 30 000\,Kč, které jsme rovnoměrně rozdělili mezi 4 postižené
+dohromady 30\,000\,Kč, které jsme rovnoměrně rozdělili mezi 4 postižené
 rodiny a jednoty v~Karlíně a Nižboru. Kromě toho u~nás celý rok zdarma
 cvičili žáci ze školy na Zámečku, kterým povodeň zničila tělocvičny.
 
@@ -3547,14 +3594,14 @@ cvičitelského sboru z~roku 1948, spolu s~Fr. Kodlem, strana 37). %ref cvicitel
 V~souvislosti s~nadcházejícím sletem v~roce 2006 rozvířila Věrná garda
 situaci kolem našeho historického praporu z~roku 1893. "Vždyť se ve
 sletovém průvodu rozpadne! Chtělo by to nechat vyrobit repliku." A~hned
-také začali po korunkách vybírat nutných 30 000\,Kč. Pak padla myšlenka,
+také začali po korunkách vybírat nutných 30\,000\,Kč. Pak padla myšlenka,
 že by bylo hezké mít tu repliku už na slavnostní akademii ke 120.
 výročí. Takže uzrálo rozhodnutí i ve mně. Přispějí i žáci. Prapor jsme
 jim ukázali v~lednu 2004, mohli se podívat, sáhnout, a kdo chtěl, mohl
 na jaře přispět (maximum bylo 50\,Kč). A~abych kluky trochu vyhecoval,
 slíbil jsem, že co se vybere, to se sečte a tuto částku pak věnuji na
 prapor sám. Bylo celkem 54 přispěvatelů a sešla se částka 3157,50, takže
-na prapor bylo věnováno 6 315\,Kč.
+na prapor bylo věnováno 6\,315\,Kč.
 
 Zakončení cvičebního roku 2003/2004 s~vyhlášením Zimního klání a soutěže
 O~nejvěrnější docházku jsme konali u~slavnostního táboráku. Pozvali jsme
@@ -3574,13 +3621,13 @@ aby ustoupila zvelebení prostoru za sokolovnou, pozn. ed.}).
 
 Druhým vylepšením, které se událo o~prázdninách 2004, bylo přebroušení,
 nalakování a nalajnování parket ve Velkém a Alšově sále a výměna povrchu
-v~Srncově sále. Grant na tuto akci byl 400 000\,Kč, náš doplatek 108 000
+v~Srncově sále. Grant na tuto akci byl 400\,000\,Kč, náš doplatek 108\,000
 Kč. Kéž oboje dobře slouží déle než 10 let. Nakonec došlo i na vstupní
 dveře, které dělaly nové fasádě ostudu.
 
 \subsection{Závěrem}
 
-Tak, to jsem popsal tak 30 \% naší činnosti. A~co je zbytek? No přece to
+Tak, to jsem popsal tak 30\,\% naší činnosti. A~co je zbytek? No přece to
 hlavní -- cvičení. Ale co o~něm psát? Jak skáčeme přes kozu, děláme
 kotouly a celou gymnastiku, běháme, házíme, skáčeme a hrajeme hry. To
 dost dobře nejde. Snad jen zmínit to, že se snažíme, aby kluci sobě
@@ -3604,14 +3651,15 @@ dělá. Já jsem se naopak zase lecčemus přiučil od nich. Díky.
 
 \hfill\textit{Jiří Novák, 2004 náčelník, 2024 starosta}
 
+\vspace{\baselineskip}
 Průměrná docházka žactva a dorostu v~letech 1990--2024:
 
 \vspace{\baselineskip}
 \renewcommand*{\arraystretch}{1.1}
 \begin{longtable}[]{%
   >{\raggedright\arraybackslash}p{2cm}%
-  >{\raggedright\arraybackslash}p{1.5cm}%
-  >{\raggedright\arraybackslash}p{1.5cm}%
+  >{\centering\arraybackslash}p{1.5cm}%
+  >{\centering\arraybackslash}p{1.5cm}%
   >{\raggedright\arraybackslash}p{5cm}}
  \textbf{Rok} &  \textbf{Zapsáno} &  \textbf{Průměr} &  \textbf{Poznámka} \\
  \hline \endhead
@@ -3621,8 +3669,8 @@ Průměrná docházka žactva a dorostu v~letech 1990--2024:
  1993/1994 &  126 &  58,9 &  dále vždy ml. + st. žáci + dorostenci + cvičitelé (bez mužů) \\
  1994/1995 &  142 &  56,7 &    \\
  1995/1996 &  129 &  48,7 &    \\
- 1996/1997 &  141 &  48,7 &  průměr v~říjnu 1996 je 71,55! (105 zapsaných) \\
- 1997/1998 &  136 &  58,2 &  několikrát průměr 65–69, rekord v~hodině 86! \\
+ 1996/1997 &  141 &  48,7 &  průměr v~říjnu 1996 je 71,55! (105~zapsaných) \\
+ 1997/1998 &  136 &  58,2 &  několikrát průměr 65–69, rekord~v~hodině 86! \\
  1998/1999 &  124 &  56,2 &    \\
  1999/2000 &  102 &  45,8 &    \\
  2000/2001 &  85 &  43 &    \\
@@ -3657,27 +3705,27 @@ skutečného stáří (či spíše mládí); tabulka cvičitelů žactva
 
 \renewcommand*{\arraystretch}{1.1}
 \begin{longtable}%
-  {p{7em} %
-  p{2em} %
-  >{\raggedright\arraybackslash}p{3em} %
-  >{\raggedright\arraybackslash}p{5em} %
-  >{\raggedright\arraybackslash}p{5.5em}}
+  {>{\raggedright\arraybackslash}p{3cm} %
+  p{0.6cm} %
+  >{\raggedright\arraybackslash}p{1.2cm} %
+  >{\raggedright\arraybackslash}p{2.4cm} %
+  >{\raggedright\arraybackslash}p{2.5cm}}
 
 \textbf{Jméno} & \textbf{Rok nar.} & \textbf{Jak mu říkáme} & \textbf{Doba působení} & \textbf{Chodí ještě cvičit?} \\
 
 \hline \endhead
 
-Zdeněk Lauschmann & 1959 & Zdeněk & před~1989–1994 & ne \\
-Roman Kolář & 1965 & Roman & před~1989–1993 & ne \\
-Jiří Novák & 1970 & Jirkan & před~1989– dosud & cvičitel, starosta \\
-Filip Kadlec & 1971 & Filip & před~1989–1997 & ne \\
-Tomáš Novák & 1972 & Mišina & před~1989– dosud & cvičitel \\
+Zdeněk Lauschmann & 1959 & Zdeněk & <1989–1994 & ne \\
+Roman Kolář & 1965 & Roman & <1989–1993 & ne \\
+Jiří Novák & 1970 & Jirkan & <1989– dosud & cvičitel, starosta \\
+Filip Kadlec & 1971 & Filip & <1989–1997 & ne \\
+Tomáš Novák & 1972 & Mišina & <1989– dosud & cvičitel \\
 Jiří Materna & 1973 & Matýsek & 1993–1994 & ne \\
 Tomáš Novotný & 1975 & Tomáš & 1993–1995 & ne \\
 Petr Špírek & 1976 & Pierre & 1993–1997 & ne \\
 Aleš Kafka & 1976 & Aleš & 1993–1994 & ne \\
 Jan Hora & 1976 & Radík & 1993–1994 & ne \\
-Vladislav Voráč & 1977 & Vláďa & 1993–2021 & cvičitel Aerobiku \\
+Vladislav Voráč & 1977 & Vláďa & 1993–2021 & Aerobik \\
 Jiří Brůžek & 1978 & Jirka & 1997–1999 & ne \\
 Jan Staněk & 1979 & Gösta & 1995–1997 & ne \\
 Pavel Voráč & 1979 & Pavel & 1993–2013 & ne \\
@@ -3688,7 +3736,7 @@ Matěj Ištvánek & 1979 & Matěj & 1995–1997 & ne \\
 Tomáš Jirsa & 1980 & Tomáš & 1995–1997 & ne \\
 Jan Rejman & 1980 & Jarej & 1997–1998 & ne \\
 Petr Bureš & 1981 & Petr & 1997–2002 & ne \\
-Martin Chlumský & 1982 & Čedok & 1997–2018 & cvičitel Aerobiku \\
+Martin Chlumský & 1982 & Čedok & 1997–2018 & Aerobik \\
 Pavel Jirsa & 1982 & Portos & 1998–2001 & ne \\
 Matěj Beneš & 1983 & Benda & 1998–1999 & ne \\
 Tomáš Seifert & 1985 & Tomáš & 2002 & ne \\
@@ -3705,8 +3753,8 @@ Jakub Kudroň & 1988 & Kubík & 2004–dosud & cvičitel \\
 Jan Novák & 1989 & Pórek & 2005–2007 & ne \\
 Jáchym Kaplan & 1990 & Jack & 2007–2017 & občas fotbálek \\
 František Juhász & 1990 & Franta & 2007–2015 & košíková \\
-Jan Dostál & 1990 & Sumec & 2007–2016 & vedoucí Skipping Boys \\
-Jiří Duchač & 1991 & Ruch & 2007–2016 & nedělní volejbal, výbor \\
+Jan Dostál & 1990 & Sumec & 2007–2016 & Skipping Boys \\
+Jiří Duchač & 1991 & Ruch & 2007–2016 & volejbal, výbor \\
 Jan Přibyl & 1991 & Příbor & 2007–dosud & cvičitel, výbor \\
 Ondřej Michalec & 1992 & Ondra & 2011–2016 & ne \\
 Ondřej Loudil & 1992 & Hopi & 2008–2011 & cvičení mužů \\
@@ -3764,7 +3812,7 @@ něčemu naučili.
   zleva: Anna Kavinová, ?, Dana Blahunková, Anna Feřtová, Lenka Nováková,
   Evženie Hraničková, Zuzana Burianová, Lucie Vojáčková, Iva Duchačová,
   Alena Krásová, Veronika Niederlová, \\
-  foto: archiv T. J. Sokol Libeň}
+  foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \section{Slovo vzdělavatelky Věry Štastné
@@ -3881,8 +3929,7 @@ v~chodbě u~archivu a byla rekonstruována posilovna či postavena loděnice
 za sokolovnou. V~poslední době byla postavena tahací věž či zakoupena
 táborová louka pro turistické oddíly. Díky všem.
 
-Dalšími viditelnými osobami jsou náčelník a náčelnice. U~děvčat to byla
-dlouho Věra Decastellová a následně Dana Blahunková, Alena Krásová a
+Dalšími viditelnými osobami jsou náčelník a náčelnice. U~děvčat to byla dlouho Věra Decastellová a následně Dana Blahunková, Alena Krásová a
 v~současnosti Tomáš Dragoun. V~mužských složkách začnu už před rokem 1989,
 kdy by asi byl náčelníkem František Kodl. Po obnovení Sokola pak už máme
 pouze tři jména: Zdeněk Lauschmann (1990--2004), který již v~roce 1982
@@ -3934,7 +3981,7 @@ Hatleho, Mifka, z~novějších pana Přibyla a Hofmana).
 
 Tak to je strana jednoty a na straně druhé jsou cvičenci a jejich
 (u~těch mladších) rodiče. Pro ty se to vlastně všechno děje. Počet členů se
-od roku 1990 do dnešních dnů pohybuje mezi 600 až 1 000. V~současnosti
+od roku 1990 do dnešních dnů pohybuje mezi 600 až 1\,000. V~současnosti
 je to přibližně 800. Nejsme tedy zrovna malá jednota. Ale snažíme se
 držet pospolu. Na JVLS či PVLS se nás občas sejde i okolo stovky, na
 akademii bývá i 400 diváků a 250 cvičenců, na posledním sletě (2024)
@@ -4020,7 +4067,7 @@ sále.
 
 Umírá další ze zasloužilých libeňských sokolů -- Jindřich Vajkrt.
 
-23. 9. 2005 sletový rok zahájila Sletová štafeta. Jde o~starou tradici,
+23.~9. 2005 sletový rok zahájila Sletová štafeta. Jde o~starou tradici,
 kterou se rozhodl vzkřísit náš bývalý náčelník Zdeněk Lauschmann a která
 spočívala ve štafetovém doručení sletového poselství ukrytého ve
 štafetových kolících z~Tyršova domu do sídel všech žup, a to bez použití
@@ -4036,7 +4083,7 @@ dostaly do svých cílů, byl úctyhodných 3380 km.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/51_stafeta.jpg}
   \caption*{Zahájení Sletové štafety na nádvoří Tyršova domu (2005), první
-  běží br. Zdeněk Lauschmann, foto: archiv T. J. Sokol Libeň}
+  běží br. Zdeněk Lauschmann, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~roce 2006 se poprvé koná únorové cvičení s~názvem Aerobik Show,
@@ -4066,34 +4113,34 @@ Večerní program byl doprovázen Laserovou show.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/52_vylet_s_aerobikem.jpg}
   \caption*{V~popředí jeden ze dvou libeňských celků ve skladbě Výlet
-  s~aerobikem na oblastním sletu v~Mělníku (2006), foto: archiv T. J. Sokol
+  s~aerobikem na oblastním sletu v~Mělníku (2006), foto: archiv T.~J. Sokol
   Libeň}
 \end{figure*}
 
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/53_slet_pruvod.JPG}
-  \caption*{Libeňské prapory v~cíli sletového průvodu 2006, foto: archiv T. J. Sokol Libeň}
+  \caption*{Libeňské prapory v~cíli sletového průvodu 2006, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/54_garda.JPG}
   \caption*{Věrná garda z~Libně na XIV. všesokolském sletu (2006), foto:
-  archiv T. J. Sokol Libeň}
+  archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/55_chalpaci.JPG}
   \caption*{Skladba mužů Chlapáci na sletu 2006, v~popředí lze najít Libeňáky,
-  foto: archiv T. J. Sokol Libeň}
+  foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/56_karimatky.JPG}
-  \caption*{Mladší žáci ze skladby Karimatky na sletu 2006, foto: archiv T. J.
+  \caption*{Mladší žáci ze skladby Karimatky na sletu 2006, foto: archiv T.~J.
   Sokol Libeň}
 \end{figure*}
 
@@ -4110,10 +4157,10 @@ které pořádala Věra Vránová, kdy se naši mladí cvičitelé doopravdy
 naučili např. záchranu a dopomoc při sportovní gymnastice. Bohužel
 v~únoru 2007 jsme z~této skupiny přišli o~jednoho z~našich nejnadějnějších
 cvičitelů a sportovců (soutěžil ve sportovním aerobiku a v~gymnastice)
--- Jana Vorla řečeného "Hnízdo". Hnízdo náhle zemřel 11. 2. 2007
+-- Jana Vorla řečeného "Hnízdo". Hnízdo náhle zemřel 11.~2. 2007
 \begin{wrapfigure}{l}{0.5\textwidth}
   \includegraphics[width=0.9\linewidth]{img/57_hnizdo.jpg}
-  \caption*{br. Jan Vorel řečený Hnízdo (2008),\\foto: archiv T. J. Sokol
+  \caption*{br. Jan Vorel řečený Hnízdo (2008),\\foto: archiv T.~J. Sokol
   Libeň}
 \end{wrapfigure}
 při epileptickém záchvatu, kdy byl naneštěstí doma sám. Ještě večer před tím
@@ -4209,7 +4256,7 @@ seznam členů jednoty nebo časopis "Havlíček" ze dne 3. října 1909.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/58_schranka.JPG}
   \caption*{Obsah časové schránky ze základního kamene sokolovny z~roku 1909
-  po otevření dne 4. března 2009, foto: archiv T. J. Sokol Libeň}
+  po otevření dne 4. března 2009, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Následně byl základní kámen slavnostně znovu zasazen za přítomnosti
@@ -4229,14 +4276,14 @@ slavnosti. Předpokládáme, že schránky budou znovu otevřeny v~roce 2109.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/59_schranka_2.jpg}
   \caption*{Písemnosti z~časové schránky ze základního kamene sokolovny z~roku
-  1909, foto: archiv T. J. Sokol Libeň}
+  1909, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[h]
   \centering
    \includegraphics[width=0.7\textwidth]{img/60_zakladni_kamen_jirkan.jpg}
   \caption*{Náčelník br. Jiří Novák znovu ukládá časové schránky do základního
-  kamene sokolovny (2009), foto: archiv T. J. Sokol Libeň}
+  kamene sokolovny (2009), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Tento rok se také koná první Den otevřených dveří libeňské sokolovny.
@@ -4273,14 +4320,15 @@ vzít nenechali.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/61_muzi_slet_12.JPG}
   \caption*{Muži z~Libně po generálce večerního programu XV. všesokolského
-  sletu 2012, foto: archiv T. J. Sokol Libeň}
+  sletu 2012, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
+%% TODO sama na stránce
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/62_rd_duchove.JPG}
   \caption*{Rodiče a děti a mladší žactvo z~Libně cvičící ve společné skladbě
-  Ať žijí duchové na XV. všesokolském sletu 2012, foto: archiv T. J. Sokol Libeň}
+  Ať žijí duchové na XV. všesokolském sletu 2012, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Rokem 2012 začíná období našeho většího zapojení do různých akcí Prahy
@@ -4312,7 +4360,7 @@ pokusili formulovat směry, kam se ubírat v~horizontu delším, než je
 příští slet, a pod Alešovým vedením byly zahájeny přípravy velkých
 projektů, jako je rekonstrukce dvora a šaten. Dá se také říci, že Aleš
 naši novou generaci členů výboru vedení jednoty vlastně naučil. Bohužel
-jak náhle jsme Aleše získali, tak náhle jsme ho 27. 2. 2019 ztratili.
+jak náhle jsme Aleše získali, tak náhle jsme ho 27.~2. 2019 ztratili.
 Nečekaně zemřel na komplikace spojené s~onemocněním, kterým dlouhodobě
 trpěl, ve věku 59 let.
 
@@ -4321,7 +4369,7 @@ trpěl, ve věku 59 let.
   \includegraphics[width=0.9\textwidth]{img/63_ales.jpg}
   \caption*{Starosta jednoty br. Aleš Müller předává spolu s~náčelnicí Ájou
   Krásovou (uprostřed) a místonáčelnicí Danou Cejpkovou (vpravo) hlavní
-  cenu v~tombole na Šibřinkách 2018, foto: archiv T. J. Sokol Libeň}
+  cenu v~tombole na Šibřinkách 2018, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~tuto chvíli však jednota již měla nového náčelníka br. Josefa
@@ -4352,7 +4400,7 @@ strojového parku.
 Také proběhlo promítání fotografií cvičitele Vítka Jakoubka, který půl
 roku prožil v~Jižním Súdánu jako lékař v~místní nemocnici.
 
-V~roce 2013 ve 101 letech umírá zasloužilá sokolka Marie Kodlová a 1. 1.
+V~roce 2013 ve 101 letech umírá zasloužilá sokolka Marie Kodlová a 1.~1.
 2014 umírá v~požehnaném věku 94 let čestná náčelnice Milada Věra
 Decastellová, poslední z~předválečných a těsně poválečných činovníků.
 
@@ -4435,7 +4483,7 @@ V~roce 2018 probíhala rekonstrukce Zenklovy ulice. V~rámci toho byl
 změněn tvar chodníku před sokolovnou, který byl následně hezky
 vydlážděn. Před sokolovnou vznikla i stanice tramvaje s~názvem Libeňský
 zámek. My využili situace a stejným způsobem jsme si od realizační firmy
-nechali za asi 140 000\,Kč vydláždit náš pozemek před vrátky na jižní
+nechali za asi 140\,000\,Kč vydláždit náš pozemek před vrátky na jižní
 straně sokolovny. Z~grantů jsme koupili přenosnou hrazdu do sálu a také
 nová mužská bradla.
 
@@ -4462,7 +4510,7 @@ republika". Slet totiž korespondoval se 100. výročím vzniku
   \centering 
   \includegraphics[width=0.9\textwidth]{img/64_siluety.JPG}
   \caption*{XVI. všesokolský slet 2018, skladba dorostenek a mladších žen
-  Siluety, foto: archiv T. J. Sokol Libeň}
+  Siluety, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[hp]
@@ -4502,8 +4550,8 @@ oddíly. O~obojím pojednává současný náčelník br. Kubišta ve svém
 příspěvku.
 
 V~roce 2019 přibývá další tradiční akce. Památný den sokolstva. Jde
-o~připomenutí obětí II. světové války, kdy 8. 10. 1941 byl Sokol zakázán a
-více než 1 500 vedoucích činovníků zatčeno a postupně umučeno. V~roce
+o~připomenutí obětí II. světové války, kdy 8.~10. 1941 byl Sokol zakázán a
+více než 1\,500 vedoucích činovníků zatčeno a postupně umučeno. V~roce
 2019 je také po třech letech Anna Holanová oficiálně zvolena na valné
 hromadě jednoty vzdělavatelkou a dochází ke vzkříšení vzdělavatelského
 odboru. Kromě běžných akcí je činnost rozšířena i o~různé vzdělavatelské
@@ -4538,7 +4586,7 @@ Pardubicích předvedeno, ale více než dvouleté roztažení původně
 jednosezónního projektu bylo dosti bolestivé. Nácvik vedla Zuzana
 Dočekalová.
 
-\begin{figure*}[h]
+\begin{figure*}[t]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/66_odhodlani.jpg}
   \caption*{Vystoupení skladby Odhodlaní na SokolGym 2022 v~Plzni, foto:
@@ -4563,8 +4611,8 @@ směrem ke gymnáziu, která hrozila zřícením.
 \begin{figure*}[hp]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/68_vh_22.jpg}
-  \caption*{Cvičitelky, cvičitelé a činovníci T. J. Sokol Libeň přítomní na
-  valné hromadě 2022, foto: archiv T. J. Sokol Libeň}
+  \caption*{Cvičitelky, cvičitelé a činovníci T.~J. Sokol Libeň přítomní na
+  valné hromadě 2022, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 
@@ -4605,19 +4653,19 @@ listopadu. Podmínky grantu totiž požadovaly kolaudaci do konce roku,
 následně prodlouženou do konce března 2024, ale fyzicky hotovo muselo
 být do konce roku. Termín byl šibeniční, ale br. starosta při
 rozhodování v~květnu prohlásil, že si myslí, že by to mělo vyjít, a
-vyšlo. Nové šatny, otevřené k~provozu 19. 2. 2024, respektují secesního
+vyšlo. Nové šatny, otevřené k~provozu 19.~2. 2024, respektují secesního
 ducha sokolovny, ale konečně patří do 21. století.
 
 \begin{figure*}[hp]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/69_satny_stare.JPG}
-  \caption*{Šatny před rekonstrukcí (2023), foto: archiv T. J. Sokol Libeň}
+  \caption*{Šatny před rekonstrukcí (2023), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \begin{figure*}[hp]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/70_satny_nove.JPG}
-  \caption*{Zrekonstruované šatny (2024), foto: archiv T. J. Sokol Libeň}
+  \caption*{Zrekonstruované šatny (2024), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~roce 2023 se také začal odvíjet příběh oddílu Akrojógy pod vedením
@@ -4637,14 +4685,14 @@ skladbě "Čarodějky" a nechyběli ani rodiče a děti ("Čmeláčci") a
 předškolní děti ("Mravenci"). Velmi symbolická byla skladba seniorů
 "Jdi za štěstím", do které až v~jejím průběhu nastoupili v~odlišných
 úborech nejstarší členové sokolské Věrné gardy -- poslední pamětníci
-sletů 1938 a 1948. Jak zpíval Karel Gott v~hudebním doprovodu: "Čas dál
-si běží svůj maraton\ldots".
+sletů 1938 a 1948. Jak zpíval Karel Gott v~hudebním doprovodu: "Čas dál si běží svůj maraton\ldots".
+%% TODO optimalizovat rozložení a odlomené řádky, můžem udělat kapitolku na slet
 
 \begin{figure*}[hp]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/71_sokolhrani.jpg}
   \caption*{Skladba Sokolhraní mladšího žactva na XVII. všesokolském sletu
-  (2024) předvedená před vyprodaným stadionem v~Edenu, foto: archiv T. J.
+  (2024) předvedená před vyprodaným stadionem v~Edenu, foto: archiv T.~J.
   Sokol Libeň}
 \end{figure*}
 
@@ -4652,7 +4700,7 @@ si běží svůj maraton\ldots".
   \centering 
   \includegraphics[width=0.9\textwidth]{img/72_rytmus_srdce.jpg}
   \caption*{Skladba žen V~rytmu srdce na XVII. všesokolském sletu (2024),
-  v~popředí dva celky Sokola Libeň, foto: archiv T. J. Sokol Libeň}
+  v~popředí dva celky Sokola Libeň, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \section{Věra Decastellová -- jeden sokolský život na pozadí dějin 20.
@@ -4660,7 +4708,7 @@ století}
 
 \begin{center}
   \textit{Řeč pronesená na pohřbu čestné náčelnice naší jednoty ses. Věry
-  Decastellové (leden 2014), autorem řeči byl br. Vít Jakoubek}
+  Decastellové (leden~2014), autorem řeči byl br. Vít Jakoubek}
 \end{center}
 
 \noindent
@@ -4738,7 +4786,7 @@ menšinový názor a v~následné debatě jej tvrdě hájit.
   \centering 
   \includegraphics[width=0.9\linewidth]{img/73_vera_cedok.JPG}
   \caption*{Náčelnice ses. Milada Věra Decastellová na akademii v~roce 2009,
-  foto: archiv T. J. Sokol Libeň}
+  foto: archiv T.~J. Sokol Libeň}
 \end{wrapfigure}
 
 Věra cvičila naposledy na sletě v~roce 2006 ve skladbě \textit{Ta naše
@@ -4776,14 +4824,15 @@ v~Libni}
 V~roce 2024 pracuje cvičitelský sbor žen v~abecedně následujícím
 složení:
 
-\begin{multicols}{2}
+% \begin{multicols}{2}
   \begin{itemize}[label={},itemindent=-2em,leftmargin=2em]
   \setlength{\itemsep}{-4pt}
   \item Agáta Adámková (žákyně)
   \item Zuzana Burianová (sletová skladba V~rytmu srdce)
   \item Dana Cejpková (rodiče a děti předškolní děti, sletová skladba Mravenci)
   \item Zuzana Dočekalová (předškolní děti, sletová skladba Leporelo)
-  \item Tomáš Dragoun (náčelnice, žákyně; \textit{stanovy ČOS nepředepisují, že funkci náčelnice musí zastávat osoba ženského pohlaví, a tak  si ženský cvičitelský sbor pokrokově zvolil cvičitele žákyň br. Dragouna a tituluje ho "náš náčelnice" pozn. ed.}) Jana Dubská (rodiče a děti, žákyně, ženy -- všestrannost, sletová skladba Fitness),
+  \item Tomáš Dragoun (náčelnice, žákyně; \textit{stanovy ČOS nepředepisují, že funkci náčelnice musí zastávat osoba ženského pohlaví, a tak  si ženský cvičitelský sbor pokrokově zvolil cvičitele žákyň br. Dragouna a tituluje ho "náš náčelnice" pozn. ed.})
+  \item Jana Dubská (rodiče a děti, žákyně, ženy -- všestrannost, sletová skladba Fitness),
   \item Iva Duchačová (předškolní děti)
   \item Anna Feřtová (předškolní děti, žákyně),
   \item Dáša Francková (předškolní děti, ženy-seniorky, sletová skladba Babí Léto)
@@ -4813,9 +4862,10 @@ složení:
   \item Jana Voráčová (žákyně)
   \item Vladislav Voráč (ženy -- kondiční cvičení)
   \end{itemize}
-\end{multicols}
+% \end{multicols}
 
 
+\noindent
 \pozned{(sestry, u~kterých je uvedena
 pouze sletová skladba, se jinak pravidelnému vedení cvičení nevěnují,
 pozn. ed.)}.
@@ -4982,7 +5032,7 @@ vedením Jany Dubské.
   Martina Škochová (1.) a Ája Krásová (3.), foto: archiv J. Přecha}
 \end{figure*}
 
-\subsection{Věrná garda}
+\subsection{Věrná garda, ženy-seniorky}
 
 \begin{center}
   \textit{Text Věry Šťastné z~roku 2004}
@@ -5150,6 +5200,13 @@ běžecké závody a podobně. Sem tam si společně vyrazíme na venkovní
 hrazdy nebo výlet po horách. Čas u~bradel nebo kruhů je pro nás stejně
 společensky hodnotný a plný rozhovorů, jako bychom chodili do hospody.
 
+\begin{figure*}[t]
+  \centering 
+  \includegraphics[width=0.9\textwidth]{img/75_akademie_muzi.JPG}
+  \caption*{Vystoupení mužů na akademii v~roce 2018, foto: archiv T.~J. Sokol
+  Libeň}
+\end{figure*}
+
 Mimo to všechno se snažíme navzájem podporovat v~abstinenci alkoholu a
 kouření. Kuřáků máme opravdu málo, pijanů, byť jen občasných, trochu
 více. Stejně tak k~otužování. Od září do konce března máme za sokolovnou
@@ -5162,13 +5219,6 @@ chladné jako led.
 Po deseti letech oddílu jsme uspořádali sbírku a nechali vyrobit prapor
 mužů, který předáme jednotě. Má netradiční modrou barvu a kolem dokola
 antické ctnosti statečnost -- moudrost -- uměřenost -- spravedlnost.
-
-\begin{figure*}[h]
-  \centering 
-  \includegraphics[width=0.9\textwidth]{img/75_akademie_muzi.JPG}
-  \caption*{Vystoupení mužů na akademii v~roce 2018, foto: archiv T. J. Sokol
-  Libeň}
-\end{figure*}
 
 \subsection{Přetahování lanem}
 
@@ -5223,7 +5273,7 @@ v~pražských Letňanech.
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.9\textwidth]{img/76_splh.jpg}
-  \caption*{Marek Novotný při tréninku (2022), foto: archiv T. J. Sokol Libeň}
+  \caption*{Marek Novotný při tréninku (2022), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 \section{Turistika a pobyt v~přírodě}
@@ -5385,7 +5435,7 @@ Ploučnici a další).
   \caption*{JVLS 2003, hrad Zvířetice a přednes písně Jindra je hradu pán,
   kterou Jilmáci na místě složili. S~kytarou Vítek, text drží Doník, dále
   zleva: Přemek, Matouš, Nezmar, před ním Jack, dále Ruch, Řek, O. Loudil,
-  Drátek, Sumec, foto: archiv T. J. Sokol Libeň}
+  Drátek, Sumec, foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 V~roce 1990 začíná naše pravidelná účast na Jarních a Podzimních
@@ -5483,8 +5533,7 @@ v~jídelně s~kytarou či při čítandě, na to, jestli zrovna dnes nepřijde
 hučák (bývalý člen, který spojí návštěvu tábora s~přepadem hlídky), na
 lukostřelbu a vůbec na celé ty tři týdny.
 
-\subsection{Zálesácký závod
-zdatnosti}
+\subsection{Zálesácký závod zdatnosti}
 
 Od roku 1996 se koná Zálesácký závod zdatnosti (ZZZ). Je to závod, ve
 kterém družstvo (trojice) běhá, uzluje, signalizuje, zapaluje oheň,
@@ -5556,56 +5605,60 @@ Modrá: Kouzelník, Michal, Petr, Láďa, Honzík
 
 \renewcommand{\arraystretch}{1.1}
 \begin{longtable}[]{%
+  >{\raggedright\arraybackslash}p{1cm}%
   >{\raggedright\arraybackslash}p{4cm}%
   >{\raggedright\arraybackslash}p{1cm}%
   >{\raggedright\arraybackslash}p{2cm}%
   >{\raggedright\arraybackslash}p{3cm}}
+%% TODO nové rozvržení tabulky
+ \textbf{Rok} & \textbf{Název tábora / táborová hra}  &  \textbf{Počet PK + členů}  &  \textbf{Tábořiště}  &  \textbf{Táborová/celoroční hra}  \\
 
- \textbf{Rok a název tábora}  &  \textbf{Počet PK + členů}  &  \textbf{Tábořiště}  &  \textbf{Táborová/celoroční hra}  \\
-\multicolumn{2}{>{\raggedright\arraybackslash}p{4cm}}{1981 Tábor kapitána Foxe (před založením JILMu) } &  Chřenovice  &  Kapitán Fox  \\
- 1982 Tábor pod Javorovou skálou  &  4 + 15  &  Jetřichovice  &  Kapitán Fox  \\
- 1983 Tábor pod uříznutým stožárem  &  3 + 16  &  Jetřichovice  &  Jan Kornel  \\
- 1984 Tábor marodů a hučáka  &  4 + 16  &  Libež  &  Jan Kornel  \\
- 1985 Tábor titánů  &  6 + 17  &  Libež  &  Robert Rogers  \\
- 1986 Tábor nováčků  &  4 + 18  &  Jetřichovice  &  Neznámým Džugdyrem  \\
- 1987 Tábor zlatokopů  &  4 + 14  &  Krasoňov -- dolní louka  &  Zlatá horečka (celoroční hra)  \\
- 1988 Vítkův tábor  &  4 + 16  &  Krasoňov -- horní louka  &  V~královských službách (celoroční)  \\
- 1989 Tábor šedesátek  &  5 + 23  &  Krasoňov -- horní louka  &  V~královských službách (celoroční)  \\
- 1990 Soví tábor  &  5 + 16  &  Horní Krupá  &  Zlatá horečka (celoroční)  \\
- 1991 Tábor s~dechňaty  &  5 + 17  &  Horní Krupá  &  Kapitán Fox  \\
- 1992 Tábor na bahně  &  5 + 16  &  Horní Krupá  &  Jan Kornel  \\
- 1993 Tábor na Kupuri  &  5 + 16  &  Krasoňov -- dolní louka  &  Ulukitkan a ti druzí  \\
- 1994 Tábor s~modrou orchidejí  &  6 + 17  &  Krasoňov -- dolní louka  &  Za modrou orchidejí  \\
- 1995 Tábor pod cedníkem  &  5 + 19  &  Krasoňov -- dolní louka  &  Pouští a pralesem  \\
- 1996 Tábor pod Stonehenge  &  6 + 14  &  Nadějkov (Šichova Vesec)  &  Sarum  \\
- 1997 Tábor třináctky na jangadě  &  5 + 14  &  Nadějkov (Šichova Vesec)  &  Tajemství pralesa  \\
- 1998 Tábor zlaté tisícovky  &  4 + 19  &  Nadějkov (Šichova Vesec)  &  Zlatá horečka (celoroční)  \\
- 1999 Tábor se smíchem v~zádech  &  5 + 18  &  Bohdalín  &  Madagaskar  \\
- 2000 Tábor v~dlouhánech  &  5 + 16  &  Bohdalín  &  V~královských službách (celoroční)  \\
- 2001 Jejdanánky už 20. tábor  &  4 + 13  &  Bohdalín  &  V~královských službách (celoroční)  \\
- 2002 Tábor bez úplňku  &  5 + 16  &  Velhartice (Tajanov)  &  Na veliké řece (celoroční)  \\
- 2003 Tábor panáčka Nika  &  5 + 13  &  Velhartice (Tajanov)  &  Nik a lesní chlapci (celoroční)  \\
- 2004 Tábor Kornelovy jedenáctky  &  4 + 11  &  Velhartice (Tajanov)  &  Jan Kornel (celoroční)  \\
- 2005 Tábor s~bahňaty  &  6 + 12  &  Pokřikov  &  Ulukitkan (celoroční)  \\
- 2006 Tábor na suchu  &  5 + 8  &  Pokřikov  &  Za modrou orchidejí (celoroční)  \\
- 2007 Tábor s~horečkou  &  5 + 10  &  Pokřikov  &  Zlatá horečka (celoroční)  \\
- 2008 Tábor Robinsonů  &  7 + 8  &  Bohdalín  &  Robinson Crusoe (celoroční)  \\
- 2009 Tábor odjezdů  &  7 + 9  &  Bohdalín  &  Tom Sawyer  \\
- 2010 Tábor čárkařů  &  6 + 12  &  Bohdalín  &  Kapitán Fox (celoroční)  \\
- 2011 Tábor v~lachtaním sklípku  &  6 + 14  &  Velhartice (Tajanov)  &  V~královských službách (celoroční)  \\
- 2012 Tábor milionářů  &  5 + 11  &  Velhartice (Tajanov)  &  V~královských službách (celoroční)  \\
- 2013 Tábor v~rukavičkách  &  4 + 12  &  Velhartice (Tajanov)  &  II. světová válka (celoroční)  \\
- 2014 Tábor dvou  &  6 + 14  &  Velhartice (Tajanov)  &  II. světová válka (celoroční)  \\
- 2015 Tábor z~bronzu  &  6 + 15  &  Lučice  &  Bronzový poklad (celoroční)  \\
- 2016 Tábor na Tauri  &  6 + 14  &  Lučice  &  Hvězdná brána  \\
- 2017 Spartakův tábor  &  7 + 13  &  Lučice  &  Spartakus  \\
- 2018 Tady-pole-tábor  &  8 + 12  &  Lučice  &  Jan Kornel  \\
- 2019 Tábor bylo nás pět  &  8 + 5  &  Velhartice (Tajanov)  &  Vikingové  \\
- 2020 Tábor omega, psí  &  6 + 12  &  Velhartice (Tajanov)  &  Omega (celoroční)  \\
- 2021 Tábor slimanov  &  6 + 14  &  Velhartice (Tajanov)  &  Hobit  \\
- 2022 Tábor šeďáků  &  7 + 10  &  Velhartice (Tajanov)  &  Kapitán Fox  \\
- 2023 Tábor bez deště  &  5 + 10  &  Velhartice (Tajanov)  &  Odysseus  \\
- 2024 Tábor pašeráků (spolu s~Veverkami)  &  8 + 19  &  Velhartice (Tajanov)  &  Tajemství vzácné tabatěrky (celoroční)  \\
+\hline \endhead
+
+1981 & \multicolumn{2}{>{\raggedright\arraybackslash}p{4cm}}{Tábor kapitána Foxe (před založením JILMu) } &  Chřenovice  &  Kapitán Fox  \\
+ 1982 & Tábor pod Javorovou skálou \newline Kapitán Fox  &  4 + 15  &  Jetřichovice  &  Kapitán Fox  \\
+ 1983 & Tábor pod uříznutým stožárem \newline Jan Kornel  &  3 + 16  &  Jetřichovice  &  Jan Kornel  \\
+ 1984 & Tábor marodů a hučáka  &  4 + 16  &  Libež  &  Jan Kornel  \\
+ 1985 & Tábor titánů  &  6 + 17  &  Libež  &  Robert Rogers  \\
+ 1986 & Tábor nováčků  &  4 + 18  &  Jetřichovice  &  Neznámým Džugdyrem  \\
+ 1987 & Tábor zlatokopů  &  4 + 14  &  Krasoňov -- dolní louka  &  Zlatá horečka (celoroční hra)  \\
+ 1988 & Vítkův tábor  &  4 + 16  &  Krasoňov -- horní louka  &  V~královských~službách (celoroční)  \\
+ 1989 & Tábor šedesátek  &  5 + 23  &  Krasoňov -- horní louka  &  V~královských službách (celoroční)  \\
+ 1990 & Soví tábor  &  5 + 16  &  Horní Krupá  &  Zlatá horečka (celoroční)  \\
+ 1991 & Tábor s~dechňaty  &  5 + 17  &  Horní Krupá  &  Kapitán Fox  \\
+ 1992 & Tábor na bahně  &  5 + 16  &  Horní Krupá  &  Jan Kornel  \\
+ 1993 & Tábor na Kupuri  &  5 + 16  &  Krasoňov -- dolní louka  &  Ulukitkan a ti druzí  \\
+ 1994 & Tábor s~modrou orchidejí  &  6 + 17  &  Krasoňov -- dolní louka  &  Za modrou orchidejí  \\
+ 1995 & Tábor pod cedníkem  &  5 + 19  &  Krasoňov -- dolní louka  &  Pouští a pralesem  \\
+ 1996 & Tábor pod Stonehenge  &  6 + 14  &  Nadějkov (Šichova Vesec)  &  Sarum  \\
+ 1997 & Tábor třináctky na jangadě  &  5 + 14  &  Nadějkov (Šichova Vesec)  &  Tajemství pralesa  \\
+ 1998 & Tábor zlaté tisícovky  &  4 + 19  &  Nadějkov (Šichova Vesec)  &  Zlatá horečka (celoroční)  \\
+ 1999 & Tábor se smíchem v~zádech  &  5 + 18  &  Bohdalín  &  Madagaskar  \\
+ 2000 & Tábor v~dlouhánech  &  5 + 16  &  Bohdalín  &  V~královských službách (celoroční)  \\
+ 2001 & Jejdanánky už 20. tábor  &  4 + 13  &  Bohdalín  &  V~královských službách (celoroční)  \\
+ 2002 & Tábor bez úplňku  &  5 + 16  &  Velhartice (Tajanov)  &  Na veliké řece (celoroční)  \\
+ 2003 & Tábor panáčka Nika  &  5 + 13  &  Velhartice (Tajanov)  &  Nik a lesní chlapci (celoroční)  \\
+ 2004 & Tábor Kornelovy jedenáctky  &  4 + 11  &  Velhartice (Tajanov)  &  Jan Kornel (celoroční)  \\
+ 2005 & Tábor s~bahňaty  &  6 + 12  &  Pokřikov  &  Ulukitkan (celoroční)  \\
+ 2006 & Tábor na suchu  &  5 + 8  &  Pokřikov  &  Za modrou orchidejí (celoroční)  \\
+ 2007 & Tábor s~horečkou  &  5 + 10  &  Pokřikov  &  Zlatá horečka (celoroční)  \\
+ 2008 & Tábor Robinsonů  &  7 + 8  &  Bohdalín  &  Robinson Crusoe (celoroční)  \\
+ 2009 & Tábor odjezdů  &  7 + 9  &  Bohdalín  &  Tom Sawyer  \\
+ 2010 & Tábor čárkařů  &  6 + 12  &  Bohdalín  &  Kapitán Fox (celoroční)  \\
+ 2011 & Tábor v~lachtaním sklípku  &  6 + 14  &  Velhartice (Tajanov)  &  V~královských službách (celoroční)  \\
+ 2012 & Tábor milionářů  &  5 + 11  &  Velhartice (Tajanov)  &  V~královských službách (celoroční)  \\
+ 2013 & Tábor v~rukavičkách  &  4 + 12  &  Velhartice (Tajanov)  &  II. světová válka (celoroční)  \\
+ 2014 & Tábor dvou  &  6 + 14  &  Velhartice (Tajanov)  &  II. světová válka (celoroční)  \\
+ 2015 & Tábor z~bronzu  &  6 + 15  &  Lučice  &  Bronzový poklad (celoroční)  \\
+ 2016 & Tábor na Tauri  &  6 + 14  &  Lučice  &  Hvězdná brána  \\
+ 2017 & Spartakův tábor  &  7 + 13  &  Lučice  &  Spartakus  \\
+ 2018 & Tady-pole-tábor  &  8 + 12  &  Lučice  &  Jan Kornel  \\
+ 2019 & Tábor bylo nás pět  &  8 + 5  &  Velhartice (Tajanov)  &  Vikingové  \\
+ 2020 & Tábor omega, psí  &  6 + 12  &  Velhartice (Tajanov)  &  Omega (celoroční)  \\
+ 2021 & Tábor slimanov  &  6 + 14  &  Velhartice (Tajanov)  &  Hobit  \\
+ 2022 & Tábor šeďáků  &  7 + 10  &  Velhartice (Tajanov)  &  Kapitán Fox  \\
+ 2023 & Tábor bez deště  &  5 + 10  &  Velhartice (Tajanov)  &  Odysseus  \\
+ 2024 & Tábor pašeráků (spolu s~Veverkami)  &  8 + 19  &  Velhartice (Tajanov)  &  Tajemství vzácné tabatěrky (celoroční)  \\
 \end{longtable}
 
 Také jsme se již několikrát sešli při výročích. Poprvé to bylo v~únoru
@@ -5645,6 +5698,7 @@ pomoc při stavbě tábora a těšíme se na jejich hučácké návštěvy na
 táboře. Je milé, když se na ulici občas slyší "Nazdar Jirkane, jak se
 máš, co JILM?" a on to nějaký starý Jilmák.
 
+%%TODO nedělit jména
 Sluší se také zmínit ty, kteří se alespoň chvíli podíleli na tom, že
 těch 254 členů, kteří s~námi kdy byli na táboře, mělo postaráno
 o~smysluplný a bohatý program. Nejprve zakládající vedoucí: Zdeněk
@@ -5708,7 +5762,7 @@ dívky, ale přesto má tábor málem víc vedoucích než členů.
 \begin{figure*}[h]
   \centering 
   \includegraphics[width=0.95\textwidth]{img/82_jilm_30.JPG}
-  \caption*{Oslava 30 let JILMu (2012), foto: archiv T. J. Sokol Libeň}
+  \caption*{Oslava 30 let JILMu (2012), foto: archiv T.~J. Sokol Libeň}
 \end{figure*}
 
 Tábor 2010 představuje jistý odraz ode dna a také po tomto táboře po
@@ -5789,7 +5843,7 @@ Loučíme se s~Vámi oddílovým pokřikem:
 
 \textit{A~to hlavní -- vědět, co je kamarád}
 
-\section{Turistický oddíl Káňata}
+\subsection{Turistický oddíl Káňata}
 
 \begin{center}
   \textit{Historii Káňat sepsaly Ája Krásová a Sabina Pejsarová}
@@ -5875,7 +5929,7 @@ vzpomínku, a to na e-mailovou adresu
 \textit{alena.krasova@sokol-liben.cz}. Sejde-li se nás více, zkusíme
 i my zorganizovat nějakou sešlost/výlet po mnoha letech.
 
-\section{Turistický oddíl Veverky}
+\subsection{Turistický oddíl Veverky}
 
 \begin{center}
   \textit{Historii Veverek 2012--2024 shrnula Anna Grebíková (Liška)}
@@ -5965,8 +6019,7 @@ hledá. Je mi velkou ctí, že jsem právě toto mohla s~Veverkami prožít a
 tuto zkušenost mohu předávat dál. Všem minulým, současným i budoucím
 holkám v~oddílu přeji hodně zdaru a lásky.
 
-\section{Turistický oddíl
-Studánka}
+\subsection{Turistický oddíl Studánka}
 
 \begin{center}
   \textit{Příspěvek není v~almanachu 2004 podepsán, ale vedoucími Studánky
@@ -6003,7 +6056,7 @@ Kromě táborů však Studánka fungovala i přes rok. Počet oddílů se měnil
 hlavně se změnilo původní místo našeho působení. Jelikož se pionýři
 rozpadli a zájem pracovat s~dětmi i nadále byl, začali vedoucí s~dětmi
 hledat vhodné prostory pro svoji klubovnu. Pod křídla nás vzala roku
-1991 libeňská sokolovna, a tak jsme se 8. 4. 1991 stali členy Sokola.
+1991 libeňská sokolovna, a tak jsme se 8.~4. 1991 stali členy Sokola.
 Vedoucí Studánky Josef Žáček se ihned zapojil i do činnosti jednoty,
 pomáhal například řešit restituci Sokolích bud a byl pozdějším
 starostou, ale o~tom jinde. Byla nám přidělena klubovna ve druhém patře,
@@ -6038,7 +6091,7 @@ náčelník br. Kubišta je odchovancem Studánky.
 
 \section{Sportovní oddíly}
 
-T. J. Sokol Libeň je v~současnosti zaměřený především na sokolskou
+T.~J. Sokol Libeň je v~současnosti zaměřený především na sokolskou
 všestrannost. Ovšem najdou se zde i oddíly sportovní. Registrovanými
 sportovními byli v~roce 2004 badminton a basketbal, v~roce 2024 už jen
 basketbal. Pod všestrannost spadají ještě další sporty, jsou to Skipping
@@ -6051,8 +6104,9 @@ Boys a Skipping Buddies, rekreační volejbal, sálová kopaná, historický
   \textit{Sepsal Vladimír Svatoš}
 \end{center}
 
+\noindent
 Současný oddíl basketbalu mužů vzešel z~části žákovského a
-dorosteneckého týmu T. J. Meteor Praha, ve kterém většina hráčů Sokola
+dorosteneckého týmu T.~J. Meteor Praha, ve kterém většina hráčů Sokola
 Libeň začínala. V~roce 1993, po několikaleté přestávce, se dřívější
 žákovské družstvo znovu schází, tentokrát již v~libeňské sokolovně, aby
 navázalo na sportovní úspěchy z~konce osmdesátých let. Z~počátku jen
@@ -6080,7 +6134,7 @@ v~náhradních prostorách.
 
 \subsection{Badminton}
 
-Oddíl badmintonu v~T. J. Sokol Libeň má tradici dlouhou několik desítek
+Oddíl badmintonu v~T.~J. Sokol Libeň má tradici dlouhou několik desítek
 let, kdy se tu ve stísněných podmínkách hrávaly dokonce i ligové zápasy.
 Dnešní doba, vyžadující pro sport stále lepší a náročnější podmínky,
 vytěsnila výkonnostní badminton do moderních a luxusnějších hal a
@@ -6121,6 +6175,7 @@ veřejnost) individuálně platí hodiny pro rekreační hru nebo trénink.
   \textit{Sepsal Jan Dostál}
 \end{center}
 
+\noindent
 Skipping Boys na počátku vyrostli z~našich dorostenců. Jsou nejstarší a
 nejdéle vystupující tým v~České republice. S~vystupováním začali už na
 podzim v~roce 2008. V~době, kdy rope skipping u~nás ještě téměř nikdo
@@ -6159,6 +6214,7 @@ stupni vítězů :)
   pravděpodobně Iva Mrklasová}
 \end{center}
 
+\noindent
 Loutkářský soubor vHLAVĚDRÁt vznikl v~roce 1993, kdy se sešlo pět nebo
 šest (přesně si už asi nevzpomeneme) nadšenců. Ze začátku jsme zkoušeli
 na Zbraslavi. V~roce 1995 jsme pak přesídlili do libeňské sokolovny a
@@ -6210,7 +6266,7 @@ Během naší existence jsme celkem čtyřikrát hráli na Festivalu pražských
 loutkářů v~kobyliské Jiskře. Zde se nám jednou podařilo zvítězit a
 postoupit na celostátní přehlídku amatérských loutkářů -- Loutkářskou
 Chrudim (1995 s~představením Cesta do Ertepelska). Kromě toho jsme
-jednou vyhráli zvláštní cenu K. Hackera. Na Loutkářské Chrudimi jsme
+jednou vyhráli zvláštní cenu K.~Hackera. Na Loutkářské Chrudimi jsme
 vystupovali celkem třikrát. S~představením Havran jsme byli vybráni na
 podzimní přehlídku (1994).
 
@@ -6241,6 +6297,7 @@ roku 2014 a pak ještě jednou v~roce 2018.
   \textit{sepsal Tomáš Troup, principál souboru Nástup}
 \end{center}
 
+\noindent
 Na podzim 2019 se br. Tomáš Troup dočetl ve Zprávách, který donesl jeho
 syn ze cvičení, že o~Vánocích proběhne v~Sokole loutkové představení,
 které pro jednotu sehraje pozvaný loutkový soubor. To br. Troupa vedlo
@@ -6298,7 +6355,7 @@ na Loutkářskou Chrudim a nacvičit již v~pořadí čtvrtou loutkovou hru.
   \centering 
   \includegraphics[width=0.9\textwidth]{img/85_loutky_peklo.JPG}
   \caption*{Hrdinové pohádky Sokolské peklo (zleva: Toník, Šimon, Johanka),
-  foto: T. J. Sokol Libeň}
+  foto: T.~J. Sokol Libeň}
 \end{figure*}
 
 \section{Foerstrovo komorní pěvecké
@@ -6381,7 +6438,7 @@ umístila na 12. místě.
 Celkově se v~roce 2023 se projektu Sokolská kapka krve zúčastnilo celkem
 61 jednot a v~nich 354 dárců absolvovalo 930 odběrů. Vítězem se pak
 stal, jako od začátku vždy, Sokol Komárov, kde 38 dárců absolvovalo 121
-odběrů. Od počátku projektu tak sokolové darovali přes 2 500 litrů krve.
+odběrů. Od počátku projektu tak sokolové darovali přes 2\,500 litrů krve.
 
 Od počátku projektu krev v~Sokole Libeň darovali:
 
@@ -6405,6 +6462,7 @@ Přibyla}
 \textit{Josef Kubišta}
 \end{center}
 
+\noindent
 Bratr Přibyl jednou při cvičeních na bradlech těžce podcenil rozcvičení
 a v~rámci hecování a machrování to nepřineslo dobrotu. Řada borců se
 střídala na bradlech jeden za druhým takovou rychlostí, aby žerdě
@@ -6472,7 +6530,7 @@ vypekli.
 \clearpage
 \section{Poděkování}
 
-\subsection{2004}
+\subsection*{2004}
 
 Děkujeme všem autorům, kteří poskytli své příspěvky do tohoto almanachu.
 Jmenovitě to jsou: Jiří Novák, Zdeněk Lauschmann, Iva Mrklasová, Iva
@@ -6498,60 +6556,46 @@ jména: Martin Chlumský, Vladislav Voráč, Věra Decastellová a Věra
 
 \hfill\textit{předseda redakční rady}
 
-\subsection{2024}
+\subsection*{2024}
 
 Rád bych se připojil s~poděkováním všem, kteří se podíleli na přípravě
 doplněného vydání almanachu, jeho korekturách a sázení, a to vše na
 konci pod velkým časovým tlakem. Byli to v~abecedním pořadí Martin
 Burian (sazba), Míla Doupal, Anna Grebíková, Vítek Jakoubek, Josef
-Kubišta, Ája Krásová, Jiří Novák, Tomáš Troup a Martina Waclawičová.
+Kubišta, Ája Krásová, Jiří Novák, Tomáš Troup a Martina Waclawičová (korektura).
 
 \hfill\textit{Jan Přech}
 
-\hfill\textit{Editor}
+\hfill\textit{editor}
 
 \cleardoublepage
 \section{Příloha}
 
-\subsection{Starostové Sokola Libeň }
+\subsection*{Starostové Sokola Libeň }
 \setlength{\parindent}{0pt}
 
-1884--1894 Josef Voctář
-
-1895--1809 JUC. Václav Klazar
-
-1900--1920 František Filip
-
-1921--1929 JUDr. Norbert Zavadil
-
-1930--1932 Karel Besser
-
-1933--1934 František Švejda
-
-1935--1938 Rudolf Král
-
-1939--1941 Josef Mrklas
-
-\vspace*{6pt}
-okupace
-\vspace*{6pt}
-
-1945--1948 JUDr. Jiří Štross
-
-1989--1999 Ladislav Mrklas st.
-
-2000--2003 Josef Žáček
-
-2004--2013 Jiří Sixta
-
-2013--2019 Ing. Aleš Müller
-
-2019--dosud Ing. Jiří Novák
+\begin{tabular}[]{l l}
+1884--1894 & Josef Voctář \\
+1895--1809 & JUC. Václav Klazar \\
+1900--1920 & František Filip \\
+1921--1929 & JUDr. Norbert Zavadil \\
+1930--1932 & Karel Besser \\
+1933--1934 & František Švejda \\
+1935--1938 & Rudolf Král \\
+1939--1941 & Josef Mrklase\\[6pt]
+& okupace \\[6pt]
+1945--1948 & JUDr. Jiří Štross \\
+1989--1999 & Ladislav Mrklas st. \\
+2000--2003 & Josef Žáček \\
+2004--2013 & Jiří Sixta \\
+2013--2019 & Ing. Aleš Müller \\
+2019--dosud & Ing. Jiří Novák \\
+\end{tabular}
 
 \clearpage
 \raggedcolumns
 \begin{multicols}{2}
-\subsection{Náčelníci Sokola Libeň}
+\subsection*{Náčelníci Sokola Libeň}
 
 \begin{tabular}[]{l >{\raggedright\arraybackslash}p{3cm}}
 1884--1890 &  JUC. Václav Klazar \\
@@ -6577,7 +6621,7 @@ okupace
 2019--dosud &  Josef Kubišta \\
 \end{tabular}
 
-\subsection{Náčelnice Sokola Libeň}
+\subsection*{Náčelnice Sokola Libeň}
 
 \begin{tabular}[]{l >{\raggedright\arraybackslash}p{3cm}}
 1899 & Antonie Vocetková \\
@@ -6603,7 +6647,7 @@ okupace
 \end{multicols}
 
 \clearpage
-\subsection{Zakládající členové Sokola Libeň}
+\subsection*{Zakládající členové Sokola Libeň}
 
 \begin{multicols}{2}
 Bíma Vilém
@@ -6672,33 +6716,32 @@ Vondřich Josef
 
 \end{multicols}
 
-\subsection{Výbor jednoty v~roce
-2024}
+\subsection*{Výbor jednoty v~roce 2024}
 
-\begin{itemize}[label={},itemindent=-2em,leftmargin=2em]
-  \setlength{\itemsep}{-4pt}
-  \item Starosta: Ing. Jiří Novák
-  \item Místostarostka: Mgr. Drahomíra Černičková
-  \item Jednatel: Ing. Jan Přech, Ph.D.
-  \item Náčelník: Josef Kubišta
-  \item Náčelnice: Tomáš Dragoun
-  \item Vzdělavatelka: Anna Holanová, M.A.
-  \item Členka: Mgr. Dana Cejpková
-  \item Člen: Jiří Duchač
-  \item Člen: MUDr. Vít Jakoubek, Ph.D.
-  \item Člen: Mgr. Jan Přibyl
-  \item Členka: Dáša Francková
-  \item Náhradníci:\\ Lucie Vojáčková, DiS., Ing. Martin Kubů, Ph.D., Vladislav Voráč, Jakub Jabor, Dan Unzeitig, Jan Kerhart
-  \item Kontrolní komise:\\ Ing. Pavel Lávička (předseda), Mgr. Tomáš Troup, Ing. Hana Doupalová, Miloslav Doupal (náhradník)
-\end{itemize}
+\begin{tabular}{l >{\raggedright\arraybackslash}p{8.5cm}}
+  Starosta & Ing. Jiří Novák \\
+  Místostarostka & Mgr. Drahomíra Černičková \\
+  Jednatel & Ing. Jan Přech, Ph.D. \\
+  Náčelník & Josef Kubišta \\
+  Náčelnice & Tomáš Dragoun \\
+  Vzdělavatelka & Anna Holanová, M.A. \\
+  Členka & Mgr. Dana Cejpková \\
+  Člen & Jiří Duchač \\
+  Člen & MUDr. Vít Jakoubek, Ph.D. \\
+  Člen & Mgr. Jan Přibyl \\
+  Členka & Dáša Francková \\
+  Náhradníci & Lucie Vojáčková,~DiS., Ing.~Martin Kubů,~Ph.D., Vladislav Voráč, Jakub Jabor, Dan Unzeitig, Jan Kerhart \\
+  Kontrolní komise & Ing.~Pavel Lávička (předseda), Mgr.~Tomáš Troup, Ing.~Hana Doupalová, Miloslav Doupal (náhradník) \\
+\end{tabular}
 
-\begin{figure}[h!]
+%% TODO samotný obrázek na vrček stránky
+\begin{figure}[t]
   \centering
   \includegraphics[width=0.9\textwidth]{img/87_vybor_22.jpg}
-  \caption*{Výbor T. J. Sokol Libeň zvolený na valné hromadě 2022,\\zleva:
+  \caption*{Výbor T.~J. Sokol Libeň zvolený na valné hromadě 2022,\\zleva:
   Josef Kubišta, Dáša Francková, Jan Přibyl, Jan Přech, Drahomíra
   Černičková, Jiří Novák, Anna Holanová, Dana Cejpková, Vít Jakoubek, Jiří
-  Duchač, chybí: náčelnice t. č. Alena Krásová, foto: T. J. Sokol Libeň}
+  Duchač, chybí: náčelnice t. č. Alena Krásová, foto: T.~J. Sokol Libeň}
 \end{figure}
 
 % zadní obálka
@@ -6716,6 +6759,6 @@ Vondřich Josef
 \includegraphics[width=5cm]{img/88_isbn.png}
 
 \vspace*{11pt}
-\copyright 2004 T. J. Sokol Libeň
+\copyright 2024 T.~J. Sokol Libeň
 \vspace{2cm}
 \end{document}
