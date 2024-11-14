@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.10.2)  14 NOV 2024 00:57
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.10.2)  14 NOV 2024 12:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1028,9 +1028,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [26]
 File: img/27_dorostenky.jpg Graphic file (type bmp)
 <img/27_dorostenky.jpg>
-
-Underfull \vbox (badness 1661) has occurred while \output is active []
-
  [27]
 File: img/28_dorostenky.jpg Graphic file (type bmp)
 <img/28_dorostenky.jpg>
@@ -1051,13 +1048,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: img/30_sibrinky.jpg Graphic file (type bmp)
 <img/30_sibrinky.jpg>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Underfull \vbox (badness 4229) has occurred while \output is active []
-
- [30]
-Overfull \hbox (0.53583pt too wide) in paragraph at lines 1032--1047
+ [29] [30]
+Overfull \hbox (0.53583pt too wide) in paragraph at lines 1031--1046
 \TU/EBGaramond(0)/m/n/10.95 se semknul k obraně vlasti. Zejména po násilném obsazení Rakouska dělali Němci
  []
 
@@ -1065,7 +1062,7 @@ Overfull \hbox (0.53583pt too wide) in paragraph at lines 1032--1047
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-Underfull \hbox (badness 2213) in paragraph at lines 1053--1059
+Underfull \hbox (badness 2213) in paragraph at lines 1052--1058
 []\TU/EBGaramond(0)/m/n/10.95 Nácvik sletových skladeb začínal na podzim a pokračoval celou zimu.
  []
 
@@ -1089,7 +1086,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42] [43]
-Overfull \hbox (1.1722pt too wide) in paragraph at lines 1609--1615
+Overfull \hbox (1.1722pt too wide) in paragraph at lines 1607--1613
 []\TU/EBGaramond(0)/m/n/10.95 V libeňském přípravném výboru Sokola (PV) byli zpočátku bratři Jirák, Kodl,
  []
 
@@ -1101,14 +1098,17 @@ Underfull \vbox (badness 3514) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45] [46]
+ [45]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+ [46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4120) has occurred while \output is active []
 
  [48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
  [49] [50] [51
 
@@ -1139,7 +1139,7 @@ File: img/36_brana_cviciste.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-Overfull \hbox (0.6928pt too wide) in paragraph at lines 2246--2256
+Overfull \hbox (0.6928pt too wide) in paragraph at lines 2243--2253
 \TU/EBGaramond(0)/m/n/10.95 disciplíny atletiky. Startovní bloky, doskočiště, atletický ovál, konstrukce na kruhy
  []
 
@@ -1170,52 +1170,52 @@ File: img/37_vitezove_dochazka.JPG Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (7.52272pt too wide) in paragraph at lines 2700--2700
+Overfull \hbox (7.52272pt too wide) in paragraph at lines 2697--2697
 []|\TU/EBGaramond(0)/b/n/10.95 Max. 
  []
 
 
-Overfull \hbox (5.05898pt too wide) in paragraph at lines 2700--2700
+Overfull \hbox (5.05898pt too wide) in paragraph at lines 2697--2697
 \TU/EBGaramond(0)/b/n/10.95 hod.|  
  []
 
 
-Overfull \hbox (0.79935pt too wide) in paragraph at lines 2707--2707
+Overfull \hbox (0.79935pt too wide) in paragraph at lines 2704--2704
 []|\TU/EBGaramond(0)/m/n/10.95 2000/2001|  
  []
 
 
-Overfull \hbox (0.97455pt too wide) in paragraph at lines 2709--2709
+Overfull \hbox (0.97455pt too wide) in paragraph at lines 2706--2706
 []|\TU/EBGaramond(0)/m/n/10.95 2002/2003|  
  []
 
 
-Overfull \hbox (1.54395pt too wide) in paragraph at lines 2710--2710
+Overfull \hbox (1.54395pt too wide) in paragraph at lines 2707--2707
 []|\TU/EBGaramond(0)/m/n/10.95 2003/2004|  
  []
 
 
-Overfull \hbox (1.4016pt too wide) in paragraph at lines 2711--2711
+Overfull \hbox (1.4016pt too wide) in paragraph at lines 2708--2708
 []|\TU/EBGaramond(0)/m/n/10.95 2004/2005|  
  []
 
 
-Overfull \hbox (1.36876pt too wide) in paragraph at lines 2712--2712
+Overfull \hbox (1.36876pt too wide) in paragraph at lines 2709--2709
 []|\TU/EBGaramond(0)/m/n/10.95 2005/2006|  
  []
 
 
-Overfull \hbox (2.4747pt too wide) in paragraph at lines 2713--2713
+Overfull \hbox (2.4747pt too wide) in paragraph at lines 2710--2710
 []|\TU/EBGaramond(0)/m/n/10.95 2006/2007|  
  []
 
 
-Overfull \hbox (2.06955pt too wide) in paragraph at lines 2714--2714
+Overfull \hbox (2.06955pt too wide) in paragraph at lines 2711--2711
 []|\TU/EBGaramond(0)/m/n/10.95 2007/2008|  
  []
 
 
-Overfull \hbox (2.13525pt too wide) in paragraph at lines 2715--2715
+Overfull \hbox (2.13525pt too wide) in paragraph at lines 2712--2712
 []|\TU/EBGaramond(0)/m/n/10.95 2008/2009|  
  []
 
@@ -1233,7 +1233,7 @@ Underfull \vbox (badness 3525) has occurred while \output is active []
 File: img/39_pvls.JPG Graphic file (type bmp)
 <img/39_pvls.JPG>
 
-Underfull \hbox (badness 1540) in paragraph at lines 2858--2858
+Underfull \hbox (badness 1540) in paragraph at lines 2855--2855
 []|\TU/EBGaramond(0)/m/it/10.95 Podzimní Výlet Libeňského Sokola (a sraz v přírodě pražského třížupí) 2012,
  []
 
@@ -1241,7 +1241,7 @@ Underfull \hbox (badness 1540) in paragraph at lines 2858--2858
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [75]
-Overfull \hbox (5.63902pt too wide) in alignment at lines 2877--2906
+Overfull \hbox (5.63902pt too wide) in alignment at lines 2874--2903
 [] [] 
  []
 
@@ -1284,16 +1284,19 @@ File: img/45_sibrinky.JPG Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87] [88]
-Overfull \hbox (5.36084pt too wide) in paragraph at lines 3378--3378
+Overfull \hbox (5.36084pt too wide) in paragraph at lines 3372--3372
 []|\TU/EBGaramond(0)/b/n/10.95 Ročník|  
  []
 
 
-Overfull \hbox (6.8172pt too wide) in paragraph at lines 3378--3378
+Overfull \hbox (6.8172pt too wide) in paragraph at lines 3372--3372
 []|\TU/EBGaramond(0)/b/n/10.95 Vítězný 
  []
 
-[89] [90]
+[89]
+Underfull \vbox (badness 7759) has occurred while \output is active []
+
+ [90]
 File: img/46_sokolovna.jpg Graphic file (type bmp)
 <img/46_sokolovna.jpg>
  [91] [92
@@ -1305,327 +1308,327 @@ File: img/47_povodne.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [94]
-Overfull \hbox (2.47557pt too wide) in alignment at lines 3648--3650
+Overfull \hbox (2.47557pt too wide) in alignment at lines 3641--3643
 [] [] [] [] 
  []
 
 
-Overfull \hbox (2.47557pt too wide) in alignment at lines 3650--3685
+Overfull \hbox (2.47557pt too wide) in alignment at lines 3643--3678
 [] [] [] [] 
  []
 
 [95] [96]
-Overfull \hbox (2.57248pt too wide) in paragraph at lines 3700--3700
+Overfull \hbox (2.57248pt too wide) in paragraph at lines 3693--3693
 []|\TU/EBGaramond(0)/b/n/10.95 Rok
  []
 
 
-Overfull \hbox (0.53577pt too wide) in paragraph at lines 3700--3700
+Overfull \hbox (0.53577pt too wide) in paragraph at lines 3693--3693
 \TU/EBGaramond(0)/b/n/10.95 nar.| 
  []
 
 
-Overfull \hbox (5.93967pt too wide) in alignment at lines 3698--3702
+Overfull \hbox (5.93967pt too wide) in alignment at lines 3691--3695
 [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.78407pt too wide) in paragraph at lines 3706--3706
+Overfull \hbox (1.78407pt too wide) in paragraph at lines 3699--3699
 []|\TU/EBGaramond(0)/m/n/10.95 1970| 
  []
 
 
-Overfull \hbox (1.05042pt too wide) in paragraph at lines 3708--3708
+Overfull \hbox (1.05042pt too wide) in paragraph at lines 3701--3701
 []|\TU/EBGaramond(0)/m/n/10.95 1972| 
  []
 
 
-Overfull \hbox (1.05008pt too wide) in paragraph at lines 3709--3709
+Overfull \hbox (1.05008pt too wide) in paragraph at lines 3702--3702
 []|\TU/EBGaramond(0)/m/n/10.95 Matýsek|  
  []
 
 
-Overfull \hbox (1.58698pt too wide) in paragraph at lines 3711--3711
+Overfull \hbox (1.58698pt too wide) in paragraph at lines 3704--3704
 []|\TU/EBGaramond(0)/m/n/10.95 1976| 
  []
 
 
-Overfull \hbox (1.58698pt too wide) in paragraph at lines 3712--3712
+Overfull \hbox (1.58698pt too wide) in paragraph at lines 3705--3705
 []|\TU/EBGaramond(0)/m/n/10.95 1976| 
  []
 
 
-Overfull \hbox (1.58698pt too wide) in paragraph at lines 3713--3713
+Overfull \hbox (1.58698pt too wide) in paragraph at lines 3706--3706
 []|\TU/EBGaramond(0)/m/n/10.95 1976| 
  []
 
 
-Overfull \hbox (1.26942pt too wide) in paragraph at lines 3714--3714
+Overfull \hbox (1.26942pt too wide) in paragraph at lines 3707--3707
 []|\TU/EBGaramond(0)/m/n/10.95 1977| 
  []
 
 
-Overfull \hbox (1.18182pt too wide) in paragraph at lines 3715--3715
+Overfull \hbox (1.18182pt too wide) in paragraph at lines 3708--3708
 []|\TU/EBGaramond(0)/m/n/10.95 1978| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3716--3716
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3709--3709
 []|\TU/EBGaramond(0)/m/n/10.95 1979| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3717--3717
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3710--3710
 []|\TU/EBGaramond(0)/m/n/10.95 1979| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3718--3718
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3711--3711
 []|\TU/EBGaramond(0)/m/n/10.95 1979| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3719--3719
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3712--3712
 []|\TU/EBGaramond(0)/m/n/10.95 1979| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3720--3720
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3713--3713
 []|\TU/EBGaramond(0)/m/n/10.95 1979| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3721--3721
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3714--3714
 []|\TU/EBGaramond(0)/m/n/10.95 1979| 
  []
 
 
-Overfull \hbox (1.69647pt too wide) in paragraph at lines 3722--3722
+Overfull \hbox (1.69647pt too wide) in paragraph at lines 3715--3715
 []|\TU/EBGaramond(0)/m/n/10.95 1980| 
  []
 
 
-Overfull \hbox (1.69647pt too wide) in paragraph at lines 3723--3723
+Overfull \hbox (1.69647pt too wide) in paragraph at lines 3716--3716
 []|\TU/EBGaramond(0)/m/n/10.95 1980| 
  []
 
 
-Overfull \hbox (0.96283pt too wide) in paragraph at lines 3725--3725
+Overfull \hbox (0.96283pt too wide) in paragraph at lines 3718--3718
 []|\TU/EBGaramond(0)/m/n/10.95 1982| 
  []
 
 
-Overfull \hbox (0.96283pt too wide) in paragraph at lines 3726--3726
+Overfull \hbox (0.96283pt too wide) in paragraph at lines 3719--3719
 []|\TU/EBGaramond(0)/m/n/10.95 1982| 
  []
 
 
-Overfull \hbox (1.49937pt too wide) in paragraph at lines 3730--3730
+Overfull \hbox (1.49937pt too wide) in paragraph at lines 3723--3723
 []|\TU/EBGaramond(0)/m/n/10.95 1986| 
  []
 
 
-Overfull \hbox (1.49937pt too wide) in paragraph at lines 3731--3731
+Overfull \hbox (1.49937pt too wide) in paragraph at lines 3724--3724
 []|\TU/EBGaramond(0)/m/n/10.95 1986| 
  []
 
 
-Overfull \hbox (1.69647pt too wide) in paragraph at lines 3732--3732
+Overfull \hbox (1.69647pt too wide) in paragraph at lines 3725--3725
 []|\TU/EBGaramond(0)/m/n/10.95 1980| 
  []
 
 
-Overfull \hbox (1.53223pt too wide) in paragraph at lines 3734--3734
+Overfull \hbox (1.53223pt too wide) in paragraph at lines 3727--3727
 []|\TU/EBGaramond(0)/m/n/10.95 1984| 
  []
 
 
-Overfull \hbox (1.09422pt too wide) in paragraph at lines 3737--3737
+Overfull \hbox (1.09422pt too wide) in paragraph at lines 3730--3730
 []|\TU/EBGaramond(0)/m/n/10.95 1988| 
  []
 
 
-Overfull \hbox (1.09422pt too wide) in paragraph at lines 3738--3738
+Overfull \hbox (1.09422pt too wide) in paragraph at lines 3731--3731
 []|\TU/EBGaramond(0)/m/n/10.95 1988| 
  []
 
 
-Overfull \hbox (1.24753pt too wide) in paragraph at lines 3739--3739
+Overfull \hbox (1.24753pt too wide) in paragraph at lines 3732--3732
 []|\TU/EBGaramond(0)/m/n/10.95 1989| 
  []
 
 
-Overfull \hbox (1.84978pt too wide) in paragraph at lines 3740--3740
+Overfull \hbox (1.84978pt too wide) in paragraph at lines 3733--3733
 []|\TU/EBGaramond(0)/m/n/10.95 1990| 
  []
 
 
-Overfull \hbox (1.84978pt too wide) in paragraph at lines 3741--3741
+Overfull \hbox (1.84978pt too wide) in paragraph at lines 3734--3734
 []|\TU/EBGaramond(0)/m/n/10.95 1990| 
  []
 
 
-Overfull \hbox (1.84978pt too wide) in paragraph at lines 3742--3742
+Overfull \hbox (1.84978pt too wide) in paragraph at lines 3735--3735
 []|\TU/EBGaramond(0)/m/n/10.95 1990| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3745--3745
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3738--3738
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3746--3746
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3739--3739
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3747--3747
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3740--3740
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3748--3748
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3741--3741
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3749--3749
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3742--3742
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3750--3750
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3743--3743
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.11612pt too wide) in paragraph at lines 3751--3751
+Overfull \hbox (1.11612pt too wide) in paragraph at lines 3744--3744
 []|\TU/EBGaramond(0)/m/n/10.95 1992| 
  []
 
 
-Overfull \hbox (1.68552pt too wide) in paragraph at lines 3755--3755
+Overfull \hbox (1.68552pt too wide) in paragraph at lines 3748--3748
 []|\TU/EBGaramond(0)/m/n/10.95 1994| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3756--3756
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3749--3749
 []|\TU/EBGaramond(0)/m/n/10.95 1997| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3757--3757
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3750--3750
 []|\TU/EBGaramond(0)/m/n/10.95 1997| 
  []
 
 
-Overfull \hbox (1.33513pt too wide) in paragraph at lines 3758--3758
+Overfull \hbox (1.33513pt too wide) in paragraph at lines 3751--3751
 []|\TU/EBGaramond(0)/m/n/10.95 1997| 
  []
 
 
-Overfull \hbox (1.24753pt too wide) in paragraph at lines 3759--3759
+Overfull \hbox (1.24753pt too wide) in paragraph at lines 3752--3752
 []|\TU/EBGaramond(0)/m/n/10.95 1998| 
  []
 
 
-Overfull \hbox (1.40082pt too wide) in paragraph at lines 3760--3760
+Overfull \hbox (1.40082pt too wide) in paragraph at lines 3753--3753
 []|\TU/EBGaramond(0)/m/n/10.95 1999| 
  []
 
 
-Overfull \hbox (4.40112pt too wide) in paragraph at lines 3761--3761
+Overfull \hbox (4.40112pt too wide) in paragraph at lines 3754--3754
 []|\TU/EBGaramond(0)/m/n/10.95 2000| 
  []
 
 
-Overfull \hbox (4.40112pt too wide) in paragraph at lines 3762--3762
+Overfull \hbox (4.40112pt too wide) in paragraph at lines 3755--3755
 []|\TU/EBGaramond(0)/m/n/10.95 2000| 
  []
 
 
-Overfull \hbox (4.40112pt too wide) in paragraph at lines 3763--3763
+Overfull \hbox (4.40112pt too wide) in paragraph at lines 3756--3756
 []|\TU/EBGaramond(0)/m/n/10.95 2000| 
  []
 
 
-Overfull \hbox (2.01402pt too wide) in paragraph at lines 3764--3764
+Overfull \hbox (2.01402pt too wide) in paragraph at lines 3757--3757
 []|\TU/EBGaramond(0)/m/n/10.95 2001| 
  []
 
 
-Overfull \hbox (2.01402pt too wide) in paragraph at lines 3765--3765
+Overfull \hbox (2.01402pt too wide) in paragraph at lines 3758--3758
 []|\TU/EBGaramond(0)/m/n/10.95 2001| 
  []
 
 
-Overfull \hbox (2.01402pt too wide) in paragraph at lines 3766--3766
+Overfull \hbox (2.01402pt too wide) in paragraph at lines 3759--3759
 []|\TU/EBGaramond(0)/m/n/10.95 2001| 
  []
 
 
-Overfull \hbox (2.06842pt too wide) in paragraph at lines 3766--3766
+Overfull \hbox (2.06842pt too wide) in paragraph at lines 3759--3759
 []|\TU/EBGaramond(0)/m/n/10.95 Myslivec|  
  []
 
 
-Overfull \hbox (3.66747pt too wide) in paragraph at lines 3767--3767
+Overfull \hbox (3.66747pt too wide) in paragraph at lines 3760--3760
 []|\TU/EBGaramond(0)/m/n/10.95 2002| 
  []
 
 
-Overfull \hbox (2.92287pt too wide) in paragraph at lines 3768--3768
+Overfull \hbox (2.92287pt too wide) in paragraph at lines 3761--3761
 []|\TU/EBGaramond(0)/m/n/10.95 2003| 
  []
 
 
-Overfull \hbox (2.92287pt too wide) in paragraph at lines 3769--3769
+Overfull \hbox (2.92287pt too wide) in paragraph at lines 3762--3762
 []|\TU/EBGaramond(0)/m/n/10.95 2003| 
  []
 
 
-Overfull \hbox (4.23688pt too wide) in paragraph at lines 3770--3770
+Overfull \hbox (4.23688pt too wide) in paragraph at lines 3763--3763
 []|\TU/EBGaramond(0)/m/n/10.95 2004| 
  []
 
 
-Overfull \hbox (2.78052pt too wide) in paragraph at lines 3771--3771
+Overfull \hbox (2.78052pt too wide) in paragraph at lines 3764--3764
 []|\TU/EBGaramond(0)/m/n/10.95 2005| 
  []
 
 
-Overfull \hbox (4.20403pt too wide) in paragraph at lines 3772--3772
+Overfull \hbox (4.20403pt too wide) in paragraph at lines 3765--3765
 []|\TU/EBGaramond(0)/m/n/10.95 2006| 
  []
 
 
-Overfull \hbox (4.20403pt too wide) in paragraph at lines 3773--3773
+Overfull \hbox (4.20403pt too wide) in paragraph at lines 3766--3766
 []|\TU/EBGaramond(0)/m/n/10.95 2006| 
  []
 
 
-Overfull \hbox (3.88647pt too wide) in paragraph at lines 3774--3774
+Overfull \hbox (3.88647pt too wide) in paragraph at lines 3767--3767
 []|\TU/EBGaramond(0)/m/n/10.95 2007| 
  []
 
 
-Overfull \hbox (3.88647pt too wide) in paragraph at lines 3775--3775
+Overfull \hbox (3.88647pt too wide) in paragraph at lines 3768--3768
 []|\TU/EBGaramond(0)/m/n/10.95 2007| 
  []
 
 
-Overfull \hbox (3.79887pt too wide) in paragraph at lines 3776--3776
+Overfull \hbox (3.79887pt too wide) in paragraph at lines 3769--3769
 []|\TU/EBGaramond(0)/m/n/10.95 2008| 
  []
 
 
-Overfull \hbox (3.79887pt too wide) in paragraph at lines 3777--3777
+Overfull \hbox (3.79887pt too wide) in paragraph at lines 3770--3770
 []|\TU/EBGaramond(0)/m/n/10.95 2008| 
  []
 
 
-Overfull \hbox (5.93967pt too wide) in alignment at lines 3702--3778
+Overfull \hbox (5.93967pt too wide) in alignment at lines 3695--3771
 [] [] [] [] [] 
  []
 
@@ -1644,19 +1647,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103]
 File: img/49_debrifink.JPG Graphic file (type bmp)
 <img/49_debrifink.JPG>
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104]
 File: img/50_manka.jpg Graphic file (type bmp)
 <img/50_manka.jpg>
  [105]
-Underfull \hbox (badness 2644) in paragraph at lines 4026--4040
+Underfull \hbox (badness 2644) in paragraph at lines 4021--4031
 \TU/EBGaramond(0)/m/n/10.95 videozáznamy díky nadšení a práci
  []
 
@@ -1694,12 +1697,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: img/57_hnizdo.jpg Graphic file (type bmp)
 <img/57_hnizdo.jpg>
 
-Underfull \hbox (badness 3333) in paragraph at lines 4153--4163
+Underfull \hbox (badness 3333) in paragraph at lines 4150--4160
 \TU/EBGaramond(0)/m/n/10.95 domě na závodu o Pohár starostů
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 4153--4163
+Underfull \hbox (badness 2662) in paragraph at lines 4150--4160
 \TU/EBGaramond(0)/m/n/10.95 nastice mužů s názvem „   Memoriál
  []
 
@@ -1734,7 +1737,7 @@ File: img/62_rd_duchove.JPG Graphic file (type bmp)
 File: img/63_ales.jpg Graphic file (type bmp)
 <img/63_ales.jpg>
 
-Underfull \hbox (badness 1077) in paragraph at lines 4359--4359
+Underfull \hbox (badness 1077) in paragraph at lines 4356--4356
 \TU/EBGaramond(0)/m/it/10.95 střed) a místonáčelnicí Danou Cejpkovou (vpravo) hlavní cenu v tombole na
  []
 
@@ -1787,17 +1790,17 @@ File: img/73_vera_cedok.JPG Graphic file (type bmp)
  [130
 
 ]
-Underfull \hbox (badness 2197) in paragraph at lines 4756--4766
+Underfull \hbox (badness 2197) in paragraph at lines 4753--4763
 \TU/EBGaramond(0)/m/n/10.95 nebylo by po revoluci v roce 1989
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 4756--4766
+Underfull \hbox (badness 2753) in paragraph at lines 4753--4763
 \TU/EBGaramond(0)/m/n/10.95 možné tak rychle obnovit libeňské
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 4756--4766
+Underfull \hbox (badness 2653) in paragraph at lines 4753--4763
 \TU/EBGaramond(0)/m/n/10.95 jednoty, ale i na úrovni celostátní,
  []
 
@@ -1827,7 +1830,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [139] [140]
-Overfull \hbox (1.79507pt too wide) in paragraph at lines 5164--5172
+Overfull \hbox (1.79507pt too wide) in paragraph at lines 5161--5169
 \TU/EBGaramond(0)/m/n/10.95 v oddíle odměňovány projevy strachu, bolesti, zženštilosti, nerozhodnosti, sprostá
  []
 
@@ -1889,64 +1892,64 @@ Underfull \vbox (badness 2237) has occurred while \output is active []
 
  [152]
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/it' will be
-(Font)              scaled to size 10.95pt on input line 5607.
+(Font)              scaled to size 10.95pt on input line 5604.
 
-Overfull \hbox (1.8639pt too wide) in paragraph at lines 5607--5607
+Overfull \hbox (1.8639pt too wide) in paragraph at lines 5604--5604
 []|\TU/EBGaramond(0)/b/n/10.95 Počet PK  
  []
 
 
-Overfull \hbox (1.5561pt too wide) in paragraph at lines 5630--5630
+Overfull \hbox (1.5561pt too wide) in paragraph at lines 5627--5627
 []|\TU/EBGaramond(0)/m/n/10.95 2000|  
  []
 
 
-Overfull \hbox (0.82245pt too wide) in paragraph at lines 5632--5632
+Overfull \hbox (0.82245pt too wide) in paragraph at lines 5629--5629
 []|\TU/EBGaramond(0)/m/n/10.95 2002|  
  []
 
 
-Overfull \hbox (1.39186pt too wide) in paragraph at lines 5634--5634
+Overfull \hbox (1.39186pt too wide) in paragraph at lines 5631--5631
 []|\TU/EBGaramond(0)/m/n/10.95 2004|  
  []
 
 
-Overfull \hbox (1.35901pt too wide) in paragraph at lines 5636--5636
+Overfull \hbox (1.35901pt too wide) in paragraph at lines 5633--5633
 []|\TU/EBGaramond(0)/m/n/10.95 2006|  
  []
 
 
-Overfull \hbox (1.04146pt too wide) in paragraph at lines 5637--5637
+Overfull \hbox (1.04146pt too wide) in paragraph at lines 5634--5634
 []|\TU/EBGaramond(0)/m/n/10.95 2007|  
  []
 
 
-Overfull \hbox (0.95386pt too wide) in paragraph at lines 5638--5638
+Overfull \hbox (0.95386pt too wide) in paragraph at lines 5635--5635
 []|\TU/EBGaramond(0)/m/n/10.95 2008|  
  []
 
 
-Overfull \hbox (1.10716pt too wide) in paragraph at lines 5639--5639
+Overfull \hbox (1.10716pt too wide) in paragraph at lines 5636--5636
 []|\TU/EBGaramond(0)/m/n/10.95 2009|  
  []
 
 
-Overfull \hbox (0.82245pt too wide) in paragraph at lines 5650--5650
+Overfull \hbox (0.82245pt too wide) in paragraph at lines 5647--5647
 []|\TU/EBGaramond(0)/m/n/10.95 2020|  
  []
 
 
-Overfull \hbox (0.6582pt too wide) in paragraph at lines 5654--5654
+Overfull \hbox (0.6582pt too wide) in paragraph at lines 5651--5651
 []|\TU/EBGaramond(0)/m/n/10.95 2024|  
  []
 
 [153] [154] [155] [156]
-Underfull \hbox (badness 2600) in paragraph at lines 5701--5710
+Underfull \hbox (badness 2600) in paragraph at lines 5698--5707
 []\TU/EBGaramond(0)/m/n/10.95 Dále pak: [] (1987–2010), [] (1991–2008), [] (1985–1992),
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 5701--5710
+Underfull \hbox (badness 3148) in paragraph at lines 5698--5707
 \TU/EBGaramond(0)/m/n/10.95 1997), [] (1996–2006 a 2016), [] (1996–2018), [] (1998–1999),
  []
 
@@ -1990,7 +1993,7 @@ Underfull \vbox (badness 7759) has occurred while \output is active []
 ] [165] [166
 
 ] [167]
-Overfull \hbox (0.33508pt too wide) in paragraph at lines 6106--6121
+Overfull \hbox (0.33508pt too wide) in paragraph at lines 6103--6118
 \TU/EBGaramond(0)/m/n/10.95 Současný oddíl basketbalu mužů vzešel z části žákovského a dorosteneckého týmu
  []
 
@@ -2012,11 +2015,7 @@ File: img/85_loutky_peklo.JPG Graphic file (type bmp)
  [174]
 File: img/86_fksp.jpg Graphic file (type bmp)
 <img/86_fksp.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[175
+ [175
 
 ] [176] [177
 
@@ -2029,7 +2028,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-Overfull \hbox (1.739pt too wide) in paragraph at lines 6621--6641
+Overfull \hbox (1.739pt too wide) in paragraph at lines 6618--6638
 [] 
  []
 
@@ -2038,7 +2037,7 @@ Overfull \hbox (1.739pt too wide) in paragraph at lines 6621--6641
 ] [183
 
 ]
-Overfull \hbox (9.6542pt too wide) in paragraph at lines 6719--6734
+Overfull \hbox (9.6542pt too wide) in paragraph at lines 6716--6731
 [] 
  []
 
@@ -2070,4 +2069,4 @@ Here is how much of TeX's memory you used:
  34 hyphenation exceptions out of 8191
  102i,8n,117p,1602b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on almanach-2024.xdv (196 pages, 3323856 bytes).
+Output written on almanach-2024.xdv (196 pages, 3322924 bytes).
