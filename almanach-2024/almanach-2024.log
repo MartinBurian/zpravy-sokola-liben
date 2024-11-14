@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.10.2)  14 NOV 2024 12:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.10.2)  14 NOV 2024 12:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1069,15 +1069,14 @@ Underfull \hbox (badness 2213) in paragraph at lines 1052--1058
 [32] [33
 
 ] [34] [35] [36]
-File: img/31_muzi_cvicitele.jpg Graphic file (type bmp)
-<img/31_muzi_cvicitele.jpg>
 File: img/32_muzi_cvicitele.jpg Graphic file (type bmp)
 <img/32_muzi_cvicitele.jpg>
+File: img/31_muzi_cvicitele.jpg Graphic file (type bmp)
+<img/31_muzi_cvicitele.jpg>
 
+Underfull \vbox (badness 1137) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37] [38] [39
+ [37] [38] [39
 
 ] [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []

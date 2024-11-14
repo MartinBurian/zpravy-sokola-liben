@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1731582346.10118 "almanach-2024.xdv" "almanach-2024.pdf" "almanach-2024" 1731582350.14094 0
-  "almanach-2024.xdv" 1731582345.77845 3322924 9c2f9488cb07c2c27571e52095a1a9a4 "xelatex"
+["xdvipdfmx"] 1731584293.94358 "almanach-2024.xdv" "almanach-2024.pdf" "almanach-2024" 1731584298.54525 0
+  "almanach-2024.xdv" 1731584293.55255 3322924 0c7655ba2cc1ac4dd925828d14b545bc "xelatex"
   (generated)
   "almanach-2024.pdf"
   (rewritten before read)
-["xelatex"] 1731582341.29702 "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" "almanach-2024.xdv" "almanach-2024" 1731582350.13463 0
-  "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" 1731582340.24504 385086 2af8d237738d083e2b2c8797b9b49ebe ""
+["xelatex"] 1731584288.33628 "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" "almanach-2024.xdv" "almanach-2024" 1731584298.5389 0
+  "/home/martinjr/Documents/sokol-zpravy/almanach-2024/almanach-2024.tex" 1731584287.59914 385086 1c22727d6be59b3ca506c7dddc268cee ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1727349926 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1727349926 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -143,9 +143,9 @@
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1727879902 9605417 cd32a0aed77b86b8cc4eecb3d24f00d0 ""
   "Sokolovna-kresba-black.png" 1730645334.62828 103524 0464b2d1b3c11920feb6f2fc3bf77850 ""
   "Sokolovna-kresba-white.png" 1730645316.58804 97852 e5369bbc7e6daf6ab2ee7bd04f1fbb5c ""
-  "almanach-2024.aux" 1731582345.77511 10901 ee603e9f9002dc3ab8efb45dbccf3da0 "xelatex"
-  "almanach-2024.tex" 1731582340.24504 385086 2af8d237738d083e2b2c8797b9b49ebe ""
-  "almanach-2024.toc" 1731582345.77845 5613 417ca74afde594a068d1181598a64ff5 "xelatex"
+  "almanach-2024.aux" 1731584293.54922 10901 ee603e9f9002dc3ab8efb45dbccf3da0 "xelatex"
+  "almanach-2024.tex" 1731584287.59914 385086 1c22727d6be59b3ca506c7dddc268cee ""
+  "almanach-2024.toc" 1731584293.55255 5613 417ca74afde594a068d1181598a64ff5 "xelatex"
   "img/01_pechan.jpg" 1730924894.24366 317512 f6715a4f5dc9b5db9a360a19416ddc8e ""
   "img/02_klazar.jpg" 1730925195.27985 616994 1e54446e0b5e3cc9cd5a9d5d3410f855 ""
   "img/03_cizek.jpg" 1730926466.76467 1696071 83292d3360b6045f762acf5c1509826b ""
