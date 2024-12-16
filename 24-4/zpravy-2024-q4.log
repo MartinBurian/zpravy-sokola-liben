@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.12.10)  13 DEC 2024 14:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.12.10)  15 DEC 2024 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,12 +824,7 @@ Package csquotes Info: Redefining character " on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Overfull \hbox (28.74474pt too wide) in paragraph at lines 43--44
-\TU/SokolFugner(0)/m/n/48 editorial[] 
- []
-
-[1
+ [1
 
 
 ]
@@ -866,12 +861,7 @@ Overfull \hbox (28.74474pt too wide) in paragraph at lines 43--44
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (5.12874pt too wide) in paragraph at lines 85--86
-\TU/SokolFugner(0)/m/n/48 úvodník[] 
- []
-
-
-Overfull \hbox (14.0005pt too wide) in paragraph at lines 109--110
+Overfull \hbox (14.0005pt too wide) in paragraph at lines 111--112
 \TU/lmr/m/n/10.95 zapsalo do dějin naší vlasti. Ti první svým vlastenectvím v době Rakouska-
  []
 
@@ -911,23 +901,18 @@ Overfull \hbox (14.0005pt too wide) in paragraph at lines 109--110
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Overfull \hbox (5.12874pt too wide) in paragraph at lines 128--129
-\TU/SokolFugner(0)/m/n/48 úvodník[] 
- []
-
-[3
+ [3
 
 
 ] [4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 282.
+(Font)              <10.95> on input line 280.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 282.
+(Font)              <8> on input line 280.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 282.
+(Font)              <6> on input line 280.
 
-Overfull \hbox (15.02644pt too wide) in paragraph at lines 299--300
+Overfull \hbox (15.02644pt too wide) in paragraph at lines 297--298
  [] 
  []
 
@@ -1005,7 +990,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
-Overfull \hbox (0.15967pt too wide) in paragraph at lines 533--542
+Overfull \hbox (0.15967pt too wide) in paragraph at lines 531--540
 \TU/lmr/m/n/10.95 višti za bouřlivého potlesku objevil Pan Zdeněk Svěrák (88 let), jenž pří-
  []
 
@@ -1121,7 +1106,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29]
-Overfull \hbox (4.60004pt too wide) in paragraph at lines 735--736
+Overfull \hbox (4.60004pt too wide) in paragraph at lines 733--734
 []\TU/lmr/m/n/10.95 Program máme opravdu bohatý, mimo vlastní cvičení dáváme mnoho
  []
 
@@ -1417,6 +1402,6 @@ Here is how much of TeX's memory you used:
  46576 multiletter control sequences out of 15000+600000
  561458 words of font info for 70 fonts, out of 8000000 for 9000
  25 hyphenation exceptions out of 8191
- 109i,15n,112p,1581b,881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,15n,112p,1613b,881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on zpravy-2024-q4.xdv (46 pages, 831700 bytes).
+Output written on zpravy-2024-q4.xdv (46 pages, 831468 bytes).

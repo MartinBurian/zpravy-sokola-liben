@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1734095483.22868 "zpravy-2024-q4.xdv" "zpravy-2024-q4.pdf" "zpravy-2024-q4" 1734095483.68783 0
-  "zpravy-2024-q4.xdv" 1734095483.07237 831700 a67b9bf3aaa78e279c83e5a5d2ef8ce4 "xelatex"
+["xdvipdfmx"] 1734263519.34206 "zpravy-2024-q4.xdv" "zpravy-2024-q4.pdf" "zpravy-2024-q4" 1734263519.82694 0
+  "zpravy-2024-q4.xdv" 1734263519.21119 831468 8ba5e3ec44b2f3239a446cbda8dfb103 "xelatex"
   (generated)
   "zpravy-2024-q4.pdf"
   (rewritten before read)
-["xelatex"] 1734095480.81182 "/home/martinjr/Documents/sokol-zpravy/24-4/zpravy-2024-q4.tex" "zpravy-2024-q4.xdv" "zpravy-2024-q4" 1734095483.68324 0
+["xelatex"] 1734263517.05079 "/home/martinjr/Documents/sokol-zpravy/24-4/zpravy-2024-q4.tex" "zpravy-2024-q4.xdv" "zpravy-2024-q4" 1734263519.82306 0
   "../zpravy-commands.tex" 1734095212.47916 2895 fa16a541bdd1d1541eb9088946ad5cf7 ""
-  "/home/martinjr/Documents/sokol-zpravy/24-4/zpravy-2024-q4.tex" 1734095480.49233 88267 52b51f93c28dda4cc3c47f84cdde883e ""
+  "/home/martinjr/Documents/sokol-zpravy/24-4/zpravy-2024-q4.tex" 1734263516.7145 88198 1a77a42c3e6890d89e05f45d0ca4b2eb ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1727349926 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1727349926 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -168,9 +168,9 @@
   "Vanocni_Sokol_sal_2024.pdf" 1734094773.184 156823 41456a9aa0b0f2b205b10d7be35a0180 ""
   "letak_tabor_2025.jpg" 1734093496.34232 738742 002ed1e5f680ace47fee59cd0265a7c6 ""
   "logo-140-horiz.pdf" 1733953904.46903 72465 23801ac700dc7785677bf64e54f294cd ""
-  "zpravy-2024-q4.aux" 1734095483.06903 3562 5084e8fcdf1ab25e6875fa5adbe64583 "xelatex"
-  "zpravy-2024-q4.out" 1734095482.22569 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "zpravy-2024-q4.tex" 1734095480.49233 88267 52b51f93c28dda4cc3c47f84cdde883e ""
+  "zpravy-2024-q4.aux" 1734263519.21119 3562 5084e8fcdf1ab25e6875fa5adbe64583 "xelatex"
+  "zpravy-2024-q4.out" 1734263518.43785 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "zpravy-2024-q4.tex" 1734263516.7145 88198 1a77a42c3e6890d89e05f45d0ca4b2eb ""
   (generated)
   "zpravy-2024-q4.aux"
   "zpravy-2024-q4.log"
